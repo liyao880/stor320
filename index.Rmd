@@ -57,10 +57,15 @@ background-color: #13294B;
 
 </style>
 
-This course is an application-driven introduction to data science. Statistical and computational tools are valued throughout the modern workplace from Silicon Valley startups, to marine biology labs, to Wall Street firms. These tools require technical skills such as programming and statistics. They also require professional skills such as communication, teamwork, problem solving, and critical thinking.
+# **About the Course**
 
-<div class="row">
-  <div class="column">
+See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divided into three rough parts,
+
+1. Core data science coding skills
+2. Modeling
+3. Advanced topics
+
+
 
 - Instructor: **[Yao Li](https://liyao880.github.io/yaoli/)**
 
@@ -68,9 +73,6 @@ This course is an application-driven introduction to data science. Statistical a
     - **[Kevin O Connor](http://stat-or.unc.edu/people/graduate-students-department)**
     - **[Pavlos Zoubouglou](http://stat-or.unc.edu/people/graduate-students-department)**
     - **[Sam Booth](http://stat-or.unc.edu/people/graduate-students-department)**
-    
-
-- Course Syllabus: **[Section 1]()**
 
 - Zoom Links:
     - **[Lectures:]()** TTH 11:00AM to 12:15PM
@@ -79,29 +81,24 @@ This course is an application-driven introduction to data science. Statistical a
     - **[Pavlos Office Hours:]()** 
     - **[Sam Booth:]()** 
 
-</div>
-  <div class="column">
-  <img src="UNC_Logo.png" width="150px" height="auto">
-  </div>
-</div> 
-
 
 # **Course Material**
 
 | Date | Lecture | Slides | 
 |------|---------|--------:|
 |Aug. 11| Introduction | Slides|
-|| Data Visualization | Slides |
-|Aug. 13|Workflow in RMarkdown|Slides|
-|Aug. 18| Data Transformation I |Slides|
-|Aug. 20| Data Transformation II |Slides|
-|Aug. 25| Exploratory Data Analysis |Slides|
-|Aug. 27| Final Project and Data Import |Slides|
-|Sep. 1| Tidy Data |Slides|
-|Sep. 3| Web Scraping |Slides|
-|Sep. 8| Project Proposal Discussion |Slides|
-|Sep. 10| Final Project and Factors |Slides|
-|Sep. 15| Joins |Slides|
+|| RMarkdown and Basic Coding | Slides |
+|Aug. 13|Data Transformation I |Slides|
+|Aug. 18| Data Transformation II |Slides|
+|Aug. 20| Final Project Instructions|Slides|
+|| Exploratory Data Analysis I|Slides|
+|Aug. 25| Exploratory Data Analysis II |Slides|
+|Aug. 27| Tidy Data I |Slides|
+|Sep. 1| Tidy Data II |Slides|
+|Sep. 3| Strings I |Slides|
+|Sep. 8| Strings II |Slides|
+|Sep. 10| Project Proposal Discussion |Slides|
+|Sep. 15| Final Project and Factors |Slides|
 |Sep. 17| Programming I |Slides|
 |Sep. 22| Programming II |Slides|
 |Sep. 24| Programming III |Slides|
@@ -145,7 +142,12 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
-| August 14  | | |August 21 (11:59 PM) |
+| August 13  | | |August 21 (11:59 PM) |
+| August 20  | | |August 28 (11:59 PM) |
+| August 27  | | |September 4 (11:59 PM) |
+| September 10  | | |September 18 (11:59 PM) |
+| September 24  | | |October 2 (11:59 PM) |
+| October 22  | | |October 30 (11:59 PM) |
 |          |        |     |           |
 
 # **Final Project Details**

@@ -73,8 +73,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
     - **[Sam Booth](http://stat-or.unc.edu/people/graduate-students-department)**
 
 - Zoom Links:
-    - **[Lectures:]()** TTH 11:30AM to 12:45PM
-    - **[Instructor Office Hours:]()**  
+    - **[Lectures:](https://unc.zoom.us/j/94976394748)** TTH 11:30AM to 12:45PM
+    - **[Instructor Office Hours:](https://unc.zoom.us/j/97247747199)** TTH 10:00AM to 11:00AM
     - **[Kevin Office Hours:]()** 
     - **[Pavlos Office Hours:]()** 
     - **[Sam Office Hours:]()** 

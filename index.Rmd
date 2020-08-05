@@ -75,7 +75,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
     - **[Sam Booth](http://stat-or.unc.edu/people/graduate-students-department)**
 
 - Zoom Links:
-    - **[Lectures:]()** TTH 11:00AM to 12:15PM
+    - **[Lectures:]()** TTH 11:30AM to 12:45PM
     - **[Dr. Yao Office Hours:]()**  
     - **[Kevin O Connor:]()** 
     - **[Pavlos Office Hours:]()** 
@@ -86,21 +86,21 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 
 | Date | Lecture | Slides | 
 |------|---------|--------:|
-|Aug. 11| Introduction | Slides|
-|| RMarkdown and Basic Coding | Slides |
-|Aug. 13|Data Transformation I |Slides|
-|Aug. 18| Data Transformation II |Slides|
-|Aug. 20| Final Project Instructions|Slides|
+|Aug. 11| Welcome | Slides|
+|| Basic Coding in R | Slides |
+|Aug. 13| R Markdown and Data Visualization |Slides|
+|Aug. 18| Data Transformation I |Slides|
+|Aug. 20| Data Transformation II |Slides|
+|Aug. 25| Final Project Instructions|Slides|
 || Exploratory Data Analysis I|Slides|
-|Aug. 25| Exploratory Data Analysis II |Slides|
-|Aug. 27| Tidy Data I |Slides|
-|Sep. 1| Tidy Data II |Slides|
-|Sep. 3| Strings I |Slides|
-|Sep. 8| Strings II |Slides|
-|Sep. 10| Project Proposal Discussion |Slides|
-|Sep. 15| Final Project and Factors |Slides|
-|Sep. 17| Programming I |Slides|
-|Sep. 22| Programming II |Slides|
+|Aug. 27| Exploratory Data Analysis II |Slides|
+|Sep. 1| Tidy Data I |Slides|
+|Sep. 3| Tidy Data II |Slides|
+|Sep. 8| Web Scraping |Slides|
+|Sep. 10| Joins |Slides|
+|Sep. 15| Project Proposal Discussion |Slides|
+|Sep. 17| Final Project and Factors |Slides|
+|Sep. 22| Programming I |Slides|
 |Sep. 24| Programming III |Slides|
 |Sep. 29| Modeling I |Slides|
 |Oct. 1| Modeling II |Slides|
@@ -119,7 +119,9 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Nov. 17| Presentation|Slides|
 
 # **Lab Material**
-| Date | Lab | Material | 
+For some labs, there will be assignments. These labs are to be completed using R Markdown and submitted as an HTML file via **[Sakai](https://sakai.unc.edu/welcome/)**.
+
+| Date | Lab | Assignment | 
 |------|---------|--------:|
 |Aug. 14| Lab 1 | |
 |Aug. 21| Lab 2 | |
@@ -142,21 +144,31 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
-| August 13  | | |August 21 (11:59 PM) |
-| August 20  | | |August 28 (11:59 PM) |
 | August 27  | | |September 4 (11:59 PM) |
 | September 10  | | |September 18 (11:59 PM) |
 | September 24  | | |October 2 (11:59 PM) |
-| October 22  | | |October 30 (11:59 PM) |
+| October 29  | | |November 6 (11:59 PM) |
 |          |        |     |           |
 
 # **Final Project Details**
 
-For the final project, each section of STOR 320 will be divided (ideally) into reasearch groups of size 5. To ensure fairness, students will be assigned randomly based on the `sample` function in **R**. If you don't get in a group you like, try being better at luck.
+For the final project, each section of STOR 320 will be divided (ideally) into reasearch groups of size 5. To ensure fairness, students will be assigned randomly based on the `sample` function in **R**. 
 
 ## Research Group Assignments
 
 To find your research group, see the **[spreadsheet]()** sponsored by Google.
+
+## Four Roles
+
+Although everyone is responsible for the entire project, each member of the group will be assigned a specific role for accountability and consistency. These four specific roles are described as follows:
+
+- **The Creator:** Schedule and Meet with Dr. Yao to Propose Your Group's Research Idea, Lead Designer in Slides
+
+- **The Interpreter:** Schedule and Meet with Dr. Yao or Instructional Assistant to Share Findings from Exploratory Analysis, Evaluate Practice Presentation
+
+- **The Orator(s):** Give a Captivating 3-5 Minute Slideshow Presentation During Final Exam Day
+
+- **The Deliverer:** Deliver Your Group from Evil by Editing and Submitting the Exploratory Analysis and Final Report via Sakai Before the Deadline
 
 ## Four Parts Including Point Values
 
@@ -185,10 +197,10 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
-| P1  | Project Proposal| Zoom + Sakai | September 8 (11:00AM-12:30PM)|
+| P1  | Project Proposal| Zoom + Sakai | September 15 (11:30AM-12:45PM)|
 | P2  | Exploratory Data Analysis | Zoom + Sakai | October 9 (11:59PM)|
 | P3  | Final Report|Sakai|Nov 13 (11:59PM)|
-| P4  | Final Presentation|Sakai + Class| Nov 17 (11:00AM-12:15PM)|
+| P4  | Final Presentation|Sakai + Class| Nov 17 (11:30AM-12:45PM)|
 ||||
 
 ## Above Average Final Projects from Previous Courses

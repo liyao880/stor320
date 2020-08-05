@@ -65,8 +65,6 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 2. Modeling
 3. Advanced topics
 
-
-
 - Instructor: **[Yao Li](https://liyao880.github.io/yaoli/)**
 
 - Instructional Assistants: 
@@ -76,10 +74,10 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 
 - Zoom Links:
     - **[Lectures:]()** TTH 11:30AM to 12:45PM
-    - **[Dr. Yao Office Hours:]()**  
-    - **[Kevin O Connor:]()** 
+    - **[Instructor Office Hours:]()**  
+    - **[Kevin Office Hours:]()** 
     - **[Pavlos Office Hours:]()** 
-    - **[Sam Booth:]()** 
+    - **[Sam Office Hours:]()** 
 
 
 # **Course Material**
@@ -105,17 +103,17 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 29| Modeling I |Slides|
 |Oct. 1| Modeling II |Slides|
 |Oct. 6| Modeling III |Slides|
-|Oct. 8| Modeling IV |Slides|
-|Oct. 13| Group Work Day |Slides|
+|Oct. 8| Group Work Day |Slides|
+|Oct. 13| Modeling IV |Slides|
 |Oct. 15| Modeling V |Slides|
 |Oct. 20| Modeling VI |Slides|
 |Oct. 22| Modeling VII |Slides|
 |Oct. 27| Modeling VIII |Slides|
 |Oct. 29| Modeling IX |Slides|
 |Nov. 3| Modeling X |Slides|
-|Nov. 5| Modeling XI |Slides|
-|Nov. 10| Data Ethics |Slides|
-|Nov. 12| R Shiny|Slides|
+|Nov. 5| Data Ethics |Slides|
+|Nov. 10| R Shiny |Slides|
+|Nov. 12| Presentation|Slides|
 |Nov. 17| Presentation|Slides|
 
 # **Lab Material**
@@ -156,17 +154,17 @@ For the final project, each section of STOR 320 will be divided (ideally) into r
 
 ## Research Group Assignments
 
-To find your research group, see the **[spreadsheet]()** sponsored by Google.
+To find your research group, see the **[spreadsheet](https://docs.google.com/spreadsheets/d/13XDP45oaTusjn1YpRV6K8nbYUmd81v32nLp-cB3xMWQ/edit?usp=sharing)** sponsored by Google.
 
 ## Four Roles
 
 Although everyone is responsible for the entire project, each member of the group will be assigned a specific role for accountability and consistency. These four specific roles are described as follows:
 
-- **The Creator:** Schedule and Meet with Dr. Yao to Propose Your Group's Research Idea, Lead Designer in Slides
+- **The Creator:** Meet with Instructor to Propose Your Group's Research Idea, Lead Designer in Slides
 
-- **The Interpreter:** Schedule and Meet with Dr. Yao or Instructional Assistant to Share Findings from Exploratory Analysis, Evaluate Practice Presentation
+- **The Interpreter:** Schedule and Meet with Instructor or Instructional Assistant to Share Findings from Exploratory Analysis, Evaluate Practice Presentation
 
-- **The Orator(s):** Give a Captivating 3-5 Minute Slideshow Presentation During Final Exam Day
+- **The Orator(s):** Give a Captivating 5-7 Minute Slideshow Presentation During the Last Two Lectures
 
 - **The Deliverer:** Deliver Your Group from Evil by Editing and Submitting the Exploratory Analysis and Final Report via Sakai Before the Deadline
 
@@ -176,7 +174,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 * **[P1: Project Proposal](Final Project/Project-Proposal.html)** *(10 Points)*
     + [Template](Final Project/Project-Proposal-Template.html)([.Rmd](Final Project/Project_Proposal_Template.Rmd))
-    + [Data World](https://data.world/)
+    + [Data World](https://data.world/datasets/download)
     + [US Government Data](https://www.data.gov/)
     + [Kaggle](https://www.kaggle.com/)
     + [Free Data Info I](https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/#63f06f60b54d)
@@ -200,7 +198,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 | P1  | Project Proposal| Zoom + Sakai | September 15 (11:30AM-12:45PM)|
 | P2  | Exploratory Data Analysis | Zoom + Sakai | October 9 (11:59PM)|
 | P3  | Final Report|Sakai|Nov 13 (11:59PM)|
-| P4  | Final Presentation|Sakai + Class| Nov 17 (11:30AM-12:45PM)|
+| P4  | Final Presentation|Sakai + Class| Nov 12 or Nov 17 (11:30AM-12:45PM)|
 ||||
 
 ## Above Average Final Projects from Previous Courses
@@ -211,6 +209,9 @@ This final project will be divided into four parts worth a total of 100 points. 
 - **[Youtube](Final Project/FA2019_EX1.html)**
 - **[CDC](Final Project/FA2019_EX2.html)**
 
+# **Acknowledgements**
+
+Thanks to Dr. Mario and Dr. Characiejus for sharing their course materials. 
 
 # **Reading**
 

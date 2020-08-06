@@ -85,8 +85,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 | Date | Lecture | Slides | 
 |------|---------|--------:|
 |Aug. 11| Welcome | Slides|
-|| Basic Coding in R | Slides |
-|Aug. 13| R Markdown and Data Visualization |Slides|
+|| Data Visualization | Slides |
+|Aug. 13| RMarkdown |Slides|
 |Aug. 18| Data Transformation I |Slides|
 |Aug. 20| Data Transformation II |Slides|
 |Aug. 25| Final Project Instructions|Slides|
@@ -150,7 +150,7 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 
 # **Final Project Details**
 
-For the final project, each section of STOR 320 will be divided (ideally) into reasearch groups of size 5. To ensure fairness, students will be assigned randomly based on the `sample` function in **R**. 
+For the final project, each section of STOR 320 will be divided (ideally) into research groups of size 5. To ensure fairness, students will be assigned randomly based on the `sample` function in **R**. 
 
 ## Research Group Assignments
 
@@ -195,8 +195,8 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
-| P1  | Project Proposal| Zoom + Sakai | September 15 (11:30AM-12:45PM)|
-| P2  | Exploratory Data Analysis | Zoom + Sakai | October 9 (11:59PM)|
+| P1  | Project Proposal| Zoom + Sakai | Sep 15 (11:30AM-12:45PM)|
+| P2  | Exploratory Data Analysis | Zoom + Sakai | Oct 9 (11:59PM)|
 | P3  | Final Report|Sakai|Nov 13 (11:59PM)|
 | P4  | Final Presentation|Sakai + Class| Nov 12 or Nov 17 (11:30AM-12:45PM)|
 ||||

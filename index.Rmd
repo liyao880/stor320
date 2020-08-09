@@ -75,46 +75,46 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 - Zoom Links:
     - **[Lectures:](https://unc.zoom.us/j/94976394748)** TTH 11:30AM to 12:45PM
     - **[Instructor Office Hours:](https://unc.zoom.us/j/97247747199)** TTH 10:00AM to 11:00AM
-    - **[Kevin Office Hours:]()** 
-    - **[Pavlos Office Hours:]()** 
-    - **[Sam Office Hours:]()** 
+    - **[Kevin Office Hours:](https://unc.zoom.us/j/97664652543)** F 1:00 PM to 2:00 PM
+    - **[Pavlos Office Hours:](https://unc.zoom.us/j/2903979720)** M 9:00 AM to 10:00 AM
+    - **[Sam Office Hours:]()** W 2:00 PM to 3:00 PM
 
 
 # **Course Material**
 
-| Date | Lecture | Slides | 
-|------|---------|--------:|
-|Aug. 11| Welcome | Slides|
-|| Data Visualization | Slides |
-|Aug. 13| RMarkdown |Slides|
-|Aug. 18| Data Transformation I |Slides|
-|Aug. 20| Data Transformation II |Slides|
-|Aug. 25| Final Project Instructions|Slides|
-|| Exploratory Data Analysis I|Slides|
-|Aug. 27| Exploratory Data Analysis II |Slides|
-|Sep. 1| Tidy Data I |Slides|
-|Sep. 3| Tidy Data II |Slides|
-|Sep. 8| Web Scraping |Slides|
-|Sep. 10| Joins |Slides|
-|Sep. 15| Project Proposal Discussion |Slides|
-|Sep. 17| Final Project and Factors |Slides|
-|Sep. 22| Programming I |Slides|
-|Sep. 24| Programming III |Slides|
-|Sep. 29| Modeling I |Slides|
-|Oct. 1| Modeling II |Slides|
-|Oct. 6| Modeling III |Slides|
-|Oct. 8| Group Work Day |Slides|
-|Oct. 13| Modeling IV |Slides|
-|Oct. 15| Modeling V |Slides|
-|Oct. 20| Modeling VI |Slides|
-|Oct. 22| Modeling VII |Slides|
-|Oct. 27| Modeling VIII |Slides|
-|Oct. 29| Modeling IX |Slides|
-|Nov. 3| Modeling X |Slides|
-|Nov. 5| Data Ethics |Slides|
-|Nov. 10| R Shiny |Slides|
-|Nov. 12| Presentation|Slides|
-|Nov. 17| Presentation|Slides|
+| Date | Lecture | Slides | Tutorial|
+|------|---------|--------:|--------:|
+|Aug. 11| [Welcome]() | [Slides](Lecture/Lecture01/Lecture01_1Welcome.pdf)|
+|| [Data Visualization]() | [Slides](Lecture/Lecture01/Lecture01_2Data_Visualization_Lecture.pdf) | |
+|Aug. 13| RMarkdown |Slides| |
+|Aug. 18| Data Transformation I |Slides| |
+|Aug. 20| Data Transformation II |Slides| |
+|Aug. 25| Final Project Instructions|Slides| |
+|| Exploratory Data Analysis I|Slides| |
+|Aug. 27| Exploratory Data Analysis II |Slides| |
+|Sep. 1| Tidy Data I |Slides| |
+|Sep. 3| Tidy Data II |Slides| |
+|Sep. 8| Web Scraping |Slides| |
+|Sep. 10| Joins |Slides| |
+|Sep. 15| Project Proposal Discussion |Slides| |
+|Sep. 17| Final Project and Factors |Slides| |
+|Sep. 22| Programming I |Slides| |
+|Sep. 24| Programming III |Slides| |
+|Sep. 29| Modeling I |Slides| |
+|Oct. 1| Modeling II |Slides| |
+|Oct. 6| Modeling III |Slides| |
+|Oct. 8| Group Work Day |Slides| |
+|Oct. 13| Modeling IV |Slides| |
+|Oct. 15| Modeling V |Slides| |
+|Oct. 20| Modeling VI |Slides| |
+|Oct. 22| Modeling VII |Slides| |
+|Oct. 27| Modeling VIII |Slides| |
+|Oct. 29| Modeling IX |Slides| |
+|Nov. 3| Modeling X |Slides| |
+|Nov. 5| Data Ethics |Slides| |
+|Nov. 10| R Shiny |Slides| |
+|Nov. 12| Presentation|Slides| |
+|Nov. 17| Presentation|Slides| |
 
 # **Lab Material**
 For some labs, there will be assignments. These labs are to be completed using R Markdown and submitted as an HTML file via **[Sakai](https://sakai.unc.edu/welcome/)**.

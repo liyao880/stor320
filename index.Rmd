@@ -101,9 +101,9 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 27| Exploratory Data Analysis II |Slides| |
 |Sep. 1| Tidy Data I |Slides| |
 |Sep. 3| Tidy Data II |Slides| |
-|Sep. 8| Web Scraping |Slides| |
-|Sep. 10| Joins |Slides| |
-|Sep. 15| Project Proposal Discussion |Slides| |
+|Sep. 8| Project Proposal Discussion |Slides| |
+|Sep. 10| Web Scraping |Slides| |
+|Sep. 15| Joins |Slides| |
 |Sep. 17| Final Project and Factors |Slides| |
 |Sep. 22| Programming I |Slides| |
 |Sep. 24| Programming III |Slides| |
@@ -189,7 +189,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
-| P1  | Project Proposal| Zoom + Sakai | Sep 15 (11:30AM-12:45PM)|
+| P1  | Project Proposal| Zoom + Sakai | Sep 8 (11:30AM-12:45PM)|
 | P2  | Exploratory Data Analysis | Zoom + Sakai | Oct 9 (11:59PM)|
 | P3  | Final Report|Sakai|Nov 17 (11:59PM)|
 | P4  | Final Presentation|Sakai + Class| Nov 12 or Nov 17 (11:30AM-12:45PM)|

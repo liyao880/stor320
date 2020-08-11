@@ -72,12 +72,19 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
     - **[Pavlos Zoubouglou](http://stat-or.unc.edu/people/graduate-students-department)**
     - **[Sam Booth](http://stat-or.unc.edu/people/graduate-students-department)**
 
+- Lab Sections: 
+    - **[320.400 by Sam]()**: F 10:40 AM to 11:30 AM
+    - **[320.401 by Kevin](https://unc.zoom.us/j/97112351811)**: F 12:00 PM to 12:50 PM
+    - **[320.402 by Pavlos]()**: F 1:20 PM to 2:10 PM
+
+
 - Zoom Links:
     - **[Lectures:](https://unc.zoom.us/j/94976394748)** TTH 11:30AM to 12:45PM
     - **[Instructor Office Hours:](https://unc.zoom.us/j/97247747199)** TTH 10:00AM to 11:00AM
-    - **[Kevin Office Hours:](https://unc.zoom.us/j/97664652543)** F 1:00 PM to 2:00 PM
-    - **[Pavlos Office Hours:](https://unc.zoom.us/j/2903979720)** M 9:00 AM to 10:00 AM
-    - **[Sam Office Hours:](https://unc.zoom.us/j/5891075192)** W 3:00 PM to 4:00 PM
+    - **[Kevin Office Hours 1:](https://unc.zoom.us/j/97664652543)** F 1:00 PM to 2:00 PM
+    - **[Kevin Office Hours 2:](https://unc.zoom.us/j/95627644766)** TH 4:00 PM to 5:00 PM
+    - **[Pavlos Office Hours:](https://unc.zoom.us/j/2903979720)** M 9:00 AM to 10:00 AM; F 2:35 PM to 3:25 PM
+    - **[Sam Office Hours:](https://unc.zoom.us/j/5891075192)** W 3:00 PM to 5:00 PM
 
 
 # **Course Material**

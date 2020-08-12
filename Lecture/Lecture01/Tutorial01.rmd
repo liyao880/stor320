@@ -1,6 +1,6 @@
 ---
 title: "STOR 320 Tutorial on Data Visualization"
-author: ""
+author: "Mario Giacomazzo"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 ---

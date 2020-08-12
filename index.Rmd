@@ -73,13 +73,16 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
     - **[Sam Booth](http://stat-or.unc.edu/people/graduate-students-department)**
 
 - Lab Sections: 
-    - **[320.400 by Sam]()**: F 10:40 AM to 11:30 AM
-    - **[320.401 by Kevin](https://unc.zoom.us/j/97112351811)**: F 12:00 PM to 12:50 PM
-    - **[320.402 by Pavlos]()**: F 1:20 PM to 2:10 PM
+    - 320.400 by Sam: F 10:40 AM to 11:30 AM
+    - 320.401 by Kevin: F 12:00 PM to 12:50 PM
+    - 320.402 by Pavlos: F 1:20 PM to 2:10 PM
 
 
 - Zoom Links:
     - **[Lectures:](https://unc.zoom.us/j/94976394748)** TTH 11:30AM to 12:45PM
+    - **320.400 by Sam**: F 10:40 AM to 11:30 AM
+    - **[320.401 by Kevin](https://unc.zoom.us/j/97112351811)**: F 12:00 PM to 12:50 PM
+    - **[320.402 by Pavlos](https://unc.zoom.us/j/2903979720)**: F 1:20 PM to 2:10 PM
     - **[Instructor Office Hours:](https://unc.zoom.us/j/97247747199)** TTH 10:00AM to 11:00AM
     - **[Kevin Office Hours 1:](https://unc.zoom.us/j/97664652543)** F 1:00 PM to 2:00 PM
     - **[Kevin Office Hours 2:](https://unc.zoom.us/j/95627644766)** TH 4:00 PM to 5:00 PM
@@ -93,7 +96,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |------|---------|--------:|--------:|
 |Aug. 11| [Welcome](https://unc.zoom.us/rec/share/vOwsPvbg0FpIRIGK8GXhdaAFPabrX6a81nRK-6Zfyx7IuAwQJSU76FfP9kASP5aM?startTime=1597157341000) | [Slides](Lecture/Lecture01/Lecture01_1Welcome.pdf)|
 || [Data Visualization](https://unc.zoom.us/rec/share/vOwsPvbg0FpIRIGK8GXhdaAFPabrX6a81nRK-6Zfyx7IuAwQJSU76FfP9kASP5aM?startTime=1597157341000) | [Slides](Lecture/Lecture01/Lecture01_2Data_Visualization_Lecture.pdf) | [Tutorial 01](Lecture/Lecture01/Tutorial01.html)([.Rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing))|
-|Aug. 13| RMarkdown |Slides| |
+|Aug. 13| RMarkdown |[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf)|[Tutorial 02](Lecture/Lecture02/Tutorial02.html)([.Rmd](https://drive.google.com/file/d/1v5IKozWUyv6Kyt5D5vyeG52i4Ig9gHZI/view?usp=sharing)) |
 |Aug. 18| Data Transformation I |Slides| |
 |Aug. 20| Data Transformation II |Slides| |
 |Aug. 25| Final Project Instructions|Slides| |
@@ -130,7 +133,7 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
 | August 11  | [HW1](Homework/HW-1.html)([.Rmd](https://drive.google.com/file/d/1p-UnZxiRkQ1TTsnHkJFREnM0LJeD5M_y/view?usp=sharing)) | |Auguts 14 (11:59 PM) |
-| August 13  | HW2 | |Auguts 20 (11:59 PM) |
+| August 18  | [HW2](Homework/HW-2.html)([.Rmd](https://drive.google.com/file/d/1_O9Svs7wiT-hone3DLM5np4GOW1rjig7/view?usp=sharing)) | |Auguts 25 (11:59 PM) |
 | August 20  | A1 | |September 3 (11:59 PM) |
 | September 3  | HW3 | |Semptember 10 (11:59 PM) |
 | September 10  | HW4 | |September 17 (11:59 PM) |

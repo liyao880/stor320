@@ -48,24 +48,40 @@ p2
 
 Use `geom_smooth` similarly how we used `geom_point`.
 ```{r,eval=F}
-p3<-p2+geom_smooth(COMPLETE_INSIDE)
+p3<-p2+geom_smooth(aes(x=year,y=demVote,color=as.factor(south)))
 p3
+```
+
+By default, the functon uses 'loess' method. If you would like to use another method, such as `lm`.
+
+```{r}
+p2+geom_smooth(aes(x=year,y=demVote,color=as.factor(south)), method = 'lm')
+```
+
+Not just linear regression, with formula, you can also include higher order terms.
+```{r}
+p2+geom_smooth(aes(x=year,y=demVote,color=as.factor(south)), method = 'lm', formula = y ~ poly(x, 2))
 ```
 
 ### Step 4: Modify the Legend Title and Print
 
 Since the legend is for the color aesthetic we use `guides(color=guide_legend(title=COMPLETE_INSIDE))` to rename the legend.
 ```{r,eval=F}
-p4<-p3+ COMPLETE
+p4<-p3+ guides(color=guide_legend(title="South"))
 p4
 ```
 
+You can also modify the names of each category in the legend.
+```{r}
+p3+ guides(color=guide_legend(title=""))+
+  scale_color_discrete(labels = c("North", "South"))
+```
 
 ### Step 5: Manually Select the Colors and Print
 
 For the color aesthetic, we want to manually select the two different colors.
 ```{r,eval=F}
-p5<-p4+ scale_color_manual(values=c("COLOR 1","COLOR 2"))
+p5<-p4+ scale_color_manual(values=c("blue","red"))
 p5
 ```
 
@@ -76,7 +92,7 @@ It doesn't seem to be until around 1957 where the non-Confederate states began t
 
 For the color aesthetic, we want to manually select the two different colors.
 ```{r,eval=F}
-p6<-p5+geom_vline(MISSING_OPTION,alpha=0.8,linetype=4)
+p6<-p5+geom_vline(xintercept = 1957,alpha=0.8,linetype=4)
 p6
 ```
 
@@ -84,7 +100,7 @@ p6
 
 Use `theme_minimal()` for the plot.
 ```{r,eval=F}
-FINALPLOT1<-EDIT_INFORMATION
+FINALPLOT1<-p6+theme_minimal()
 FINALPLOT1
 ```
 

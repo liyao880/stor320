@@ -132,7 +132,7 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
-| August 11  | [HW1](Homework/HW-1.html)([.Rmd](https://drive.google.com/file/d/1p-UnZxiRkQ1TTsnHkJFREnM0LJeD5M_y/view?usp=sharing)) | |Auguts 14 (11:59 PM) |
+| August 11  | [HW1](Homework/HW-1.html)([.Rmd](https://drive.google.com/file/d/1p-UnZxiRkQ1TTsnHkJFREnM0LJeD5M_y/view?usp=sharing)) | |Auguts 16 (11:59 PM) |
 | August 18  | [HW2](Homework/HW-2.html)([.Rmd](https://drive.google.com/file/d/1_O9Svs7wiT-hone3DLM5np4GOW1rjig7/view?usp=sharing)) | |Auguts 25 (11:59 PM) |
 | August 20  | A1 | |September 3 (11:59 PM) |
 | September 3  | HW3 | |Semptember 10 (11:59 PM) |

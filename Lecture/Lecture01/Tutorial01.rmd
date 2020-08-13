@@ -76,7 +76,7 @@ ggplot(data=msleep2) +
 ```{r}
 ggplot(data=msleep2) + 
   geom_boxplot(aes(x=vore,y=awake)) + 
-  facet_wrap(conservation~.) +
+  facet_wrap(~conservation) +
   xlab("Type of Vore") + ylab("Time Awake (Hrs)") + 
   theme_light()+ggtitle("Separated Stratified Boxplots") + 
   scale_x_discrete(limits=c("carni","herbi"),labels=c("Carnivore","Herbivore")) +

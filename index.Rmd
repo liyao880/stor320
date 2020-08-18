@@ -97,7 +97,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 11| [Welcome](https://unc.zoom.us/rec/share/vOwsPvbg0FpIRIGK8GXhdaAFPabrX6a81nRK-6Zfyx7IuAwQJSU76FfP9kASP5aM?startTime=1597157341000) | [Slides](Lecture/Lecture01/Lecture01_1Welcome.pdf)|
 || [Data Visualization](https://unc.zoom.us/rec/share/vOwsPvbg0FpIRIGK8GXhdaAFPabrX6a81nRK-6Zfyx7IuAwQJSU76FfP9kASP5aM?startTime=1597157341000) | [Slides](Lecture/Lecture01/Lecture01_2Data_Visualization_Lecture.pdf) | [Tutorial 01](Lecture/Lecture01/Tutorial01.html)([.Rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing))|
 |Aug. 13| [RMarkdown](https://unc.zoom.us/rec/share/1dUkD5jxqEVIS9bE2kiFd4sgMtj1X6a81XIX_fQMxUnV6uAB5wSvVfCdhoXkPvhd?startTime=1597331470000) |[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf)|[Tutorial 02](Lecture/Lecture02/Tutorial02.html)([.Rmd](https://drive.google.com/file/d/1v5IKozWUyv6Kyt5D5vyeG52i4Ig9gHZI/view?usp=sharing)) |
-|Aug. 18| Data Transformation I |[Slides](Lecture/Lecture03/Lecture 03 Data_Transformation.pdf)| [Tutorial 03](Lecture/Lecture03/Tutorial03.html)([.Rmd](https://drive.google.com/file/d/1-iDfYxoSFomXYRctVfVipfksQ-tiKPOl/view?usp=sharing))|
+|Aug. 18| Data Transformation I |[Slides](Lecture/Lecture03/Lecture 03 Data_Transformation.pdf)| [Tutorial 03](Lecture/Lecture03/Tutorial03.html)([.Rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))|
 |Aug. 20| Data Transformation II |Slides| |
 |Aug. 25| Final Project Instructions|Slides| |
 || Exploratory Data Analysis I|Slides| |

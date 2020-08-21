@@ -140,13 +140,13 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 | August 11  | [HW1](Homework/HW-1.html)([.Rmd](https://drive.google.com/file/d/1p-UnZxiRkQ1TTsnHkJFREnM0LJeD5M_y/view?usp=sharing)) | |Auguts 16 (11:59 PM) |
 | August 18  | [HW2](Homework/HW-2.html)([.Rmd](https://drive.google.com/file/d/1_O9Svs7wiT-hone3DLM5np4GOW1rjig7/view?usp=sharing)) | |Auguts 24 (11:59 PM) |
 | August 20  | [A1](Homework/Analysis 1/Analysis-1.html)([.zip](https://drive.google.com/file/d/1jJ7I3qxQv_A85la9G4h3BnJjqOhdCiQJ/view?usp=sharing)) | |September 3 (11:59 PM) |
-| September 3  | HW3 | |Semptember 10 (11:59 PM) |
-| September 10  | HW4 | |September 17 (11:59 PM) |
+| September 3  | [HW3](Homework/HW-3.html)([.Rmd](https://drive.google.com/file/d/1lGIPrcNa5_oGp0pbeok7L0PnrJo7D_CR/view?usp=sharing)) | |Semptember 10 (11:59 PM) |
+| September 10  | [HW4](Homework/HW-4.html)([.Rmd](https://drive.google.com/file/d/11V5ZITSSnGJ0ofT1ohQQwItNJ49VLBD8/view?usp=sharing)) | |September 17 (11:59 PM) |
 | September 17  | A2 | |October 1 (11:59 PM) |
-| October 1  | HW5 | |October 8 (11:59 PM) |
+| October 1  | [HW5](Homework/HW-5.html)([.Rmd](https://drive.google.com/file/d/1fFlz2exJIRaGU-9VB0cQPw36nACGoD_T/view?usp=sharing)) | |October 8 (11:59 PM) |
 | October 8  | A3 | |October 22 (11:59 PM) |
-| October 22  | HW6 | |October 29 (11:59 PM) |
-| October 29  | HW7 | |November 5 (11:59 PM) |
+| October 22  | [HW6](Homework/HW-6.html)([.Rmd](https://drive.google.com/file/d/1AbXKFvVMnLslmsIL890kMg1vN2VtnHpd/view?usp=sharing)) | |October 29 (11:59 PM) |
+| October 29  | [HW7](Homework/HW-7.html)([.Rmd](https://drive.google.com/file/d/1U24T7L5jfmKObZi1UDE4IIxNYimfIOAh/view?usp=sharing)) | |November 5 (11:59 PM) |
 | November 5  | A4 | |November 13 (11:59 PM) |
 |          |        |     |           |
 
@@ -197,7 +197,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
-| P1  | Project Proposal| Zoom + Sakai | Sep 8 (11:30AM-12:45PM)|
+| P1  | Project Proposal| Zoom + Sakai | Sep 10 (11:30AM-12:45PM)|
 | P2  | Exploratory Data Analysis | Zoom + Sakai | Oct 9 (11:59PM)|
 | P3  | Final Report|Sakai|Nov 17 (11:59PM)|
 | P4  | Final Presentation|Sakai + Class| Nov 12 or Nov 17 (11:30AM-12:45PM)|

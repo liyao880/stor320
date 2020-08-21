@@ -58,7 +58,7 @@ background-color: #13294B;
 </style>
 # **Announcement**
 
-**`r format(Sys.time(), '%B %d, %Y')`: ** The University canceled all classes on Tuesday (August 25) next week.
+**`r format(Sys.time(), '%B %d, %Y')`: ** The University is pausing all undergraduate instruction on Monday, August 24, and Tuesday, August 25.
 
 **`r format(Sys.time(), '%B %d, %Y')`: ** Data analysis assignment 1 is available on the website now. You have two weeks to complete the assignment.
 

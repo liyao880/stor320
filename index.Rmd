@@ -56,6 +56,11 @@ background-color: #13294B;
 } 
 
 </style>
+# **Announcement**
+
+**`r format(Sys.time(), '%B %d, %Y')`: ** The University canceled all classes on Tuesday (August 25) next week.
+
+**`r format(Sys.time(), '%B %d, %Y')`: ** Data analysis assignment 1 is available on the website now. You have two weeks to complete the assignment.
 
 # **About the Course**
 
@@ -99,21 +104,21 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 13| [RMarkdown](https://unc.zoom.us/rec/share/1dUkD5jxqEVIS9bE2kiFd4sgMtj1X6a81XIX_fQMxUnV6uAB5wSvVfCdhoXkPvhd?startTime=1597331470000) |[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf)|[Tutorial 02](Lecture/Lecture02/Tutorial02.html)([.Rmd](https://drive.google.com/file/d/1v5IKozWUyv6Kyt5D5vyeG52i4Ig9gHZI/view?usp=sharing)) |
 |Aug. 18| [Data Transformation I](https://unc.zoom.us/rec/share/wJV5cZzr1mpIG6_m42LZWq8PM4jAT6a8hiUa8vQPz0-Nu_75jAp7MHyJWPxg5sQC?startTime=1597762020000) |[Slides](Lecture/Lecture03/Lecture 03 Data_Transformation.pdf)| [Tutorial 03](Lecture/Lecture03/Tutorial03.html)([.Rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))|
 |Aug. 20| [Data Transformation II](https://unc.zoom.us/rec/share/zsYuLpPt5GxJZZGR2VDCA6MlR9_Leaa8gHUdqacLykwegZQmYj4nDH69BROcjAkY?startTime=1597936757000) |[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf)| [Tutorial 04](Lecture/Lecture04/Tutorial04.html)([.Rmd](https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing)) |
-|Aug. 25| Final Project Instructions|Slides| |
+|Aug. 25| No Class || |
+|Aug. 27| Final Project Instructions|Slides| |
 || Exploratory Data Analysis I|Slides| |
-|Aug. 27| Exploratory Data Analysis II |Slides| |
-|Sep. 1| Tidy Data I |Slides| |
-|Sep. 3| Tidy Data II |Slides| |
-|Sep. 8| Project Proposal Discussion |Slides| |
-|Sep. 10| Web Scraping |Slides| |
-|Sep. 15| Joins |Slides| |
-|Sep. 17| Final Project and Factors |Slides| |
-|Sep. 22| Programming I |Slides| |
-|Sep. 24| Programming III |Slides| |
-|Sep. 29| Modeling I |Slides| |
-|Oct. 1| Modeling II |Slides| |
-|Oct. 6| Modeling III |Slides| |
-|Oct. 8| Group Work Day |Slides| |
+|Sep. 1| Exploratory Data Analysis II |Slides| |
+|Sep. 3| Tidy Data I |Slides| |
+|Sep. 8| Tidy Data II |Slides| |
+|Sep. 10| Project Proposal Discussion |Slides| |
+|Sep. 15| Web Scraping |Slides| |
+|Sep. 17| Joins |Slides| |
+|Sep. 22| Final Project and Factors |Slides| |
+|Sep. 24| Programming I |Slides| |
+|Sep. 29| Programming III |Slides| |
+|Oct. 1| Modeling I |Slides| |
+|Oct. 6| Modeling II |Slides| |
+|Oct. 8| Modeling III |Slides| |
 |Oct. 13| Modeling IV |Slides| |
 |Oct. 15| Modeling V |Slides| |
 |Oct. 20| Modeling VI |Slides| |
@@ -134,7 +139,7 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 |----------|:--------:|:-------------:|----------------:|
 | August 11  | [HW1](Homework/HW-1.html)([.Rmd](https://drive.google.com/file/d/1p-UnZxiRkQ1TTsnHkJFREnM0LJeD5M_y/view?usp=sharing)) | |Auguts 16 (11:59 PM) |
 | August 18  | [HW2](Homework/HW-2.html)([.Rmd](https://drive.google.com/file/d/1_O9Svs7wiT-hone3DLM5np4GOW1rjig7/view?usp=sharing)) | |Auguts 24 (11:59 PM) |
-| August 20  | A1 | |September 3 (11:59 PM) |
+| August 20  | [A1](Homework/Analysis 1/Analysis-1.html)([.zip](https://drive.google.com/file/d/1jJ7I3qxQv_A85la9G4h3BnJjqOhdCiQJ/view?usp=sharing)) | |September 3 (11:59 PM) |
 | September 3  | HW3 | |Semptember 10 (11:59 PM) |
 | September 10  | HW4 | |September 17 (11:59 PM) |
 | September 17  | A2 | |October 1 (11:59 PM) |

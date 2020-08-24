@@ -103,29 +103,28 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 || [Data Visualization](https://unc.zoom.us/rec/share/vOwsPvbg0FpIRIGK8GXhdaAFPabrX6a81nRK-6Zfyx7IuAwQJSU76FfP9kASP5aM?startTime=1597157341000) | [Slides](Lecture/Lecture01/Lecture01_2Data_Visualization_Lecture.pdf) | [Tutorial 01](Lecture/Lecture01/Tutorial01.html)([.Rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing))|
 |Aug. 13| [RMarkdown](https://unc.zoom.us/rec/share/1dUkD5jxqEVIS9bE2kiFd4sgMtj1X6a81XIX_fQMxUnV6uAB5wSvVfCdhoXkPvhd?startTime=1597331470000) |[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf)|[Tutorial 02](Lecture/Lecture02/Tutorial02.html)([.Rmd](https://drive.google.com/file/d/1v5IKozWUyv6Kyt5D5vyeG52i4Ig9gHZI/view?usp=sharing)) |
 |Aug. 18| [Data Transformation I](https://unc.zoom.us/rec/share/wJV5cZzr1mpIG6_m42LZWq8PM4jAT6a8hiUa8vQPz0-Nu_75jAp7MHyJWPxg5sQC?startTime=1597762020000) |[Slides](Lecture/Lecture03/Lecture 03 Data_Transformation.pdf)| [Tutorial 03](Lecture/Lecture03/Tutorial03.html)([.Rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))|
-|Aug. 20| [Data Transformation II](https://unc.zoom.us/rec/share/zsYuLpPt5GxJZZGR2VDCA6MlR9_Leaa8gHUdqacLykwegZQmYj4nDH69BROcjAkY?startTime=1597936757000) |[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf)| [Tutorial 04](Lecture/Lecture04/Tutorial04.html)([.Rmd](https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing)) |
+|Aug. 20| [Data Transformation II](https://unc.zoom.us/rec/share/zsYuLpPt5GxJZZGR2VDCA6MlR9_Leaa8gHUdqacLykwegZQmYj4nDH69BROcjAkY?startTime=1597936757000) |[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf)| [Tutorial 04](Lecture/Lecture04/Tutorial04.html)([.Rmd](https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing))|
 |Aug. 25| No Class || |
 |Aug. 27| Final Project Instructions|Slides| |
-|| Exploratory Data Analysis I|Slides| |
-|Sep. 1| Exploratory Data Analysis II |Slides| |
-|Sep. 3| Tidy Data I |Slides| |
-|Sep. 8| Tidy Data II |Slides| |
-|Sep. 10| Project Proposal Discussion |Slides| |
-|Sep. 15| Web Scraping |Slides| |
-|Sep. 17| Joins |Slides| |
-|Sep. 22| Final Project and Factors |Slides| |
-|Sep. 24| Programming I |Slides| |
-|Sep. 29| Programming III |Slides| |
-|Oct. 1| Modeling I |Slides| |
-|Oct. 6| Modeling II |Slides| |
-|Oct. 8| Modeling III |Slides| |
-|Oct. 13| Modeling IV |Slides| |
-|Oct. 15| Modeling V |Slides| |
-|Oct. 20| Modeling VI |Slides| |
-|Oct. 22| Modeling VII |Slides| |
-|Oct. 27| Modeling VIII |Slides| |
-|Oct. 29| Modeling IX |Slides| |
-|Nov. 3| Modeling X |Slides| |
+|Sep. 1| Exploratory Data Analysis I|Slides| |
+|Sep. 3| Exploratory Data Analysis II |Slides| |
+|Sep. 8| Project Proposal Discussion |Slides| |
+|Sep. 10| Tidy Data I |Slides| |
+|Sep. 15| Tidy Data II |Slides| |
+|Sep. 17| Web Scraping |Slides| |
+|Sep. 22| Joins |Slides| |
+|Sep. 24| Final Project and Factors |Slides| |
+|Sep. 29| Programming I |Slides| |
+|Oct. 1| Programming III |Slides| |
+|Oct. 6| Modeling I |Slides| |
+|Oct. 8| Modeling II |Slides| |
+|Oct. 13| Modeling III |Slides| |
+|Oct. 15| Modeling IV |Slides| |
+|Oct. 20| Modeling V |Slides| |
+|Oct. 22| Modeling VI |Slides| |
+|Oct. 27| Modeling VII |Slides| |
+|Oct. 29| Modeling VIII |Slides| |
+|Nov. 3| Modeling IX |Slides| |
 |Nov. 5| Data Ethics |Slides| |
 |Nov. 10| R Shiny |Slides| |
 |Nov. 12| Presentation|Slides| |
@@ -197,7 +196,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
-| P1  | Project Proposal| Zoom + Sakai | Sep 10 (11:30AM-12:45PM)|
+| P1  | Project Proposal| Zoom + Sakai | Sep 8 (10:00AM-12:45PM)|
 | P2  | Exploratory Data Analysis | Zoom + Sakai | Oct 9 (11:59PM)|
 | P3  | Final Report|Sakai|Nov 17 (11:59PM)|
 | P4  | Final Presentation|Sakai + Class| Nov 12 or Nov 17 (11:30AM-12:45PM)|

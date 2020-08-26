@@ -105,9 +105,9 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 18| [Data Transformation I](https://unc.zoom.us/rec/share/wJV5cZzr1mpIG6_m42LZWq8PM4jAT6a8hiUa8vQPz0-Nu_75jAp7MHyJWPxg5sQC?startTime=1597762020000) |[Slides](Lecture/Lecture03/Lecture 03 Data_Transformation.pdf)| [Tutorial 03](Lecture/Lecture03/Tutorial03.html)([.Rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))|
 |Aug. 20| [Data Transformation II](https://unc.zoom.us/rec/share/zsYuLpPt5GxJZZGR2VDCA6MlR9_Leaa8gHUdqacLykwegZQmYj4nDH69BROcjAkY?startTime=1597936757000) |[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf)| [Tutorial 04](Lecture/Lecture04/Tutorial04.html)([.Rmd](https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing))|
 |Aug. 25| No Class || |
-|Aug. 27| Final Project Instructions|Slides| |
-|Sep. 1| Exploratory Data Analysis I|Slides| |
-|Sep. 3| Exploratory Data Analysis II |Slides| |
+|Aug. 27| Final Project Instructions|[Slides](Lecture/Lecture05/Lecture 05 Final_Project.pdf)| |
+|Sep. 1|Data Import | Slides | |
+|Sep. 3| Exploratory Data Analysis |Slides| |
 |Sep. 8| Project Proposal Discussion |Slides| |
 |Sep. 10| Tidy Data I |Slides| |
 |Sep. 15| Tidy Data II |Slides| |

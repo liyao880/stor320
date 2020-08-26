@@ -58,8 +58,6 @@ background-color: #13294B;
 </style>
 # **Announcement**
 
-**`r format(Sys.time(), '%B %d, %Y')`: ** The University is pausing all undergraduate instruction on Monday, August 24, and Tuesday, August 25.
-
 **`r format(Sys.time(), '%B %d, %Y')`: ** Data analysis assignment 1 is available on the website now. You have two weeks to complete the assignment.
 
 # **About the Course**
@@ -106,8 +104,9 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 20| [Data Transformation II](https://unc.zoom.us/rec/share/zsYuLpPt5GxJZZGR2VDCA6MlR9_Leaa8gHUdqacLykwegZQmYj4nDH69BROcjAkY?startTime=1597936757000) |[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf)| [Tutorial 04](Lecture/Lecture04/Tutorial04.html)([.Rmd](https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing))|
 |Aug. 25| No Class || |
 |Aug. 27| Final Project Instructions|[Slides](Lecture/Lecture05/Lecture 05 Final_Project.pdf)| |
-|Sep. 1|Data Import | Slides | |
-|Sep. 3| Exploratory Data Analysis |Slides| |
+||Data Import | Slides | |
+|Sep. 1| Exploratory Data Analysis I|Slides| |
+|Sep. 3| Exploratory Data Analysis II|Slides| |
 |Sep. 8| Project Proposal Discussion |Slides| |
 |Sep. 10| Tidy Data I |Slides| |
 |Sep. 15| Tidy Data II |Slides| |
@@ -115,7 +114,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 22| Joins |Slides| |
 |Sep. 24| Final Project and Factors |Slides| |
 |Sep. 29| Programming I |Slides| |
-|Oct. 1| Programming III |Slides| |
+|Oct. 1| Programming II |Slides| |
 |Oct. 6| Modeling I |Slides| |
 |Oct. 8| Modeling II |Slides| |
 |Oct. 13| Modeling III |Slides| |

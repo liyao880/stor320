@@ -11,7 +11,7 @@
 
 <meta name="author" content />
 
-<meta name="date" content="2020-08-27" />
+<meta name="date" content="2020-09-03" />
 
 <title>STOR 320 Tutorial on Data Transformation 2</title>
 
@@ -373,7 +373,7 @@ summary {
 
 
 <h1 class="title toc-ignore">STOR 320 Tutorial on Data Transformation 2</h1>
-<h4 class="date">August 27, 2020</h4>
+<h4 class="date">September 03, 2020</h4>
 
 </div>
 
@@ -431,7 +431,7 @@ summary {
     mean.acc=mean(accuracy, na.rm=T),
     var.acc=var(accuracy, na.rm=T),
     mean.dist=mean(distance, na.rm=T),
-    .group=&quot;keep&quot;
+    .groups=&quot;keep&quot;
   ) %&gt;%
   
   #6
@@ -444,18 +444,18 @@ summary {
   mutate(proportion=count/sum(count))</code></pre>
 <pre class="r"><code>flight.summary</code></pre>
 <pre><code>## # A tibble: 370 x 9
-##    origin dest  carrier count mean.acc var.acc mean.dist .group proportion
-##    &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;int&gt;    &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;       &lt;dbl&gt;
-##  1 EWR    ALB   EV        418     77.9  46873.       143 keep     0.00127 
-##  2 EWR    ATL   DL       3122     46.9  21254.       746 keep     0.00952 
-##  3 EWR    ATL   EV       1658     92.2  66850.       746 keep     0.00506 
-##  4 EWR    ATL   UA        102     46.5   8893.       746 keep     0.000311
-##  5 EWR    AUS   UA        664    163.  172017.      1504 keep     0.00203 
-##  6 EWR    AUS   WN        295     27.8    950.      1504 keep     0.000900
-##  7 EWR    AVL   EV        253     38.6   4009.       583 keep     0.000772
-##  8 EWR    BDL   EV        405     88.0  98628.       116 keep     0.00124 
-##  9 EWR    BNA   EV       1682     64.9  20108.       748 keep     0.00513 
-## 10 EWR    BNA   WN        564     29.8   4550.       748 keep     0.00172 
+##    origin dest  carrier count mean.acc var.acc mean.dist .groups proportion
+##    &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;int&gt;    &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt;
+##  1 EWR    ALB   EV        418     77.9  46873.       143 keep      0.00127 
+##  2 EWR    ATL   DL       3122     46.9  21254.       746 keep      0.00952 
+##  3 EWR    ATL   EV       1658     92.2  66850.       746 keep      0.00506 
+##  4 EWR    ATL   UA        102     46.5   8893.       746 keep      0.000311
+##  5 EWR    AUS   UA        664    163.  172017.      1504 keep      0.00203 
+##  6 EWR    AUS   WN        295     27.8    950.      1504 keep      0.000900
+##  7 EWR    AVL   EV        253     38.6   4009.       583 keep      0.000772
+##  8 EWR    BDL   EV        405     88.0  98628.       116 keep      0.00124 
+##  9 EWR    BNA   EV       1682     64.9  20108.       748 keep      0.00513 
+## 10 EWR    BNA   WN        564     29.8   4550.       748 keep      0.00172 
 ## # … with 360 more rows</code></pre>
 </div>
 <div id="part-2-building-charts-from-summary-data" class="section level1">
@@ -548,7 +548,7 @@ var.acc
 mean.dist
 </th>
 <th style="text-align:left;">
-.group
+.groups
 </th>
 <th style="text-align:right;">
 proportion

@@ -103,14 +103,14 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 27| [Final Project Instructions](https://unc.zoom.us/rec/share/3OJ3EOHr6GFJY6P0723TBqgFAandT6a8gSUcqfVfyU3tbJ3rx0g4RXhFeUMwBHPG?startTime=1598541383000)|[Slides](Lecture/Lecture05/Lecture 05 Final_Project.pdf)| |
 |Sep. 1|[Data Import](https://unc.zoom.us/rec/share/tJ1YM5rQ0kRIBbeVzn7YWf55JbXhX6a81XMY-KELnU7MA1l2MSiCm4RVYme58QUR?startTime=1598973703000) | [Slides](Lecture/Lecture06/Lecture 06 Data_Import.pdf) | |
 |Sep. 3| [Exploratory Data Analysis](https://unc.zoom.us/rec/share/DN7B-L-hTe5JmP1TOgDrOuLt7d2D6psJLGy67cktcKqWJwvP0D3RG4QElJ8Ah1yX.NICzOtyhYSllncZt?startTime=1599146300000)|[Slides](Lecture/Lecture07/Lecture 07 Exploratory_Data_Analysis.pdf)| |
-|Sep. 8| Project Proposal Discussion |Slides| |
-|Sep. 10| Tidy Data I |Slides| |
-|Sep. 15| Tidy Data II |Slides| |
-|Sep. 17| Web Scraping |Slides| |
-|Sep. 22| Joins |Slides| |
-|Sep. 24| Final Project and Factors |Slides| |
-|Sep. 29| Programming I |Slides| |
-|Oct. 1| Programming II |Slides| |
+|Sep. 8| Project Proposal Discussion || |
+|Sep. 10| Tidy Data |[Slides](Lecture/Lecture08/Lecture08 Tidy Data.pdf)|[Tutorial 05](Lecture/Lecture08/Tutorial05.html)([.Rmd](https://drive.google.com/file/d/1QJLG8MQj2ncr4wGkiZL0CHlX2x9wZemo/view?usp=sharing)) |
+|Sep. 15| Web Scraping |Slides| |
+|Sep. 17| Joins |Slides| |
+|Sep. 22| Final Project and Factors |Slides| |
+|Sep. 24| Programming I |Slides| |
+|Sep. 29| Programming II |Slides| |
+|Oct. 1| Programming III |Slides| |
 |Oct. 6| Modeling I |Slides| |
 |Oct. 8| Modeling II |Slides| |
 |Oct. 13| Modeling III |Slides| |

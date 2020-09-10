@@ -104,7 +104,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 1|[Data Import](https://unc.zoom.us/rec/share/tJ1YM5rQ0kRIBbeVzn7YWf55JbXhX6a81XMY-KELnU7MA1l2MSiCm4RVYme58QUR?startTime=1598973703000) | [Slides](Lecture/Lecture06/Lecture 06 Data_Import.pdf) | |
 |Sep. 3| [Exploratory Data Analysis](https://unc.zoom.us/rec/share/DN7B-L-hTe5JmP1TOgDrOuLt7d2D6psJLGy67cktcKqWJwvP0D3RG4QElJ8Ah1yX.NICzOtyhYSllncZt?startTime=1599146300000)|[Slides](Lecture/Lecture07/Lecture 07 Exploratory_Data_Analysis.pdf)| |
 |Sep. 8| Project Proposal Discussion || |
-|Sep. 10| Tidy Data |[Slides](Lecture/Lecture08/Lecture08 Tidy Data.pdf)|[Tutorial 05](Lecture/Lecture08/Tutorial05.html)([.Rmd](https://drive.google.com/file/d/1QJLG8MQj2ncr4wGkiZL0CHlX2x9wZemo/view?usp=sharing)) |
+|Sep. 10| [Tidy Data](https://unc.zoom.us/rec/share/uHpaTdHsCFwojA9WNbqd91aIp6NGk8VPatMBL7FTMdRY0SV7lJ0fY3uvCfJng2Z4.2XEzpg2BVBOjbv-7?startTime=1599751429000) |[Slides](Lecture/Lecture08/Lecture08 Tidy Data.pdf)|[Tutorial 05](Lecture/Lecture08/Tutorial05.html)([.Rmd](https://drive.google.com/file/d/1QJLG8MQj2ncr4wGkiZL0CHlX2x9wZemo/view?usp=sharing)) |
 |Sep. 15| Web Scraping |Slides| |
 |Sep. 17| Joins |Slides| |
 |Sep. 22| Final Project and Factors |Slides| |

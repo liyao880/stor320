@@ -105,7 +105,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 3| [Exploratory Data Analysis](https://unc.zoom.us/rec/share/DN7B-L-hTe5JmP1TOgDrOuLt7d2D6psJLGy67cktcKqWJwvP0D3RG4QElJ8Ah1yX.NICzOtyhYSllncZt?startTime=1599146300000)|[Slides](Lecture/Lecture07/Lecture 07 Exploratory_Data_Analysis.pdf)| |
 |Sep. 8| Project Proposal Discussion || |
 |Sep. 10| [Tidy Data](https://unc.zoom.us/rec/share/uHpaTdHsCFwojA9WNbqd91aIp6NGk8VPatMBL7FTMdRY0SV7lJ0fY3uvCfJng2Z4.2XEzpg2BVBOjbv-7?startTime=1599751429000) |[Slides](Lecture/Lecture08/Lecture08 Tidy Data.pdf)|[Tutorial 05](Lecture/Lecture08/Tutorial05.html)([.Rmd](https://drive.google.com/file/d/1QJLG8MQj2ncr4wGkiZL0CHlX2x9wZemo/view?usp=sharing)) |
-|Sep. 15| Web Scraping |[Slides](Lecture/Lecture09/Lecture 09 Web Scraping.pdf)|[Tutorial 06](Lecture/Lecture09/Tutorial06.html)([.Rmd](https://drive.google.com/file/d/1CUkQxhItI5xRg7ptdwCazG4VvaYsf0rz/view?usp=sharing)) |
+|Sep. 15| [Web Scraping](https://unc.zoom.us/rec/share/R6b0CRP6phbvJ_MVDf-QLlf-A1p3UB2HJK7IDzzRtWb5psP2RZS0vBgfgjq9QpnJ.CzeizGvGCQbJTVHk?startTime=1600183143000) |[Slides](Lecture/Lecture09/Lecture 09 Web Scraping.pdf)|[Tutorial 06](Lecture/Lecture09/Tutorial06.html)([.Rmd](https://drive.google.com/file/d/1CUkQxhItI5xRg7ptdwCazG4VvaYsf0rz/view?usp=sharing)) |
 | |  ||[Tutorial 07](Lecture/Lecture09/Tutorial07.html)([.Rmd](https://drive.google.com/file/d/1JBI0EdcklUPGgkIK8MZyq60MfpsBWv6n/view?usp=sharing)) |
 |Sep. 17| Joins |[Slides](Lecture/Lecture10/Lecture 10 Joins.pdf)| |
 |Sep. 22| Final Project and Factors |Slides| |

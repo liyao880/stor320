@@ -111,16 +111,16 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 22| Final Project and Factors |Slides| |
 |Sep. 24| Programming I |Slides| |
 |Sep. 29| Programming II |Slides| |
-|Oct. 1| Programming III |Slides| |
-|Oct. 6| Modeling I |Slides| |
-|Oct. 8| Modeling II |Slides| |
-|Oct. 13| Modeling III |Slides| |
-|Oct. 15| Modeling IV |Slides| |
-|Oct. 20| Modeling V |Slides| |
-|Oct. 22| Modeling VI |Slides| |
-|Oct. 27| Modeling VII |Slides| |
-|Oct. 29| Modeling VIII |Slides| |
-|Nov. 3| Modeling IX |Slides| |
+|Oct. 1| Modeling I |Slides| |
+|Oct. 6| Modeling II |Slides| |
+|Oct. 8| Modeling III |Slides| |
+|Oct. 13| Modeling IV |Slides| |
+|Oct. 15| Modeling V |Slides| |
+|Oct. 20| Modeling VI |Slides| |
+|Oct. 22| Modeling VII |Slides| |
+|Oct. 27| Modeling VIII |Slides| |
+|Oct. 29| Modeling IX |Slides| |
+|Nov. 3| Modeling X |Slides| |
 |Nov. 5| Data Ethics |Slides| |
 |Nov. 10| R Shiny |Slides| |
 |Nov. 12| Presentation|Slides| |

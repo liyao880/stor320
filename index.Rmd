@@ -136,7 +136,7 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 | August 18  | [HW2](Homework/HW-2.html)([.Rmd](https://drive.google.com/file/d/1_O9Svs7wiT-hone3DLM5np4GOW1rjig7/view?usp=sharing)) |[HW2](Homework/HW2_Solution.html)  |Auguts 24 (11:59 PM) |
 | August 20  | [A1](Homework/Analysis 1/Analysis-1.html)([.zip](https://drive.google.com/file/d/1jJ7I3qxQv_A85la9G4h3BnJjqOhdCiQJ/view?usp=sharing)) |[A1](Homework/Analysis 1/Analysis-1_Sol.html) |September 3 (11:59 PM) |
 | September 3  | [HW3](Homework/HW-3.html)([.Rmd](https://drive.google.com/file/d/1lGIPrcNa5_oGp0pbeok7L0PnrJo7D_CR/view?usp=sharing)) | [HW3](Homework/HW3_Solution.html)|September 10 (11:59 PM) |
-| September 10  | [HW4](Homework/HW-4.html)([.Rmd](https://drive.google.com/file/d/11V5ZITSSnGJ0ofT1ohQQwItNJ49VLBD8/view?usp=sharing)) | |September 17 (11:59 PM) |
+| September 10  | [HW4](Homework/HW-4.html)([.Rmd](https://drive.google.com/file/d/11V5ZITSSnGJ0ofT1ohQQwItNJ49VLBD8/view?usp=sharing)) | [HW4](Homework/HW4_Solution.html)|September 17 (11:59 PM) |
 | September 17  | [A2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1bjlQgXrZa71XKHpa04tXgYFE53YpRKBA/view?usp=sharing)) | |October 1 (11:59 PM) |
 | October 1  | [HW5](Homework/HW-5.html)([.Rmd](https://drive.google.com/file/d/1fFlz2exJIRaGU-9VB0cQPw36nACGoD_T/view?usp=sharing)) | |October 8 (11:59 PM) |
 | October 8  | A3 | |October 22 (11:59 PM) |

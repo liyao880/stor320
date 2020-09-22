@@ -108,7 +108,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 15| [Web Scraping](https://unc.zoom.us/rec/share/R6b0CRP6phbvJ_MVDf-QLlf-A1p3UB2HJK7IDzzRtWb5psP2RZS0vBgfgjq9QpnJ.CzeizGvGCQbJTVHk?startTime=1600183143000) |[Slides](Lecture/Lecture09/Lecture 09 Web Scraping.pdf)|[Tutorial 06](Lecture/Lecture09/Tutorial06.html)([.Rmd](https://drive.google.com/file/d/1CUkQxhItI5xRg7ptdwCazG4VvaYsf0rz/view?usp=sharing)) |
 | |  ||[Tutorial 07](Lecture/Lecture09/Tutorial07.html)([.Rmd](https://drive.google.com/file/d/1JBI0EdcklUPGgkIK8MZyq60MfpsBWv6n/view?usp=sharing)) |
 |Sep. 17| [Joins](https://unc.zoom.us/rec/share/WGp8A5sZJ_um_tXN3VV1iAfsifO0zBi-CDUqRaPO1J4PrHER1MWl8IvzH4VcQUqj.gtvuQ-FrDGzkx7uc?startTime=1600356199000) |[Slides](Lecture/Lecture10/Lecture 10 Joins.pdf)| |
-|Sep. 22| Final Project and Factors |Slides| |
+|Sep. 22| Factors |[Slides](Lecture/Lecture11/Lecture 11 Factors.pdf)| |
 |Sep. 24| Programming I |Slides| |
 |Sep. 29| Programming II |Slides| |
 |Oct. 1| Modeling I |Slides| |

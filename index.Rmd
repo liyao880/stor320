@@ -109,7 +109,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 | |  ||[Tutorial 07](Lecture/Lecture09/Tutorial07.html)([.Rmd](https://drive.google.com/file/d/1JBI0EdcklUPGgkIK8MZyq60MfpsBWv6n/view?usp=sharing)) |
 |Sep. 17| [Joins](https://unc.zoom.us/rec/share/WGp8A5sZJ_um_tXN3VV1iAfsifO0zBi-CDUqRaPO1J4PrHER1MWl8IvzH4VcQUqj.gtvuQ-FrDGzkx7uc?startTime=1600356199000) |[Slides](Lecture/Lecture10/Lecture 10 Joins.pdf)| |
 |Sep. 22| [Factors](https://unc.zoom.us/rec/share/xEVA0XtRbjeXUJ6v5M4I-zXlKIDP8jY0ZIiBSc54OoroseYJLoR8h0aC8HotS0Ho.Mx9a3omXgnzFMXYw?startTime=1600788097000) |[Slides](Lecture/Lecture11/Lecture 11 Factors.pdf)| |
-|Sep. 24| Programming I |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 08](Lecture/Lecture12/Tutorial08.html)([.Rmd](https://drive.google.com/file/d/1SwFX3TSro5bghM37V-XKOP5KmsCtdxom/view?usp=sharing)) |
+|Sep. 24| [Programming I](https://unc.zoom.us/rec/share/nXMltmsGcVp-WdbFip4XqdtNSz32Vq-zDJnrBiv6w86bIM9ldinDohpwlSUUP_LJ.VWLUmkatBxL4jZGZ?startTime=1600960808000) |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 08](Lecture/Lecture12/Tutorial08.html)([.Rmd](https://drive.google.com/file/d/1SwFX3TSro5bghM37V-XKOP5KmsCtdxom/view?usp=sharing)) |
 ||||[Tutorial 09](Lecture/Lecture12/Tutorial09.html)([.Rmd](https://drive.google.com/file/d/1-Wiq3nsDh4bOLRFlM_ZbYddpNMqzRnoy/view?usp=sharing))  |
 |Sep. 29| Programming II |Slides| |
 |Oct. 1| Modeling I |Slides| |

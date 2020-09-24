@@ -533,6 +533,15 @@ print(DATA)
 
 ABSOLUTE.ERROR = abs(FINISH.100-theoretical.limit)
 print(ABSOLUTE.ERROR)</code></pre>
+<div id="excercise-4" class="section level3">
+<h3>Excercise 4</h3>
+<pre class="r"><code>set.seed(4)
+u = rnorm(100)</code></pre>
+<p>Use <code>for</code> loop to calculate sum of the squares of the first 10 elements of vector <code>u</code>.</p>
+<pre class="r"><code>#</code></pre>
+<p>Use <code>for</code> loop and <code>if</code> statement to calculate the sum of squares of the elements with even indices of vector <code>u</code>.</p>
+<pre class="r"><code>#</code></pre>
+</div>
 </div>
 <div id="chunk-2-checking-geometric-series-proof-with-while-loop" class="section level2">
 <h2>Chunk 2: Checking Geometric Series Proof with <em>while</em> loop</h2>
@@ -566,9 +575,9 @@ ggplot() +
   geom_line(aes(x=1:(K+1),y=summation)) +
   geom_hline(yintercept=theoretical.limit,
              linetype=&quot;dashed&quot;)</code></pre>
-<div id="excercise-4" class="section level3">
-<h3>Excercise 4</h3>
-<p>Write for loops to generate 100 random samples from normal distributions with means of 0 to 99 and save the random samples to a vector <code>a</code>.</p>
+<div id="excercise-5" class="section level3">
+<h3>Excercise 5</h3>
+<p>Write <code>for</code> loops to generate 100 random samples from normal distributions with means of 0 to 99 and save the random samples to a vector <code>a</code>.</p>
 <ul>
 <li>The <code>k</code>th component of <code>a</code> is generated from <span class="math inline">\(N(k-1,1)\)</span>.</li>
 <li>Hint: Function for generating random samples from normal distribution <code>rnorm</code>.</li>

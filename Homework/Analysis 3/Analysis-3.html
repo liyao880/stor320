@@ -497,7 +497,7 @@ plot</code></pre>
 </div>
 <div id="part-2-query-and-summarize" class="section level2">
 <h2>Part 2: Query and Summarize</h2>
-<p>The primary goal in this part is to create a function that outputs the mean and standard deviation for a user-selected subset of the data in <code>DATA2</code>. Then, we can use this function in a loop to create a summarized table such as the one seen in the output from the code chunk below. This information can possibly lead to identification of days in the month where traffic volume was either unusally high or unusually low. The additional plot shows that for location “L103” the median traffic volume was unusually low for April 28 which happened to be a Friday on a holiday weekend.</p>
+<p>The primary goal in this part is to create a function that outputs the median and interquartile range for a user-selected subset of the data in <code>DATA2</code>. Then, we can use this function in a loop to create a summarized table such as the one seen in the output from the code chunk below. This information can possibly lead to identification of days in the month where traffic volume was either unusally high or unusually low. The additional plot shows that for location “L103” the median traffic volume was unusually low for April 28 which happened to be a Friday on a holiday weekend.</p>
 <pre class="r"><code>OUTPUT=DATA2 %&gt;% group_by(DAY) %&gt;% select(&quot;L103&quot;,DAY) %&gt;% summarize(median=median(get(&quot;L103&quot;)),IQR=IQR(get(&quot;L103&quot;)),.groups=&#39;drop&#39;) #DO NOT CHANGE
 head(OUTPUT) #DO NOT CHANGE</code></pre>
 <pre><code>## # A tibble: 6 x 3

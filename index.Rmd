@@ -112,7 +112,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 24| [Programming I](https://unc.zoom.us/rec/share/nXMltmsGcVp-WdbFip4XqdtNSz32Vq-zDJnrBiv6w86bIM9ldinDohpwlSUUP_LJ.VWLUmkatBxL4jZGZ?startTime=1600960808000) |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 08](Lecture/Lecture12/Tutorial08.html)([.Rmd](https://drive.google.com/file/d/1SwFX3TSro5bghM37V-XKOP5KmsCtdxom/view?usp=sharing)) |
 |Sep. 29| [Programming II](https://unc.zoom.us/rec/share/lzA5eExcyfiXJZk8i0twNghusAnaPpScNL4pfpPSXmBgWOW5HB_sBoYsNfB_qPWt.M_RwdxsLh-JPv92I?startTime=1601393095000) |[Slides](Lecture/Lecture13/Lecture 13 Programming II.pdf)|[Tutorial 09](Lecture/Lecture12/Tutorial09.html)([.Rmd](https://drive.google.com/file/d/1-Wiq3nsDh4bOLRFlM_ZbYddpNMqzRnoy/view?usp=sharing)) |
 |Oct. 1| [Programming III](https://unc.zoom.us/rec/share/G0yUZTrnY40gkWsLkDb09tljZ3V_IsgLcKP92YifhNgDIFbsPewWle-ULXdjQNrP.IbzSSBWOUR1H2aA6?startTime=1601565809000) |[Slides](Lecture/Lecture14/Lecture 14 Programming III.pdf)| |
-|Oct. 6| Modeling I |[Slides](Lecture/Lecture15/Lecture 15 Modeling I.pdf)| |
+|Oct. 6| [Modeling I](https://unc.zoom.us/rec/share/Wsv83RTLKqwcK6RCdMBIhtHRejARuPe3Qaz_2Xtqrmj6ycCZGryanHxR_ygkCNVb.RZ5Ul0Aa8gv6OktH?startTime=1601997881000) |[Slides](Lecture/Lecture15/Lecture 15 Modeling I.pdf)| |
 |Oct. 8| Group Work Day || |
 |Oct. 13| Modeling II |Slides| |
 |Oct. 15| Modeling III |Slides| |

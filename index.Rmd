@@ -115,7 +115,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 6| [Modeling I](https://unc.zoom.us/rec/share/Wsv83RTLKqwcK6RCdMBIhtHRejARuPe3Qaz_2Xtqrmj6ycCZGryanHxR_ygkCNVb.RZ5Ul0Aa8gv6OktH?startTime=1601997881000) |[Slides](Lecture/Lecture15/Lecture 15 Modeling I.pdf)| |
 |Oct. 8| Group Work Day || |
 |Oct. 13| [Modeling II](https://unc.zoom.us/rec/share/aeD0tW-vspLtvQICwDCeCC-NRYLhIqykMWCmULvcK27Nljxo6atUw2kyIWXrecU.H-AMb7j8SyMObfoj?startTime=1602602336000) |[Slides](Lecture/Lecture16/Lecture 16 Modeling II.pdf)|[Tutorial 10](Lecture/Lecture16/Tutorial10.html)([.zip](https://drive.google.com/file/d/1IJ9DL5khN0Ge8j7IvCqU8pl9P4F2QCUY/view?usp=sharing))  |
-|Oct. 15| Research Talk |Slides| |
+|Oct. 15| Research Talk |[Slides](Lecture/Lecture17/research_talk.pdf)| |
 |Oct. 20| Modeling III and Final Project II |Slides| |
 |Oct. 22| Modeling IV |Slides| |
 |Oct. 27| Modeling V |Slides| |

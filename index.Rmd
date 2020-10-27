@@ -118,7 +118,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 15| [Research Talk](https://unc.zoom.us/rec/share/BAr6N0XSxlx6OYaKQGUdkv6M88jTe_rfOdsdwRNoGUPPXBsuY73ceSpS7grhtld9.m12St7TqYc8A4QpK?startTime=1602775531000) |[Slides](Lecture/Lecture17/research_talk.pdf)| |
 |Oct. 20| [Modeling III](https://unc.zoom.us/rec/share/1dXUsiyQsI44TodNvV8nR4lTpuvKoOSUvYdAOVlID6rQNckNEeAX4XCYaEZWf20.B2WqQkn5NzQ-HtpQ?startTime=1603207239000) |[Slides](Lecture/Lecture18/Lecture 18 Modeling III.pdf)|[Tutorial 11](Lecture/Lecture18/Tutorial11.html)([.zip](https://drive.google.com/file/d/1WnaqmdLn6i8Yhsg0CNsth6EfmBkVpKGH/view?usp=sharing))  |
 |Oct. 22| [Modeling IV](https://unc.zoom.us/rec/share/_6Bnl9b9LlcqgignhAwyB8NQ5MNA76uILZNh2-ecW0EaZwuZX0k-WNuN_GBX1gVd.RbzlizrC2FFbvnjD?startTime=1603380025000) |[Slides](Lecture/Lecture19/Lecture 19 Modeling IV.pdf)| |
-|Oct. 27| Modeling V |Slides| |
+|Oct. 27| Modeling V |[Slides](Lecture/Lecture20/Lecture 20 Modeling V.pdf)| |
 |Oct. 29| Modeling VI |Slides| |
 |Nov. 3| Modeling VII |Slides| |
 |Nov. 5| Data Ethics |Slides| |

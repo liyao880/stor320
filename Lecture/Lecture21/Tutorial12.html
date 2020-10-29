@@ -11,7 +11,7 @@
 
 <meta name="author" content />
 
-<meta name="date" content="2020-10-28" />
+<meta name="date" content="2020-10-29" />
 
 <title>STOR 320 Tutorial on Modeling VI</title>
 
@@ -364,7 +364,7 @@ summary {
 
 
 <h1 class="title toc-ignore">STOR 320 Tutorial on Modeling VI</h1>
-<h4 class="date">October 28, 2020</h4>
+<h4 class="date">October 29, 2020</h4>
 
 </div>
 
@@ -599,6 +599,10 @@ ggplot(TEST2) +
 ## 3 1990 -2.576 -0.270  0.816  1.572 -3.936 0.1598375  3.514        Up
 ## 4 1990  3.514 -2.576 -0.270  0.816  1.572 0.1616300  0.712        Up
 ## 5 1990  0.712  3.514 -2.576 -0.270  0.816 0.1537280  1.178        Up</code></pre>
+<ol start="0" style="list-style-type: decimal">
+<li>Standardize the 2-7 columns in <code>Weekly</code> with <code>scale</code> function.</li>
+</ol>
+<pre class="r"><code>Weekly[2:7] = scale(FILL)</code></pre>
 <ol style="list-style-type: decimal">
 <li>Split the data set into training set with <code>Year</code> less than 2008 and put the rest into testing set.</li>
 </ol>

@@ -119,7 +119,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 20| [Modeling III](https://unc.zoom.us/rec/share/1dXUsiyQsI44TodNvV8nR4lTpuvKoOSUvYdAOVlID6rQNckNEeAX4XCYaEZWf20.B2WqQkn5NzQ-HtpQ?startTime=1603207239000) |[Slides](Lecture/Lecture18/Lecture 18 Modeling III.pdf)|[Tutorial 11](Lecture/Lecture18/Tutorial11.html)([.zip](https://drive.google.com/file/d/1WnaqmdLn6i8Yhsg0CNsth6EfmBkVpKGH/view?usp=sharing))  |
 |Oct. 22| [Modeling IV](https://unc.zoom.us/rec/share/_6Bnl9b9LlcqgignhAwyB8NQ5MNA76uILZNh2-ecW0EaZwuZX0k-WNuN_GBX1gVd.RbzlizrC2FFbvnjD?startTime=1603380025000) |[Slides](Lecture/Lecture19/Lecture 19 Modeling IV.pdf)| |
 |Oct. 27| [Modeling V](https://unc.zoom.us/rec/share/60Sr1LjiexjcgMcUtTofKidW_uXtnfsv_AWhZG7xS1KRpKTCA89_6ZbeKazPkjg.7P03Q96WXEEi2y4Z?startTime=1603812104000) |[Slides](Lecture/Lecture20/Lecture 20 Modeling V.pdf)| |
-|Oct. 29| Modeling VI |Slides| |
+|Oct. 29| Modeling VI |[Slides](Lecture/Lecture21/Lecture 21 Modeling VI.pdf)| [Tutorial 12](Lecture/Lecture21/Tutorial12.html)([.Rmd](https://drive.google.com/file/d/1JJGFoeMz8zUfEdtvCaVF4cyL8Cg5g1fE/view?usp=sharing)) |
 |Nov. 3| Modeling VII |Slides| |
 |Nov. 5| Data Ethics |Slides| |
 |Nov. 10| R Shiny |Slides| |

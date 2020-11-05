@@ -122,7 +122,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 29| [Modeling VI](https://unc.zoom.us/rec/share/fwsOwcT0UFG0kOw6GiP-0Ju_EHvr0xqe4HyqjtaVXFp3z3b1sXdghPzA7SJs2_xq.6FnKEOdZP6BUOwe4?startTime=1603984928000) |[Slides](Lecture/Lecture21/Lecture 21 Modeling VI.pdf)| [Tutorial 12](Lecture/Lecture21/Tutorial12.html)([.Rmd](https://drive.google.com/file/d/1JJGFoeMz8zUfEdtvCaVF4cyL8Cg5g1fE/view?usp=sharing)) |
 || [Modeling VI](https://unc.zoom.us/rec/share/fwsOwcT0UFG0kOw6GiP-0Ju_EHvr0xqe4HyqjtaVXFp3z3b1sXdghPzA7SJs2_xq.6FnKEOdZP6BUOwe4?startTime=1603987509000) || |
 |Nov. 3| [Modeling VII](https://unc.zoom.us/rec/share/omKabKbanS0S6ShBU2LNKO7Rj3R9qgZiSmXq1ciA_PiJdl0pW-wJXzvqBuFVZWzS.G78wArpPQhNgDdy7?startTime=1604420629000) |[Slides](Lecture/Lecture22/Lecture 22 Modeling VII.pdf)|[Tutorial 13](Lecture/Lecture22/Tutorial13.html)([.Rmd](https://drive.google.com/file/d/1T_XHZ22cRHLw7jMbkosSfIcyXtEE7WYE/view?usp=sharing)) |
-|Nov. 5| Data Ethics |[Slides](Lecture/Lecture23/Lecture23 Data Ethics.pdf)| |
+|Nov. 5| [Data Ethics](https://unc.zoom.us/rec/share/XvNjdVATczYAbKTdf0fPjXPYrldTYNomVmtJzZ0-Peh4myipMSD9VQqAO31gq5Ta.h_dEHAmgVno0Vj0V?startTime=1604593379000) |[Slides](Lecture/Lecture23/Lecture23 Data Ethics.pdf)| |
 |Nov. 10| R Shiny |Slides| |
 |Nov. 12| Presentation|Slides| |
 |Nov. 17| Presentation|Slides| |

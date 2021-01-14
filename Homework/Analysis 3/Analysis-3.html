@@ -11,7 +11,7 @@
 
 <meta name="author" content="FIRSTNAME LASTNAME" />
 
-<meta name="date" content="2020-09-30" />
+<meta name="date" content="2021-01-14" />
 
 <title>Analysis 3: Statistical Programming with Traffic Data</title>
 
@@ -365,7 +365,7 @@ summary {
 
 <h1 class="title toc-ignore">Analysis 3: Statistical Programming with Traffic Data</h1>
 <h4 class="author">FIRSTNAME LASTNAME</h4>
-<h4 class="date">September 30, 2020</h4>
+<h4 class="date">January 14, 2021</h4>
 
 </div>
 
@@ -373,8 +373,8 @@ summary {
 <div id="instructions" class="section level1">
 <h1>Instructions</h1>
 <p><strong>Overview:</strong> For each question, show your R code that you used to answer each question in the provided chunks. When a written response is required, be sure to answer the entire question in complete sentences outside the code chunks. When figures are required, be sure to follow all requirements to receive full credit. Point values are assigned for every part of this analysis.</p>
-<p><strong>Helpful:</strong> Make sure you knit the document as you go through the assignment. Check all your results in the created HTML file.</p>
-<p><strong>Submission:</strong> Submit via an electronic document on Sakai. Must be submitted as an HTML file generated in RStudio.</p>
+<p><strong>Helpful:</strong> Make sure you knit the document as you go through the assignment. Check all your results in the created PDF file.</p>
+<p><strong>Submission:</strong> Submit via an electronic document on Gradescope. Must be submitted as an PDF file generated in RStudio.</p>
 </div>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
@@ -429,8 +429,8 @@ print(x[1:20]) #DO NOT CHANGE</code></pre>
 for (i in seq_along(x)){
   y[i] =  if(x[i] %in% c(3,10,17,24)){
               &quot;M&quot;
-          }else if(COMPLETE){
-
+          }else if(x[i] %in% c(4,11,18,25)){
+              &quot;T&quot;
           }else if(COMPLETE){
 
           }else if(COMPLETE){
@@ -448,11 +448,21 @@ print(y[1:20]) #DO NOT CHANGE</code></pre>
 <p>Code and Output:</p>
 <pre class="r"><code>x = DATA1$DAY #DO NOT CHANGE
 
+for (i in seq_along(x)){
+  y[i] =  if(x[i] %in% c(3,10,17,24)){
+              &quot;M&quot;
+          }else if(x[i] %in% c(4,11,18,25)){
+              &quot;T&quot;
+          }else if(COMPLETE){
 
-COMPLETE
+          }else if(COMPLETE){
 
+          }else{
 
-y.factor = factor(COMPLETE)
+          }
+}
+
+y.factor = factor(y,levels = c(&quot;M&quot;,&quot;T&quot;,))
 print(y.factor[1:20]) #DO NOT CHANGE</code></pre>
 </div>
 <div id="q3-4-points" class="section level3">
@@ -461,8 +471,24 @@ print(y.factor[1:20]) #DO NOT CHANGE</code></pre>
 <p>Code and Output:</p>
 <pre class="r"><code>DAYNAME.func = function(data){
   
-  COMPLETE
+  x = data$DAY #DO NOT CHANGE
+
+  for (i in seq_along(x)){
+    y[i] =  if(x[i] %in% c(3,10,17,24)){
+                &quot;M&quot;
+            }else if(x[i] %in% c(4,11,18,25)){
+                &quot;T&quot;
+            }else if(COMPLETE){
   
+            }else if(COMPLETE){
+  
+            }else{
+  
+            }
+  }
+  
+  y.factor = factor(y,levels = c(&quot;M&quot;,&quot;T&quot;,))
+    
   return(y.factor)
 }
   
@@ -486,7 +512,11 @@ plot</code></pre>
 <p>Code <em>(4 Points)</em>:</p>
 <pre class="r"><code>DAYPLOT.func=function(data,sensor,dayabbrev){
   
-  COMPLETE
+  SUB.DATA = data %&gt;% select(sensor,DAY,DAYNAME) %&gt;% filter(DAYNAME==dayabbrev)
+  plot=ggplot(data=SUB.DATA) + 
+        geom_line(aes(x=1:dim(SUB.DATA)[1],y=get(sensor),color=as.factor(DAY))) + 
+        theme_minimal() + xlab(&quot;Time&quot;) + guides(color=guide_legend(title=&quot;Day in April&quot;))+
+        ylab(sensor) + ggtitle(paste(&quot;Plot for &quot;,&quot;M&quot;,sep=&quot;&quot;))
   
   return(plot)
 }</code></pre>
@@ -529,7 +559,11 @@ medIQRsum</code></pre>
 <p>Code and Output:</p>
 <pre class="r"><code>TRAFFICSUM.func = function(aprilday){
   
-  COMPLETE
+  id.day=which(DATA2$DAY==aprilday)
+  subdata1=DATA2[id.day,]
+  id.sensor=which(names(DATA2)==&quot;L103&quot;)
+  subdata2=subdata1[[id.sensor]]
+  medIQRsum=c(aprilday,median(subdata2),IQR(subdata2))
   
   return(medIQRsum)
 }
@@ -543,7 +577,7 @@ TRAFFICSUM.func(aprilday=10) #DO NOT CHANGE</code></pre>
 
 for(k in unique(DATA2$DAY)){
   
-  COMPLETE
+  OUTPUT.A = rbind(OUTPUT.A, TRAFFICSUM.func(k))
   
 }
 
@@ -551,7 +585,7 @@ head(OUTPUT.A) #DO NOT CHANGE</code></pre>
 </div>
 <div id="q3-4-points-1" class="section level3">
 <h3>Q3 <em>(4 Points)</em></h3>
-<p>Now we will do the same thing that we did in the previous question except we will start by initiating a tibble full of missing values. Here we will call our final tibble <code>OUTPUT.B</code> which is initiated in the first line. The variable names of <code>OUTPUT.B</code> were created in the second line and chosen to match the variable names in <code>OUTPUT</code> from the prompt to Part 2. In order to make this loop work, you will need to use your created function <code>TRAFFICSUM.func()</code> and a thorough understanding of the function <code>which()</code>. The beauty of <code>which()</code> is that it can be used to link the unique days in April to the index. For example, April 3 is the first day for which we have data. Therefore, the volume median and IQR for this day should be in the first row. The function <code>which()</code> can be used to linke <em>3</em> to <em>1</em>, <em>4</em> to <em>2</em>, <em>5</em> to <em>3</em>, etc. This ensures that information is saved in its appropriate row. When you run this code, the output from <code>head(OUTPUT.B)</code> should be identical to <code>head(OUTPUT)</code>.</p>
+<p>Now we will do the same thing that we did in the previous question except we will start by initiating a tibble full of missing values. Here we will call our final tibble <code>OUTPUT.B</code> which is initiated in the first line. The variable names of <code>OUTPUT.B</code> were created in the second line and chosen to match the variable names in <code>OUTPUT</code> from the prompt to Part 2. In order to make this loop work, you will need to use your created function <code>TRAFFICSUM.func()</code> and a thorough understanding of the function <code>which()</code>. The beauty of <code>which()</code> is that it can be used to link the unique days in April to the index. For example, April 3 is the first day for which we have data. Therefore, the volume median and IQR for this day should be in the first row. The function <code>which()</code> can be used to link <em>3</em> to <em>1</em>, <em>4</em> to <em>2</em>, <em>5</em> to <em>3</em>, etc. This ensures that information is saved in its appropriate row. When you run this code, the output from <code>head(OUTPUT.B)</code> should be identical to <code>head(OUTPUT)</code>.</p>
 <p>Code and Output:</p>
 <pre class="r"><code>OUTPUT.B=data.frame(matrix(NA,20,3)) #DO NOT CHANGE
 names(OUTPUT.B)=c(&quot;DAY&quot;,&quot;median&quot;,&quot;IQR&quot;) #DO NOT CHANGE
@@ -559,7 +593,7 @@ names(OUTPUT.B)=c(&quot;DAY&quot;,&quot;median&quot;,&quot;IQR&quot;) #DO NOT CH
 for(k in unique(DATA2$DAY)){
   
   i = which(unique(DATA2$DAY)==k)
-  COMPLETE
+  OUTPUT.B[i,] = TRAFFICSUM.func(k)
   
 }
 

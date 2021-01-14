@@ -73,20 +73,20 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
     - **[Sam Booth](http://stat-or.unc.edu/people/graduate-students-department)**
 
 - Lab Sections: 
-    - 320.400 by Sam: 
-    - 320.401 by Taylor: 
-    - 320.402 by Pavlos: 
+    - 320.404 by Pavlos: T 9:30AM-10:20AM
+    - 320.405 by Taylor: T 5:00PM-5:50PM
+    - 320.406 by Sam: Th 9:30AM-10:20AM
 
 
 - Zoom Links:
-    - **[Lectures:](https://unc.zoom.us/j/93501182856)** MWF 8:00AM to 8:50AM
-    - **[320.400 by Sam]()**: 
-    - **[320.401 by Taylor]()**: 
-    - **[320.402 by Pavlos]()**: 
-    - **[Instructor Office Hours:](https://unc.zoom.us/j/99751369535)** WF 9:00AM to 10:00AM
-    - **[Taylor Office Hours:]()** 
-    - **[Pavlos Office Hours:]()**
-    - **[Sam Office Hours:]()** 
+    - **[Lectures:](https://unc.zoom.us/j/93501182856?pwd=b3ZoZlZTdndrYW95MGswTEpGSU1qdz09)** MWF 8:00AM-8:50AM
+    - **[320.404 by Pavlos](https://unc.zoom.us/j/96678226561)**: T 9:30AM-10:20AM
+    - **[320.405 by Taylor](https://unc.zoom.us/j/91440986085?pwd=WUpKeW5hVG0rNGRXaXlZZStJL2xuUT09)**: T 5:00PM-5:50PM
+    - **[320.406 by Sam](https://unc.zoom.us/j/5891075192)**: Th 9:30AM-10:20AM
+    - **[Instructor Office Hours:](https://unc.zoom.us/j/99751369535)** WF 9:00AM-10:00AM
+    - **[Taylor Office Hours:](https://unc.zoom.us/j/91440986085?pwd=WUpKeW5hVG0rNGRXaXlZZStJL2xuUT09)** M 2:30PM-3:30PM, W 1:30PM-2:30PM
+    - **[Pavlos Office Hours:](https://unc.zoom.us/j/2903979720)** M 10:00AM-11:00AM, F 1:00PM-2:00PM
+    - **[Sam Office Hours:](https://unc.zoom.us/j/5891075192)** TTh 4:00PM-5:00PM
 
 
 # **Course Material**
@@ -142,21 +142,21 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 
 # **Homework Tracker**
 
-All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu/welcome/)**. 
+All homework assignments are to be submitted via **[Gradescope](https://www.gradescope.com/)**. 
 
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
-| Jan 22  | [HW1](Homework/HW-1.html)([.Rmd](https://drive.google.com/file/d/1p-UnZxiRkQ1TTsnHkJFREnM0LJeD5M_y/view?usp=sharing)) | |Jan 26 (11:55 PM) |
-| Jan 27  | [HW2](Homework/HW-2.html)([.Rmd](https://drive.google.com/file/d/1_O9Svs7wiT-hone3DLM5np4GOW1rjig7/view?usp=sharing)) |  |Feb 5 (11:55 PM) |
-| Feb 5  | [A1](Homework/Analysis 1/Analysis-1.html)([.zip](https://drive.google.com/file/d/1jJ7I3qxQv_A85la9G4h3BnJjqOhdCiQJ/view?usp=sharing)) | |Feb 19 (11:55 PM) |
-| Feb 22  | [HW3](Homework/HW-3.html)([.Rmd](https://drive.google.com/file/d/1lGIPrcNa5_oGp0pbeok7L0PnrJo7D_CR/view?usp=sharing)) | |Feb 28 (11:55 PM) |
-| Feb 28  | [HW4](Homework/HW-4.html)([.Rmd](https://drive.google.com/file/d/11V5ZITSSnGJ0ofT1ohQQwItNJ49VLBD8/view?usp=sharing)) | |Mar 7 (11:55 PM) |
-| Mar 7  | [A2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1bjlQgXrZa71XKHpa04tXgYFE53YpRKBA/view?usp=sharing)) | |Mar 21 (11:55 PM) |
-| Mar 21  | [HW5](Homework/HW-5.html)([.Rmd](https://drive.google.com/file/d/1fFlz2exJIRaGU-9VB0cQPw36nACGoD_T/view?usp=sharing)) | |Mar 28 (11:55 PM) |
-| Mar 28  | [A3](Homework/Analysis 3/Analysis-3.html)([.zip](https://drive.google.com/file/d/1b3yIg8erBn0FAqaCbuHCDP3kqfF8EATl/view?usp=sharing)) | |Apr 11 (11:55 PM) |
-| Apr 11  | [HW6](Homework/HW-6.html)([.Rmd](https://drive.google.com/file/d/1AbXKFvVMnLslmsIL890kMg1vN2VtnHpd/view?usp=sharing)) | |Apr 18 (11:55 PM) |
-| Apr 18  | [HW7](Homework/HW-7.html)([.Rmd](https://drive.google.com/file/d/1U24T7L5jfmKObZi1UDE4IIxNYimfIOAh/view?usp=sharing)) | |Apr 25 (11:55 PM) |
-| Apr 25  | [A4](Homework/Analysis 4/Analysis-4.html)([.zip](https://drive.google.com/file/d/1EnTJxsNrdXdVIeVB4U_4b8a77nY0jTv3/view?usp=sharing)) | |May 2 (11:55 PM) |
+| Jan 22  | [HW1](Homework/HW-1.html)([.Rmd](Homework/HW 1.rmd)) | |Jan 26 (11:55 PM) |
+| Jan 27  | [HW2](Homework/HW-2.html)([.Rmd](Homework/HW 2.rmd)) |  |Feb 5 (11:55 PM) |
+| Feb 5  | [A1](Homework/Analysis 1/Analysis-1.html)([.zip](Homework/Analysis 1/Analysis 1.zip)) | |Feb 19 (11:55 PM) |
+| Feb 22  | [HW3](Homework/HW-3.html)([.Rmd](Homework/HW 3.rmd)) | |Feb 28 (11:55 PM) |
+| Feb 28  | [HW4](Homework/HW-4.html)([.Rmd](Homework/HW 4.rmd)) | |Mar 7 (11:55 PM) |
+| Mar 7  | [A2](Homework/Analysis 2/Analysis_2.html)([.zip](Homework/Analysis 2/Analysis 2.zip)) | |Mar 21 (11:55 PM) |
+| Mar 21  | [HW5](Homework/HW-5.html)([.Rmd](Homework/HW 5.rmd)) | |Mar 28 (11:55 PM) |
+| Mar 28  | [A3](Homework/Analysis 3/Analysis-3.html)([.zip](Homework/Analysis 3/Analysis 3.zip)) | |Apr 11 (11:55 PM) |
+| Apr 11  | [HW6](Homework/HW-6.html)([.Rmd](Homework/HW 6.rmd)) | |Apr 18 (11:55 PM) |
+| Apr 18  | [HW7](Homework/HW-7.html)([.Rmd](Homework/HW 7.rmd)) | |Apr 25 (11:55 PM) |
+| Apr 25  | [A4](Homework/Analysis 4/Analysis-4.html)([.zip](Homework/Analysis 4/Analysis 4.zip)) | |May 2 (11:55 PM) |
 |          |        |     |           |
 
 # **Final Project Details**

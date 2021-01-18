@@ -115,19 +115,19 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Mar. 5| Joins I |||
 |Mar. 8| Joins II |||
 |Mar. 10| Factors |||
-|Mar. 12| Programming I |||
-|Mar. 15|Programming II  |||
-|Mar. 17| Wellness Day |||
+|Mar. 12| Wellness Day |||
+|Mar. 15|Programming I |||
+|Mar. 17| Programming II |||
 |Mar. 19| Programming III |||
 |Mar. 22| Programming IV |||
 |Mar. 24| Group Work Day |||
 |Mar. 26| Modeling I |||
 |Mar. 29| Modeling II |||
 |Mar. 31| Modeling III |||
-|Apr. 2| Modeling IV |||
-|Apr. 5| Modeling V |||
-|Apr. 7| Holiday |||
-|Apr. 9| Wellness Day |||
+|Apr. 2| Holiday |||
+|Apr. 5| Wellness Day |||
+|Apr. 7| Modeling IV |||
+|Apr. 9| Modeling V |||
 |Apr. 12| Modeling VI |||
 |Apr. 14| Modeling VII |||
 |Apr. 16| Modeling VIII |||
@@ -209,7 +209,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 | P1  | Project Proposal | Sakai | Feb 17 (11:55PM)|
 |   | Proposal Meeting | Class | Feb 17 / Feb 19 (8:00AM-8:50AM)|
 | P2  | Exploratory Data Analysis | Sakai | Mar 26 (11:55PM)|
-|   | EDA Meeting | Lab | Mar 26 |
+|   | EDA Meeting | Lab | Week of Mar 29 to April 4 |
 | P3  | Final Report|Sakai|May 5 (11:55PM)|
 | P4  | Presentation Slides |Sakai| Apr 29 (11:55PM)|
 |   | Final Presentation|Class| Apr 30 / May 3 / May 5 (8:00AM-8:50AM)|

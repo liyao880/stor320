@@ -93,7 +93,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 
 | Date | Lecture | Slides | Tutorial|
 |------|---------|--------:|--------:|
-|Jan. 20| Welcome | | |
+|Jan. 20| Welcome |[Slides](Lecture/Lecture01/Lecture 01 Welcome.pdf) | |
 |Jan. 22| Data Visualization|  | |
 |Jan. 25| RMarkdown I || |
 |Jan. 27| RMarkdown II |||

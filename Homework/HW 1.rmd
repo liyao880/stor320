@@ -26,18 +26,15 @@ library(ggplot2)
 
 ##  Exercise 1
 ```{r}
-ggplot(data=mpg)
+#
 ```
 
-I see absolutely nothing. There is just a blank space for a graph. Why am I even doing this nonsense?
 
 ## Exercise 2
 ```{r}
-dim(mpg)
-nrow(mpg)
-ncol(mpg)
+#
 ```
-There are 234 rows and 11 columns in the dataset **mpg**.
+
 
 ##  Exercise 3
 ```{r, eval=FALSE}
@@ -45,34 +42,21 @@ There are 234 rows and 11 columns in the dataset **mpg**.
 ```
 
 ```{r}
-unique(mpg$drv)
+#
 ```
 
 
-The variable **drg** is a factor variable that takes the following values:
-
-- "f" = front-wheel drive
-- "r" = rear-wheel drive
-- "4" = 4-wheel drive
-
 ##  Excercise 4
 ```{r}
-ggplot(data=mpg,aes(x=hwy,y=cyl)) +
-  geom_point() + 
-  xlab("Highway Miles Per Gallon") +
-  ylab("Number of Cylinders")
+#
 ```
 
 
 ##  Excercise 5
 ```{r}
-ggplot(data=mpg,aes(x=class,y=drv)) + 
-  geom_point() + 
-  xlab("Type of Car") +
-  ylab("Type of Drive")
+#
 ```
 
-Scatter plots are not meant to visualize the relationship between two categorical/qualitative variables. 
 
 # Chapter 1 (Pg. 12)
 

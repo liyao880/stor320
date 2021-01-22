@@ -94,7 +94,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 | Date | Lecture | Slides | Tutorial|
 |------|---------|--------:|--------:|
 |Jan. 20| [Welcome](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a47a655b-4f19-4053-8b1f-acb600e76603) |[Slides](Lecture/Lecture01/Lecture 01 Welcome.pdf) | |
-|Jan. 22| Data Visualization| [Slides](Lecture/Lecture02/Lecture 02 Data_Visualization_Lecture.pdf) | [Tutorial01](Tutorial/Tutorial01.html)([.rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing))|
+|Jan. 22| [Data Visualization](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=07f214c4-0df4-459c-ae76-acb800ed8061)| [Slides](Lecture/Lecture02/Lecture 02 Data_Visualization_Lecture.pdf) | [Tutorial01](Tutorial/Tutorial01.html)([.rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing))|
 |Jan. 25| RMarkdown I || |
 |Jan. 27| RMarkdown II |||
 |Jan. 29| Data Transformation I |||

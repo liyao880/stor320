@@ -95,7 +95,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |------|---------|--------:|--------:|
 |Jan. 20| [Welcome](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a47a655b-4f19-4053-8b1f-acb600e76603) |[Slides](Lecture/Lecture01/Lecture 01 Welcome.pdf) | |
 |Jan. 22| [Data Visualization](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=07f214c4-0df4-459c-ae76-acb800ed8061)| [Slides](Lecture/Lecture02/Lecture 02 Data_Visualization_Lecture.pdf) | [Tutorial01](Tutorial/Tutorial01.html)([.rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing))|
-|Jan. 25| RMarkdown I |[Slides](Lecture/Lecture03/Lecture 03 Workflow_Lecture.pdf)| |
+|Jan. 25| [RMarkdown I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e6fea7d-a17e-4f2c-83c5-acbb00e97185) |[Slides](Lecture/Lecture03/Lecture 03 Workflow_Lecture.pdf)| |
 |Jan. 27| RMarkdown II |||
 |Jan. 29| Data Transformation I |||
 |Feb. 1| Data Transformation II |||
@@ -146,7 +146,7 @@ All homework assignments are to be submitted via **[Gradescope](https://www.grad
 
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
-| Jan 22  | [HW1](Homework/HW-1.html)([.Rmd](Homework/HW 1.rmd)) | |Jan 26 (11:55 PM) |
+| Jan 22  | [HW1](Homework/HW-1.html)([.Rmd](Homework/HW 1.rmd)) | |Jan 29 (11:55 PM) |
 | Jan 27  | [HW2](Homework/HW-2.html)([.Rmd](Homework/HW 2.rmd)) |  |Feb 5 (11:55 PM) |
 | Feb 5  | [A1](Homework/Analysis 1/Analysis-1.html)([.zip](Homework/Analysis 1/Analysis 1.zip)) | |Feb 19 (11:55 PM) |
 | Feb 22  | [HW3](Homework/HW-3.html)([.Rmd](Homework/HW 3.rmd)) | |Feb 28 (11:55 PM) |

@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Instructions
 
-**Exercises:**  1-3 (Pgs. 49-50); 2-4 (Pg. 51); 2,4 (Pg. 54); 1-4 (Pg. 58)
+**Exercises:**  1-3 (5.2.4 Exercises); 2-4 (5.3.1 Exercises); 2,4 (5.4.1 Exercises); 1-4 (5.5.2 Exercises)
 
 **Submission:** Submit an electronic document on Gradescope. Must be submitted as a PDF file generated in RStudio. All assigned problems are chosen according to the textbook *R for Data Science*. You do not need R code to answer every question. If you answer without using R code, delete the code chunk. If the question requires R code, make sure you display R code. If the question requires a figure, make sure you display a figure. A lot of the questions can be answered in written response, but require R code and/or figures for understanding and explaining.
 
@@ -21,7 +21,7 @@ library(ggplot2)
 library(nycflights13)
 ```
 
-# Chapter 3 (Pgs. 49-50)
+# Chapter 5 (5.2.4 Exercises)
 
 ##  Exercise 1
 ```{r}
@@ -38,7 +38,7 @@ library(nycflights13)
 #
 ```
 
-# Chapter 3 (Pg. 51)
+# Chapter 5 (5.3.1 Exercises)
 
 ##  Exercise 2
 ```{r}
@@ -55,7 +55,7 @@ library(nycflights13)
 #
 ```
 
-# Chapter 3 (Pg. 54)
+# Chapter 5 (5.4.1 Exercises)
 
 ##  Exercise 2
 ```{r}
@@ -67,7 +67,7 @@ library(nycflights13)
 #
 ```
 
-# Chapter 3 (Pg. 58)
+# Chapter 5 (5.5.2 Exercises)
 
 ##  Exercise 1
 ```{r}

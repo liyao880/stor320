@@ -96,7 +96,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Jan. 20| [Welcome](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a47a655b-4f19-4053-8b1f-acb600e76603) |[Slides](Lecture/Lecture01/Lecture 01 Welcome.pdf) | |
 |Jan. 22| [Data Visualization](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=07f214c4-0df4-459c-ae76-acb800ed8061)| [Slides](Lecture/Lecture02/Lecture 02 Data_Visualization_Lecture.pdf) | [Tutorial01](Tutorial/Tutorial01.html)([.rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing))|
 |Jan. 25| [RMarkdown I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e6fea7d-a17e-4f2c-83c5-acbb00e97185) |[Slides](Lecture/Lecture03/Lecture 03 Workflow_Lecture.pdf)| |
-|Jan. 27| RMarkdown II ||[Tutorial02](Tutorial/Tutorial02.html)([.zip](https://drive.google.com/file/d/1DpCkW9N_BdJU0zc1W2J5rMK-MByrTQFZ/view?usp=sharing))|
+|Jan. 27| [RMarkdown II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e2c6115-9347-46c0-a15f-acbd00ead6c6) ||[Tutorial02](Tutorial/Tutorial02-sol.html)([.zip](https://drive.google.com/file/d/1DpCkW9N_BdJU0zc1W2J5rMK-MByrTQFZ/view?usp=sharing))|
 |Jan. 29| Data Transformation I |||
 |Feb. 1| Data Transformation II |||
 |Feb. 3| Data Transformation III|||
@@ -177,7 +177,7 @@ Although everyone is responsible for the entire project, each member of the grou
 
 - **The Orator(s):** Give a Captivating 5-7 Minute Slideshow Presentation During the Last Three Lectures
 
-- **The Deliverer:** Deliver Your Group from Evil by Editing and Submitting the Exploratory Analysis and Final Report via Sakai Before the Deadline
+- **The Deliverer:** Deliver Your Group from Evil by Editing and Submitting the Exploratory Analysis and Final Report via Gradescope Before the Deadline
 
 ## Four Parts Including Point Values
 
@@ -206,12 +206,12 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
-| P1  | Project Proposal | Sakai | Feb 17 (11:55PM)|
+| P1  | Project Proposal | Gradescope | Feb 17 (11:55PM)|
 |   | Proposal Meeting | Class | Feb 17 / Feb 19 (8:00AM-8:50AM)|
-| P2  | Exploratory Data Analysis | Sakai | Mar 26 (11:55PM)|
+| P2  | Exploratory Data Analysis | Gradescope | Mar 26 (11:55PM)|
 |   | EDA Meeting | Lab | Week of Mar 29 to April 4 |
-| P3  | Final Report|Sakai|May 5 (11:55PM)|
-| P4  | Presentation Slides |Sakai| Apr 29 (11:55PM)|
+| P3  | Final Report|Gradescope|May 5 (11:55PM)|
+| P4  | Presentation Slides |Gradescope| Apr 29 (11:55PM)|
 |   | Final Presentation|Class| Apr 30 / May 3 / May 5 (8:00AM-8:50AM)|
 ||||
 

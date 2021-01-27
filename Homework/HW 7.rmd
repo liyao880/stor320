@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Instructions
 
-**Exercises:**  1,4 (Pg. 358); 1,4 (Pgs. 371)
+**Exercises:**  1,4 (23.3.3 Exercises); 1,4 (23.4.5 Exercises)
 
 **Submission:** Submit an electronic document on Gradescope. Must be submitted as a PDF file generated in RStudio. All assigned problems are chosen according to the textbook *R for Data Science*. You do not need R code to answer every question. If you answer without using R code, delete the code chunk. If the question requires R code, make sure you display R code. If the question requires a figure, make sure you display a figure. A lot of the questions can be answered in written response, but require R code and/or figures for understanding and explaining.
 
@@ -20,7 +20,7 @@ library(tidyverse)
 ```
 
 
-# Chapter 18 (Pg. 358)
+# Chapter 23 (23.3.3 Exercises)
 
 ##  Exercise 1
 ```{r}
@@ -32,7 +32,7 @@ library(tidyverse)
 #
 ```
 
-# Chapter 18 (Pg. 371)
+# Chapter 23 (23.4.5 Exercises)
 
 ##  Exercise 1
 ```{r}

@@ -99,7 +99,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Jan. 27| [RMarkdown II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e2c6115-9347-46c0-a15f-acbd00ead6c6) ||[Tutorial02](Tutorial/Tutorial02-sol.html)([.zip](https://drive.google.com/file/d/1DpCkW9N_BdJU0zc1W2J5rMK-MByrTQFZ/view?usp=sharing))|
 |Jan. 29| [Data Transformation I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=56533c15-32f6-49d3-ba99-acbf00e95196) |[Slides](Lecture/Lecture05/Lecture 05 Data_Transformation.pdf)|[Lecture05.rmd](https://drive.google.com/file/d/1QJLG8MQj2ncr4wGkiZL0CHlX2x9wZemo/view?usp=sharing)|
 |Feb. 1| [Data Transformation II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=78f334ee-2e31-45bc-a03d-acc200e77db8) ||[Tutorial03](Tutorial/Tutorial03_sol.html)([.rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))|
-|Feb. 3| Data Transformation III|||
+|Feb. 3| Data Transformation III|[Slides](Lecture/Lecture07/Lecture 07 Data_Transformation.pdf)||
 |Feb. 5| Data Transformation IV |||
 |Feb. 8| Final Project Instruction |||
 |Feb. 10| Data Import |||

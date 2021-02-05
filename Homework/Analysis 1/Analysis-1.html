@@ -11,7 +11,7 @@
 
 <meta name="author" content="FIRSTNAME LASTNAME" />
 
-<meta name="date" content="2021-01-14" />
+<meta name="date" content="2021-02-04" />
 
 <title>Analysis 1: UNC Salaries</title>
 
@@ -365,7 +365,7 @@ summary {
 
 <h1 class="title toc-ignore">Analysis 1: UNC Salaries</h1>
 <h4 class="author">FIRSTNAME LASTNAME</h4>
-<h4 class="date">January 14, 2021</h4>
+<h4 class="date">February 04, 2021</h4>
 
 </div>
 
@@ -374,7 +374,7 @@ summary {
 <h1>Instructions</h1>
 <p><strong>Overview:</strong> For each question, show your R code that you used to answer each question in the provided chunks. When a written response is required, be sure to answer the entire question in complete sentences outside the code chunks. When figures are required, be sure to follow all requirements to receive full credit. Point values are assigned for every part of this analysis.</p>
 <p><strong>Helpful:</strong> Make sure you knit the document as you go through the assignment. Check all your results in the created PDF file.</p>
-<p><strong>Submission:</strong> Submit an electronic document on Gradescope. Must be submitted as a PDF file generated in RStudio.</p>
+<p><strong>Submission:</strong> Submit via an electronic document on Gradescope. Must be submitted as an PDF file generated in RStudio.</p>
 </div>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
@@ -460,7 +460,7 @@ salary=as.tibble(salary)</code></pre>
 </div>
 <div id="q4-2-points" class="section level3">
 <h3>Q4 <em>(2 points)</em></h3>
-<p>Now, we modify <code>salary4</code>. Create a new variable called “YrsEmployed” which reports the number of full years the employee has worked at UNC. Assume that all employees are hired January 1. Create a new dataset named <code>salary5</code> and again use <code>str()</code> to display the variables in <code>salary5</code>.</p>
+<p>Now, we modify <code>salary4</code>. Create a new variable called “YrsEmployed” which reports the number of full years the employee has worked at UNC. Assume that all employees are hired January 1. Create a new dataset named <code>salary5</code> and again use <code>str()</code> to display the variables in <code>salary5</code>. (Use 2020 to create <code>YrsEmployed</code>)</p>
 <pre class="r"><code>#</code></pre>
 </div>
 <div id="q5-4-points" class="section level3">
@@ -517,7 +517,7 @@ salary=as.tibble(salary)</code></pre>
 <div id="q10-4-points" class="section level3">
 <h3>Q10 <em>(4 Points)</em></h3>
 <p>Using the summarized data in <code>deptyear_summary</code>, use the <code>dplyr</code> functions to identify the 3 departments that award the lowest average salary for employees who have been employed for 3 years. The output should only show the 3 departments along with the corresponding years employeed, which should all be 3, and the four summarizing statistics created.</p>
-<p>Furthermore, explain why the standard deviation for one of the 3 departments in your list has a salary standard deviation of “NaN”. What does this mean and how did it occur?</p>
+<p>Furthermore, explain why the standard deviations for the 3 departments in your list have salary standard deviations of <code>NA</code>. What does this mean and how did it occur?</p>
 <p>Code <em>(2 Points)</em>:</p>
 <pre class="r"><code>#</code></pre>
 <p>Answer <em>(2 Points)</em>: (Place Answer Here Using Complete Sentences)</p>

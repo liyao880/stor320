@@ -206,7 +206,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
-| P1  | Project Proposal | Gradescope | Feb 17 (11:55PM)|
+| P1  | Project Proposal | Gradescope | Feb16 (11:55PM)|
 |   | Proposal Meeting | Class | Feb 17 / Feb 19 (8:00AM-8:50AM)|
 | P2  | Exploratory Data Analysis | Gradescope | Mar 26 (11:55PM)|
 |   | EDA Meeting | Lab | Week of Mar 29 to April 4 |

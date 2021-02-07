@@ -101,7 +101,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Feb. 1| [Data Transformation II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=78f334ee-2e31-45bc-a03d-acc200e77db8) ||[Tutorial03](Tutorial/Tutorial03_sol.html)([.rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))|
 |Feb. 3| [Data Transformation III](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ffdb6c72-8e96-4fa9-a391-acc400ee0c79)|[Slides](Lecture/Lecture07/Lecture 07 Data_Transformation.pdf)||
 |Feb. 5| [Data Transformation IV](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3b327d3-7e82-4ed9-884d-acc600f0c63f) ||[Tutorial04](Tutorial/Tutorial04.html)([.zip](https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing))|
-|Feb. 8| Final Project Instruction |||
+|Feb. 8| Final Project Instruction |[Slides](Lecture/Lecture09/Lecture 09 Final_Project.pdf)||
 |Feb. 10| Data Import |||
 |Feb. 12| Exploratory Data Analysis I |||
 |Feb. 15| Wellness Day |||
@@ -207,7 +207,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
 | P1  | Project Proposal | Gradescope | Feb16 (11:55PM)|
-|   | Proposal Meeting | Class | Feb 17 / Feb 19 (8:00AM-8:50AM)|
+|   | Proposal Meeting | Class | Feb 17 / Feb 19 (8:00AM-9:15AM)|
 | P2  | Exploratory Data Analysis | Gradescope | Mar 26 (11:55PM)|
 |   | EDA Meeting | Lab | Week of Mar 29 to April 4 |
 | P3  | Final Report|Gradescope|May 5 (11:55PM)|

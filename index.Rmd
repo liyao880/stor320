@@ -102,7 +102,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Feb. 3| [Data Transformation III](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ffdb6c72-8e96-4fa9-a391-acc400ee0c79)|[Slides](Lecture/Lecture07/Lecture 07 Data_Transformation.pdf)||
 |Feb. 5| [Data Transformation IV](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3b327d3-7e82-4ed9-884d-acc600f0c63f) ||[Tutorial04](Tutorial/Tutorial04.html)([.zip](https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing))|
 |Feb. 8| [Final Project Instruction](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=19e851c3-2fd6-451f-86af-acc900e8b49d) |[Slides](Lecture/Lecture09/Lecture 09 Final_Project.pdf)||
-|Feb. 10| Data Import |[Slides](Lecture/Lecture10/Lecture 10 Data_Import.pdf)||
+|Feb. 10| [Data Import](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=35a9948d-9b68-4e56-82d9-accb00e8283d) |[Slides](Lecture/Lecture10/Lecture 10 Data_Import.pdf)||
 |Feb. 12| Exploratory Data Analysis I |||
 |Feb. 15| Wellness Day |||
 |Feb. 17| Project Proposal Discussion |||

@@ -47,6 +47,6 @@ In this meeting, the Creator should come prepared with the dataset downloaded an
 |Data has 5 Variables with 2 Categorical|2 Points|
 |Effective Communcation of Data Content|3 Points|
 |At Least 2 Questions Per Group Member|3 Points|
-|Roles of Other Members Assigned|1 Point|
+|Followed RMarkdown Template|1 Point|
 |**Total**|**10 Points**|
 |||

@@ -2,7 +2,9 @@
 title: "Homework 3"
 author: "FIRSTNAME LASTNAME"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}

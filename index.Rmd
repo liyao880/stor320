@@ -107,7 +107,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Feb. 15| Wellness Day |||
 |Feb. 17| Project Proposal Discussion |||
 |Feb. 19| Project Proposal Discussion |||
-|Feb. 22| Exploratory Data Analysis II |||
+|Feb. 22| Exploratory Data Analysis II |[Slides](Lecture/Lecture12/Lecture 12 Exploratory_Data_Analysis.pdf)|[Tutorial05](Tutorial/Tutorial05.html)([.rmd](https://drive.google.com/file/d/11MStXK9znEnu-MMmj1ZPMqSMIyciytNN/view?usp=sharing))|
 |Feb. 24| Tidy Data I |||
 |Feb. 26| Tidy Data II |||
 |Mar. 1| Web Scraping I |||

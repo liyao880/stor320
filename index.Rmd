@@ -110,7 +110,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Feb. 22| [Exploratory Data Analysis II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a482bc2-7636-4e9d-81aa-acd700e90539) |[Slides](Lecture/Lecture12/Lecture 12 Exploratory_Data_Analysis.pdf)|[Tutorial05](Tutorial/Tutorial-05_sol.html)([.rmd](https://drive.google.com/file/d/11MStXK9znEnu-MMmj1ZPMqSMIyciytNN/view?usp=sharing))|
 |Feb. 24| [Tidy Data I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d214076-b2ec-4da1-9d10-acd900e40078) |[Slides](Lecture/Lecture13/Lecture13 Tidy Data.pdf)||
 |Feb. 26| [Tidy Data II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a4d613e-8688-4e04-8991-acdb00e8e99d) ||[Tutorial06](Tutorial/Tutorial06_sol.html)([.rmd](https://drive.google.com/file/d/1ONpR1uWseqxfUJR4UgkqHMlMvV8u5Gdb/view?usp=sharing))|
-|Mar. 1| Web Scraping I |[Slides](Lecture/Lecture15/Lecture 15 Web Scraping.pdf)|[Tutorial07](Tutorial/Tutorial07.html)([.rmd](https://drive.google.com/file/d/1GaRdMRkDsI3rnY4tWh5RR4wdo423FRhd/view?usp=sharing))|
+|Mar. 1| [Web Scraping I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=82b7e0c7-ffe3-4227-951d-acde00ef2238) |[Slides](Lecture/Lecture15/Lecture 15 Web Scraping.pdf)|[Tutorial07](Tutorial/Tutorial07.html)([.rmd](https://drive.google.com/file/d/1GaRdMRkDsI3rnY4tWh5RR4wdo423FRhd/view?usp=sharing))|
 |Mar. 3| Web Scraping II |||
 |Mar. 5| Joins I |||
 |Mar. 8| Joins II |||

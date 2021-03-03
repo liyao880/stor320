@@ -111,7 +111,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Feb. 24| [Tidy Data I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d214076-b2ec-4da1-9d10-acd900e40078) |[Slides](Lecture/Lecture13/Lecture13 Tidy Data.pdf)||
 |Feb. 26| [Tidy Data II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a4d613e-8688-4e04-8991-acdb00e8e99d) ||[Tutorial06](Tutorial/Tutorial06_sol.html)([.rmd](https://drive.google.com/file/d/1ONpR1uWseqxfUJR4UgkqHMlMvV8u5Gdb/view?usp=sharing))|
 |Mar. 1| [Web Scraping I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=82b7e0c7-ffe3-4227-951d-acde00ef2238) |[Slides](Lecture/Lecture15/Lecture 15 Web Scraping.pdf)|[Tutorial07](Tutorial/Tutorial07.html)([.rmd](https://drive.google.com/file/d/1GaRdMRkDsI3rnY4tWh5RR4wdo423FRhd/view?usp=sharing))|
-|Mar. 3| Web Scraping II |[Slides](Lecture/Lecture16/Lecture 16 Web Scraping II.pdf)|[Tutorial08](Tutorial/Tutorial08.html)([.zip](https://drive.google.com/file/d/1Hnj10zSpNxLnH_3B2hpNVSG0znimHY4R/view?usp=sharing))|
+|Mar. 3| [Web Scraping II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3a73808-0226-4ec0-b49b-ace000e95880) |[Slides](Lecture/Lecture16/Lecture 16 Web Scraping II.pdf)|[Tutorial08](Tutorial/Tutorial08_sol.html)([.zip](https://drive.google.com/file/d/1Hnj10zSpNxLnH_3B2hpNVSG0znimHY4R/view?usp=sharing))|
 |Mar. 5| Joins I |||
 |Mar. 8| Joins II |||
 |Mar. 10| Factors |||

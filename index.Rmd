@@ -4,6 +4,9 @@ geometry: margin=2
 output:
   prettydoc::html_pretty:
     theme: cayman
+  html_document:
+    toc: yes
+    df_print: paged
   pdf_document:
     toc: yes
 ---
@@ -114,7 +117,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Mar. 3| [Web Scraping II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3a73808-0226-4ec0-b49b-ace000e95880) |[Slides](Lecture/Lecture16/Lecture 16 Web Scraping II.pdf)|[Tutorial08](Tutorial/Tutorial08_sol.html)([.zip](https://drive.google.com/file/d/1Hnj10zSpNxLnH_3B2hpNVSG0znimHY4R/view?usp=sharing))|
 |Mar. 5| [Joins I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=809f5b59-f1fd-4ad0-a2c8-ace200e5e9bf) |[Slides](Lecture/Lecture17/Lecture 17 Joins.pdf)|[Lecture17](Tutorial/Lecture17.html)([.rmd](https://drive.google.com/file/d/1CsQXu0QzF6N9n64aeGVVsKqNGlG3ODj_/view?usp=sharing))|
 |Mar. 8| [Joins II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b34a3653-9791-4f9f-b121-ace500eeba1e) ||[Analysis 2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1lop1deCM_s5r7aaPqoa1uQtZdC3SyMBi/view?usp=sharing))|
-|Mar. 10| Factors |[Slides](Lecture/Lecture19/Lecture 19 Factors.pdf)||
+|Mar. 10| [Factors](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbe15939-0086-4079-8b3c-ace700e6c583) |[Slides](Lecture/Lecture19/Lecture 19 Factors.pdf)||
 |Mar. 12| Wellness Day |||
 |Mar. 15|Programming I |||
 |Mar. 17| Programming II |||

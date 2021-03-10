@@ -1,0 +1,553 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={STOR 320.2: Intro to Data Science},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=2]{geometry}
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{\textbf{STOR 320.2: Intro to Data Science}}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\hypertarget{about-the-course}{%
+\section{\texorpdfstring{\textbf{About the
+Course}}{About the Course}}\label{about-the-course}}
+
+See the \textbf{\href{Syllabi/320_Syllabus.pdf}{syllabus}} for details.
+The course is divided into three rough parts,
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Core data science coding skills
+\item
+  Modeling
+\item
+  Advanced topics
+\end{enumerate}
+
+\begin{itemize}
+\item
+  Instructor: \textbf{\href{https://liyao880.github.io/yaoli/}{Yao Li}}
+\item
+  Instructional Assistants:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{\href{http://stat-or.unc.edu/people/graduate-students-department}{Taylor
+    M Petty}}
+  \item
+    \textbf{\href{http://stat-or.unc.edu/people/graduate-students-department}{Pavlos
+    Zoubouglou}}
+  \item
+    \textbf{\href{http://stat-or.unc.edu/people/graduate-students-department}{Sam
+    Booth}}
+  \end{itemize}
+\item
+  Lab Sections:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    320.404 by Pavlos: T 9:30AM-10:20AM
+  \item
+    320.405 by Taylor: T 5:00PM-5:50PM
+  \item
+    320.406 by Sam: Th 9:30AM-10:20AM
+  \end{itemize}
+\item
+  Zoom Links:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{\href{https://unc.zoom.us/j/93501182856?pwd=b3ZoZlZTdndrYW95MGswTEpGSU1qdz09}{Lectures:}}
+    MWF 8:00AM-8:50AM
+  \item
+    \textbf{\href{https://unc.zoom.us/j/96678226561}{320.404 by
+    Pavlos}}: T 9:30AM-10:20AM
+  \item
+    \textbf{\href{https://unc.zoom.us/j/91440986085?pwd=WUpKeW5hVG0rNGRXaXlZZStJL2xuUT09}{320.405
+    by Taylor}}: T 5:00PM-5:50PM
+  \item
+    \textbf{\href{https://unc.zoom.us/j/5891075192}{320.406 by Sam}}: Th
+    9:30AM-10:20AM
+  \item
+    \textbf{\href{https://unc.zoom.us/j/99751369535}{Instructor Office
+    Hours:}} WF 9:00AM-10:00AM
+  \item
+    \textbf{\href{https://unc.zoom.us/j/91440986085?pwd=WUpKeW5hVG0rNGRXaXlZZStJL2xuUT09}{Taylor
+    Office Hours:}} M 2:30PM-3:30PM, W 1:30PM-2:30PM
+  \item
+    \textbf{\href{https://unc.zoom.us/j/2903979720}{Pavlos Office
+    Hours:}} M 10:00AM-11:00AM, F 1:00PM-2:00PM
+  \item
+    \textbf{\href{https://unc.zoom.us/j/5891075192}{Sam Office Hours:}}
+    TTh 4:00PM-5:00PM
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{course-material}{%
+\section{\texorpdfstring{\textbf{Course
+Material}}{Course Material}}\label{course-material}}
+
+\begin{longtable}[]{@{}llrr@{}}
+\toprule
+Date & Lecture & Slides & Tutorial\tabularnewline
+\midrule
+\endhead
+Jan.~20 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a47a655b-4f19-4053-8b1f-acb600e76603}{Welcome}
+& \href{Lecture/Lecture01/Lecture\%2001\%20Welcome.pdf}{Slides}
+&\tabularnewline
+Jan.~22 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=07f214c4-0df4-459c-ae76-acb800ed8061}{Data
+Visualization} &
+\href{Lecture/Lecture02/Lecture\%2002\%20Data_Visualization_Lecture.pdf}{Slides}
+&
+\href{Tutorial/Tutorial01.html}{Tutorial01}(\href{https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing}{.rmd})\tabularnewline
+Jan.~25 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e6fea7d-a17e-4f2c-83c5-acbb00e97185}{RMarkdown
+I} &
+\href{Lecture/Lecture03/Lecture\%2003\%20Workflow_Lecture.pdf}{Slides}
+&\tabularnewline
+Jan.~27 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e2c6115-9347-46c0-a15f-acbd00ead6c6}{RMarkdown
+II} & &
+\href{Tutorial/Tutorial02-sol.html}{Tutorial02}(\href{https://drive.google.com/file/d/1DpCkW9N_BdJU0zc1W2J5rMK-MByrTQFZ/view?usp=sharing}{.zip})\tabularnewline
+Jan.~29 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=56533c15-32f6-49d3-ba99-acbf00e95196}{Data
+Transformation I} &
+\href{Lecture/Lecture05/Lecture\%2005\%20Data_Transformation.pdf}{Slides}
+&
+\href{https://drive.google.com/file/d/1QJLG8MQj2ncr4wGkiZL0CHlX2x9wZemo/view?usp=sharing}{Lecture05.rmd}\tabularnewline
+Feb.~1 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=78f334ee-2e31-45bc-a03d-acc200e77db8}{Data
+Transformation II} & &
+\href{Tutorial/Tutorial03_sol.html}{Tutorial03}(\href{https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing}{.rmd})\tabularnewline
+Feb.~3 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ffdb6c72-8e96-4fa9-a391-acc400ee0c79}{Data
+Transformation III} &
+\href{Lecture/Lecture07/Lecture\%2007\%20Data_Transformation.pdf}{Slides}
+&\tabularnewline
+Feb.~5 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3b327d3-7e82-4ed9-884d-acc600f0c63f}{Data
+Transformation IV} & &
+\href{Tutorial/Tutorial04.html}{Tutorial04}(\href{https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing}{.zip})\tabularnewline
+Feb.~8 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=19e851c3-2fd6-451f-86af-acc900e8b49d}{Final
+Project Instruction} &
+\href{Lecture/Lecture09/Lecture\%2009\%20Final_Project.pdf}{Slides}
+&\tabularnewline
+Feb.~10 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=35a9948d-9b68-4e56-82d9-accb00e8283d}{Data
+Import} &
+\href{Lecture/Lecture10/Lecture\%2010\%20Data_Import.pdf}{Slides}
+&\tabularnewline
+Feb.~12 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6529623f-d95c-4142-bab3-accd00e90377}{Exploratory
+Data Analysis I} &
+\href{Lecture/Lecture11/Lecture\%2011\%20Exploratory_Data_Analysis.pdf}{Slides}
+&\tabularnewline
+Feb.~15 & Wellness Day & &\tabularnewline
+Feb.~17 & Project Proposal Discussion & &\tabularnewline
+Feb.~19 & Project Proposal Discussion & &\tabularnewline
+Feb.~22 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a482bc2-7636-4e9d-81aa-acd700e90539}{Exploratory
+Data Analysis II} &
+\href{Lecture/Lecture12/Lecture\%2012\%20Exploratory_Data_Analysis.pdf}{Slides}
+&
+\href{Tutorial/Tutorial-05_sol.html}{Tutorial05}(\href{https://drive.google.com/file/d/11MStXK9znEnu-MMmj1ZPMqSMIyciytNN/view?usp=sharing}{.rmd})\tabularnewline
+Feb.~24 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d214076-b2ec-4da1-9d10-acd900e40078}{Tidy
+Data I} & \href{Lecture/Lecture13/Lecture13\%20Tidy\%20Data.pdf}{Slides}
+&\tabularnewline
+Feb.~26 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a4d613e-8688-4e04-8991-acdb00e8e99d}{Tidy
+Data II} & &
+\href{Tutorial/Tutorial06_sol.html}{Tutorial06}(\href{https://drive.google.com/file/d/1ONpR1uWseqxfUJR4UgkqHMlMvV8u5Gdb/view?usp=sharing}{.rmd})\tabularnewline
+Mar.~1 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=82b7e0c7-ffe3-4227-951d-acde00ef2238}{Web
+Scraping I} &
+\href{Lecture/Lecture15/Lecture\%2015\%20Web\%20Scraping.pdf}{Slides} &
+\href{Tutorial/Tutorial07.html}{Tutorial07}(\href{https://drive.google.com/file/d/1GaRdMRkDsI3rnY4tWh5RR4wdo423FRhd/view?usp=sharing}{.rmd})\tabularnewline
+Mar.~3 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3a73808-0226-4ec0-b49b-ace000e95880}{Web
+Scraping II} &
+\href{Lecture/Lecture16/Lecture\%2016\%20Web\%20Scraping\%20II.pdf}{Slides}
+&
+\href{Tutorial/Tutorial08_sol.html}{Tutorial08}(\href{https://drive.google.com/file/d/1Hnj10zSpNxLnH_3B2hpNVSG0znimHY4R/view?usp=sharing}{.zip})\tabularnewline
+Mar.~5 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=809f5b59-f1fd-4ad0-a2c8-ace200e5e9bf}{Joins
+I} & \href{Lecture/Lecture17/Lecture\%2017\%20Joins.pdf}{Slides} &
+\href{Tutorial/Lecture17.html}{Lecture17}(\href{https://drive.google.com/file/d/1CsQXu0QzF6N9n64aeGVVsKqNGlG3ODj_/view?usp=sharing}{.rmd})\tabularnewline
+Mar.~8 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b34a3653-9791-4f9f-b121-ace500eeba1e}{Joins
+II} & & \href{Homework/Analysis\%202/Analysis_2.html}{Analysis
+2}(\href{https://drive.google.com/file/d/1lop1deCM_s5r7aaPqoa1uQtZdC3SyMBi/view?usp=sharing}{.zip})\tabularnewline
+Mar.~10 &
+\href{https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbe15939-0086-4079-8b3c-ace700e6c583}{Factors}
+& \href{Lecture/Lecture19/Lecture\%2019\%20Factors.pdf}{Slides}
+&\tabularnewline
+Mar.~12 & Wellness Day & &\tabularnewline
+Mar.~15 & Programming I & &\tabularnewline
+Mar.~17 & Programming II & &\tabularnewline
+Mar.~19 & Programming III & &\tabularnewline
+Mar.~22 & Programming IV & &\tabularnewline
+Mar.~24 & Group Work Day & &\tabularnewline
+Mar.~26 & Modeling I & &\tabularnewline
+Mar.~29 & Modeling II & &\tabularnewline
+Mar.~31 & Modeling III & &\tabularnewline
+Apr.~2 & Holiday & &\tabularnewline
+Apr.~5 & Wellness Day & &\tabularnewline
+Apr.~7 & Modeling IV & &\tabularnewline
+Apr.~9 & Modeling V & &\tabularnewline
+Apr.~12 & Modeling VI & &\tabularnewline
+Apr.~14 & Modeling VII & &\tabularnewline
+Apr.~16 & Modeling VIII & &\tabularnewline
+Apr.~19 & Modeling IX & &\tabularnewline
+Apr.~21 & Modeling X & &\tabularnewline
+Apr.~23 & R Shiny I & &\tabularnewline
+Apr.~26 & R Shiny II & &\tabularnewline
+Apr.~28 & Data Ethics & &\tabularnewline
+Apr.~30 & Final Presentation & &\tabularnewline
+May. 3 & Final Presentation & &\tabularnewline
+May. 5 & Final Presentation & &\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{homework-tracker}{%
+\section{\texorpdfstring{\textbf{Homework
+Tracker}}{Homework Tracker}}\label{homework-tracker}}
+
+All homework assignments are to be submitted via
+\textbf{\href{https://www.gradescope.com/}{Gradescope}}.
+
+\begin{longtable}[]{@{}lccr@{}}
+\toprule
+Date assigned & Instructions & Solutions & Due Date
+(Time)\tabularnewline
+\midrule
+\endhead
+Jan 22 &
+\href{Homework/HW-1.html}{HW1}(\href{Homework/HW\%201.rmd}{.Rmd}) &
+\href{Solutions/HW1_Solution.html}{SOL1} & Jan 29 (11:55
+PM)\tabularnewline
+Feb 1 &
+\href{Homework/HW-2.html}{HW2}(\href{Homework/HW\%202.rmd}{.Rmd}) &
+\href{Solutions/HW2_Solution.html}{SOL2} & Feb 8 (11:55
+PM)\tabularnewline
+Feb 8 &
+\href{Homework/Analysis\%201/Analysis-1.html}{A1}(\href{Homework/Analysis\%201/Analysis\%201.zip}{.zip})
+& \href{Solutions/Analysis-1_Sol.html}{A1} & Feb 22 (11:55
+PM)\tabularnewline
+Feb 22 &
+\href{Homework/HW-3.html}{HW3}(\href{Homework/HW\%203.rmd}{.Rmd}) &
+\href{Solutions/HW3_Solution.html}{SOL3} & Feb 28 (11:55
+PM)\tabularnewline
+Feb 28 &
+\href{Homework/HW-4.html}{HW4}(\href{Homework/HW\%204.rmd}{.Rmd}) & &
+Mar 7 (11:55 PM)\tabularnewline
+Mar 7 &
+\href{Homework/Analysis\%202/Analysis_2.html}{A2}(\href{https://drive.google.com/file/d/1lop1deCM_s5r7aaPqoa1uQtZdC3SyMBi/view?usp=sharing}{.zip})
+& & Mar 14 (11:55 PM)\tabularnewline
+Mar 14 &
+\href{Homework/HW-5.html}{HW5}(\href{Homework/HW\%205.rmd}{.Rmd}) & &
+Mar 21 (11:55 PM)\tabularnewline
+Mar 21 &
+\href{Homework/Analysis\%203/Analysis-3.html}{A3}(\href{Homework/Analysis\%203/Analysis\%203.zip}{.zip})
+& & Apr 4 (11:55 PM)\tabularnewline
+Apr 4 &
+\href{Homework/HW-6.html}{HW6}(\href{Homework/HW\%206.rmd}{.Rmd}) & &
+Apr 11 (11:55 PM)\tabularnewline
+Apr 11 &
+\href{Homework/HW-7.html}{HW7}(\href{Homework/HW\%207.rmd}{.Rmd}) & &
+Apr 18 (11:55 PM)\tabularnewline
+Apr 18 &
+\href{Homework/Analysis\%204/Analysis-4.html}{A4}(\href{Homework/Analysis\%204/Analysis\%204.zip}{.zip})
+& & May 2 (11:55 PM)\tabularnewline
+& & &\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{final-project-details}{%
+\section{\texorpdfstring{\textbf{Final Project
+Details}}{Final Project Details}}\label{final-project-details}}
+
+For the final project, each section of STOR 320 will be divided
+(ideally) into research groups of size 5. To ensure fairness, students
+will be assigned randomly based on the \texttt{sample} function in
+\textbf{R}.
+
+\hypertarget{research-group-assignments}{%
+\subsection{Research Group
+Assignments}\label{research-group-assignments}}
+
+To find your research group, see the
+\textbf{\href{https://docs.google.com/spreadsheets/d/10gwXH2bWP3iTnW9p6air6PypyP1JkartuFJmSkvais0/edit?usp=sharing}{spreadsheet}}
+sponsored by Google.
+
+\hypertarget{four-roles}{%
+\subsection{Four Roles}\label{four-roles}}
+
+Although everyone is responsible for the entire project, each member of
+the group will be assigned a specific role for accountability and
+consistency. These four specific roles are described as follows:
+
+\begin{itemize}
+\item
+  \textbf{The Creator:} Meet with Instructor to Propose Your Group's
+  Research Idea, Lead Designer in Slides
+\item
+  \textbf{The Interpreter:} Schedule and Meet with Instructor or
+  Instructional Assistant to Share Findings from Exploratory Analysis,
+  Evaluate Practice Presentation
+\item
+  \textbf{The Orator(s):} Give a Captivating 5-7 Minute Slideshow
+  Presentation During the Last Three Lectures
+\item
+  \textbf{The Deliverer:} Deliver Your Group from Evil by Editing and
+  Submitting the Exploratory Analysis and Final Report via Gradescope
+  Before the Deadline
+\end{itemize}
+
+\hypertarget{four-parts-including-point-values}{%
+\subsection{Four Parts Including Point
+Values}\label{four-parts-including-point-values}}
+
+This final project will be divided into four parts worth a total of 100
+points. Each part will have a clear rubric as non-subjective as
+possible. The parts along with total point values are found below:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{\href{Final\%20Project/Project-Proposal.html}{P1: Project
+  Proposal}} \emph{(10 Points)}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{Final\%20Project/Project_Proposal_Template.html}{Template}(\href{Final\%20Project/Project_Proposal_Template.Rmd}{.Rmd})
+  \item
+    \href{https://data.world/datasets/download}{Data World}
+  \item
+    \href{https://www.data.gov/}{US Government Data}
+  \item
+    \href{https://www.kaggle.com/}{Kaggle}
+  \item
+    \href{https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/\#63f06f60b54d}{Free
+    Data Info I}
+  \item
+    \href{https://r-dir.com/reference/datasets.html}{Free Data Info II}
+  \end{itemize}
+\item
+  \textbf{\href{Final\%20Project/Exploratory-Data-Analysis.html}{P2:
+  Exploratory Data Analysis}} \emph{(20 Points)}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{Final\%20Project/EDA_Template.html}{Template}
+    (\href{Final\%20Project/EDA_Template.rmd}{.Rmd})
+  \end{itemize}
+\item
+  \textbf{\href{Final\%20Project/Final-Paper.html}{P3: Final Written
+  Paper}} \emph{(40 Points)}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{Final\%20Project/Final_Report_Template.html}{Template}(\href{Final\%20Project/Final_Report_Template.rmd}{.Rmd})
+  \item
+    \href{https://forms.gle/8ALCe4H1HR8JCTb37}{Group Scoring}
+  \end{itemize}
+\item
+  \textbf{\href{Final\%20Project/Final-Presentation.html}{P4: Final
+  Presentation}} \emph{(30 Points)}
+\end{itemize}
+
+\hypertarget{due-dates-of-individual-parts}{%
+\subsection{Due Dates of Individual
+Parts}\label{due-dates-of-individual-parts}}
+
+\begin{longtable}[]{@{}lllr@{}}
+\toprule
+Part & Description & Method of Submission & Due Date
+(Time)\tabularnewline
+\midrule
+\endhead
+P1 & Project Proposal & Gradescope & Feb16 (11:55PM)\tabularnewline
+& Proposal Meeting & Class & Feb 17 / Feb 19
+(8:00AM-9:15AM)\tabularnewline
+P2 & Exploratory Data Analysis & Gradescope & Mar 26
+(11:55PM)\tabularnewline
+& EDA Meeting & Lab & Week of Mar 29 to April 4\tabularnewline
+P3 & Final Report & Gradescope & May 5 (11:55PM)\tabularnewline
+P4 & Presentation Slides & Gradescope & Apr 29 (11:55PM)\tabularnewline
+& Final Presentation & Class & Apr 30 / May 3 / May 5
+(8:00AM-8:50AM)\tabularnewline
+& & &\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{above-average-final-projects-from-previous-courses}{%
+\subsection{Above Average Final Projects from Previous
+Courses}\label{above-average-final-projects-from-previous-courses}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{\href{Final\%20Project/SP2019_EX1.html}{Pokemon}}
+\item
+  \textbf{\href{Final\%20Project/SP2019_EX2.html}{Seattle Housing}}
+\item
+  \textbf{\href{Final\%20Project/SU2019_EX1.html}{Missing Migrants}}
+\item
+  \textbf{\href{Final\%20Project/FA2019_EX1.html}{Youtube}}
+\item
+  \textbf{\href{Final\%20Project/FA2019_EX2.html}{CDC}}
+\end{itemize}
+
+\hypertarget{acknowledgements}{%
+\section{\texorpdfstring{\textbf{Acknowledgements}}{Acknowledgements}}\label{acknowledgements}}
+
+Thanks to Dr.~Mario and Dr.~Characiejus for sharing their course
+materials.
+
+\hypertarget{reading}{%
+\section{\texorpdfstring{\textbf{Reading}}{Reading}}\label{reading}}
+
+\begin{itemize}
+\item
+  \textbf{\href{https://r4ds.had.co.nz/}{R for Data Science}} (R4DS)
+\item
+  \textbf{\href{https://drive.google.com/file/d/1XVF5v4MTBhIp_dq9MzTI0TtPfVrF6eaZ/view?usp=sharing}{R
+  Programming for Data Science}} (RP4DS)
+\item
+  \textbf{\href{https://www.tidytextmining.com/}{Text Mining with R}}
+  (TMwR)
+\item
+  \textbf{\href{https://drive.google.com/file/d/1gR7Yr9-pIZ-f315bZCXfDj9yPWaZDflD/view?usp=sharing}{The
+  Art of R Programming}} (AoRP)
+\item
+  \textbf{\href{https://drive.google.com/file/d/1NBadpF5MLWI3AFsyWo3nbpQnL8sWeZdT/view?usp=sharing}{A
+  First Course in Statistical Programming with R}} (FCSPR)
+\item
+  \textbf{\href{https://moderndive.com/index.html}{ModernDive}} (MD)
+\item
+  \textbf{\href{https://drive.google.com/file/d/1jKxVWG89KvWr_-70sOeEeLK4CUB09sRu/view?usp=sharing}{An
+  Introduction to Statistical Learning}} (ISLR)
+\end{itemize}
+
+\hypertarget{additional-resources}{%
+\section{\texorpdfstring{\textbf{Additional
+resources}}{Additional resources}}\label{additional-resources}}
+
+\begin{itemize}
+\item
+  \textbf{\href{https://cran.r-project.org/}{Installing R}}
+\item
+  \textbf{\href{https://www.rstudio.com/products/rstudio/\#Desktop}{Installing
+  R Studio}}
+\item
+  \textbf{\href{https://mac.r-project.org/tools/}{Additional Necessary
+  Tools for Mac Users}}
+\item
+  \textbf{\href{https://drive.google.com/file/d/1ATZO-wpuqzHbXVnJqm7wXpt-yfMbo2Jy/view?usp=sharing}{Instructions
+  for Accessing R Studio on the UNC Server}}
+\item
+  \textbf{\href{https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf}{Rmarkdown
+  Cheat Sheet}}
+\item
+  \textbf{\href{https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf}{ggplot2
+  Cheat Sheet}}
+\item
+  \textbf{\href{https://paulvanderlaken.files.wordpress.com/2017/08/ggplot2-color-colours-names-cheatsheet.png?w=559\&h=1024}{Color
+  Options}}
+\item
+  \textbf{\href{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}{Data
+  Wrangling Cheat Sheet}}
+\item
+  \textbf{\href{https://shiny.rstudio.com/images/shiny-cheatsheet.pdf}{R
+  Shiny Cheat Sheet}}
+\item
+  \textbf{\href{https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_strings.pdf}{R
+  Strings Cheat Sheet}}
+\end{itemize}
+
+This page was last updated on 2021-03-10 10:01:29 Eastern Time.
+
+\end{document}

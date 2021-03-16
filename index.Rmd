@@ -119,7 +119,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Mar. 8| [Joins II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b34a3653-9791-4f9f-b121-ace500eeba1e) ||[Analysis 2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1lop1deCM_s5r7aaPqoa1uQtZdC3SyMBi/view?usp=sharing))|
 |Mar. 10| [Factors](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbe15939-0086-4079-8b3c-ace700e6c583) |[Slides](Lecture/Lecture19/Lecture 19 Factors.pdf)||
 |Mar. 12| Wellness Day |||
-|Mar. 15|Programming I |[Slides](Lecture/Lecture20/Lecture 20 Programming I.pdf)|[Tutorial09](Tutorial/Tutorial09.html)([.rmd](https://drive.google.com/file/d/1_Rx0ZCsIcn43Lxxed2wcdDv14L58GlTQ/view?usp=sharing))|
+|Mar. 15|[Programming I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee0319dc-d480-44e4-a2e5-acec00d9dd3f) |[Slides](Lecture/Lecture20/Lecture 20 Programming I.pdf)|[Tutorial09](Tutorial/Tutorial09.html)([.rmd](https://drive.google.com/file/d/1_Rx0ZCsIcn43Lxxed2wcdDv14L58GlTQ/view?usp=sharing))|
 |Mar. 17| Programming II |||
 |Mar. 19| Programming III |||
 |Mar. 22| Programming IV |||

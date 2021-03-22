@@ -599,7 +599,7 @@ head(OUTPUT.B) #DO NOT CHANGE</code></pre>
 VOL=DATA2[,1:7] #DO NOT CHANGE</code></pre>
 <div id="q1-3-points" class="section level3">
 <h3>Q1 <em>(3 Points)</em></h3>
-<p>Use <code>apply()</code> to obtain the median of each row in both <code>OCC</code> and <code>VOL</code>. The output from <code>apply()</code> is a vector. First, use <code>apply()</code> to create a vector called <code>MED.AGG.OCC</code> that contains the row medians of <code>OCC</code>. Then, use <code>apply()</code> to create a vector called <code>MED.AGG.VOL</code> that contains the row medians of <code>VOL</code>. The built in R function <code>median()</code> should be helpful here. If you have used <code>apply()</code> correctly, the figures will display the change in median occupancy and median volume over time.</p>
+<p>Use <code>apply()</code> to obtain the median across different locations of each day in both <code>OCC</code> and <code>VOL</code>. The output from <code>apply()</code> is a vector. First, use <code>apply()</code> to create a vector called <code>MED.AGG.OCC</code> that contains the medians of <code>OCC</code>. Then, use <code>apply()</code> to create a vector called <code>MED.AGG.VOL</code> that contains the medians of <code>VOL</code>. The built-in R function <code>median()</code> should be helpful here. If you have used <code>apply()</code> correctly, the figures will display the change in median occupancy and median volume over time.</p>
 <p>Code and Output:</p>
 <pre class="r"><code>MED.AGG.OCC = apply(COMPLETE)
 MED.AGG.VOL = apply(COMPLETE)
@@ -625,11 +625,12 @@ RANGE.func=function(){
 }
 
 #Output
-try = c(COMPLETE)</code></pre>
+try = c(COMPLETE)
+print(RANGE.func(try)) #DO NOT CHANGE</code></pre>
 </div>
 <div id="q3-3-points" class="section level3">
 <h3>Q3 <em>(3 Points)</em></h3>
-<p>Use <code>apply()</code> with your function <code>RANGE.func()</code> to obtain the range of each row in both <code>OCC</code> and <code>VOL</code>. The process here is similar to when we obtained the median of each row except now we are using a built-in R function. First, use <code>apply()</code> to create a vector called <code>RANGE.AGG.OCC</code> that contains the row ranges of <code>OCC</code>. Then, use <code>apply()</code> to create a vector called <code>RANGE.AGG.VOL</code> that contains the row ranges of <code>VOL</code>.</p>
+<p>Use <code>apply()</code> with your function <code>RANGE.func()</code> to obtain the range of occupancy and volume across different locations of each day. The process here is similar to when we obtained the medians in Q1 except now we are not using a built-in R function. First, use <code>apply()</code> to create a vector called <code>RANGE.AGG.OCC</code> that contains the ranges of occupancy from <code>OCC</code>. Then, use <code>apply()</code> to create a vector called <code>RANGE.AGG.VOL</code> that contains the ranges of volumes from <code>VOL</code>.</p>
 <p>Code and Output:</p>
 <pre class="r"><code>RANGE.AGG.OCC = apply(COMPLETE)
 RANGE.AGG.VOL = apply(COMPLETE)

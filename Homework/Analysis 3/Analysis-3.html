@@ -11,7 +11,7 @@
 
 <meta name="author" content="FIRSTNAME LASTNAME" />
 
-<meta name="date" content="2021-01-14" />
+<meta name="date" content="2021-03-21" />
 
 <title>Analysis 3: Statistical Programming with Traffic Data</title>
 
@@ -365,7 +365,7 @@ summary {
 
 <h1 class="title toc-ignore">Analysis 3: Statistical Programming with Traffic Data</h1>
 <h4 class="author">FIRSTNAME LASTNAME</h4>
-<h4 class="date">January 14, 2021</h4>
+<h4 class="date">March 21, 2021</h4>
 
 </div>
 
@@ -378,16 +378,11 @@ summary {
 </div>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
-<p>Sensors are used by traffic managment systems across the world to monitor the flow of vehicular traffic in urban road systems. Two metrics, occupancy and volume, indicate the quality of traffic flow. Occupancy is a variable that is between 0 an 100 and measures the percentage of time a sensor is blocked by a vehicle. Volume is a variable which represents the number of vehicles that pass a sensor in a period of time. The datasets “April_Occupancy_3.csv” and “April_Volume_3.csv” record 3-minute occupancy and volume measures for Monday through Friday in the month of April for 7 sensor locations in Athens, Greece.</p>
+<p>Sensors are used by traffic management systems across the world to monitor the flow of vehicular traffic in urban road systems. Two metrics, occupancy and volume, indicate the quality of traffic flow. Occupancy is a variable that is between 0 an 100 and measures the percentage of time a sensor is blocked by a vehicle. Volume is a variable which represents the number of vehicles that pass a sensor in a period of time. The datasets “April_Occupancy_3.csv” and “April_Volume_3.csv” record 3-minute occupancy and volume measures for Monday through Friday in the month of April for 7 sensor locations in Athens, Greece.</p>
 <p>The first goal of this analysis is to help you build a foundation of R programming skills. The second goal of this analysis is for you to analyze the traffic data in Greece.</p>
 <p>Below is a preview of the 2 datasets. The tibble named <code>DATA1</code> contains traffic occupancies and the tibble named <code>DATA2</code> contains traffic volumes. The first 7 columns represent the 7 sensor locations. Each row represents the traffic occupancy or traffic volume measured on a 3 minute interval. The rows are ordered according to the variable <code>TIME</code> which indicates the sequence in which these measures are observed. The variable <code>DAY</code> indicates the day in April that the measure was recorded.</p>
-<pre class="r"><code>DATA1=as.tibble(read.csv(&quot;April_Occupancy_3.csv&quot;))</code></pre>
-<pre><code>## Warning: `as.tibble()` is deprecated as of tibble 2.0.0.
-## Please use `as_tibble()` instead.
-## The signature and semantics have changed, see `?as_tibble`.
-## This warning is displayed once every 8 hours.
-## Call `lifecycle::last_warnings()` to see where this warning was generated.</code></pre>
-<pre class="r"><code>DATA2=as.tibble(read.csv(&quot;April_Volume_3.csv&quot;))
+<pre class="r"><code>DATA1=as_tibble(read.csv(&quot;April_Occupancy_3.csv&quot;))
+DATA2=as_tibble(read.csv(&quot;April_Volume_3.csv&quot;))
 head(DATA1)</code></pre>
 <pre><code>## # A tibble: 6 x 9
 ##    L101  L102  L103  L104  L106  L107  L108   DAY  TIME
@@ -415,6 +410,10 @@ head(DATA1)</code></pre>
 <div id="part-1-getting-day-names" class="section level2">
 <h2>Part 1: Getting Day Names</h2>
 <p>We want to start by creating a factor variable called <code>DAYNAME</code> that contains the abbreviated day names “M”, “T”, “W”,“Th”,“F”. Currently, the unique values in <code>DAY</code> are 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28. Think about which of these days correspond to their appropriate abbreviated names. The first element in <code>DAY</code>, which is <em>3</em>, corresponds to “M”.</p>
+<pre class="r"><code>length(unique(DATA1$DAY))</code></pre>
+<pre><code>## [1] 20</code></pre>
+<pre class="r"><code>unique(DATA1$DAY)</code></pre>
+<pre><code>##  [1]  3  4  5  6  7 10 11 12 13 14 17 18 19 20 21 24 25 26 27 28</code></pre>
 <div id="q1-4-points" class="section level3">
 <h3>Q1 <em>(4 Points)</em></h3>
 <p>Although this is our ultimate goal, let’s start to think about how we are going to do this by practicing this on a random vector of numbers in <code>unique(DATA1$DAY)</code>. Using the sample function, I initiated a random vector containing the values 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28. Furthermore, I printed the first 20 observations from this random vector called <code>x</code>.</p>
@@ -432,11 +431,11 @@ for (i in seq_along(x)){
           }else if(x[i] %in% c(4,11,18,25)){
               &quot;T&quot;
           }else if(COMPLETE){
-
+              COMPLETE
           }else if(COMPLETE){
-
+              COMPLETE
           }else{
-
+              COMPLETE
           }
 }
 
@@ -454,15 +453,15 @@ for (i in seq_along(x)){
           }else if(x[i] %in% c(4,11,18,25)){
               &quot;T&quot;
           }else if(COMPLETE){
-
+              COMPLETE
           }else if(COMPLETE){
-
+              COMPLETE
           }else{
-
+              COMPLETE
           }
 }
 
-y.factor = factor(y,levels = c(&quot;M&quot;,&quot;T&quot;,))
+y.factor = factor(y,levels = c(&quot;M&quot;,&quot;T&quot;,COMPLETE))
 print(y.factor[1:20]) #DO NOT CHANGE</code></pre>
 </div>
 <div id="q3-4-points" class="section level3">
@@ -479,15 +478,15 @@ print(y.factor[1:20]) #DO NOT CHANGE</code></pre>
             }else if(x[i] %in% c(4,11,18,25)){
                 &quot;T&quot;
             }else if(COMPLETE){
-  
+                COMPLETE 
             }else if(COMPLETE){
-  
+                COMPLETE
             }else{
-  
+                COMPLETE
             }
   }
   
-  y.factor = factor(y,levels = c(&quot;M&quot;,&quot;T&quot;,))
+  y.factor = factor(y,levels = c(&quot;M&quot;,&quot;T&quot;,COMPLETE))
     
   return(y.factor)
 }
@@ -505,18 +504,15 @@ head(DATA2) #DO NOT CHANGE</code></pre>
 SUB.DATA = DATA1 %&gt;% select(&quot;L101&quot;,DAY,DAYNAME) %&gt;% filter(DAYNAME==&quot;M&quot;)
 plot=ggplot(data=SUB.DATA) + 
       geom_line(aes(x=1:dim(SUB.DATA)[1],y=get(&quot;L101&quot;),color=as.factor(DAY))) + 
-      theme_minimal() + xlab(&quot;Time&quot;) + guides(color=guide_legend(title=&quot;Day in April&quot;))+
+      theme_minimal() + 
+      xlab(&quot;Time&quot;) + guides(color=guide_legend(title=&quot;Day in April&quot;))+
       ylab(&quot;L101&quot;) + ggtitle(paste(&quot;Plot for &quot;,&quot;M&quot;,sep=&quot;&quot;))
 plot</code></pre>
 <p>I want you to create a function called <code>DAYPLOT.func</code> which takes three arguments <code>data</code>, <code>sensor</code>, and <code>dayabbrev</code>. This function should allow a user to specify the tibble (<code>DATA1</code> or <code>DATA2</code>), the sensor location (“L101”,“L102”,“L103”,etc.), and the abbreviated weekday name (“M”,“T”,“W”,etc.). Your function <code>DAYPLOT.func()</code> should create the image above if you use arguments <code>data=DATA1</code>, <code>sensor=&quot;L101&quot;</code>, and <code>dayabbrev=&quot;M&quot;</code>.</p>
 <p>Code <em>(4 Points)</em>:</p>
 <pre class="r"><code>DAYPLOT.func=function(data,sensor,dayabbrev){
   
-  SUB.DATA = data %&gt;% select(sensor,DAY,DAYNAME) %&gt;% filter(DAYNAME==dayabbrev)
-  plot=ggplot(data=SUB.DATA) + 
-        geom_line(aes(x=1:dim(SUB.DATA)[1],y=get(sensor),color=as.factor(DAY))) + 
-        theme_minimal() + xlab(&quot;Time&quot;) + guides(color=guide_legend(title=&quot;Day in April&quot;))+
-        ylab(sensor) + ggtitle(paste(&quot;Plot for &quot;,&quot;M&quot;,sep=&quot;&quot;))
+  COMPLETE
   
   return(plot)
 }</code></pre>
@@ -559,11 +555,7 @@ medIQRsum</code></pre>
 <p>Code and Output:</p>
 <pre class="r"><code>TRAFFICSUM.func = function(aprilday){
   
-  id.day=which(DATA2$DAY==aprilday)
-  subdata1=DATA2[id.day,]
-  id.sensor=which(names(DATA2)==&quot;L103&quot;)
-  subdata2=subdata1[[id.sensor]]
-  medIQRsum=c(aprilday,median(subdata2),IQR(subdata2))
+  COMPLETE
   
   return(medIQRsum)
 }
@@ -577,7 +569,7 @@ TRAFFICSUM.func(aprilday=10) #DO NOT CHANGE</code></pre>
 
 for(k in unique(DATA2$DAY)){
   
-  OUTPUT.A = rbind(OUTPUT.A, TRAFFICSUM.func(k))
+  COMPLETE
   
 }
 
@@ -593,7 +585,7 @@ names(OUTPUT.B)=c(&quot;DAY&quot;,&quot;median&quot;,&quot;IQR&quot;) #DO NOT CH
 for(k in unique(DATA2$DAY)){
   
   i = which(unique(DATA2$DAY)==k)
-  OUTPUT.B[i,] = TRAFFICSUM.func(k)
+  COMPLETE
   
 }
 

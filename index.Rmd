@@ -122,7 +122,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Mar. 15|[Programming I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee0319dc-d480-44e4-a2e5-acec00d9dd3f) |[Slides](Lecture/Lecture20/Lecture 20 Programming I.pdf)|[Tutorial09](Tutorial/Tutorial09.html)([.rmd](https://drive.google.com/file/d/1_Rx0ZCsIcn43Lxxed2wcdDv14L58GlTQ/view?usp=sharing))|
 |Mar. 17| [Programming II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=48d3ea94-c441-4a6c-9150-acee00da9ba7) |[Slides](Lecture/Lecture21/Lecture 21 Programming II.pdf)|[Tutorial10](Tutorial/Tutorial10.html)([.rmd](https://drive.google.com/file/d/10VDpMfk13nKV5h40TBWR0r3Af2qqOb5N/view?usp=sharing))|
 |Mar. 19| [Programming III](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5649b42e-3b55-4c04-bae5-acf000d75b94) |[Slides](Lecture/Lecture22/Lecture 22 Programming III.pdf)||
-|Mar. 22| Programming IV |[Slides](Lecture/Lecture23/Lecture 23 Programming IV.pdf)|[Analysis 3](Homework/Analysis 3/Analysis-3.html)([.zip](Homework/Analysis 3/Analysis 3.zip))|
+|Mar. 22| [Programming IV](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fb7941db-e139-4fc6-8edf-acf300d939a4) |[Slides](Lecture/Lecture23/Lecture 23 Programming IV.pdf)|[Analysis 3](Homework/Analysis 3/Analysis-3.html)([.zip](Homework/Analysis 3/Analysis 3.zip))|
 |Mar. 24| Group Work Day |||
 |Mar. 26| Modeling I |||
 |Mar. 29| Modeling II |||

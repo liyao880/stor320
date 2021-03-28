@@ -125,7 +125,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Mar. 22| [Programming IV](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fb7941db-e139-4fc6-8edf-acf300d939a4) |[Slides](Lecture/Lecture23/Lecture 23 Programming IV.pdf)|[Analysis 3](Homework/Analysis 3/Analysis-3.html)([.zip](Homework/Analysis 3/Analysis 3.zip))|
 |Mar. 24| Group Work Day |||
 |Mar. 26| [Modeling I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bddc3672-f903-4197-ae69-acf700d8b90e) |[Slides](Lecture/Lecture24/Lecture 24 Modeling I.pdf)||
-|Mar. 29| Modeling II |||
+|Mar. 29| Modeling II |[Slides](Lecture/Lecture25/Lecture 25 Modeling II.pdf)|[Tutorial11](Tutorial/Tutorial11.html)([.zip](https://drive.google.com/file/d/1W6jpeb-A0LTcqwP5BaNrR4va7JZMiKDu/view?usp=sharing))|
 |Mar. 31| Modeling III |||
 |Apr. 2| Holiday |||
 |Apr. 5| Wellness Day |||

@@ -126,7 +126,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Mar. 24| Group Work Day |||
 |Mar. 26| [Modeling I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bddc3672-f903-4197-ae69-acf700d8b90e) |[Slides](Lecture/Lecture24/Lecture 24 Modeling I.pdf)||
 |Mar. 29| [Modeling II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ef3c84c4-ad8f-469d-8147-acfa00d9be20) |[Slides](Lecture/Lecture25/Lecture 25 Modeling II.pdf)|[Tutorial11](Tutorial/Tutorial11.html)([.zip](https://drive.google.com/file/d/1W6jpeb-A0LTcqwP5BaNrR4va7JZMiKDu/view?usp=sharing))|
-|Mar. 31| Modeling III |[Slides](Lecture/Lecture26/Lecture 26 Modeling III.pdf)|[Tutorial12](Tutorial/Tutorial12.html)([.zip](https://drive.google.com/file/d/177iH5AXOB20AYQ-MPuCppcMkNSqjDE2Y/view?usp=sharing))|
+|Mar. 31| [Modeling III](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5268815c-1df9-47af-9d76-acfc00d7b17b) |[Slides](Lecture/Lecture26/Lecture 26 Modeling III.pdf)|[Tutorial12](Tutorial/Tutorial12.html)([.zip](https://drive.google.com/file/d/177iH5AXOB20AYQ-MPuCppcMkNSqjDE2Y/view?usp=sharing))|
 |Apr. 2| Holiday |||
 |Apr. 5| Wellness Day |||
 |Apr. 7| Modeling IV |||

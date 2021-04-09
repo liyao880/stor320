@@ -441,21 +441,28 @@ linmodpred=predict(linmod,newdata=TEST)
 
 DATA2$linpred[which(DATA2$L==103)]=linmodpred
 head(DATA2)</code></pre>
+<pre><code>## # A tibble: 6 x 9
+##   JULIAN_DAY  YEAR     L     W     A  TIME MONTH   DAY linpred
+##        &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;
+## 1          1  2003   103  14.2  21.2     1     1     1    17.3
+## 2          2  2003   103  14.4  16.8     2     1     2    14.4
+## 3          3  2003   103  14.4  15.4     3     1     3    13.5
+## 4          4  2003   103  10.9  10.8     4     1     4    10.5
+## 5          5  2003   103  10.8  11.7     5     1     5    11.1
+## 6          6  2003   103  10.7  12.4     6     1     6    11.5</code></pre>
 </div>
 <div id="chunk-4-create-a-loop-to-iterate-process-for-each-location" class="section level2">
 <h2>Chunk 4: Create a Loop to Iterate Process for Each Location</h2>
 <pre class="r"><code>DATA2=DATA
 DATA2$linpred=NA
-
 for(k in unique(DATA2$L)){
-  # Here we loop over 31 locations. k takes values from (103,105,107,...)
-  TEST = COMPLETE
-  TRAIN  = COMPLETE
-
-  linmod= COMPLETE
-  linmodpred=COMPLETE
-
-  DATA2$linpred[FILL]=COMPLETE
+  TEST = NEST.DATA %&gt;% filter(L==k) %&gt;% unnest()
+  TRAIN  = NEST.DATA %&gt;% filter(L!=k) %&gt;% unnest()
+  
+  linmod=lm(W~A,data=TRAIN)
+  linmodpred=predict(linmod,newdata=TEST)
+  
+  DATA2$linpred[which(DATA2$L==k)]=linmodpred
 }</code></pre>
 </div>
 <div id="chunk-5-calcuate-cross-validated-rmse" class="section level2">
@@ -465,7 +472,7 @@ for(k in unique(DATA2$L)){
   rmse=sqrt(mse)
   return(rmse)
 }
-RMSE.func(actual=DATA2$W,predict=DATA2$linpred)</code></pre>
+#RMSE.func(actual=DATA2$W,predict=DATA2$linpred)</code></pre>
 </div>
 </div>
 <div id="part-2-k-fold-cv-for-polynomial-model-evaluation" class="section level1">
@@ -501,7 +508,6 @@ RMSE.func(actual=DATA2$W,predict=DATA2$linpred)</code></pre>
 </div>
 <div id="chunk-2-polynomial-fitting" class="section level2">
 <h2>Chunk 2: Polynomial Fitting</h2>
-<p><span class="math display">\[W=a+\sum_{i=1}^Ib_iA^i+\sum_{j=1}^Jc_jD^j+\varepsilon\]</span></p>
 <pre class="r"><code>polymodel=lm(W~poly(A,4)+poly(JULIAN_DAY,3),data=na.omit(DATA))
 tidy(polymodel)
 glance(polymodel)</code></pre>
@@ -559,19 +565,22 @@ for(i in 1:max_i){
 <li>We will now perform cross-validation on a simulated data set.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
-<li>Generate a simulated data set as follows: n=100 and p=2, the model used is <span class="math display">\[
-Y = X - 2X^2 + \epsilon
-\]</span> <span class="math inline">\(\epsilon\)</span> here follow standard normal distribution.</li>
+<li>Generate a simulated data set as follows:</li>
 </ol>
 <pre class="r"><code>set.seed(123)
 x=rnorm(100)
-y=COMPLETE
+y=x-2*x^2+rnorm (100)
 sim=tibble(predictor=x,response=y)</code></pre>
+<p>In this data set, what is n and what is p? Write out the model used to generate the data in equation form.</p>
+<p>Here we have that n=100 and p=2, the model used is <span class="math display">\[
+Y = X - 2X^2 + \epsilon
+\]</span></p>
 <ol start="2" style="list-style-type: lower-alpha">
 <li>Create a scatterplot of X against Y. Comment on what you find.</li>
 </ol>
-<pre class="r"><code>#</code></pre>
-<p>Comment: ANSWER_HERE.</p>
+<pre class="r"><code>ggplot(data=sim) + 
+  geom_point(aes(x=predictor,y=response))</code></pre>
+<p>The data obviously suggests a curved (non-linear) relationship.</p>
 <ol start="3" style="list-style-type: lower-alpha">
 <li>Compute the 5-Fold RMSE that result from fitting the following four models:</li>
 </ol>
@@ -584,24 +593,24 @@ sim=tibble(predictor=x,response=y)</code></pre>
 <pre class="r"><code>max_i = 4
 rmse_ex = rep(NA,max_i)
 train.model.func2 = function(data,i){
-  COMPLETE
+  mod=lm(response~poly(predictor,i),data=data)
   return(mod)
 }
 for(i in 1:max_i){
   sim_final = sim %&gt;%
-    crossv_kfold(k=FILL) %&gt;%
-    mutate(tr.model=map(FILL)) %&gt;%
-    mutate(predict=map2(FILL)) %&gt;%
+    crossv_kfold(k=5) %&gt;%
+    mutate(tr.model=map(train,train.model.func2,i=i)) %&gt;%
+    mutate(predict=map2(test,tr.model,~augment(.y,newdata=.x))) %&gt;%
     select(predict) %&gt;%
     unnest()
-  rmse_ex[i] = RMSE.func(COMPLETE)
+  rmse_ex[i] = RMSE.func(actual=sim_final$response,predict=sim_final$.fitted)
 }</code></pre>
-<p>Check which model has the smallest RMSE:</p>
-<pre class="r"><code>rmse_ex</code></pre>
+<pre class="r"><code>which.min(rmse_ex)</code></pre>
+<pre><code>## [1] 2</code></pre>
 <ol start="4" style="list-style-type: lower-alpha">
 <li>Which of the models in (c) had the smallest RMSE? Is this what you expected? Explain your answer.</li>
 </ol>
-<p>ANSWER_HERE</p>
+<p>We may see that the 5-Fold estimate for the test RMSE is minimum for the second model, this is not surprising since we know the true relation between <code>x</code> and <code>y</code> is quadratic.</p>
 </div>
 
 

@@ -214,7 +214,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 | P2  | Exploratory Data Analysis | Gradescope | Mar 26 (11:55PM)|
 |   | EDA Meeting | Lab | Week of Mar 29 to April 4 |
 | P3  | Final Report|Gradescope|May 5 (11:55PM)|
-| P4  | Presentation Slides |Gradescope| Before Presentation Day|
+| P4  | Presentation Slides |Gradescope| Apr 29 / May 2 / May 4 (11:55PM)|
 |   | Final Presentation|Class| Apr 30 / May 3 / May 5 (8:00AM-8:50AM)|
 ||||
 

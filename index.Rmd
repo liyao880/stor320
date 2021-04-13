@@ -132,7 +132,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Apr. 7| [Modeling IV](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52e809b1-4fbd-4ca5-8152-ad0300d97d26) |[Slides](Lecture/Lecture27/Lecture 27 Modeling IV.pdf)|[Tutorial13](Tutorial/Tutorial13_sol.html)([.zip](https://drive.google.com/file/d/1AdLqAkydzerhGpAv3O8cdkUrpjrAl2vm/view?usp=sharing))|
 |Apr. 9| [Modeling V](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4482d94a-171b-4245-b51b-ad0500d7fc34) |[Slides](Lecture/Lecture28/Lecture 28 Modeling V.pdf)||
 |Apr. 12| [Modeling VI](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2eb37787-30c6-4b19-94dc-ad0800d3cc28) |[Slides](Lecture/Lecture29/Lecture 29 Modeling VI.pdf)||
-|Apr. 14| Modeling VII |||
+|Apr. 14| Modeling VII |[Slides](Lecture/Lecture30/Lecture 30 Modeling VII.pdf)||
 |Apr. 16| Modeling VIII |||
 |Apr. 19| Modeling IX |||
 |Apr. 21| Modeling X |||

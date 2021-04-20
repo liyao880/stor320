@@ -134,8 +134,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Apr. 12| [Modeling VI](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2eb37787-30c6-4b19-94dc-ad0800d3cc28) |[Slides](Lecture/Lecture29/Lecture 29 Modeling VI.pdf)||
 |Apr. 14| [Modeling VII](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a982bc42-0c57-4a78-81a0-ad0a00d6fd9e) |[Slides](Lecture/Lecture30/Lecture 30 Modeling VII.pdf)||
 |Apr. 16| [Modeling VIII](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=18efaa1c-217a-42b5-85d5-ad0c00d71a15) |[Slides](Lecture/Lecture31/Lecture 31 Modeling VIII.pdf)||
-|Apr. 19| Modeling IX |[Slides](Lecture/Lecture32/Lecture 32 Modeling IX.pdf)|[Tutorial14](Tutorial/Tutorial14.html)([.rmd](https://drive.google.com/file/d/1r8zV55aRrkkFYa6UUzc8lKiGFCxIDAcE/view?usp=sharing))|
-|Apr. 21| Modeling X |||
+|Apr. 19| [Modeling IX](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f2972132-fc28-4594-8c1c-ad0f00d62246) |[Slides](Lecture/Lecture32/Lecture 32 Modeling IX.pdf)|[Tutorial14](Tutorial/Tutorial14_sol.html)([.rmd](https://drive.google.com/file/d/1r8zV55aRrkkFYa6UUzc8lKiGFCxIDAcE/view?usp=sharing))|
+|Apr. 21| Modeling X |[Slides](Lecture/Lecture33/Lecture 33 Modeling X.pdf)|[Tutorial15](Tutorial/Tutorial15.html)([.rmd](https://drive.google.com/file/d/1xzIJph70nseBhPwiqVj63xi600CJZIP0/view?usp=sharing))|
 |Apr. 23| R Shiny I |||
 |Apr. 26| R Shiny II |||
 |Apr. 28| Data Ethics |||

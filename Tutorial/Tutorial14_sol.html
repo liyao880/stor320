@@ -404,7 +404,7 @@ head(T1)</code></pre>
 <li><p>If <span class="math inline">\(k\)</span> is too large, we may be persistently producing biased predictions.</p></li>
 </ul>
 <p>Some form of cross-validation in the training data is usually used to tune the technique for the best <span class="math inline">\(k\)</span> so that we can confidently classify new observations.</p>
-<p>For more education on <span class="math inline">\(k\)</span>-nearest neighbors, check out these links:</p>
+<p>For more education on <span class="math inline">\(k\)</span>-nearest neighbors, check out these killer links:</p>
 <ul>
 <li><p><a href="https://towardsdatascience.com/k-nearest-neighbors-algorithm-with-examples-in-r-simply-explained-knn-1f2c88da405c">Link 1</a></p></li>
 <li><p><a href="https://medium.com/@adi.bronshtein/a-quick-introduction-to-k-nearest-neighbors-algorithm-62214cea29c7">Link 2</a></p></li>
@@ -603,36 +603,35 @@ ggplot(TEST2) +
 <ol start="0" style="list-style-type: decimal">
 <li>Standardize the 2-7 columns in <code>Weekly</code> with <code>scale</code> function.</li>
 </ol>
-<pre class="r"><code>Weekly[2:7] = COMPLETE</code></pre>
+<pre class="r"><code>Weekly[2:7] = scale(Weekly[2:7])</code></pre>
 <ol style="list-style-type: decimal">
 <li>Split the data set into training set with <code>Year</code> less than 2008 and put the rest into testing set.</li>
 </ol>
-<pre class="r"><code>train = Weekly[COMPLETE,]
-test = Weekly[COMPLETE,]</code></pre>
+<pre class="r"><code>train = Weekly[Weekly$Year&lt;2008,]
+test = Weekly[Weekly$Year&gt;=2008,]</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>Use five lag variables (<code>Lag1</code>, <code>Lag2</code>, <code>Lag3</code>, <code>Lag4</code>, <code>Lag5</code>) and <code>Volume</code> as predictors and predict the label for the response <code>Direction</code> in the test set with <code>k=10</code> and generate the confustion matrix.</li>
 </ol>
-<pre class="r"><code>knn.pred = knn(TRAIN_FEAT, TEST_FEAT ,LABLE_TRAIN, k = FILL)
-table(PREDICTION , TRUE_LABEL)</code></pre>
+<pre class="r"><code>knn.pred = knn(train[,2:7], test[,2:7] ,train[,9], k = 10)
+table(knn.pred , test[,9])</code></pre>
 <ol start="3" style="list-style-type: decimal">
 <li>Compute testing accuracy of different values of <span class="math inline">\(k\)</span> in the sequence <code>k = seq(5,200,10)</code>. Make a plot that visualizes the relationship between value of <span class="math inline">\(k\)</span> and testing accuracy.</li>
 </ol>
 <pre class="r"><code>k = seq(5,200,10)
-accuracy = rep(NA,20)
+accuracy = rep(0,20)
 for (i in c(1:20)){
-  knn.pred = knn(TRAIN, TEST ,LABLE, k = FILL)
-  accuracy[i] = COMPLETE
-}
-
-ggplot(data=tibble(k,accuracy)) +
-  geom_line(aes(COMPLETE),color=&quot;lightskyblue2&quot;,size=2) +
+  knn.pred = knn(train[,2:7], test[,2:7] ,train[,9], k = k[i])
+  accuracy[i] = mean(knn.pred == test[,9])
+}</code></pre>
+<pre class="r"><code>ggplot(data=tibble(k,accuracy)) +
+  geom_line(aes(x=k,y=accuracy),color=&quot;lightskyblue2&quot;,size=2) +
   theme_minimal() +
   xlab(&quot;Choice of k&quot;) +
   ylab(&quot;Percentage of Accurate Predictions&quot;) +
   theme(text=element_text(size=10))</code></pre>
 <p>What is the best <span class="math inline">\(k\)</span> based on the plot?</p>
-<pre class="r"><code>#</code></pre>
-<p>ANSWER_HERE:___________</p>
+<pre class="r"><code>k[which.max(accuracy)]</code></pre>
+<p>ANSWER_HERE:____25_______</p>
 </div>
 
 

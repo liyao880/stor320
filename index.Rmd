@@ -136,8 +136,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Apr. 16| [Modeling VIII](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=18efaa1c-217a-42b5-85d5-ad0c00d71a15) |[Slides](Lecture/Lecture31/Lecture 31 Modeling VIII.pdf)||
 |Apr. 19| [Modeling IX](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f2972132-fc28-4594-8c1c-ad0f00d62246) |[Slides](Lecture/Lecture32/Lecture 32 Modeling IX.pdf)|[Tutorial14](Tutorial/Tutorial14_sol.html)([.rmd](https://drive.google.com/file/d/1r8zV55aRrkkFYa6UUzc8lKiGFCxIDAcE/view?usp=sharing))|
 |Apr. 21| [Modeling X](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5392109f-c7e6-45d0-9330-ad1100db6bcf) |[Slides](Lecture/Lecture33/Lecture 33 Modeling X.pdf)|[Tutorial15](Tutorial/Tutorial15.html)([.rmd](https://drive.google.com/file/d/1xzIJph70nseBhPwiqVj63xi600CJZIP0/view?usp=sharing))|
-|Apr. 23| Modeling XI |[Slides](Lecture/Lecture34/Lecture 34 Modeling XI.pdf)||
-|Apr. 26| R Shiny |||
+|Apr. 23| [Modeling XI](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14ab1fbf-6573-4aaa-a248-ad1300d6cee2) |[Slides](Lecture/Lecture34/Lecture 34 Modeling XI.pdf)||
+|Apr. 26| R Shiny |[Slides](Lecture/Lecture35/Lecture 35 R Shiny.pdf)|[Tutorial16](https://liyao880.shinyapps.io/gapminder/)([.zip](https://drive.google.com/file/d/12NnF1sr8BnwZWe9vN3YYViX7MJbD95ef/view?usp=sharing))|
 |Apr. 28| Data Ethics |||
 |Apr. 30| Final Presentation  |||
 |May. 3| Final Presentation |||

@@ -157,9 +157,9 @@ All homework assignments are to be submitted via **[Gradescope](https://www.grad
 | Mar 7  | [A2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1lop1deCM_s5r7aaPqoa1uQtZdC3SyMBi/view?usp=sharing)) | [A2](Homework/Analysis 2/Analysis-2_sol.html) |Mar 14 (11:55 PM) |
 | Mar 14  | [HW5](Homework/HW-5.html)([.Rmd](Homework/HW 5.rmd)) | [SOL5](Solutions/HW5_Solution.html)|Mar 7 (11:55 PM) |Mar 21 (11:55 PM) |
 | Mar 21  | [A3](Homework/Analysis 3/Analysis-3.html)([.zip](Homework/Analysis 3/Analysis 3.zip)) |[A3](Homework/Analysis 3/Analysis-3_sol.html)  |Apr 4 (11:55 PM) |
-| Apr 4  | [HW6](Homework/HW-6.html)([.Rmd](Homework/HW 6.rmd)) | |Apr 11 (11:55 PM) |
-| Apr 11  | [HW7](Homework/HW-7.html)([.Rmd](Homework/HW 7.rmd)) | |Apr 18 (11:55 PM) |
-| Apr 18  | [A4](Homework/Analysis 4/Analysis-4.html)([.zip](Homework/Analysis 4/Analysis 4.zip)) | |May 2 (11:55 PM) |
+| Apr 4  | [HW6](Homework/HW-6.html)([.Rmd](Homework/HW 6.rmd)) | [SOL6](Solutions/HW6_Solution.html)|Apr 11 (11:55 PM) |
+| Apr 11  | [HW7](Homework/HW-7.html)([.Rmd](Homework/HW 7.rmd)) | [SOL7](Solutions/HW7_Solution.html)|Apr 18 (11:55 PM) |
+| Apr 18  | [A4](Homework/Analysis 4/Analysis-4.html)([.zip](Homework/Analysis 4/Analysis 4.zip)) |[A4](Homework/Analysis 4/Analysis-4_sol.html) |May 2 (11:55 PM) |
 |          |        |     |           |
 
 # **Final Project Details**

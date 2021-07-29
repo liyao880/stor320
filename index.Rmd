@@ -96,49 +96,49 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 
 | Date | Lecture | Slides | Tutorial|
 |------|---------|--------:|--------:|
-|Jan. 20| [Welcome](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a47a655b-4f19-4053-8b1f-acb600e76603) |[Slides](Lecture/Lecture01/Lecture 01 Welcome.pdf) | |
-|Jan. 22| [Data Visualization](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=07f214c4-0df4-459c-ae76-acb800ed8061)| [Slides](Lecture/Lecture02/Lecture 02 Data_Visualization_Lecture.pdf) | [Tutorial01](Tutorial/Tutorial01.html)([.rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing))|
-|Jan. 25| [RMarkdown I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e6fea7d-a17e-4f2c-83c5-acbb00e97185) |[Slides](Lecture/Lecture03/Lecture 03 Workflow_Lecture.pdf)| |
-|Jan. 27| [RMarkdown II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e2c6115-9347-46c0-a15f-acbd00ead6c6) ||[Tutorial02](Tutorial/Tutorial02-sol.html)([.zip](https://drive.google.com/file/d/1DpCkW9N_BdJU0zc1W2J5rMK-MByrTQFZ/view?usp=sharing))|
-|Jan. 29| [Data Transformation I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=56533c15-32f6-49d3-ba99-acbf00e95196) |[Slides](Lecture/Lecture05/Lecture 05 Data_Transformation.pdf)|[Lecture05.rmd](https://drive.google.com/file/d/1QJLG8MQj2ncr4wGkiZL0CHlX2x9wZemo/view?usp=sharing)|
-|Feb. 1| [Data Transformation II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=78f334ee-2e31-45bc-a03d-acc200e77db8) ||[Tutorial03](Tutorial/Tutorial03_sol.html)([.rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))|
-|Feb. 3| [Data Transformation III](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ffdb6c72-8e96-4fa9-a391-acc400ee0c79)|[Slides](Lecture/Lecture07/Lecture 07 Data_Transformation.pdf)||
-|Feb. 5| [Data Transformation IV](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3b327d3-7e82-4ed9-884d-acc600f0c63f) ||[Tutorial04](Tutorial/Tutorial04.html)([.zip](https://drive.google.com/file/d/1UEt-RVM4qAI889eXr_xphXL1M3wbQeqS/view?usp=sharing))|
-|Feb. 8| [Final Project Instruction](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=19e851c3-2fd6-451f-86af-acc900e8b49d) |[Slides](Lecture/Lecture09/Lecture 09 Final_Project.pdf)||
-|Feb. 10| [Data Import](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=35a9948d-9b68-4e56-82d9-accb00e8283d) |[Slides](Lecture/Lecture10/Lecture 10 Data_Import.pdf)||
-|Feb. 12| [Exploratory Data Analysis I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6529623f-d95c-4142-bab3-accd00e90377) |[Slides](Lecture/Lecture11/Lecture 11 Exploratory_Data_Analysis.pdf)||
+|Jan. 20| Welcome || |
+|Jan. 22| Data Visualization| | |
+|Jan. 25| RMarkdown I | | |
+|Jan. 27| RMarkdown II| | |
+|Jan. 29| Data Transformation I| | |
+|Feb. 1| Data Transformation II| | |
+|Feb. 3| Data Transformation III| | |
+|Feb. 5| Data Transformation IV| | |
+|Feb. 8| Final Project Instruction| | |
+|Feb. 10| Data Import| | |
+|Feb. 12| Exploratory Data Analysis I| | |
 |Feb. 15| Wellness Day |||
 |Feb. 17| Project Proposal Discussion |||
 |Feb. 19| Project Proposal Discussion |||
-|Feb. 22| [Exploratory Data Analysis II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a482bc2-7636-4e9d-81aa-acd700e90539) |[Slides](Lecture/Lecture12/Lecture 12 Exploratory_Data_Analysis.pdf)|[Tutorial05](Tutorial/Tutorial-05_sol.html)([.rmd](https://drive.google.com/file/d/11MStXK9znEnu-MMmj1ZPMqSMIyciytNN/view?usp=sharing))|
-|Feb. 24| [Tidy Data I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d214076-b2ec-4da1-9d10-acd900e40078) |[Slides](Lecture/Lecture13/Lecture13 Tidy Data.pdf)||
-|Feb. 26| [Tidy Data II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a4d613e-8688-4e04-8991-acdb00e8e99d) ||[Tutorial06](Tutorial/Tutorial06_sol.html)([.rmd](https://drive.google.com/file/d/1ONpR1uWseqxfUJR4UgkqHMlMvV8u5Gdb/view?usp=sharing))|
-|Mar. 1| [Web Scraping I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=82b7e0c7-ffe3-4227-951d-acde00ef2238) |[Slides](Lecture/Lecture15/Lecture 15 Web Scraping.pdf)|[Tutorial07](Tutorial/Tutorial07.html)([.rmd](https://drive.google.com/file/d/1GaRdMRkDsI3rnY4tWh5RR4wdo423FRhd/view?usp=sharing))|
-|Mar. 3| [Web Scraping II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3a73808-0226-4ec0-b49b-ace000e95880) |[Slides](Lecture/Lecture16/Lecture 16 Web Scraping II.pdf)|[Tutorial08](Tutorial/Tutorial08_sol.html)([.zip](https://drive.google.com/file/d/1Hnj10zSpNxLnH_3B2hpNVSG0znimHY4R/view?usp=sharing))|
-|Mar. 5| [Joins I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=809f5b59-f1fd-4ad0-a2c8-ace200e5e9bf) |[Slides](Lecture/Lecture17/Lecture 17 Joins.pdf)|[Lecture17](Tutorial/Lecture17.html)([.rmd](https://drive.google.com/file/d/1CsQXu0QzF6N9n64aeGVVsKqNGlG3ODj_/view?usp=sharing))|
-|Mar. 8| [Joins II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b34a3653-9791-4f9f-b121-ace500eeba1e) ||[Analysis 2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1lop1deCM_s5r7aaPqoa1uQtZdC3SyMBi/view?usp=sharing))|
-|Mar. 10| [Factors](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbe15939-0086-4079-8b3c-ace700e6c583) |[Slides](Lecture/Lecture19/Lecture 19 Factors.pdf)||
+|Feb. 22| Exploratory Data Analysis II| | |
+|Feb. 24| Tidy Data I| | |
+|Feb. 26| Tidy Data II| | |
+|Mar. 1| Web Scraping I| | |
+|Mar. 3| Web Scraping II| | |
+|Mar. 5| Joins I| | |
+|Mar. 8| Joins II| | |
+|Mar. 10| Factors| | |
 |Mar. 12| Wellness Day |||
-|Mar. 15|[Programming I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee0319dc-d480-44e4-a2e5-acec00d9dd3f) |[Slides](Lecture/Lecture20/Lecture 20 Programming I.pdf)|[Tutorial09](Tutorial/Tutorial09.html)([.rmd](https://drive.google.com/file/d/1_Rx0ZCsIcn43Lxxed2wcdDv14L58GlTQ/view?usp=sharing))|
-|Mar. 17| [Programming II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=48d3ea94-c441-4a6c-9150-acee00da9ba7) |[Slides](Lecture/Lecture21/Lecture 21 Programming II.pdf)|[Tutorial10](Tutorial/Tutorial10.html)([.rmd](https://drive.google.com/file/d/10VDpMfk13nKV5h40TBWR0r3Af2qqOb5N/view?usp=sharing))|
-|Mar. 19| [Programming III](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5649b42e-3b55-4c04-bae5-acf000d75b94) |[Slides](Lecture/Lecture22/Lecture 22 Programming III.pdf)||
-|Mar. 22| [Programming IV](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fb7941db-e139-4fc6-8edf-acf300d939a4) |[Slides](Lecture/Lecture23/Lecture 23 Programming IV.pdf)|[Analysis 3](Homework/Analysis 3/Analysis-3.html)([.zip](Homework/Analysis 3/Analysis 3.zip))|
+|Mar. 15| Programming I| | |
+|Mar. 17| Programming II| | |
+|Mar. 19| Programming III| | |
+|Mar. 22| Programming IV| | |
 |Mar. 24| Group Work Day |||
-|Mar. 26| [Modeling I](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bddc3672-f903-4197-ae69-acf700d8b90e) |[Slides](Lecture/Lecture24/Lecture 24 Modeling I.pdf)||
-|Mar. 29| [Modeling II](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ef3c84c4-ad8f-469d-8147-acfa00d9be20) |[Slides](Lecture/Lecture25/Lecture 25 Modeling II.pdf)|[Tutorial11](Tutorial/Tutorial11.html)([.zip](https://drive.google.com/file/d/1W6jpeb-A0LTcqwP5BaNrR4va7JZMiKDu/view?usp=sharing))|
-|Mar. 31| [Modeling III](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5268815c-1df9-47af-9d76-acfc00d7b17b) |[Slides](Lecture/Lecture26/Lecture 26 Modeling III.pdf)|[Tutorial12](Tutorial/Tutorial12.html)([.zip](https://drive.google.com/file/d/177iH5AXOB20AYQ-MPuCppcMkNSqjDE2Y/view?usp=sharing))|
+|Mar. 26| Modeling I| | |
+|Mar. 29| Modeling II| | |
+|Mar. 31| Modeling III| | |
 |Apr. 2| Holiday |||
 |Apr. 5| Wellness Day |||
-|Apr. 7| [Modeling IV](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52e809b1-4fbd-4ca5-8152-ad0300d97d26) |[Slides](Lecture/Lecture27/Lecture 27 Modeling IV.pdf)|[Tutorial13](Tutorial/Tutorial13_sol.html)([.zip](https://drive.google.com/file/d/1AdLqAkydzerhGpAv3O8cdkUrpjrAl2vm/view?usp=sharing))|
-|Apr. 9| [Modeling V](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4482d94a-171b-4245-b51b-ad0500d7fc34) |[Slides](Lecture/Lecture28/Lecture 28 Modeling V.pdf)||
-|Apr. 12| [Modeling VI](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2eb37787-30c6-4b19-94dc-ad0800d3cc28) |[Slides](Lecture/Lecture29/Lecture 29 Modeling VI.pdf)||
-|Apr. 14| [Modeling VII](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a982bc42-0c57-4a78-81a0-ad0a00d6fd9e) |[Slides](Lecture/Lecture30/Lecture 30 Modeling VII.pdf)||
-|Apr. 16| [Modeling VIII](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=18efaa1c-217a-42b5-85d5-ad0c00d71a15) |[Slides](Lecture/Lecture31/Lecture 31 Modeling VIII.pdf)||
-|Apr. 19| [Modeling IX](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f2972132-fc28-4594-8c1c-ad0f00d62246) |[Slides](Lecture/Lecture32/Lecture 32 Modeling IX.pdf)|[Tutorial14](Tutorial/Tutorial14_sol.html)([.rmd](https://drive.google.com/file/d/1r8zV55aRrkkFYa6UUzc8lKiGFCxIDAcE/view?usp=sharing))|
-|Apr. 21| [Modeling X](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5392109f-c7e6-45d0-9330-ad1100db6bcf) |[Slides](Lecture/Lecture33/Lecture 33 Modeling X.pdf)|[Tutorial15](Tutorial/Tutorial15.html)([.rmd](https://drive.google.com/file/d/1xzIJph70nseBhPwiqVj63xi600CJZIP0/view?usp=sharing))|
-|Apr. 23| [Modeling XI](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=14ab1fbf-6573-4aaa-a248-ad1300d6cee2) |[Slides](Lecture/Lecture34/Lecture 34 Modeling XI.pdf)||
-|Apr. 26| [R Shiny](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=acada479-a08b-47f2-a905-ad1600dc2b95) |[Slides](Lecture/Lecture35/Lecture 35 R Shiny.pdf)|[Tutorial16](https://liyao880.shinyapps.io/gapminder/)([.zip](https://drive.google.com/file/d/12NnF1sr8BnwZWe9vN3YYViX7MJbD95ef/view?usp=sharing))|
-|Apr. 28| [Data Ethics](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a51942c-d677-40f9-93fd-ad1800d71597) |[Slides](Lecture/Lecture36/Lecture36 Data Ethics.pdf)||
+|Apr. 7| Modeling IV| | |
+|Apr. 9| Modeling V| | |
+|Apr. 12| Modeling VI| | |
+|Apr. 14| Modeling VII| | |
+|Apr. 16| Modeling VIII| | |
+|Apr. 19| Modeling IX| | |
+|Apr. 21| Modeling X | | |
+|Apr. 23| Modeling XI| | |
+|Apr. 26| R Shiny| | |
+|Apr. 28| Data Ethics| | |
 |Apr. 30| Final Presentation  |||
 |May. 3| Final Presentation |||
 |May. 5| Final Presentation |||
@@ -149,17 +149,17 @@ All homework assignments are to be submitted via **[Gradescope](https://www.grad
 
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
-| Jan 22  | [HW1](Homework/HW-1.html)([.Rmd](Homework/HW 1.rmd)) |  |Jan 29 (11:55 PM) |
-| Feb 1  | [HW2](Homework/HW-2.html)([.Rmd](Homework/HW 2.rmd)) | |Feb 8 (11:55 PM) |
-| Feb 8  | [A1](Homework/Analysis 1/Analysis-1.html)([.zip](Homework/Analysis 1/Analysis 1.zip)) | |Feb 22 (11:55 PM) |
-| Feb 22  | [HW3](Homework/HW-3.html)([.Rmd](Homework/HW 3.rmd)) |  |Feb 28 (11:55 PM) |
-| Feb 28  | [HW4](Homework/HW-4.html)([.Rmd](Homework/HW 4.rmd)) | |Mar 7 (11:55 PM) |
-| Mar 7  | [A2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1lop1deCM_s5r7aaPqoa1uQtZdC3SyMBi/view?usp=sharing)) |  |Mar 14 (11:55 PM) |
-| Mar 14  | [HW5](Homework/HW-5.html)([.Rmd](Homework/HW 5.rmd)) | |Mar 7 (11:55 PM) |Mar 21 (11:55 PM) |
-| Mar 21  | [A3](Homework/Analysis 3/Analysis-3.html)([.zip](Homework/Analysis 3/Analysis 3.zip))||Apr 4 (11:55 PM) |
-| Apr 4  | [HW6](Homework/HW-6.html)([.Rmd](Homework/HW 6.rmd)) | |Apr 11 (11:55 PM) |
-| Apr 11  | [HW7](Homework/HW-7.html)([.Rmd](Homework/HW 7.rmd)) | |Apr 18 (11:55 PM) |
-| Apr 18  | [A4](Homework/Analysis 4/Analysis-4.html)([.zip](Homework/Analysis 4/Analysis 4.zip)) ||May 2 (11:55 PM) |
+| Jan 22  | HW1 |  |Jan 29 (11:55 PM) |
+| Feb 1  | HW2 | |Feb 8 (11:55 PM) |
+| Feb 8  | A1 | |Feb 22 (11:55 PM) |
+| Feb 22  | HW3 |  |Feb 28 (11:55 PM) |
+| Feb 28  | HW4 | |Mar 7 (11:55 PM) |
+| Mar 7  | A2 |  |Mar 14 (11:55 PM) |
+| Mar 14  | HW5 | |Mar 7 (11:55 PM) |Mar 21 (11:55 PM) |
+| Mar 21  | A3||Apr 4 (11:55 PM) |
+| Apr 4  | HW6 | |Apr 11 (11:55 PM) |
+| Apr 11  | HW7 | |Apr 18 (11:55 PM) |
+| Apr 18  | A4 ||May 2 (11:55 PM) |
 |          |        |     |           |
 
 # **Final Project Details**

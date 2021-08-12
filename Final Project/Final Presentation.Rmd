@@ -30,7 +30,7 @@ During the presentation, I will assess how well the question is explained, how w
 
 The Orator is solely responsible for giving the presentation. All members should help develop the slides, organize the information, and provide an audience for the Orator to practice. Everyone should proofread the slides since grammatical and spelling errors will result in a loss of points. After 7 minutes, I will abruptly cut off your presentation.
 
-The final presentations will take place during the last two lectures. Time slots will be prioritized according to email and posted on a google spreadsheet linked on the website. I highly recommend scheduling your meeting as soon as possible to ensure you have a preferred spot. The Deliverer is responsible for submitting the slides to Gradescope. The slides are due **before presentation day**. For example, if the group is scheduled to present on April 30, the slides should be submitted by April 29 (11:55PM). Attendance of all members is required. Each member that fails to attend will automatically lose five points from their individual grade. **Groups present early will get extra credits**: 5 credits for groups present on April 30, and 2 credits for groups present on May 3. 
+The final presentations will take place during the last two lectures. Time slots will be prioritized according to email and posted on a google spreadsheet linked on the website. I highly recommend scheduling your meeting as soon as possible to ensure you have a preferred spot. The Deliverer is responsible for submitting the slides to Sakai. The slides are due **before presentation day**. For example, if the group is scheduled to present on Nov 23, the slides should be submitted by Nov 22 (11:55PM). Attendance of all members is required. Each member that fails to attend will automatically lose five points from their individual grade. 
 
 
 # **Rubric**
@@ -45,7 +45,7 @@ The final presentations will take place during the last two lectures. Time slots
 |4 Visuals|4 Points|
 |Grammatical and/or Spelling Errors|2 Points|
 |Between 5 and 7 Minutes|2 Points|
-|Slides Submitted on Gradescope|2 Points|
+|Slides Submitted on Sakai|2 Points|
 |Attendance| 5 Points|
 |**Total**|**30 Points**|
 |||

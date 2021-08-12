@@ -1,5 +1,5 @@
 ---
-title: '**STOR 320.1: Intro to Data Science**'
+title: '**STOR 320.2: Intro to Data Science**'
 geometry: margin=2
 output:
   prettydoc::html_pretty:
@@ -71,18 +71,23 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 - Instructor: **[Yao Li](https://liyao880.github.io/yaoli/)**
 
 - Instructional Assistants: 
-    - **[Shaleni Kovach](https://stor.unc.edu/people/graduate-students/)**
-    - **[Zichao Li](https://stor.unc.edu/people/graduate-students/)**
+    - **[Shaleni Kovach](http://stat-or.unc.edu/people/graduate-students-department)**
+    - **[Zichao Li](http://stat-or.unc.edu/people/graduate-students-department)**
 
-- Class:
-    - Lectures: TTH 2:00PM-3:15PM Gardner 105
-    - Lab 320.40x by Shaleni: 
-    - Lab 320.40x by Zichao: 
+- Lab Sections: 
+    - 320.40x by Shaleni: 
+    - 320.40x by Zichao: 
 
-- Office Hours:
-    - Instructor Office Hours: TTH 1:00PM-2:00PM Hanes 334
-    - Shaleni Office Hours: 
-    - Zichao Office Hours:
+
+- Zoom Links:
+    - **[Lectures:](https://unc.zoom.us/j/93501182856?pwd=b3ZoZlZTdndrYW95MGswTEpGSU1qdz09)** MWF 8:00AM-8:50AM
+    - **[320.404 by Pavlos](https://unc.zoom.us/j/96678226561)**: T 9:30AM-10:20AM
+    - **[320.405 by Taylor](https://unc.zoom.us/j/91440986085?pwd=WUpKeW5hVG0rNGRXaXlZZStJL2xuUT09)**: T 5:00PM-5:50PM
+    - **[320.406 by Sam](https://unc.zoom.us/j/5891075192)**: Th 9:30AM-10:20AM
+    - **[Instructor Office Hours:](https://unc.zoom.us/j/99751369535)** WF 9:00AM-10:00AM
+    - **[Taylor Office Hours:](https://unc.zoom.us/j/91440986085?pwd=WUpKeW5hVG0rNGRXaXlZZStJL2xuUT09)** M 2:30PM-3:30PM, W 1:30PM-2:30PM
+    - **[Pavlos Office Hours:](https://unc.zoom.us/j/2903979720)** M 10:00AM-11:00AM, F 1:00PM-2:00PM
+    - **[Sam Office Hours:](https://unc.zoom.us/j/5891075192)** TTh 4:00PM-5:00PM
 
 
 # **Course Material**
@@ -98,8 +103,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 || Data Import| | |
 |Sep. 7| Exploratory Data Analysis| | |
 |Sep. 9| Tidy Data| | |
-|Sep. 14| Project Proposal Discussion| | |
-|Sep. 16| Project Proposal Discussion| | |
+|Sep. 14| Web Scraping| | |
+|Sep. 16| Project Proposal DiscussionWeb Scraping| | |
 |Sep. 21| Joins| | |
 |Sep. 23| Factors| | |
 |Sep. 28| Programming I |||
@@ -148,7 +153,7 @@ For the final project, each section of STOR 320 will be divided (ideally) into r
 
 ## Research Group Assignments
 
-To find your research group, see the **[spreadsheet]()** sponsored by Google.
+To find your research group, see the **[spreadsheet](https://docs.google.com/spreadsheets/d/10gwXH2bWP3iTnW9p6air6PypyP1JkartuFJmSkvais0/edit?usp=sharing)** sponsored by Google.
 
 ## Four Roles
 
@@ -180,7 +185,7 @@ This final project will be divided into four parts worth a total of 100 points. 
     
 * **[P3: Final Written Paper](Final Project/Final-Paper.html)** *(40 Points)*
     + [Template](Final Project/Final_Report_Template.html)([.Rmd](Final Project/Final_Report_Template.rmd))
-    + [Group Scoring]()
+    + [Group Scoring](https://forms.gle/8ALCe4H1HR8JCTb37)
     
 * **[P4: Final Presentation](Final Project/Final-Presentation.html)** *(30 Points)*
 
@@ -189,13 +194,13 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
-| P1  | Project Proposal | Sakai | Sep 13 (11:55PM)|
-|   | Proposal Meeting | Class | Sep 14 / Sep 16 (2:00PM-3:15PM)|
-| P2  | Exploratory Data Analysis | Sakai | Oct 15 (11:55PM)|
-|   | EDA Meeting | Lab | Week of Oct 18 to Oct 22 |
-| P3  | Final Report|Sakai|Nov 30 (11:55PM)|
-| P4  | Presentation Slides |Sakai| Nov 22 / Nov 29 (11:55PM)|
-|   | Final Presentation|Class| Nov 23 / Nov 30 (2:00PM-3:15PM)|
+| P1  | Project Proposal | Gradescope | Feb16 (11:55PM)|
+|   | Proposal Meeting | Class | Feb 17 / Feb 19 (8:00AM-9:15AM)|
+| P2  | Exploratory Data Analysis | Gradescope | Mar 26 (11:55PM)|
+|   | EDA Meeting | Lab | Week of Mar 29 to April 4 |
+| P3  | Final Report|Gradescope|May 5 (11:55PM)|
+| P4  | Presentation Slides |Gradescope| Apr 29 / May 2 / May 4 (11:55PM)|
+|   | Final Presentation|Class| Apr 30 / May 3 / May 5 (8:00AM-8:50AM)|
 ||||
 
 ## Above Average Final Projects from Previous Courses

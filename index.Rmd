@@ -75,13 +75,15 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
     - **[Zichao Li](https://stor.unc.edu/people/graduate-students/)**
 
 - Class:
-    - Lectures: TTH 2:00PM-3:15PM Gardner 105
-    - Lab 320.40x by Shaleni: 
+    - Lectures: TTH 2:00PM-3:15PM, Gardner 105
+    - Lab 320.400 by Shaleni: W 4:40PM-5:30PM, H130
+    - Lab 320.401 by Shaleni: F 4:40PM-5:30PM, H130
     - Lab 320.40x by Zichao: 
-
+    - Lab 320.40x by Zichao: 
+    
 - Office Hours:
-    - Instructor Office Hours: TTH 1:00PM-2:00PM Hanes 334
-    - Shaleni Office Hours: 
+    - Instructor Office Hours: TTH 1:00PM-2:00PM, Hanes 334
+    - Shaleni Office Hours: WF 3:30PM-4:30PM
     - Zichao Office Hours:
 
 

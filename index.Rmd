@@ -91,8 +91,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 
 | Date | Lecture | Slides | Tutorial|
 |------|---------|--------:|--------:|
-|Aug. 19| Welcome || |
-|| Data Visualization| | |
+|Aug. 19| Welcome |[Slides](Lecture/Lecture01/Lecture 01_1 Welcome.pdf)| |
+|| Data Visualization|[Slides](Lecture/Lecture01/Lecture 01_2 Data_Visualization_Lecture.pdf)| [Tutorial 01](Tutorial/Tutorial-01.html)([.rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing)) |
 |Aug. 24| RMarkdown| | |
 |Aug. 26| Data Transformation I| | |
 |Aug. 31| Data Transformation II| | |
@@ -239,9 +239,9 @@ Thanks to Dr. Mario and Dr. Characiejus for sharing their course materials.
 
 - **[Instructions for Accessing R Studio on the UNC Server](https://drive.google.com/file/d/1ATZO-wpuqzHbXVnJqm7wXpt-yfMbo2Jy/view?usp=sharing)**
 
-- **[Rmarkdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)**
+- **[Rmarkdown Cheat Sheet](https://evoldyn.gitlab.io/evomics-2018/ref-sheets/rmarkdown-cheatsheet-2.0.pdf)**
 
-- **[ggplot2 Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)**
+- **[ggplot2 Cheat Sheet](https://learninginnovation.duke.edu/wp-content/uploads/2020/07/R_ggplot2_cheatsheet.pdf)**
 
 - **[Color Options](https://paulvanderlaken.files.wordpress.com/2017/08/ggplot2-color-colours-names-cheatsheet.png?w=559&amp;h=1024)**
 

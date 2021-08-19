@@ -127,7 +127,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 
 # **Homework Tracker**
 
-All homework assignments are to be submitted via **[Gradescope](https://www.gradescope.com/)**. 
+All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu/welcome/)**. 
 
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
@@ -162,7 +162,7 @@ Although everyone is responsible for the entire project, each member of the grou
 
 - **The Orator(s):** Give a Captivating 5-7 Minute Slideshow Presentation During the Last Three Lectures
 
-- **The Deliverer:** Deliver Your Group from Evil by Editing and Submitting the Exploratory Analysis and Final Report via Gradescope Before the Deadline
+- **The Deliverer:** Deliver Your Group from Evil by Editing and Submitting the Exploratory Analysis and Final Report via Sakai Before the Deadline
 
 ## Four Parts Including Point Values
 

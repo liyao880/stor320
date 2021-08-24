@@ -82,8 +82,10 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
     
 - Office Hours:
     - Instructor Office Hours: TTH 1:00PM-2:00PM, Hanes 334 or [Zoom](https://unc.zoom.us/j/97801422743)
-    - Shaleni Office Hours: WF 3:30PM-4:30PM, Hanes B-05 or [Zoom](https://unc.zoom.us/j/6952470471)
-    - Zichao Office Hours: W 2:30-4:30PM, Hanes B-52 or [Zoom](https://unc.zoom.us/j/6952470471)
+    - Shaleni Office Hours: WF 3:30PM-4:30PM, Hanes B-05 or [Zoom](https://unc.zoom.us/j/97764724126)
+    - Zichao Office Hours: W 2:30-4:30PM, Hanes B-52 or [Zoom](https://unc.zoom.us/j/6459419100?pwd=UEtCWjc5WUw1K2N2bUM3cFFJNWlzQ
+T09)
+
 
 
 # **Course Material**

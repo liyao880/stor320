@@ -94,7 +94,7 @@ T09)
 |------|---------|--------:|--------:|
 |Aug. 19| Welcome |[Slides](Lecture/Lecture01/Lecture 01_1 Welcome.pdf)| |
 || Data Visualization|[Slides](Lecture/Lecture01/Lecture 01_2 Data_Visualization_Lecture.pdf)| [Tutorial 01](Tutorial/Tutorial-01.html)([.rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing)) |
-|Aug. 24| RMarkdown|[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf) |[Tutorial 02](Tutorial/Tutorial02.html)([.zip](https://drive.google.com/file/d/13uQt75BEFx7pJCVCMP-ERbpP9tQfF-Oo/view?usp=sharing)) |
+|Aug. 24| RMarkdown|[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf) |[Tutorial 02 sol](Tutorial/Tutorial02-sol.html)([.zip](https://drive.google.com/file/d/13uQt75BEFx7pJCVCMP-ERbpP9tQfF-Oo/view?usp=sharing)) |
 |Aug. 26| Data Transformation I|[Slides](Lecture/Lecture03/Lecture 03 Data_Transformation.pdf) | [Lecture 03](https://drive.google.com/file/d/10O9WkTRr5lBezGW015x6zmLhei1VULkq/view?usp=sharing)|
 |Aug. 31| Data Transformation II| | |
 |Sep. 2| Final Project Instruction| | |

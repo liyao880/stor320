@@ -75,7 +75,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
     - **[Zichao Li](https://stor.unc.edu/people/graduate-students/)**
 
 - Class:
-    - Lectures: TTH 2:00PM-3:15PM, Gardner 105
+    - Lectures: TTH 2:00PM-3:15PM, Gardner 105 ([Zoom](https://unc.zoom.us/j/91042552579?pwd=ZXUxYmpYR0J4QWx4dmpkWGFjOTZzZz09))
     - Lab 320.400 by Shaleni: W 4:40PM-5:30PM, H130
     - Lab 320.401 by Shaleni: F 4:40PM-5:30PM, H130
     - Lab 320.402 by Zichao: W 1:25PM-2:15PM, H130

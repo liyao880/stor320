@@ -94,31 +94,31 @@ T09)
 |------|---------|--------:|--------:|
 |Aug. 19| Welcome |[Slides](Lecture/Lecture01/Lecture 01_1 Welcome.pdf)| |
 || Data Visualization|[Slides](Lecture/Lecture01/Lecture 01_2 Data_Visualization_Lecture.pdf)| [Tutorial 01](Tutorial/Tutorial-01.html)([.rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing)) |
-|Aug. 24| RMarkdown|[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf) |[Tutorial 02 sol](Tutorial/Tutorial02-sol.html)([.zip](https://drive.google.com/file/d/13uQt75BEFx7pJCVCMP-ERbpP9tQfF-Oo/view?usp=sharing)) |
-|Aug. 26| Data Transformation I|[Slides](Lecture/Lecture03/Lecture 03 Data_Transformation.pdf) | [Lecture 03](https://drive.google.com/file/d/10O9WkTRr5lBezGW015x6zmLhei1VULkq/view?usp=sharing)|
-|Aug. 31| Data Transformation II| | |
-|Sep. 2| Final Project Instruction| | |
+|Aug. 24| RMarkdown I|[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf) | |
+|Aug. 26| RMarkdown II|| [Tutorial 02 sol](Tutorial/Tutorial02-sol.html)([.zip](https://drive.google.com/file/d/13uQt75BEFx7pJCVCMP-ERbpP9tQfF-Oo/view?usp=sharing))|
+|Aug. 31| Data Transformation I|[Slides](Lecture/Lecture03/Lecture 03 Data_Transformation.pdf) | [Lecture 03](https://drive.google.com/file/d/10O9WkTRr5lBezGW015x6zmLhei1VULkq/view?usp=sharing)|
+|Sep. 2| Data Transformation II| | |
+|Sep. 7| Final Project Instruction| | |
 || Data Import| | |
-|Sep. 7| Exploratory Data Analysis| | |
-|Sep. 9| Tidy Data| | |
+|Sep. 9| Exploratory Data Analysis| | |
 |Sep. 14| Project Proposal Discussion| | |
 |Sep. 16| Project Proposal Discussion| | |
-|Sep. 21| Joins| | |
-|Sep. 23| Factors| | |
-|Sep. 28| Programming I |||
-|Sep. 30| Programming II |||
-|Oct. 5| Programming III |||
-|Oct. 7| Modeling I| | |
+|Sep. 21| Tidy Data| | |
+|Sep. 23| Joins| | |
+|Sep. 28| Factors| | |
+|Sep. 30| Programming I |||
+|Oct. 5| Programming II |||
+|Oct. 7| Programming III |||
 |Oct. 12| University Day| | |
-|Oct. 14| Modeling II| | |
-|Oct. 19| Modeling III| | |
+|Oct. 14| Modeling I| | |
+|Oct. 19| Modeling II| | |
 |Oct. 21| Fall Break| | |
-|Oct. 26| Modeling IV| | |
-|Oct. 28| Modeling V| | |
-|Nov. 2| Modeling VI| | |
-|Nov. 4| Modeling VII |||
-|Nov. 9| Modeling VIII| | |
-|Nov. 11| Modeling IX| | |
+|Oct. 26| Modeling III| | |
+|Oct. 28| Modeling IV| | |
+|Nov. 2| Modeling V| | |
+|Nov. 4| Modeling VI |||
+|Nov. 9| Modeling VII| | |
+|Nov. 11| Modeling VIII| | |
 |Nov. 16| R Shiny| | |
 |Nov. 18| Data Ethics| | |
 |Nov. 23| Final Presentation |||

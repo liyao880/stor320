@@ -97,7 +97,7 @@ T09)
 |Aug. 24| RMarkdown I|[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf) | |
 |Aug. 26| RMarkdown II|| [Tutorial 02 sol](Tutorial/Tutorial02-sol.html)([.zip](https://drive.google.com/file/d/13uQt75BEFx7pJCVCMP-ERbpP9tQfF-Oo/view?usp=sharing))|
 |Aug. 31| Data Transformation I|[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf) | [Lecture 04](https://drive.google.com/file/d/10O9WkTRr5lBezGW015x6zmLhei1VULkq/view?usp=sharing)|
-|Sep. 2| Data Transformation II| | |
+|Sep. 2| Data Transformation II| [Slides](Lecture/Lecture05/Lecture 05 Data_Transformation II.pdf)|[Tutorial 03](Tutorial/Tutorial-03.html)([.rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))  |
 |Sep. 7| Final Project Instruction| | |
 || Data Import| | |
 |Sep. 9| Exploratory Data Analysis| | |

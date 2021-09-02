@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2021-09-01" />
+<meta name="date" content="2021-09-02" />
 
 <title>STOR 320 Tutorial on Data Transformation 1</title>
 
@@ -166,7 +166,7 @@ pre code {
 
 <h1 class="title toc-ignore">STOR 320 Tutorial on Data Transformation 1</h1>
 <h4 class="author"></h4>
-<h4 class="date">September 01, 2021</h4>
+<h4 class="date">September 02, 2021</h4>
 
 </div>
 
@@ -221,6 +221,7 @@ head(COMPLETE)</code></pre>
 <div id="step-1-simple-example" class="section level2">
 <h2>Step 1: Simple Example</h2>
 <p>The pipe <code>%&gt;%</code> is used in a similar fashion to <code>+</code> in the <code>ggplot2()</code> package.</p>
+<p>Pipe operator (<code>%&gt;%</code>) can be read as ‘then’.</p>
 <p>One simple example: Compute the logarithm of <span class="math inline">\(x\)</span>, return suitably lagged and iterated differences, compute the exponential function and round the result to 1 decimal place.</p>
 <pre class="r"><code>x &lt;- c(0.109, 0.359, 0.63, 0.996, 0.515, 0.142, 0.017, 0.829, 0.907)</code></pre>
 <p>Method 1:</p>
@@ -248,8 +249,8 @@ head(TIBBLE,5)</code></pre>
            dep_delay_hr=TRANSFORMATION,
            arr_delay_hr=TRANSFORMATION)
 head(f2b,5)</code></pre>
-<p>Use the function <code>percent_rank()</code> to create a new variable “percent_dep_delay_hr” which represents the percentiles of the variable you previously created. Notice that you can develop variables based on recently transformed variables in the same iteration of <code>mutate()</code>, but be careful little buddy because order matters. Name the new dataset <code>f2c</code>.</p>
-<pre class="r"><code>f2c=mutate(f2b,
+<p>Use the function <code>percent_rank()</code> to create a new variable “percent_dep_delay_hr” which represents the percentage of the variable you previously created. Notice that you can develop variables based on recently transformed variables in the same iteration of <code>mutate()</code>, but be careful little buddy because order matters. Name the new dataset <code>f2c</code>.</p>
+<pre class="r"><code>f2c &lt;- mutate(f2b,
            percent_dep_delay_hr=TRANSFORMATION)</code></pre>
 <p>Use <code>filter()</code> to select the observations where <code>percent_dep_delay_hr&lt;0.1</code> or <code>percent_dep_delay_hr&gt;0.9</code> in a new dataset <code>f2d</code>. The tibble <code>f2d</code> will contain the bottom 10% and top 10% of flights based off “dep_delay_hr”.</p>
 <pre class="r"><code>f2d &lt;- filter(f2c,CRITERIA)

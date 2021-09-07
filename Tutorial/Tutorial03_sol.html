@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2021-09-02" />
+<meta name="date" content="2021-09-01" />
 
 <title>STOR 320 Tutorial on Data Transformation 1</title>
 
@@ -166,7 +166,7 @@ pre code {
 
 <h1 class="title toc-ignore">STOR 320 Tutorial on Data Transformation 1</h1>
 <h4 class="author"></h4>
-<h4 class="date">September 02, 2021</h4>
+<h4 class="date">September 01, 2021</h4>
 
 </div>
 
@@ -186,33 +186,89 @@ pre code {
 <h1>Part 1: The Uniqueness of Flight Numbers</h1>
 <div id="step-1-subset-observations" class="section level2">
 <h2>Step 1 Subset Observations</h2>
-<p>Using <code>filter()</code>, start by creating a new tibble called <code>f1a</code> that only contains records with flight number 807.</p>
-<pre class="r"><code>f1a &lt;- filter(flights, CRITERIA)
+<p>Using <code>filter()</code>, start by creating a new tibble called <code>f1a</code> that only contains records from flight number 807.</p>
+<pre class="r"><code>f1a&lt;-filter(flights, flight==807)
 head(f1a,5)</code></pre>
+<pre><code>## # A tibble: 5 × 19
+##    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+##   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+## 1  2013     1     2      744            730        14     1017           1007
+## 2  2013     1     3      729            730        -1     1000           1004
+## 3  2013     1     4      728            730        -2      946           1004
+## 4  2013     1     5      727            730        -3      941           1004
+## 5  2013     1     7      901            730        91     1118           1004
+## # … with 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,
+## #   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,
+## #   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
 </div>
 <div id="step-2-subset-variables" class="section level2">
 <h2>Step 2 Subset Variables</h2>
 <p>Now, apply <code>select()</code> to create a new dataset <code>f1b</code> based on <code>f1a</code> only containing variables “flight”, “carrier”, “origin”, and “dest”.</p>
-<pre class="r"><code>f1b &lt;- select(f1a, VARIABLES)
+<pre class="r"><code>f1b&lt;-select(f1a, flight, carrier, origin, dest)
 head(f1b,5)</code></pre>
+<pre><code>## # A tibble: 5 × 4
+##   flight carrier origin dest 
+##    &lt;int&gt; &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt;
+## 1    807 DL      EWR    ATL  
+## 2    807 DL      EWR    ATL  
+## 3    807 DL      EWR    ATL  
+## 4    807 DL      EWR    ATL  
+## 5    807 DL      EWR    ATL</code></pre>
 </div>
 <div id="step-3-rename-variable" class="section level2">
 <h2>Step 3 Rename Variable</h2>
 <p>Rename the variable “dest” to “destination” in <code>f1c</code>.</p>
-<pre class="r"><code>f1c &lt;- COMPLETE
+<pre class="r"><code>f1c=rename(f1b,destination=dest)
 head(f1c,5)</code></pre>
+<pre><code>## # A tibble: 5 × 4
+##   flight carrier origin destination
+##    &lt;int&gt; &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt;      
+## 1    807 DL      EWR    ATL        
+## 2    807 DL      EWR    ATL        
+## 3    807 DL      EWR    ATL        
+## 4    807 DL      EWR    ATL        
+## 5    807 DL      EWR    ATL</code></pre>
 </div>
 <div id="step-4-sort-results" class="section level2">
 <h2>Step 4 Sort Results</h2>
 <p>Because <code>f1c</code> only contains records for flight number 807, sorting by flight number is irrelevant. Create a new dataset <code>f1d</code> that is identical in content to <code>f1b</code> but is sorted by “carrier” first, “origin” second, and “destination”&quot; last. Use the function <code>head()</code>to display the first 5 rows of the data in <code>f1d</code>.</p>
-<pre class="r"><code>f1d &lt;- arrange(f1c,VARIABLES)
-head(COMPLETE)</code></pre>
-<p>At first glance, it seems that 807 uniquely represents the flight from _______ to _______ by carrier ________. To confirm this, create a new dataset <code>f1e</code> that is <code>f1d</code> sorted by the three variables previously mentioned, all in descending order. The function <code>desc()</code> is required here. Follow this by displaying the first 18 rows of the data in <code>f1d</code>.</p>
-<pre class="r"><code>f1e &lt;- arrange(f1d,SORT_BY)
-head(COMPLETE)</code></pre>
-<p>May we conclude that flight numbers can be mapped to a unique carrier? ________ (<em>Yes/No</em>)</p>
+<pre class="r"><code>f1d&lt;-arrange(f1c,carrier, origin, destination)
+head(f1d,5)</code></pre>
+<pre><code>## # A tibble: 5 × 4
+##   flight carrier origin destination
+##    &lt;int&gt; &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt;      
+## 1    807 DL      EWR    ATL        
+## 2    807 DL      EWR    ATL        
+## 3    807 DL      EWR    ATL        
+## 4    807 DL      EWR    ATL        
+## 5    807 DL      EWR    ATL</code></pre>
+<p>At first glance, it seems that 807 uniquely represents the flight from <strong>EWR</strong>_ to <strong>ATL</strong> by carrier <strong><em>Delta</em></strong>. To confirm this, create a new dataset <code>f1e</code> that is <code>f1d</code> sorted by the three variables previously mentioned, all in descending order. The function <code>desc()</code> is required here. Follow this by displaying the first 18 rows of the data in <code>f1d</code>.</p>
+<pre class="r"><code>f1e&lt;-arrange(f1d,desc(carrier),desc(origin),desc(destination))
+head(f1e,18)</code></pre>
+<pre><code>## # A tibble: 18 × 4
+##    flight carrier origin destination
+##     &lt;int&gt; &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt;      
+##  1    807 WN      EWR    MDW        
+##  2    807 WN      EWR    MDW        
+##  3    807 WN      EWR    MDW        
+##  4    807 WN      EWR    MDW        
+##  5    807 UA      LGA    IAH        
+##  6    807 UA      LGA    IAH        
+##  7    807 UA      LGA    IAH        
+##  8    807 UA      LGA    IAH        
+##  9    807 UA      EWR    MCO        
+## 10    807 UA      EWR    MCO        
+## 11    807 UA      EWR    LAS        
+## 12    807 UA      EWR    IAH        
+## 13    807 UA      EWR    IAH        
+## 14    807 UA      EWR    IAH        
+## 15    807 UA      EWR    BOS        
+## 16    807 DL      JFK    PIT        
+## 17    807 DL      EWR    ATL        
+## 18    807 DL      EWR    ATL</code></pre>
+<p>May we conclude that flight numbers can be mapped to a unique carrier? <strong>No</strong>__ (<em>Yes/No</em>)</p>
 <p>Why or why not?</p>
-<p>If we know the flight number, carrier, and origin, can we know for sure what the destination will be? ________ (<em>Yes/No</em>)</p>
+<p>If we know the flight number, carrier, and origin, can we know for sure what the destination will be? <strong>No</strong>_ (<em>Yes/No</em>)</p>
 <p>Why or why not?</p>
 </div>
 </div>
@@ -221,7 +277,6 @@ head(COMPLETE)</code></pre>
 <div id="step-1-simple-example" class="section level2">
 <h2>Step 1: Simple Example</h2>
 <p>The pipe <code>%&gt;%</code> is used in a similar fashion to <code>+</code> in the <code>ggplot2()</code> package.</p>
-<p>Pipe operator (<code>%&gt;%</code>) can be read as ‘then’.</p>
 <p>One simple example: Compute the logarithm of <span class="math inline">\(x\)</span>, return suitably lagged and iterated differences, compute the exponential function and round the result to 1 decimal place.</p>
 <pre class="r"><code>x &lt;- c(0.109, 0.359, 0.63, 0.996, 0.515, 0.142, 0.017, 0.829, 0.907)</code></pre>
 <p>Method 1:</p>
@@ -237,46 +292,102 @@ head(COMPLETE)</code></pre>
 <div id="step-2-on-data-frame" class="section level2">
 <h2>Step 2: On data frame</h2>
 <p>It’s time to take a magical journey through the tidyverse on the pipe. Start by using <code>transmute()</code> to create a new variable “dep_hr” based on “dep_time” which represents departure time in hours since midnight. Recall the code for this is <code>dep_hr=dep_time%/%100+(dep_time%%100)/60</code>. In the same step, do this also for “sched_dep_time”,“arr_time”, and “sched_arr_time” naming the new variables “sched_dep_hr”, “arr_hr”, and “sched_arr_hr”, respectively. Save all these new variables to a new tibble called <code>f2a</code>. Use the function <code>names()</code> to ensure that <code>f2a</code> only contains the new variables and the function <code>head()</code> to view the top 5 rows.</p>
-<pre class="r"><code>f2a &lt;- transmute(flights,
+<pre class="r"><code>f2a=transmute(flights,
           dep_hr=dep_time%/%100+(dep_time%%100)/60,
-          sched_dep_hr=FUNCTION,
-          arr_hr=FUNCTION,
-          sched_arr_hr=FUNCTION)
-names(TIBBLE)
-head(TIBBLE,5)</code></pre>
+          sched_dep_hr=sched_dep_time%/%100+(sched_dep_time%%100)/60,
+          arr_hr=arr_time%/%100+(arr_time%%100)/60,
+          sched_arr_hr=sched_arr_time%/%100+(sched_arr_time%%100)/60)
+names(f2a)</code></pre>
+<pre><code>## [1] &quot;dep_hr&quot;       &quot;sched_dep_hr&quot; &quot;arr_hr&quot;       &quot;sched_arr_hr&quot;</code></pre>
+<pre class="r"><code>head(f2a,5)</code></pre>
+<pre><code>## # A tibble: 5 × 4
+##   dep_hr sched_dep_hr arr_hr sched_arr_hr
+##    &lt;dbl&gt;        &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;
+## 1   5.28         5.25   8.5          8.32
+## 2   5.55         5.48   8.83         8.5 
+## 3   5.7          5.67   9.38         8.83
+## 4   5.73         5.75  10.1         10.4 
+## 5   5.9          6      8.2          8.62</code></pre>
 <p>Now we can create true delay variables, measured in hours, for both departure and arrival. Using <code>mutate()</code>, create a new variable “dep_delay_hr” which equals the difference between “dep_hr” and “sched_dep_hr”. Analogously, perform the same operation for arrival. Call the new dataset <code>f2b</code>.</p>
-<pre class="r"><code>f2b &lt;- mutate(f2a,
-           dep_delay_hr=TRANSFORMATION,
-           arr_delay_hr=TRANSFORMATION)
+<pre class="r"><code>f2b=mutate(f2a,
+           dep_delay_hr=dep_hr-sched_dep_hr,
+           arr_delay_hr=arr_hr-sched_arr_hr)
 head(f2b,5)</code></pre>
-<p>Use the function <code>percent_rank()</code> to create a new variable “percent_dep_delay_hr” which represents the percentage of the variable you previously created. Notice that you can develop variables based on recently transformed variables in the same iteration of <code>mutate()</code>, but be careful little buddy because order matters. Name the new dataset <code>f2c</code>.</p>
-<pre class="r"><code>f2c &lt;- mutate(f2b,
-           percent_dep_delay_hr=TRANSFORMATION)</code></pre>
+<pre><code>## # A tibble: 5 × 6
+##   dep_hr sched_dep_hr arr_hr sched_arr_hr dep_delay_hr arr_delay_hr
+##    &lt;dbl&gt;        &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;
+## 1   5.28         5.25   8.5          8.32       0.0333        0.183
+## 2   5.55         5.48   8.83         8.5        0.0667        0.333
+## 3   5.7          5.67   9.38         8.83       0.0333        0.550
+## 4   5.73         5.75  10.1         10.4       -0.0167       -0.300
+## 5   5.9          6      8.2          8.62      -0.100        -0.417</code></pre>
+<p>Use the function <code>percent_rank()</code> to create a new variable “percent_dep_delay_hr” which represents the percentiles of the variable you previously created. Notice that you can develop variables based on recently transformed variables in the same iteration of <code>mutate()</code>, but be careful little buddy because order matters. Name the new dataset <code>f2c</code>.</p>
+<pre class="r"><code>f2c=mutate(f2b,
+           percent_dep_delay_hr=percent_rank(dep_delay_hr))
+head(f2c,5)</code></pre>
+<pre><code>## # A tibble: 5 × 7
+##   dep_hr sched_dep_hr arr_hr sched_arr_hr dep_delay_hr arr_delay_hr
+##    &lt;dbl&gt;        &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;
+## 1   5.28         5.25   8.5          8.32       0.0333        0.183
+## 2   5.55         5.48   8.83         8.5        0.0667        0.333
+## 3   5.7          5.67   9.38         8.83       0.0333        0.550
+## 4   5.73         5.75  10.1         10.4       -0.0167       -0.300
+## 5   5.9          6      8.2          8.62      -0.100        -0.417
+## # … with 1 more variable: percent_dep_delay_hr &lt;dbl&gt;</code></pre>
 <p>Use <code>filter()</code> to select the observations where <code>percent_dep_delay_hr&lt;0.1</code> or <code>percent_dep_delay_hr&gt;0.9</code> in a new dataset <code>f2d</code>. The tibble <code>f2d</code> will contain the bottom 10% and top 10% of flights based off “dep_delay_hr”.</p>
-<pre class="r"><code>f2d &lt;- filter(f2c,CRITERIA)
+<pre class="r"><code>f2d&lt;-filter(f2c,percent_dep_delay_hr&lt;0.1|percent_dep_delay_hr&gt;0.9)
 head(f2d,5)</code></pre>
+<pre><code>## # A tibble: 5 × 7
+##   dep_hr sched_dep_hr arr_hr sched_arr_hr dep_delay_hr arr_delay_hr
+##    &lt;dbl&gt;        &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;
+## 1   6.03         6.17   8.2          8.33       -0.133      -0.133 
+## 2   6.37         6.5   10.3         10.2        -0.133       0.0500
+## 3   6.62         6.75   9.5          9.58       -0.133      -0.0833
+## 4   6.93         7.08  10.1          9.67       -0.150       0.450 
+## 5   8            8.17   9.82         9.92       -0.167      -0.100 
+## # … with 1 more variable: percent_dep_delay_hr &lt;dbl&gt;</code></pre>
 <p>Finally, sort the data using <code>arrange()</code> from largest to smallest based on the variable “percent_dep_delay_hr”. Name the sorted tibble f2e. Use <code>head()</code> on <code>f2e</code> to show the top 5 flights based on the constructed variable “dep_delay_hr”.</p>
-<pre class="r"><code>f2e &lt;- arrange(f2d,VARIABLE)
+<pre class="r"><code>f2e&lt;-arrange(f2d,desc(percent_dep_delay_hr))
 head(f2e,5)</code></pre>
+<pre><code>## # A tibble: 5 × 7
+##   dep_hr sched_dep_hr arr_hr sched_arr_hr dep_delay_hr arr_delay_hr
+##    &lt;dbl&gt;        &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;
+## 1   23.4         8.17   1.58         10.3         15.2        -8.75
+## 2   23.0         7.98   1.35         10.4         15.0        -9.08
+## 3   22.7         8.5    1            11.1         14.2       -10.1 
+## 4   23.4        10.3    1.23         12.4         13.1       -11.2 
+## 5   19.4         6.25  21.6           8.7         13.1        12.9 
+## # … with 1 more variable: percent_dep_delay_hr &lt;dbl&gt;</code></pre>
 <p>Getting the original data from <code>flights</code> to <code>f2e</code> required multiple steps. If we know what we want to do with the raw data from <code>flights</code>, we can use the pipe <code>%&gt;%</code> to obtain the same result without intermittently introducing new tibbles into our global environment. The R code below turns your pipe dreams into reality.</p>
-<pre class="r"><code>f2e.pipedream = flights %&gt;%
+<pre class="r"><code>f2e.pipedream = 
+  flights %&gt;%
+  transmute(dep_hr=dep_time%/%100+(dep_time%%100)/60,
+            sched_dep_hr=sched_dep_time%/%100+(sched_dep_time%%100)/60,
+            arr_hr=arr_time%/%100+(arr_time%%100)/60,
+            sched_arr_hr=sched_arr_time%/%100+(sched_arr_time%%100)/60) %&gt;%
   
-                transmute(dep_hr=dep_time%/%100+(dep_time%%100)/60,
-                  sched_dep_hr=sched_dep_time%/%100+(sched_dep_time%%100)/60,
-                  arr_hr=arr_time%/%100+(arr_time%%100)/60,
-                  sched_arr_hr=sched_arr_time%/%100+(sched_arr_time%%100)/60) %&gt;%
+  mutate(dep_delay_hr=dep_hr-sched_dep_hr,
+        arr_delay_hr=arr_hr-sched_arr_hr) %&gt;%
   
-                mutate(dep_delay_hr=dep_hr-sched_dep_hr,
-                  arr_delay_hr=arr_hr-sched_arr_hr) %&gt;%
+  mutate(percent_dep_delay_hr=percent_rank(dep_delay_hr)) %&gt;%
   
-                mutate(percent_dep_delay_hr=percent_rank(dep_delay_hr)) %&gt;%
+  filter(percent_dep_delay_hr&lt;0.1|percent_dep_delay_hr&gt;0.9) %&gt;%
   
-                filter(percent_dep_delay_hr&lt;0.1|percent_dep_delay_hr&gt;0.9) %&gt;%
-  
-                arrange(desc(percent_dep_delay_hr))
+  arrange(desc(percent_dep_delay_hr))
+
 head(f2e.pipedream,5)</code></pre>
+<pre><code>## # A tibble: 5 × 7
+##   dep_hr sched_dep_hr arr_hr sched_arr_hr dep_delay_hr arr_delay_hr
+##    &lt;dbl&gt;        &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;
+## 1   23.4         8.17   1.58         10.3         15.2        -8.75
+## 2   23.0         7.98   1.35         10.4         15.0        -9.08
+## 3   22.7         8.5    1            11.1         14.2       -10.1 
+## 4   23.4        10.3    1.23         12.4         13.1       -11.2 
+## 5   19.4         6.25  21.6           8.7         13.1        12.9 
+## # … with 1 more variable: percent_dep_delay_hr &lt;dbl&gt;</code></pre>
 <p>The tibble <code>f2e.pipedream</code> is identical to <code>f2e</code> in the number of observations (65,737), the number of variables (7), and the order of observations. We can check to see if the tibble <code>f2e</code> is identical to <code>f2e.pipedream</code> using <code>identical()</code>. Can you feel the sensation? It’s piping hot up in here.</p>
 <pre class="r"><code>identical(f2e,f2e.pipedream)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 </div>
 </div>
 <div id="part-3-measuring-accuracy" class="section level1">
@@ -289,8 +400,21 @@ head(f2e.pipedream,5)</code></pre>
                 sched_arr_hr=sched_arr_time%/%100+(sched_arr_time%%100)/60,
                 dep_delay_hr=dep_hr-sched_dep_hr,
                 arr_delay_hr=arr_hr-sched_arr_hr,
-                accuracy=TRANSFORMATION)
+                accuracy=abs(dep_delay)+abs(arr_delay))
 head(f.accuracy,5)</code></pre>
+<pre><code>## # A tibble: 5 × 26
+##    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+##   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+## 1  2013     1     1      517            515         2      830            819
+## 2  2013     1     1      533            529         4      850            830
+## 3  2013     1     1      542            540         2      923            850
+## 4  2013     1     1      544            545        -1     1004           1022
+## 5  2013     1     1      554            600        -6      812            837
+## # … with 18 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,
+## #   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,
+## #   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, dep_hr &lt;dbl&gt;,
+## #   sched_dep_hr &lt;dbl&gt;, arr_hr &lt;dbl&gt;, sched_arr_hr &lt;dbl&gt;, dep_delay_hr &lt;dbl&gt;,
+## #   arr_delay_hr &lt;dbl&gt;, accuracy &lt;dbl&gt;</code></pre>
 <p>Preparing for comparisons of airline carriers on accuracy, we use the <code>select()</code> function to create a new tibble named <code>f.accuracy2</code> which only contains the variables “carrier” and “accuracy”.</p>
 <pre class="r"><code>f.accuracy2=select(f.accuracy,carrier,accuracy)</code></pre>
 <p>Next, we can evaluate carriers based on their average accuracy across all flights based on our new metric. Furthermore, the standard deviation of this accuracy metric can help us measure the consistency of these airline carriers in performance. The <code>summarize()</code> function combined with <code>group_by()</code> allows for quick aggregation on the carrier level.</p>
@@ -302,6 +426,25 @@ head(f.accuracy,5)</code></pre>
                   ) %&gt;%
                   arrange(mean.accuracy)
 carrier.summary</code></pre>
+<pre><code>## # A tibble: 16 × 3
+##    carrier mean.accuracy sd.accuracy
+##    &lt;chr&gt;           &lt;dbl&gt;       &lt;dbl&gt;
+##  1 US               31.4        50.8
+##  2 DL               38.9        73.5
+##  3 HA               40.0       142. 
+##  4 AA               40.2        67.5
+##  5 UA               40.6        64.7
+##  6 AS               42.4        50.4
+##  7 MQ               42.6        71.9
+##  8 B6               43.9        70.3
+##  9 VX               45.1        82.0
+## 10 WN               46.3        80.7
+## 11 FL               52.5        99.5
+## 12 9E               53.1        81.3
+## 13 OO               53.3        77.0
+## 14 EV               55.7        85.2
+## 15 F9               57.8       112. 
+## 16 YV               59.1        88.8</code></pre>
 </div>
 <div id="conclusion" class="section level1">
 <h1>Conclusion</h1>

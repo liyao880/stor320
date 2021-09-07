@@ -97,28 +97,28 @@ T09)
 |Aug. 24| RMarkdown I|[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf) | |
 |Aug. 26| RMarkdown II|| [Tutorial 02 sol](Tutorial/Tutorial02-sol.html)([.zip](https://drive.google.com/file/d/13uQt75BEFx7pJCVCMP-ERbpP9tQfF-Oo/view?usp=sharing))|
 |Aug. 31| Data Transformation I|[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf) | [Lecture 04](https://drive.google.com/file/d/10O9WkTRr5lBezGW015x6zmLhei1VULkq/view?usp=sharing)|
-|Sep. 2| Data Transformation II| [Slides](Lecture/Lecture05/Lecture 05 Data_Transformation II.pdf)|[Tutorial 03](Tutorial/Tutorial-03.html)([.rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))  |
-|Sep. 7| Final Project Instruction| | |
-|| Data Import| | |
-|Sep. 9| Exploratory Data Analysis| | |
+|Sep. 2| Data Transformation II| [Slides](Lecture/Lecture05/Lecture 05 Data_Transformation II.pdf)|[Tutorial 03 sol](Tutorial/Tutorial03_sol.html)([.rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))  |
+|Sep. 7| Final Project Instruction|[Slides](Lecture/Lecture06/Lecture 06 Final_Project.pdf) | |
+|| Data Transformation III| | [Tutorial 04](Tutorial/Tutorial-04.html)([.zip](https://drive.google.com/file/d/1I33OtqsrsN4zimI30sb9htLC_J1jjhQ0/view?usp=sharing))|
+|Sep. 9| Data Import| | |
 |Sep. 14| Project Proposal Discussion| | |
 |Sep. 16| Project Proposal Discussion| | |
-|Sep. 21| Tidy Data| | |
-|Sep. 23| Joins| | |
-|Sep. 28| Factors| | |
-|Sep. 30| Programming I |||
-|Oct. 5| Programming II |||
-|Oct. 7| Programming III |||
+|Sep. 21| Exploratory Data Analysis| | |
+|Sep. 23| Tidy Data| | |
+|Sep. 28| Joins| | |
+|Sep. 30| Factors| | |
+|Oct. 5| Programming I |||
+|Oct. 7| Programming II |||
 |Oct. 12| University Day| | |
-|Oct. 14| Modeling I| | |
-|Oct. 19| Modeling II| | |
+|Oct. 14| Programming III |||
+|Oct. 19| Modeling I| | |
 |Oct. 21| Fall Break| | |
-|Oct. 26| Modeling III| | |
-|Oct. 28| Modeling IV| | |
-|Nov. 2| Modeling V| | |
-|Nov. 4| Modeling VI |||
-|Nov. 9| Modeling VII| | |
-|Nov. 11| Modeling VIII| | |
+|Oct. 26| Modeling II| | |
+|Oct. 28| Modeling III| | |
+|Nov. 2| Modeling IV| | |
+|Nov. 4| Modeling V| | |
+|Nov. 9| Modeling VI |||
+|Nov. 11| Modeling VII| | |
 |Nov. 16| R Shiny| | |
 |Nov. 18| Data Ethics| | |
 |Nov. 23| Final Presentation |||
@@ -134,7 +134,7 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 |----------|:--------:|:-------------:|----------------:|
 | Aug 19  | [HW1](Homework/HW-1.html)([.rmd](https://drive.google.com/file/d/1C-bNF1fn5tlw_wsCxLiylEH-Oiw9VzKF/view?usp=sharing)) |  |Aug 29 (11:55 PM) |
 | Aug 29  | [HW2](Homework/HW-2.html)([.rmd](https://drive.google.com/file/d/1ps_9y01qiXzzKSTENaqkPCOKJDBjRQzE/view?usp=sharing)) | |Sep 12 (11:55 PM) |
-| Sep 12  | A1 | |Sep 19 (11:55 PM) |
+| Sep 7  | A1 | |Sep 19 (11:55 PM) |
 | Sep 19  | HW3 |  |Sep 26 (11:55 PM) |
 | Sep 26  | HW4 | |Oct 3 (11:55 PM) |
 | Oct 3  | A2 |  |Oct 17 (11:55 PM) |
@@ -183,7 +183,7 @@ This final project will be divided into four parts worth a total of 100 points. 
     
 * **[P3: Final Written Paper](Final Project/Final-Paper.html)** *(40 Points)*
     + [Template](Final Project/Final_Report_Template.html)([.Rmd](Final Project/Final_Report_Template.rmd))
-    + [Group Scoring]()
+    + [Group Scoring](https://docs.google.com/forms/d/e/1FAIpQLSdVoyZNMlB11GSG97_4QTYcNCYyxdW_IkPN68Q_PBG8PYwJSw/viewform?usp=sf_link)
     
 * **[P4: Final Presentation](Final Project/Final-Presentation.html)** *(30 Points)*
 

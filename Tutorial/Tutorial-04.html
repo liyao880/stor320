@@ -198,40 +198,53 @@ pre code {
 <pre class="r"><code>flight.summary = 
   
   #1
-  DATASET %&gt;%
+  flights %&gt;%
           
   #2
   mutate(
-    dep_min       = (dep_time%/%NUMBER)*NUMBER+dep_time%%NUMBER,
-    sched_dep_min = COMPLETE,
-    arr_min       = COMPLETE,
-    sched_arr_min = COMPLETE,
-    dep_delay_min = COMPLETE,
-    arr_delay_min = COMPLETE,
-    accuracy      = ACCURACY_FORMULA
+    dep_min       = (dep_time%/%100)*60+dep_time%%100,
+    sched_dep_min = (sched_dep_time%/%100)*60+sched_dep_time%%100,
+    arr_min       = (arr_time%/%100)*60+arr_time%%100,
+    sched_arr_min = (sched_arr_time%/%100)*60+sched_arr_time%%100,
+    dep_delay_min = dep_min-sched_dep_min,
+    arr_delay_min = arr_min-sched_arr_min,
+    accuracy      = abs(dep_delay_min) + abs(arr_delay_min)
   ) %&gt;%
   
   #3
-  filter(CRITERIA) %&gt;%
+  filter(!is.na(accuracy)) %&gt;%
   
   #4
-  group_by(VARIABLES) %&gt;%
+  group_by(origin, dest, carrier) %&gt;%
 
   #5
   summarize(
-    count=FUNCTION1,
-    mean.acc=FUNCTION2,
-    var.acc=FUNCTION3,
-    mean.dist=FUNCTION4,
+    count=n(),
+    mean.acc=mean(accuracy),
+    var.acc=var(accuracy),
+    mean.dist=mean(distance, na.rm=T),
     .groups=&quot;drop&quot;
   ) %&gt;%
   
   #6
-  filter(CRITERIA) %&gt;%
+  filter(!(count&lt;=10)) %&gt;%
   
   #7
-  mutate(proportion=FORMULA)</code></pre>
+  mutate(proportion=count/sum(count))</code></pre>
 <pre class="r"><code>head(flight.summary,10)</code></pre>
+<pre><code>## # A tibble: 10 × 8
+##    origin dest  carrier count mean.acc var.acc mean.dist proportion
+##    &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;int&gt;    &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt;      &lt;dbl&gt;
+##  1 EWR    ALB   EV        418     77.9  46873.       143   0.00127 
+##  2 EWR    ATL   DL       3122     46.9  21254.       746   0.00952 
+##  3 EWR    ATL   EV       1658     92.2  66850.       746   0.00506 
+##  4 EWR    ATL   UA        102     46.5   8893.       746   0.000311
+##  5 EWR    AUS   UA        664    163.  172017.      1504   0.00203 
+##  6 EWR    AUS   WN        295     27.8    950.      1504   0.000900
+##  7 EWR    AVL   EV        253     38.6   4009.       583   0.000772
+##  8 EWR    BDL   EV        405     88.0  98628.       116   0.00124 
+##  9 EWR    BNA   EV       1682     64.9  20108.       748   0.00513 
+## 10 EWR    BNA   WN        564     29.8   4550.       748   0.00172</code></pre>
 </div>
 <div id="part-2-building-charts-from-summary-data" class="section level1">
 <h1>Part 2: Building Charts From Summary Data</h1>

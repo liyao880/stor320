@@ -98,7 +98,7 @@ T09)
 |Aug. 26| RMarkdown II|| [Tutorial 02 sol](Tutorial/Tutorial02-sol.html)([.zip](https://drive.google.com/file/d/13uQt75BEFx7pJCVCMP-ERbpP9tQfF-Oo/view?usp=sharing))|
 |Aug. 31| Data Transformation I|[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf) | [Lecture 04](https://drive.google.com/file/d/10O9WkTRr5lBezGW015x6zmLhei1VULkq/view?usp=sharing)|
 |Sep. 2| Data Transformation II| [Slides](Lecture/Lecture05/Lecture 05 Data_Transformation II.pdf)|[Tutorial 03 sol](Tutorial/Tutorial03_sol.html)([.rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))  |
-|Sep. 7| Final Project Instruction|[Slides](Lecture/Lecture06/Lecture 06 Final_Project.pdf) | |
+|Sep. 7| [Final Project Instruction](https://unc.zoom.us/rec/share/EhEVx98NnfjBpJXp0z8MBwGM8hIMjaZm_naNqOvR1MlVOVoGslUIZX5DSkONxrX_.bGqAxSzX5VbbIJl6?startTime=1631037721000)|[Slides](Lecture/Lecture06/Lecture 06 Final_Project.pdf) | |
 || Data Transformation III| | [Tutorial 04](Tutorial/Tutorial-04.html)([.zip](https://drive.google.com/file/d/1I33OtqsrsN4zimI30sb9htLC_J1jjhQ0/view?usp=sharing))|
 |Sep. 9| Data Import| | |
 |Sep. 14| Project Proposal Discussion| | |

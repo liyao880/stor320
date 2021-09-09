@@ -171,7 +171,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 * **[P1: Project Proposal](Final Project/Project-Proposal.html)** *(10 Points)*
     + [Template](Final Project/Project_Proposal_Template.html)([.Rmd](Final Project/Project_Proposal_Template.Rmd))
-    + [Data World](https://data.world/datasets/download)
+    + [Data World](https://data.world)
     + [US Government Data](https://www.data.gov/)
     + [Kaggle](https://www.kaggle.com/)
     + [Free Data Info I](https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/#63f06f60b54d)

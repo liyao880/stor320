@@ -119,8 +119,8 @@ T09)
 |Nov. 4| Modeling V| | |
 |Nov. 9| Modeling VI |||
 |Nov. 11| Modeling VII| | |
-|Nov. 16| R Shiny| | |
-|Nov. 18| Data Ethics| | |
+|Nov. 16| Data Ethics| | |
+|Nov. 18| Final Presentation| | |
 |Nov. 23| Final Presentation |||
 |Nov. 25| Thanksgiving| | |
 |Nov. 30| Final Presentation| | |
@@ -197,8 +197,8 @@ This final project will be divided into four parts worth a total of 100 points. 
 | P2  | Exploratory Data Analysis | Sakai | Oct 15 (11:55PM)|
 |   | EDA Meeting | Lab | Week of Oct 18 to Oct 22 |
 | P3  | Final Report|Sakai|Nov 30 (11:55PM)|
-| P4  | Presentation Slides |Sakai| Nov 22 / Nov 29 (11:55PM)|
-|   | Final Presentation|Class| Nov 23 / Nov 30 (2:00PM-3:15PM)|
+| P4  | Presentation Slides |Sakai| Nov 17 /Nov 22 / Nov 29 (11:55PM)|
+|   | Final Presentation|Class| Nov 18 /Nov 23 / Nov 30 (2:00PM-3:15PM)|
 ||||
 
 ## Above Average Final Projects from Previous Courses

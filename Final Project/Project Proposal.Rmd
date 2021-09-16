@@ -23,12 +23,13 @@ output:
 The purpose of the project proposal is to demonstrate your ability to find relevant and interesting data and to propose many thoughtful and creative questions about that data. This is the first stage in your final project, and the data you select will be heavily explored for the remainder of the project. Work as a team to find data that intrigues the entire team and develop questions that are valuable for exploration.
 
 # **Requirements**
-All members of the group should be involved in the selection of the data. The data should have at least 5 variables that are not identifiers and will be studied in depth. Out of all the variables, at least 2 should be categorical. If your data only contains numeric variables, your group should decide on how to treat at least two of the variables as categorical. You are able to use multiple datasets in your project, but these will need to be merged at some point. To ensure future parts of the final project go smoothly, I recommend finding a dataset that contains more than 10 variables. To ensure your group is free of plagiarism, I recommend selecting datasets that are not attached to many online analyses. 
+All members of the group should be involved in the selection of the data. The data should have at least 5 variables that are not identifiers and will be studied in depth. Out of all the variables, at least 2 should be categorical. If your data only contains numeric variables, your group should decide on how to treat at least two of the variables as categorical. You are able to use multiple datasets in your project, but these will need to be merged at some point. To ensure future parts of the final project go smoothly, I recommend finding a dataset that contains more than 10 variables. To ensure your group is free of plagiarism, I recommend selecting datasets that are not attached to many online analyses. **Please don't use datasets from R packages.**
 
 Each member of the group is required to design at least two initial questions. These questions can be very general but should not be trivial. I recommend discussing the data as a group, design questions together, and then delegate the questions for future use. In later project parts, your group will be required to investigate these questions and then devise new follow-up questions for future analysis. Think generally about these initial questions so there is room for growth. Choose questions that have not been analyzed online for the data you have selected.
 
 A template for the project proposal is provided on the course website. In this template, I need to see three key things.
 
+- Header: Title, Group number, Date
 - Roles for each of the group members
 - Hyperlink to the online source of the data
 - Ten questions typed out in the form of a question

@@ -104,7 +104,7 @@ T09)
 |Sep. 14| Project Proposal Discussion| | |
 |Sep. 16| Project Proposal Discussion| | |
 |Sep. 21| Exploratory Data Analysis|[Slides](Lecture/Lecture08/Lecture 8 Exploratory_Data_Analysis.pdf) | |
-|Sep. 23| Tidy Data| | |
+|Sep. 23| Tidy Data|[Slides](Lecture/Lecture09/Lecture 9 Tidy Data.pdf) | [Tutorial 06](Tutorial/Tutorial-06.html)([.rmd](https://drive.google.com/file/d/1ONpR1uWseqxfUJR4UgkqHMlMvV8u5Gdb/view?usp=sharing))|
 |Sep. 28| Joins| | |
 |Sep. 30| Factors| | |
 |Oct. 5| Programming I |||

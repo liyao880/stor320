@@ -170,7 +170,7 @@ Although everyone is responsible for the entire project, each member of the grou
 This final project will be divided into four parts worth a total of 100 points. Each part will have a clear rubric as non-subjective as possible. The parts along with total point values are found below:
 
 * **[P1: Project Proposal](Final Project/Project-Proposal.html)** *(10 Points)*
-    + [Template](Final Project/Project_Proposal_Template.html)([.Rmd](Final Project/Project_Proposal_Template.Rmd))
+    + [Template](Final Project/Project_Proposal_Template.html)([.Rmd](https://drive.google.com/file/d/1xLhIyx7XWVtUeVjRCoTrCyjckSzuBFqO/view?usp=sharing))
     + [Data World](https://data.world)
     + [US Government Data](https://www.data.gov/)
     + [Kaggle](https://www.kaggle.com/)
@@ -179,10 +179,10 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 
 * **[P2: Exploratory Data Analysis](Final Project/Exploratory-Data-Analysis.html)** *(20 Points)*
-    + [Template](Final Project/EDA_Template.html) ([.Rmd](Final Project/EDA_Template.rmd))
+    + [Template](Final Project/EDA_Template.html) ([.Rmd](https://drive.google.com/file/d/1kpZ1a_cULSd8ouW6CFAAyvsKcRxu274S/view?usp=sharing))
     
 * **[P3: Final Written Paper](Final Project/Final-Paper.html)** *(40 Points)*
-    + [Template](Final Project/Final_Report_Template.html)([.Rmd](Final Project/Final_Report_Template.rmd))
+    + [Template](Final Project/Final_Report_Template.html)([.Rmd](https://drive.google.com/file/d/1qmlJ3OJ78_pa04oXFz2DczSSQuINgFQM/view?usp=sharing))
     + [Group Scoring](https://docs.google.com/forms/d/e/1FAIpQLSdVoyZNMlB11GSG97_4QTYcNCYyxdW_IkPN68Q_PBG8PYwJSw/viewform?usp=sf_link)
     
 * **[P4: Final Presentation](Final Project/Final-Presentation.html)** *(30 Points)*

@@ -106,7 +106,7 @@ T09)
 |Sep. 21| Exploratory Data Analysis|[Slides](Lecture/Lecture08/Lecture 8 Exploratory_Data_Analysis.pdf) | |
 |Sep. 23| Tidy Data|[Slides](Lecture/Lecture09/Lecture 9 Tidy Data.pdf) | [Tutorial 06 sol](Tutorial/Tutorial06_sol.html)([.rmd](https://drive.google.com/file/d/1ONpR1uWseqxfUJR4UgkqHMlMvV8u5Gdb/view?usp=sharing))|
 |Sep. 28| Joins|[Slides](Lecture/Lecture10/Lecture 10 Joins.pdf) |[Lecture 10](https://drive.google.com/file/d/1auF1Vy8k4cbGFjip7ybzNDjYEU5TKqHk/view?usp=sharing) |
-|Sep. 30| Factors| | |
+|Sep. 30| Factors|[Slides](Lecture/Lecture11/Lecture 11 Factors.pdf) | |
 |Oct. 5| Programming I |||
 |Oct. 7| Programming II |||
 |Oct. 12| University Day| | |
@@ -195,7 +195,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 | P1  | Project Proposal | Sakai | Sep 13 (11:55PM)|
 |   | Proposal Meeting | Class | Sep 14 / Sep 16 (2:00PM-3:15PM)|
 | P2  | Exploratory Data Analysis | Sakai | Oct 15 (11:55PM)|
-|   | EDA Meeting | Lab | Week of Oct 18 to Oct 22 |
+|   | EDA Meeting | Lab | Week of Oct 25 to Oct 29 |
 | P3  | Final Report|Sakai|Nov 30 (11:55PM)|
 | P4  | Presentation Slides |Sakai| Nov 17 /Nov 22 / Nov 29 (11:55PM)|
 |   | Final Presentation|Class| Nov 18 /Nov 23 / Nov 30 (2:00PM-3:15PM)|

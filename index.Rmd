@@ -109,7 +109,7 @@ T09)
 |Sep. 30| Factors|[Slides](Lecture/Lecture11/Lecture 11 Factors.pdf) | |
 |Oct. 5| Programming I |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 09](Tutorial/Tutorial-09.html)([.rmd](https://drive.google.com/file/d/1_Rx0ZCsIcn43Lxxed2wcdDv14L58GlTQ/view?usp=sharing))|
 ||||[Tutorial 10](Tutorial/Tutorial-10.html)([.rmd](https://drive.google.com/file/d/10VDpMfk13nKV5h40TBWR0r3Af2qqOb5N/view?usp=sharing))|
-|Oct. 7| Programming II |||
+|Oct. 7| Programming II |[Slides](Lecture/Lecture13/Lecture 13 Programming II.pdf)||
 |Oct. 12| University Day| | |
 |Oct. 14| Programming III |||
 |Oct. 19| Modeling I| | |

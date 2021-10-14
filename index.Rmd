@@ -111,7 +111,7 @@ T09)
 ||||[Tutorial 10](Tutorial/Tutorial-10.html)([.rmd](https://drive.google.com/file/d/10VDpMfk13nKV5h40TBWR0r3Af2qqOb5N/view?usp=sharing))|
 |Oct. 7| Programming II |[Slides](Lecture/Lecture13/Lecture 13 Programming II.pdf)||
 |Oct. 12| University Day (No Class)| | |
-|Oct. 14| Programming III |||
+|Oct. 14| Programming III |[Slides](Lecture/Lecture14/Lecture 14 Programming III.pdf)||
 |Oct. 19| Modeling I| | |
 |Oct. 21| Fall Break| | |
 |Oct. 26| Modeling II| | |
@@ -140,7 +140,7 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 | Sep 26  | [HW4](Homework/HW-4.html)([.rmd](https://drive.google.com/file/d/1Nl0rYk5m4TlmFWJJaXDLUMM1v3zu34rY/view?usp=sharing)) | |Oct 3 (11:55 PM) |
 | Oct 3  | [A2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1CZfU15jNsnkUjZbcH5cZn_V51y1NVwVT/view?usp=sharing)) |  |Oct 10 (11:55 PM) |
 | Oct 10  | [HW5](Homework/HW-5.html)([.rmd](https://drive.google.com/file/d/1oFhG_Tjs_5uUtSJCWyv1yUZithHoKV9T/view?usp=sharing)) | |Oct 17(11:55 PM) |
-| Oct 17  | A3||Oct 31 (11:55 PM) |
+| Oct 17  | [A3](Homework/Analysis 3/Analysis-3.html)([.zip](https://drive.google.com/file/d/16snRvifKbxUTv-chBeZknViYb7tdEyE0/view?usp=sharing))||Oct 31 (11:55 PM) |
 | Oct 31  | HW6 | |Nov 7 (11:55 PM) |
 | Nov 7  | HW7 | |Nov 14 (11:55 PM) |
 | Nov 14  | A4 ||Nov 28 (11:55 PM) |

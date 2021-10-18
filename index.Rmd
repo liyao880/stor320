@@ -195,7 +195,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 |------|-------------|-------------------|----------------:|
 | P1  | Project Proposal | Sakai | Sep 13 (11:55PM)|
 |   | Proposal Meeting | Class | Sep 14 / Sep 16 (2:00PM-3:15PM)|
-| P2  | Exploratory Data Analysis | Sakai | Oct 15 (11:55PM)|
+| P2  | Exploratory Data Analysis | Sakai | Oct 22 (11:55PM)|
 |   | EDA Meeting | Lab | Week of Oct 25 to Oct 29 |
 | P3  | Final Report|Sakai|Nov 30 (11:55PM)|
 | P4  | Presentation Slides |Sakai| Nov 17 /Nov 22 / Nov 29 (11:55PM)|

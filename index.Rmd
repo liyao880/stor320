@@ -112,7 +112,7 @@ T09)
 |Oct. 7| Programming II |[Slides](Lecture/Lecture13/Lecture 13 Programming II.pdf)||
 |Oct. 12| University Day (No Class)| | |
 |Oct. 14| Programming III |[Slides](Lecture/Lecture14/Lecture 14 Programming III.pdf)||
-|Oct. 19| Modeling I| | |
+|Oct. 19| Modeling I| [Slides](Lecture/Lecture15/Lecture 15 Modeling I.pdf)| |
 |Oct. 21| Fall Break| | |
 |Oct. 26| Modeling II| | |
 |Oct. 28| Modeling III| | |

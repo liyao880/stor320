@@ -114,7 +114,8 @@ T09)
 |Oct. 14| Programming III |[Slides](Lecture/Lecture14/Lecture 14 Programming III.pdf)||
 |Oct. 19| Modeling I| [Slides](Lecture/Lecture15/Lecture 15 Modeling I.pdf)| |
 |Oct. 21| Fall Break| | |
-|Oct. 26| Modeling II| | |
+|Oct. 26| Modeling II|[Slides](Lecture/Lecture16/Lecture 16 Modeling II.pdf) |[Tutorial 11](Tutorial/Tutorial11.html)([.zip](https://drive.google.com/file/d/1W6jpeb-A0LTcqwP5BaNrR4va7JZMiKDu/view?usp=sharing)) |
+|| | |[Tutorial 12](Tutorial/Tutorial12.html)([.zip](https://drive.google.com/file/d/177iH5AXOB20AYQ-MPuCppcMkNSqjDE2Y/view?usp=sharing)) |
 |Oct. 28| Modeling III| | |
 |Nov. 2| Modeling IV| | |
 |Nov. 4| Modeling V| | |

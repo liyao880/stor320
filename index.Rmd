@@ -118,7 +118,7 @@ T09)
 || | |[Tutorial 12](Tutorial/Tutorial12.html)([.zip](https://drive.google.com/file/d/177iH5AXOB20AYQ-MPuCppcMkNSqjDE2Y/view?usp=sharing)) |
 |Oct. 28| Modeling III| [Slides](Lecture/Lecture17/Lecture 17 Modeling III.pdf)|[Tutorial 13](Tutorial/Tutorial13.html)([.zip](https://drive.google.com/file/d/1AdLqAkydzerhGpAv3O8cdkUrpjrAl2vm/view?usp=sharing)) |
 |Nov. 2| Modeling IV|[Slides](Lecture/Lecture18/Lecture 18 Modeling IV.pdf) | |
-|Nov. 4| Modeling V| | |
+|Nov. 4| Modeling V|[Slides](Lecture/Lecture19/Lecture 19 Modeling V.pdf) | |
 |Nov. 9| Modeling VI |||
 |Nov. 11| Modeling VII| | |
 |Nov. 16| Data Ethics| | |

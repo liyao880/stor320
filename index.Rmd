@@ -144,7 +144,7 @@ All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu
 | Oct 17  | [A3](Homework/Analysis 3/Analysis-3.html)([.zip](https://drive.google.com/file/d/16snRvifKbxUTv-chBeZknViYb7tdEyE0/view?usp=sharing))||Oct 31 (11:55 PM) |
 | Oct 31  | [HW6](Homework/HW-6.html)([.rmd](https://drive.google.com/file/d/1x-ssI8l0a5xLfn7Kvp9KBkxycFMOvJWq/view?usp=sharing)) | |Nov 7 (11:55 PM) |
 | Nov 7  | [HW7](Homework/HW-7.html)([.rmd](https://drive.google.com/file/d/1T1Km3-yGOMPdQPLPP9fYrMHL6pvd-GTa/view?usp=sharing)) | |Nov 14 (11:55 PM) |
-| Nov 14  | A4 ||Nov 28 (11:55 PM) |
+| Nov 14  | [A4](Homework/Analysis 4/Analysis-4.html)([.zip](https://drive.google.com/file/d/1yVYV5v3ztokDpoN88u1zhuBExdJP8K7z/view?usp=sharing)) ||Nov 28 (11:55 PM) |
 |          |        |     |           |
 
 # **Final Project Details**

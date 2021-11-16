@@ -121,7 +121,7 @@ T09)
 |Nov. 4| Modeling V|[Slides](Lecture/Lecture19/Lecture 19 Modeling V.pdf) | |
 |Nov. 9| Modeling VI |[Slides](Lecture/Lecture20/Lecture 20 Modeling VI.pdf)|[Tutorial 14](Tutorial/Tutorial-14.html)([.rmd](https://drive.google.com/file/d/1r8zV55aRrkkFYa6UUzc8lKiGFCxIDAcE/view?usp=sharing))|
 |Nov. 11| Modeling VII| [Slides](Lecture/Lecture21/Lecture 21 Shrinkage Method.pdf)|[Tutorial 15](Tutorial/Tutorial-15.html)([.rmd](https://drive.google.com/file/d/1xzIJph70nseBhPwiqVj63xi600CJZIP0/view?usp=sharing)) |
-|Nov. 16| Modeling VIII| | |
+|Nov. 16| Intro to Deep Learning| | |
 |Nov. 18| Final Presentation| | |
 |Nov. 23| Final Presentation |||
 |Nov. 25| Thanksgiving| | |

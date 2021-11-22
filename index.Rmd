@@ -107,20 +107,20 @@ T09)
 |Sep. 23| Tidy Data|[Slides](Lecture/Lecture09/Lecture 9 Tidy Data.pdf) | [Tutorial 06 sol](Tutorial/Tutorial06_sol.html)([.rmd](https://drive.google.com/file/d/1ONpR1uWseqxfUJR4UgkqHMlMvV8u5Gdb/view?usp=sharing))|
 |Sep. 28| Joins|[Slides](Lecture/Lecture10/Lecture 10 Joins.pdf) |[Lecture 10](https://drive.google.com/file/d/1auF1Vy8k4cbGFjip7ybzNDjYEU5TKqHk/view?usp=sharing) |
 |Sep. 30| Factors|[Slides](Lecture/Lecture11/Lecture 11 Factors.pdf) | |
-|Oct. 5| Programming I |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 09](Tutorial/Tutorial-09.html)([.rmd](https://drive.google.com/file/d/1_Rx0ZCsIcn43Lxxed2wcdDv14L58GlTQ/view?usp=sharing))|
-||||[Tutorial 10](Tutorial/Tutorial-10.html)([.rmd](https://drive.google.com/file/d/10VDpMfk13nKV5h40TBWR0r3Af2qqOb5N/view?usp=sharing))|
+|Oct. 5| Programming I |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 09 sol](Tutorial/Tutorial09_sol.html)([.rmd](https://drive.google.com/file/d/1_Rx0ZCsIcn43Lxxed2wcdDv14L58GlTQ/view?usp=sharing))|
+||||[Tutorial 10 sol](Tutorial/Tutorial10_sol.html)([.rmd](https://drive.google.com/file/d/10VDpMfk13nKV5h40TBWR0r3Af2qqOb5N/view?usp=sharing))|
 |Oct. 7| Programming II |[Slides](Lecture/Lecture13/Lecture 13 Programming II.pdf)||
 |Oct. 12| University Day (No Class)| | |
 |Oct. 14| Programming III |[Slides](Lecture/Lecture14/Lecture 14 Programming III.pdf)||
 |Oct. 19| Modeling I| [Slides](Lecture/Lecture15/Lecture 15 Modeling I.pdf)| |
 |Oct. 21| Fall Break| | |
-|Oct. 26| Modeling II|[Slides](Lecture/Lecture16/Lecture 16 Modeling II.pdf) |[Tutorial 11](Tutorial/Tutorial11.html)([.zip](https://drive.google.com/file/d/1W6jpeb-A0LTcqwP5BaNrR4va7JZMiKDu/view?usp=sharing)) |
-|| | |[Tutorial 12](Tutorial/Tutorial12.html)([.zip](https://drive.google.com/file/d/177iH5AXOB20AYQ-MPuCppcMkNSqjDE2Y/view?usp=sharing)) |
-|Oct. 28| Modeling III| [Slides](Lecture/Lecture17/Lecture 17 Modeling III.pdf)|[Tutorial 13](Tutorial/Tutorial13.html)([.zip](https://drive.google.com/file/d/1AdLqAkydzerhGpAv3O8cdkUrpjrAl2vm/view?usp=sharing)) |
+|Oct. 26| Modeling II|[Slides](Lecture/Lecture16/Lecture 16 Modeling II.pdf) |[Tutorial 11 sol](Tutorial/Tutorial11_sol.html)([.zip](https://drive.google.com/file/d/1W6jpeb-A0LTcqwP5BaNrR4va7JZMiKDu/view?usp=sharing)) |
+|| | |[Tutorial 12 sol](Tutorial/Tutorial12_sol.html)([.zip](https://drive.google.com/file/d/177iH5AXOB20AYQ-MPuCppcMkNSqjDE2Y/view?usp=sharing)) |
+|Oct. 28| Modeling III| [Slides](Lecture/Lecture17/Lecture 17 Modeling III.pdf)|[Tutorial 13 sol](Tutorial/Tutorial13_sol.html)([.zip](https://drive.google.com/file/d/1AdLqAkydzerhGpAv3O8cdkUrpjrAl2vm/view?usp=sharing)) |
 |Nov. 2| Modeling IV|[Slides](Lecture/Lecture18/Lecture 18 Modeling IV.pdf) | |
 |Nov. 4| Modeling V|[Slides](Lecture/Lecture19/Lecture 19 Modeling V.pdf) | |
-|Nov. 9| Modeling VI |[Slides](Lecture/Lecture20/Lecture 20 Modeling VI.pdf)|[Tutorial 14](Tutorial/Tutorial-14.html)([.rmd](https://drive.google.com/file/d/1r8zV55aRrkkFYa6UUzc8lKiGFCxIDAcE/view?usp=sharing))|
-|Nov. 11| Modeling VII| [Slides](Lecture/Lecture21/Lecture 21 Shrinkage Method.pdf)|[Tutorial 15](Tutorial/Tutorial-15.html)([.rmd](https://drive.google.com/file/d/1xzIJph70nseBhPwiqVj63xi600CJZIP0/view?usp=sharing)) |
+|Nov. 9| Modeling VI |[Slides](Lecture/Lecture20/Lecture 20 Modeling VI.pdf)|[Tutorial 14 sol](Tutorial/Tutorial14_sol.html)([.rmd](https://drive.google.com/file/d/1r8zV55aRrkkFYa6UUzc8lKiGFCxIDAcE/view?usp=sharing))|
+|Nov. 11| Modeling VII| [Slides](Lecture/Lecture21/Lecture 21 Shrinkage Method.pdf)|[Tutorial 15 sol](Tutorial/Tutorial-15.html)([.rmd](https://drive.google.com/file/d/1xzIJph70nseBhPwiqVj63xi600CJZIP0/view?usp=sharing)) |
 |Nov. 16| Intro to Deep Learning| | |
 |Nov. 18| Final Presentation| | |
 |Nov. 23| Final Presentation |||

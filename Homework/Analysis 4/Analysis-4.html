@@ -11,7 +11,7 @@
 
 <meta name="author" content="FIRSTNAME LASTNAME" />
 
-<meta name="date" content="2021-11-15" />
+<meta name="date" content="2021-11-22" />
 
 <title>Analysis 4: Model Selection Via K-Fold CV</title>
 
@@ -167,7 +167,7 @@ pre code {
 
 <h1 class="title toc-ignore">Analysis 4: Model Selection Via K-Fold CV</h1>
 <h4 class="author">FIRSTNAME LASTNAME</h4>
-<h4 class="date">November 15, 2021</h4>
+<h4 class="date">November 22, 2021</h4>
 
 </div>
 
@@ -201,7 +201,7 @@ glimpse(DATA)</code></pre>
 <blockquote>
 <p>The ice we skate is getting pretty thin. The water’s getting warm so you might as well swim.</p>
 </blockquote>
-<p>What is the point of stealing your tuition, if I cannot grab some fish? The model below is an expression of a family of polynomial regression models that use <code>A</code> and <code>D</code> to explain the variation in <code>W</code>. Every choice of <span class="math inline">\(I\)</span> and <span class="math inline">\(J\)</span> leads to a different model. For our purpose, we would like to consider all possible subset models where <span class="math inline">\(I\leq 7\)</span> and <span class="math inline">\(J\leq 7\)</span>. To choose the best model, we rely on cross-validation (CV) to estimate out-of-sample root mean squared error (RMSE). The best choice of <span class="math inline">\(I\)</span> and <span class="math inline">\(J\)</span> minimize prediction error. I highly recommend seeing the previous <a href="https://liyao880.github.io/stor320/Lecture/Lecture18/Tutorial11.html">Tutorial</a> which provides necessary code to complete this assignment. If you don’t look at this tutorial, you will be miserable like these fish.</p>
+<p>What is the point of stealing your tuition, if I cannot grab some fish? The model below is an expression of a family of polynomial regression models that use <code>A</code> and <code>D</code> to explain the variation in <code>W</code>. Every choice of <span class="math inline">\(I\)</span> and <span class="math inline">\(J\)</span> leads to a different model. For our purpose, we would like to consider all possible subset models where <span class="math inline">\(I\leq 7\)</span> and <span class="math inline">\(J\leq 7\)</span>. To choose the best model, we rely on cross-validation (CV) to estimate out-of-sample root mean squared error (RMSE). The best choice of <span class="math inline">\(I\)</span> and <span class="math inline">\(J\)</span> minimize prediction error. I highly recommend seeing the previous <a href="https://liyao880.github.io/stor320/Tutorial/Tutorial11_sol.html">Tutorial</a> which provides necessary code to complete this assignment. If you don’t look at this tutorial, you will be miserable like these fish.</p>
 <p><span class="math display">\[W = a+\sum\limits_{i=1}^I b_i A^i + \sum\limits_{j=1}^J c_j D^j + \epsilon\]</span></p>
 <blockquote>
 <p>My world’s on fire. How about yours? That’s the way I like it and I’ll never get bored.</p>

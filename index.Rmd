@@ -92,34 +92,34 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 | Date | Lecture | Slides | Tutorial|
 |------|---------|--------:|--------:|
 |Aug. 19| Welcome |[Slides](Lecture/Lecture01/Lecture 01_1 Welcome.pdf)| |
-|| Data Visualization|[Slides](Lecture/Lecture01/Lecture 01_2 Data_Visualization_Lecture.pdf)| [Tutorial 01](Tutorial/Tutorial-01.html)([.rmd](https://drive.google.com/file/d/1axwnhheH0IMH3xkE_GJWSREK7gdzMLvd/view?usp=sharing)) |
+|| Data Visualization|[Slides](Lecture/Lecture01/Lecture 01_2 Data_Visualization_Lecture.pdf)| [Tutorial 01]()([.rmd]()) |
 |Aug. 24| RMarkdown I|[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf) | |
-|Aug. 26| RMarkdown II|| [Tutorial 02 sol](Tutorial/Tutorial02-sol.html)([.zip](https://drive.google.com/file/d/13uQt75BEFx7pJCVCMP-ERbpP9tQfF-Oo/view?usp=sharing))|
+|Aug. 26| RMarkdown II|| [Tutorial 02 sol]()([.zip]())|
 |Aug. 31| Data Transformation I|[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf) | [Lecture 04](https://drive.google.com/file/d/10O9WkTRr5lBezGW015x6zmLhei1VULkq/view?usp=sharing)|
-|Sep. 2| Data Transformation II| [Slides](Lecture/Lecture05/Lecture 05 Data_Transformation II.pdf)|[Tutorial 03 sol](Tutorial/Tutorial03_sol.html)([.rmd](https://drive.google.com/file/d/1zPZpvvshqarahO7qJNqTiX3SCXk-azK5/view?usp=sharing))  |
+|Sep. 2| Data Transformation II| [Slides](Lecture/Lecture05/Lecture 05 Data_Transformation II.pdf)|[Tutorial 03 sol]()([.rmd]())  |
 |Sep. 7| [Final Project Instruction](https://unc.zoom.us/rec/share/EhEVx98NnfjBpJXp0z8MBwGM8hIMjaZm_naNqOvR1MlVOVoGslUIZX5DSkONxrX_.bGqAxSzX5VbbIJl6?startTime=1631037721000)|[Slides](Lecture/Lecture06/Lecture 06 Final_Project.pdf) | |
-|| Data Transformation III| | [Tutorial 04 sol](Tutorial/Tutorial-04.html)([.zip](https://drive.google.com/file/d/1I33OtqsrsN4zimI30sb9htLC_J1jjhQ0/view?usp=sharing))|
+|| Data Transformation III| | [Tutorial 04 sol]()([.zip]())|
 |Sep. 9| Data Import|[Slides](Lecture/Lecture07/Lecture 7 Data_Import.pdf) | |
 |Sep. 14| Project Proposal Discussion| | |
 |Sep. 16| Project Proposal Discussion| | |
 |Sep. 21| Exploratory Data Analysis|[Slides](Lecture/Lecture08/Lecture 8 Exploratory_Data_Analysis.pdf) | |
-|Sep. 23| Tidy Data|[Slides](Lecture/Lecture09/Lecture 9 Tidy Data.pdf) | [Tutorial 06 sol](Tutorial/Tutorial06_sol.html)([.rmd](https://drive.google.com/file/d/1ONpR1uWseqxfUJR4UgkqHMlMvV8u5Gdb/view?usp=sharing))|
+|Sep. 23| Tidy Data|[Slides](Lecture/Lecture09/Lecture 9 Tidy Data.pdf) | [Tutorial 06 sol]()([.rmd]())|
 |Sep. 28| Joins|[Slides](Lecture/Lecture10/Lecture 10 Joins.pdf) |[Lecture 10](https://drive.google.com/file/d/1auF1Vy8k4cbGFjip7ybzNDjYEU5TKqHk/view?usp=sharing) |
 |Sep. 30| Factors|[Slides](Lecture/Lecture11/Lecture 11 Factors.pdf) | |
-|Oct. 5| Programming I |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 09 sol](Tutorial/Tutorial09_sol.html)([.rmd](https://drive.google.com/file/d/1_Rx0ZCsIcn43Lxxed2wcdDv14L58GlTQ/view?usp=sharing))|
-||||[Tutorial 10 sol](Tutorial/Tutorial10_sol.html)([.rmd](https://drive.google.com/file/d/10VDpMfk13nKV5h40TBWR0r3Af2qqOb5N/view?usp=sharing))|
+|Oct. 5| Programming I |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 09 sol]()([.rmd]())|
+||||[Tutorial 10 sol]()([.rmd]())|
 |Oct. 7| Programming II |[Slides](Lecture/Lecture13/Lecture 13 Programming II.pdf)||
 |Oct. 12| University Day (No Class)| | |
 |Oct. 14| Programming III |[Slides](Lecture/Lecture14/Lecture 14 Programming III.pdf)||
 |Oct. 19| Modeling I| [Slides](Lecture/Lecture15/Lecture 15 Modeling I.pdf)| |
 |Oct. 21| Fall Break| | |
-|Oct. 26| Modeling II|[Slides](Lecture/Lecture16/Lecture 16 Modeling II.pdf) |[Tutorial 11 sol](Tutorial/Tutorial11_sol.html)([.zip](https://drive.google.com/file/d/1W6jpeb-A0LTcqwP5BaNrR4va7JZMiKDu/view?usp=sharing)) |
-|| | |[Tutorial 12 sol](Tutorial/Tutorial12_sol.html)([.zip](https://drive.google.com/file/d/177iH5AXOB20AYQ-MPuCppcMkNSqjDE2Y/view?usp=sharing)) |
-|Oct. 28| Modeling III| [Slides](Lecture/Lecture17/Lecture 17 Modeling III.pdf)|[Tutorial 13 sol](Tutorial/Tutorial13_sol.html)([.zip](https://drive.google.com/file/d/1AdLqAkydzerhGpAv3O8cdkUrpjrAl2vm/view?usp=sharing)) |
+|Oct. 26| Modeling II|[Slides](Lecture/Lecture16/Lecture 16 Modeling II.pdf) |[Tutorial 11 sol]()([.zip]()) |
+|| | |[Tutorial 12 sol]()([.zip]()) |
+|Oct. 28| Modeling III| [Slides](Lecture/Lecture17/Lecture 17 Modeling III.pdf)|[Tutorial 13 sol]()([.zip]()) |
 |Nov. 2| Modeling IV|[Slides](Lecture/Lecture18/Lecture 18 Modeling IV.pdf) | |
 |Nov. 4| Modeling V|[Slides](Lecture/Lecture19/Lecture 19 Modeling V.pdf) | |
-|Nov. 9| Modeling VI |[Slides](Lecture/Lecture20/Lecture 20 Modeling VI.pdf)|[Tutorial 14 sol](Tutorial/Tutorial14_sol.html)([.rmd](https://drive.google.com/file/d/1r8zV55aRrkkFYa6UUzc8lKiGFCxIDAcE/view?usp=sharing))|
-|Nov. 11| Modeling VII| [Slides](Lecture/Lecture21/Lecture 21 Shrinkage Method.pdf)|[Tutorial 15 sol](Tutorial/Tutorial-15.html)([.rmd](https://drive.google.com/file/d/1xzIJph70nseBhPwiqVj63xi600CJZIP0/view?usp=sharing)) |
+|Nov. 9| Modeling VI |[Slides](Lecture/Lecture20/Lecture 20 Modeling VI.pdf)|[Tutorial 14 sol]()([.rmd]())|
+|Nov. 11| Modeling VII| [Slides](Lecture/Lecture21/Lecture 21 Shrinkage Method.pdf)|[Tutorial 15 sol]()([.rmd]()) |
 |Nov. 16| Intro to Deep Learning| | |
 |Nov. 18| Final Presentation| | |
 |Nov. 23| Final Presentation |||

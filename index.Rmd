@@ -71,19 +71,19 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 - Instructor: **[Yao Li](https://liyao880.github.io/yaoli/)**
 
 - Instructional Assistants: 
-    - **[Shaleni Kovach](https://stor.unc.edu/people/graduate-students/)**
-    - **[Zichao Li](https://stor.unc.edu/people/graduate-students/)**
+    - **[TBA](https://stor.unc.edu/people/graduate-students/)**
+    - **[TBA](https://stor.unc.edu/people/graduate-students/)**
 
 - Class:
-    - Lectures: TTH 2:00PM-3:15PM, Gardner 105 ([Zoom]())
-    - Lab 320.400 by Shaleni: W 4:40PM-5:30PM, H130
-    - Lab 320.401 by Shaleni: F 4:40PM-5:30PM, H130
-    - Lab 320.402 by Zichao: W 1:25PM-2:15PM, H130
+    - Lectures: TTH 8:00AM-9:15AM, Hanes 120
+    - Lab 320.400 by TBA: W 4:40PM-5:30PM, H130
+    - Lab 320.401 by TBA: F 4:40PM-5:30PM, H130
+    - Lab 320.402 by TBA: W 1:25PM-2:15PM, H130
     
 - Office Hours:
-    - Instructor Office Hours: T 1:00PM-2:00PM TH 3:30PM-4:30PM, Hanes 334 or [Zoom]()
-    - Shaleni Office Hours: WF 3:30PM-4:30PM, Hanes B-05 or [Zoom]()
-    - Zichao Office Hours: W 2:30-4:30PM, Hanes B-52 or [Zoom]()
+    - Instructor Office Hours: W 2:00PM-4:00PM, Hanes 334
+    - TBA Office Hours: 
+    - TBA Office Hours: 
 
 
 
@@ -91,59 +91,59 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 
 | Date | Lecture | Slides | Tutorial|
 |------|---------|--------:|--------:|
-|Aug. 19| Welcome |[Slides](Lecture/Lecture01/Lecture 01_1 Welcome.pdf)| |
+|Aug. 20| Welcome |[Slides](Lecture/Lecture01/Lecture 01_1 Welcome.pdf)| |
 || Data Visualization|[Slides](Lecture/Lecture01/Lecture 01_2 Data_Visualization_Lecture.pdf)| [Tutorial 01]()([.rmd]()) |
-|Aug. 24| RMarkdown I|[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf) | |
-|Aug. 26| RMarkdown II|| [Tutorial 02 sol]()([.zip]())|
-|Aug. 31| Data Transformation I|[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf) | [Lecture 04](https://drive.google.com/file/d/10O9WkTRr5lBezGW015x6zmLhei1VULkq/view?usp=sharing)|
-|Sep. 2| Data Transformation II| [Slides](Lecture/Lecture05/Lecture 05 Data_Transformation II.pdf)|[Tutorial 03 sol]()([.rmd]())  |
-|Sep. 7| [Final Project Instruction](https://unc.zoom.us/rec/share/EhEVx98NnfjBpJXp0z8MBwGM8hIMjaZm_naNqOvR1MlVOVoGslUIZX5DSkONxrX_.bGqAxSzX5VbbIJl6?startTime=1631037721000)|[Slides](Lecture/Lecture06/Lecture 06 Final_Project.pdf) | |
+|Aug. 22| RMarkdown I|[Slides](Lecture/Lecture02/Lecture 02 Workflow_Lecture.pdf) | |
+|Aug. 27| RMarkdown II|| [Tutorial 02 sol]()([.zip]())|
+|Aug. 29| Data Transformation I|[Slides](Lecture/Lecture04/Lecture 04 Data_Transformation.pdf) | [Lecture 04](https://drive.google.com/file/d/10O9WkTRr5lBezGW015x6zmLhei1VULkq/view?usp=sharing)|
+|Sep. 3| Well-Being Day| | |
+|Sep. 5| Data Transformation II| [Slides](Lecture/Lecture05/Lecture 05 Data_Transformation II.pdf)|[Tutorial 03 sol]()([.rmd]())  |
+|Sep. 10| Final Project Instruction|[Slides](Lecture/Lecture06/Lecture 06 Final_Project.pdf) | |
 || Data Transformation III| | [Tutorial 04 sol]()([.zip]())|
-|Sep. 9| Data Import|[Slides](Lecture/Lecture07/Lecture 7 Data_Import.pdf) | |
-|Sep. 14| Project Proposal Discussion| | |
-|Sep. 16| Project Proposal Discussion| | |
-|Sep. 21| Exploratory Data Analysis|[Slides](Lecture/Lecture08/Lecture 8 Exploratory_Data_Analysis.pdf) | |
-|Sep. 23| Tidy Data|[Slides](Lecture/Lecture09/Lecture 9 Tidy Data.pdf) | [Tutorial 06 sol]()([.rmd]())|
-|Sep. 28| Joins|[Slides](Lecture/Lecture10/Lecture 10 Joins.pdf) |[Lecture 10](https://drive.google.com/file/d/1auF1Vy8k4cbGFjip7ybzNDjYEU5TKqHk/view?usp=sharing) |
-|Sep. 30| Factors|[Slides](Lecture/Lecture11/Lecture 11 Factors.pdf) | |
-|Oct. 5| Programming I |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 09 sol]()([.rmd]())|
+|Sep. 12| Data Import|[Slides](Lecture/Lecture07/Lecture 7 Data_Import.pdf) | |
+|Sep. 17| Project Proposal Discussion| | |
+|Sep. 19| Project Proposal Discussion| | |
+|Sep. 24| Exploratory Data Analysis|[Slides](Lecture/Lecture08/Lecture 8 Exploratory_Data_Analysis.pdf) | |
+|Sep. 26| Tidy Data|[Slides](Lecture/Lecture09/Lecture 9 Tidy Data.pdf) | [Tutorial 06 sol]()([.rmd]())|
+|Oct. 1| Joins|[Slides](Lecture/Lecture10/Lecture 10 Joins.pdf) |[Lecture 10](https://drive.google.com/file/d/1auF1Vy8k4cbGFjip7ybzNDjYEU5TKqHk/view?usp=sharing) |
+|Oct. 3| Factors|[Slides](Lecture/Lecture11/Lecture 11 Factors.pdf) | |
+|Oct. 8| Programming I |[Slides](Lecture/Lecture12/Lecture 12 Programming I.pdf)|[Tutorial 09 sol]()([.rmd]())|
 ||||[Tutorial 10 sol]()([.rmd]())|
-|Oct. 7| Programming II |[Slides](Lecture/Lecture13/Lecture 13 Programming II.pdf)||
-|Oct. 12| University Day (No Class)| | |
-|Oct. 14| Programming III |[Slides](Lecture/Lecture14/Lecture 14 Programming III.pdf)||
-|Oct. 19| Modeling I| [Slides](Lecture/Lecture15/Lecture 15 Modeling I.pdf)| |
-|Oct. 21| Fall Break| | |
-|Oct. 26| Modeling II|[Slides](Lecture/Lecture16/Lecture 16 Modeling II.pdf) |[Tutorial 11 sol]()([.zip]()) |
+|Oct. 10| Programming II |[Slides](Lecture/Lecture13/Lecture 13 Programming II.pdf)||
+|Oct. 15| Programming III |[Slides](Lecture/Lecture14/Lecture 14 Programming III.pdf)||
+|Oct. 17| Fall Break |||
+|Oct. 22| Programming III |[Slides](Lecture/Lecture14/Lecture 14 Programming III.pdf)||
+|Oct. 24| Modeling I| [Slides](Lecture/Lecture15/Lecture 15 Modeling I.pdf)| |
+|Oct. 29| Modeling II|[Slides](Lecture/Lecture16/Lecture 16 Modeling II.pdf) |[Tutorial 11 sol]()([.zip]()) |
 || | |[Tutorial 12 sol]()([.zip]()) |
-|Oct. 28| Modeling III| [Slides](Lecture/Lecture17/Lecture 17 Modeling III.pdf)|[Tutorial 13 sol]()([.zip]()) |
-|Nov. 2| Modeling IV|[Slides](Lecture/Lecture18/Lecture 18 Modeling IV.pdf) | |
-|Nov. 4| Modeling V|[Slides](Lecture/Lecture19/Lecture 19 Modeling V.pdf) | |
-|Nov. 9| Modeling VI |[Slides](Lecture/Lecture20/Lecture 20 Modeling VI.pdf)|[Tutorial 14 sol]()([.rmd]())|
-|Nov. 11| Modeling VII| [Slides](Lecture/Lecture21/Lecture 21 Shrinkage Method.pdf)|[Tutorial 15 sol]()([.rmd]()) |
-|Nov. 16| Intro to Deep Learning| | |
-|Nov. 18| Final Presentation| | |
-|Nov. 23| Final Presentation |||
-|Nov. 25| Thanksgiving| | |
-|Nov. 30| Final Presentation| | |
-
+|Oct. 31| Modeling III| [Slides](Lecture/Lecture17/Lecture 17 Modeling III.pdf)|[Tutorial 13 sol]()([.zip]()) |
+|Nov. 5| Modeling IV|[Slides](Lecture/Lecture18/Lecture 18 Modeling IV.pdf) | |
+|Nov. 7| Modeling V|[Slides](Lecture/Lecture19/Lecture 19 Modeling V.pdf) | |
+|Nov. 12| Modeling VI |[Slides](Lecture/Lecture20/Lecture 20 Modeling VI.pdf)|[Tutorial 14 sol]()([.rmd]())|
+|Nov. 14| Modeling VII| [Slides](Lecture/Lecture21/Lecture 21 Shrinkage Method.pdf)|[Tutorial 15 sol]()([.rmd]()) |
+|Nov. 19| Intro to Deep Learning| | |
+|Nov. 21| Final Presentation| | |
+|Nov. 26| Final Presentation| | |
+|Nov. 28| Thanksgiving| | |
+|Dec. 3| Final Presentation| | |
 
 # **Homework Tracker**
 
-All homework assignments are to be submitted via **[Sakai](https://sakai.unc.edu/welcome/)**. 
+All homework assignments are to be submitted via **[Canvas](https://edtech.unc.edu/service/canvas/)**. 
 
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
-| Aug 19  | [HW1](Homework/HW-1.html)([.rmd](https://drive.google.com/file/d/1C-bNF1fn5tlw_wsCxLiylEH-Oiw9VzKF/view?usp=sharing)) |  |Aug 29 (11:55 PM) |
-| Aug 29  | [HW2](Homework/HW-2.html)([.rmd](https://drive.google.com/file/d/1ps_9y01qiXzzKSTENaqkPCOKJDBjRQzE/view?usp=sharing)) | |Sep 12 (11:55 PM) |
-| Sep 7  | [A1](Homework/Analysis 1/Analysis-1.html)([.zip](https://drive.google.com/file/d/1GK5peNeSYOqrNBaYOpHU7D9-yzDpxxkn/view?usp=sharing)) | |Sep 19 (11:55 PM) |
-| Sep 19  | [HW3](Homework/HW-3.html)([.rmd](https://drive.google.com/file/d/1X1A0dDcWJseBlMTK-zCoO80XfzIgfTMm/view?usp=sharing)) |  |Sep 28 (11:55 PM) |
-| Sep 26  | [HW4](Homework/HW-4.html)([.rmd](https://drive.google.com/file/d/1Nl0rYk5m4TlmFWJJaXDLUMM1v3zu34rY/view?usp=sharing)) | |Oct 3 (11:55 PM) |
-| Oct 3  | [A2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1CZfU15jNsnkUjZbcH5cZn_V51y1NVwVT/view?usp=sharing)) |  |Oct 10 (11:55 PM) |
-| Oct 10  | [HW5](Homework/HW-5.html)([.rmd](https://drive.google.com/file/d/1oFhG_Tjs_5uUtSJCWyv1yUZithHoKV9T/view?usp=sharing)) | |Oct 17(11:55 PM) |
-| Oct 17  | [A3](Homework/Analysis 3/Analysis-3.html)([.zip](https://drive.google.com/file/d/16snRvifKbxUTv-chBeZknViYb7tdEyE0/view?usp=sharing))||Oct 31 (11:55 PM) |
-| Oct 31  | [HW6](Homework/HW-6.html)([.rmd](https://drive.google.com/file/d/1x-ssI8l0a5xLfn7Kvp9KBkxycFMOvJWq/view?usp=sharing)) | |Nov 7 (11:55 PM) |
-| Nov 7  | [HW7](Homework/HW-7.html)([.rmd](https://drive.google.com/file/d/1T1Km3-yGOMPdQPLPP9fYrMHL6pvd-GTa/view?usp=sharing)) | |Nov 14 (11:55 PM) |
-| Nov 14  | [A4](Homework/Analysis 4/Analysis-4.html)([.zip](https://drive.google.com/file/d/1yVYV5v3ztokDpoN88u1zhuBExdJP8K7z/view?usp=sharing)) ||Nov 28 (11:55 PM) |
+| Aug 20  | [HW1](Homework/HW-1.html)([.rmd](https://drive.google.com/file/d/1C-bNF1fn5tlw_wsCxLiylEH-Oiw9VzKF/view?usp=sharing)) |  |Aug 30 (11:55 PM) |
+| Aug 30  | [HW2](Homework/HW-2.html)([.rmd](https://drive.google.com/file/d/1ps_9y01qiXzzKSTENaqkPCOKJDBjRQzE/view?usp=sharing)) | |Sep 8 (11:55 PM) |
+| Sep 8  | [A1](Homework/Analysis 1/Analysis-1.html)([.zip](https://drive.google.com/file/d/1GK5peNeSYOqrNBaYOpHU7D9-yzDpxxkn/view?usp=sharing)) | |Sep 22 (11:55 PM) |
+| Sep 22  | [HW3](Homework/HW-3.html)([.rmd](https://drive.google.com/file/d/1X1A0dDcWJseBlMTK-zCoO80XfzIgfTMm/view?usp=sharing)) |  |Sep 29 (11:55 PM) |
+| Sep 29  | [HW4](Homework/HW-4.html)([.rmd](https://drive.google.com/file/d/1Nl0rYk5m4TlmFWJJaXDLUMM1v3zu34rY/view?usp=sharing)) | |Oct 6 (11:55 PM) |
+| Oct 6  | [A2](Homework/Analysis 2/Analysis_2.html)([.zip](https://drive.google.com/file/d/1CZfU15jNsnkUjZbcH5cZn_V51y1NVwVT/view?usp=sharing)) |  |Oct 20 (11:55 PM) |
+| Oct 20  | [HW5](Homework/HW-5.html)([.rmd](https://drive.google.com/file/d/1oFhG_Tjs_5uUtSJCWyv1yUZithHoKV9T/view?usp=sharing)) | |Oct 27(11:55 PM) |
+| Oct 27  | [A3](Homework/Analysis 3/Analysis-3.html)([.zip](https://drive.google.com/file/d/16snRvifKbxUTv-chBeZknViYb7tdEyE0/view?usp=sharing))||Nov 10 (11:55 PM) |
+| Nov 10  | [HW6](Homework/HW-6.html)([.rmd](https://drive.google.com/file/d/1x-ssI8l0a5xLfn7Kvp9KBkxycFMOvJWq/view?usp=sharing)) | |Nov 17 (11:55 PM) |
+| Nov 17  | [HW7](Homework/HW-7.html)([.rmd](https://drive.google.com/file/d/1T1Km3-yGOMPdQPLPP9fYrMHL6pvd-GTa/view?usp=sharing)) | |Nov 24 (11:55 PM) |
+| Nov 24  | [A4](Homework/Analysis 4/Analysis-4.html)([.zip](https://drive.google.com/file/d/1yVYV5v3ztokDpoN88u1zhuBExdJP8K7z/view?usp=sharing)) ||Dec 4 (11:55 PM) |
 |          |        |     |           |
 
 # **Final Project Details**
@@ -152,7 +152,7 @@ For the final project, each section of STOR 320 will be divided (ideally) into r
 
 ## Research Group Assignments
 
-To find your research group, see the **[spreadsheet](https://docs.google.com/spreadsheets/d/1WyPNJjULff6n8NoN2CS14pfvIyFrRR4tU8JL9O6593s/edit?usp=sharing)** sponsored by Google.
+To find your research group, see the **[spreadsheet](https://docs.google.com/spreadsheets/d/1dI0nJH077wTs5ZTBrhQeXYVOgXDIMDgaR8kKCI8sBTM/edit?usp=sharing)** sponsored by Google.
 
 ## Four Roles
 
@@ -193,22 +193,15 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
-| P1  | Project Proposal | Sakai | Sep 13 (11:55PM)|
-|   | Proposal Meeting | Class | Sep 14 / Sep 16 (2:00PM-3:15PM)|
-| P2  | Exploratory Data Analysis | Sakai | Oct 22 (11:55PM)|
-|   | EDA Meeting | Lab | Week of Oct 25 to Oct 29 |
-| P3  | Final Report|Sakai|Nov 30 (11:55PM)|
-| P4  | Presentation Slides |Sakai| Nov 17 /Nov 22 / Nov 29 (11:55PM)|
-|   | Final Presentation|Class| Nov 18 /Nov 23 / Nov 30 (2:00PM-3:15PM)|
+| P1  | Project Proposal | Canvas | Sep 16 (11:55PM)|
+|   | Proposal Meeting | Class | Sep 17 / Sep 19 (8:00AM-9:15AM)|
+| P2  | Exploratory Data Analysis | Canvas | Oct 27 (11:55PM)|
+|   | EDA Meeting | Lab | Week of Oct 28 to Nov 1 |
+| P3  | Final Report|Canvas|Dec 6 (11:55PM)|
+| P4  | Presentation Slides |Canvas| Nov 20 /Nov 25 / Dec 2 (11:55PM)|
+|   | Final Presentation|Class| Nov 21 /Nov 26 / Dec 2 (8:00AM-9:15AM)|
 ||||
 
-## Above Average Final Projects from Previous Courses
-
-- **[Pokemon](Final Project/SP2019_EX1.html)**
-- **[Seattle Housing](Final Project/SP2019_EX2.html)**
-- **[Missing Migrants](Final Project/SU2019_EX1.html)**
-- **[Youtube](Final Project/FA2019_EX1.html)**
-- **[CDC](Final Project/FA2019_EX2.html)**
 
 # **Class Participation Record**
 

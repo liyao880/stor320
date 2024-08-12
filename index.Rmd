@@ -62,7 +62,7 @@ background-color: #13294B;
 
 # **About the Course**
 
-See the **[syllabus]()** for details. The course is divided into three rough parts,
+See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divided into three rough parts,
 
 1. Core data science coding skills
 2. Modeling
@@ -72,19 +72,19 @@ See the **[syllabus]()** for details. The course is divided into three rough par
 
 - Instructional Assistants: 
     - **[Morgan Smith](https://stor.unc.edu/people/graduate-students/)**
-    - **[TBA](https://stor.unc.edu/people/graduate-students/)**
+    - **[Yuhao Zhou](https://stor.unc.edu/people/graduate-students/)**
 
 - Class:
     - Lectures: TTH 8:00AM-9:15AM, Hanes 120
-    - Lab 320.400 by TBA: W 3:30PM – 4:20PM, HN107
-    - Lab 320.401 by TBA: W 5:00PM – 5:50PM, CH104
-    - Lab 320.402 by TBA: F 10:10AM – 11:00AM, HN107
-    - Lab 320.403 by TBA: F 3:30PM – 4:20PM, DE203 
+    - Lab 320.400 by Morgan: W 3:30PM – 4:20PM, HN107
+    - Lab 320.401 by Morgan: W 5:00PM – 5:50PM, CH104
+    - Lab 320.402 by Yuhao: F 10:10AM – 11:00AM, HN107
+    - Lab 320.403 by Yuhao: F 3:30PM – 4:20PM, DE203 
     
 - Office Hours:
-    - Instructor Office Hours: W 2:00PM-4:00PM, [Zoom](https://unc.zoom.us/j/93610946347?pwd=1X4wmGkAetBqQIqO3Kbwvba5y1dZhu.1)
-    - Morgan Office Hours: 
-    - TBA Office Hours: 
+    - Instructor Office Hours: W 2:00PM-4:00PM, Office: Hanes 334
+    - Morgan Office Hours: TBA, Office: [Zoom](https://unc.zoom.us/j/97295425881?pwd=raFYJTlcsBR0KksYqw4RWjzH7Nchr1.1)
+    - Yuhao Office Hours: TTH 2:00PM-3:00PM, Office: Hanes B50
 
 
 

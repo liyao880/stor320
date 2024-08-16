@@ -93,7 +93,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 | Date | Lecture | Slides | Tutorial|
 |------|---------|--------:|--------:|
 |Aug. 20| Welcome |[Slides](Lecture/Lecture 01_1 Welcome.pdf)| |
-|| Data Visualization|[Slides](Lecture/Lecture 01_2 Data_Visualization_LectureV2.pdf)| [Tutorial 01]()([.rmd]()) |
+|| Data Visualization|[Slides](Lecture/Lecture 01_2 Data_Visualization_LectureV2.pdf)| [Tutorial 01](Tutorial/Tutorial_01.html)([.rmd](https://drive.google.com/file/d/17iz_CsXkKjIYZUzxMK0LaUx18UecttJH/view?usp=sharing)) |
 |Aug. 22| RMarkdown I|[Slides]() | |
 |Aug. 27| RMarkdown II|| [Tutorial 02 sol]()([.zip]())|
 |Aug. 29| Data Transformation I|[Slides]() | |

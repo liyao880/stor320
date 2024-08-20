@@ -95,33 +95,33 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 20| Welcome |[Slides](Lecture/Lecture 01_1 Welcome.pdf)| |
 || Data Visualization|[Slides](Lecture/Lecture 01_2 Data_Visualization_LectureV2.pdf)| [Tutorial 01](Tutorial/Tutorial_01.html)([.rmd](https://drive.google.com/file/d/17iz_CsXkKjIYZUzxMK0LaUx18UecttJH/view?usp=sharing)) |
 |Aug. 22| RMarkdown I|[Slides](Lecture/Lecture 02 Workflow_Lecture.pdf) | |
-|Aug. 27| RMarkdown II|| [Tutorial 02]()([.zip]())|
-|Aug. 29| Data Transformation I|[Slides]() | |
+|Aug. 27| RMarkdown II|| |
+|Aug. 29| Data Transformation I| | |
 |Sep. 3| Well-Being Day| | |
-|Sep. 5| Data Transformation II| [Slides]()|[Tutorial 03 sol]()([.rmd]())  |
-|Sep. 10| Final Project Instruction|[Slides]() | |
-|| Data Transformation III| | [Tutorial 04 sol]()([.zip]())|
-|Sep. 12| Data Import|[Slides]() | |
+|Sep. 5| Data Transformation II| | |
+|Sep. 10| Final Project Instruction| | |
+|| Data Transformation III| | |
+|Sep. 12| Data Import| | |
 |Sep. 17| Project Proposal Discussion| | |
 |Sep. 19| Project Proposal Discussion| | |
-|Sep. 24| Exploratory Data Analysis|[Slides]() | |
-|Sep. 26| Tidy Data|[Slides]() | [Tutorial 06 sol]()([.rmd]())|
-|Oct. 1| Joins|[Slides]() ||
-|Oct. 3| Factors|[Slides]() | |
-|Oct. 8| Programming I |[Slides]()|[Tutorial 09 sol]()([.rmd]())|
-||||[Tutorial 10 sol]()([.rmd]())|
-|Oct. 10| Programming II |[Slides]()||
-|Oct. 15| Programming III |[Slides]()||
+|Sep. 24| Exploratory Data Analysis| | |
+|Sep. 26| Tidy Data| ||
+|Oct. 1| Joins| ||
+|Oct. 3| Factors| | |
+|Oct. 8| Programming I |||
+|||||
+|Oct. 10| Programming II |||
+|Oct. 15| Programming III |||
 |Oct. 17| Fall Break |||
-|Oct. 22| Programming III |[Slides]()||
-|Oct. 24| Modeling I| [Slides]()| |
-|Oct. 29| Modeling II|[Slides]() |[Tutorial 11 sol]()([.zip]()) |
-|| | |[Tutorial 12 sol]()([.zip]()) |
-|Oct. 31| Modeling III| [Slides]()|[Tutorial 13 sol]()([.zip]()) |
-|Nov. 5| Modeling IV|[Slides]() | |
-|Nov. 7| Modeling V|[Slides]() | |
-|Nov. 12| Modeling VI |[Slides]()|[Tutorial 14 sol]()([.rmd]())|
-|Nov. 14| Modeling VII| [Slides]()|[Tutorial 15 sol]()([.rmd]()) |
+|Oct. 22| Programming III |||
+|Oct. 24| Modeling I| | |
+|Oct. 29| Modeling II| | |
+|| | | |
+|Oct. 31| Modeling III| | |
+|Nov. 5| Modeling IV| | |
+|Nov. 7| Modeling V| | |
+|Nov. 12| Modeling VI |||
+|Nov. 14| Modeling VII| ||
 |Nov. 19| Intro to Deep Learning| | |
 |Nov. 21| Final Presentation| | |
 |Nov. 26| Final Presentation| | |
@@ -135,16 +135,16 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
 | Aug 20  | [HW1](Homework/HW-1.html)([.rmd](https://drive.google.com/file/d/1C-bNF1fn5tlw_wsCxLiylEH-Oiw9VzKF/view?usp=drive_link)) |  |Aug 30 (11:55 PM) |
-| Aug 30  | [HW2]()([.rmd]()) | |Sep 8 (11:55 PM) |
-| Sep 8  | [A1]()([.zip]()) | |Sep 22 (11:55 PM) |
-| Sep 22  | [HW3]()([.rmd]()) |  |Sep 29 (11:55 PM) |
-| Sep 29  | [HW4]()([.rmd]()) | |Oct 6 (11:55 PM) |
-| Oct 6  | [A2]()([.zip]()) |  |Oct 20 (11:55 PM) |
-| Oct 20  | [HW5]()([.rmd]()) | |Oct 27(11:55 PM) |
-| Oct 27  | [A3]()([.zip]())||Nov 10 (11:55 PM) |
-| Nov 10  | [HW6]()([.rmd]()) | |Nov 17 (11:55 PM) |
-| Nov 17  | [HW7]()([.rmd]()) | |Nov 24 (11:55 PM) |
-| Nov 24  | [A4]()([.zip]()) ||Dec 4 (11:55 PM) |
+| Aug 30  |  | |Sep 8 (11:55 PM) |
+| Sep 8  |  | |Sep 22 (11:55 PM) |
+| Sep 22  |  |  |Sep 29 (11:55 PM) |
+| Sep 29  |  | |Oct 6 (11:55 PM) |
+| Oct 6  |  |  |Oct 20 (11:55 PM) |
+| Oct 20  |  | |Oct 27(11:55 PM) |
+| Oct 27  | ||Nov 10 (11:55 PM) |
+| Nov 10  |  | |Nov 17 (11:55 PM) |
+| Nov 17  |  | |Nov 24 (11:55 PM) |
+| Nov 24  |  ||Dec 4 (11:55 PM) |
 |          |        |     |           |
 
 # **Final Project Details**

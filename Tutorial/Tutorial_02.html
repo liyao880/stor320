@@ -384,22 +384,22 @@ head(PE,5)</code></pre>
 <h1>Plot 1: Time Series Plot</h1>
 <div id="step-1-initiate-plot-and-print" class="section level3">
 <h3>Step 1: Initiate Plot and Print</h3>
-<pre class="r"><code>p1&lt;-ggplot(data=PE) +
-  geom_point(aes(x=year,y=demVote,color=south),size=2)
+<pre class="r"><code>p1&lt;-ggplot(data=DATANAME) +
+  geom_point(aes(x=VAR,y=VAR,color=VAR),size=2)
 p1</code></pre>
 </div>
 <div id="step-2-modify-the-title-and-labels" class="section level3">
 <h3>Step 2: Modify the Title and Labels</h3>
 <p>Use <code>xlab()</code>, <code>ylab()</code>, and
 <code>ggtitle()</code>.</p>
-<pre class="r"><code>p2&lt;-p1+ xlab(&quot;&quot;) + ylab(&quot;% Democratic&quot;) + ggtitle(&quot;USA Change in Democratic Vote&quot;)
+<pre class="r"><code>p2&lt;-p1+COMPLETE
 p2</code></pre>
 </div>
 <div id="step-3-get-smooth-curves-and-print" class="section level3">
 <h3>Step 3: Get Smooth Curves and Print</h3>
 <p>Use <code>geom_smooth</code> similarly how we used
 <code>geom_point</code>.</p>
-<pre class="r"><code>p3&lt;-p2+geom_smooth(aes(x=year,y=demVote,color=south))
+<pre class="r"><code>p3&lt;-p2+geom_smooth(COMPLETE_INSIDE)
 p3</code></pre>
 </div>
 <div id="step-4-modify-the-legend-title-and-print" class="section level3">
@@ -407,14 +407,14 @@ p3</code></pre>
 <p>Since the legend is for the color aesthetic we use
 <code>guides(color=guide_legend(title=COMPLETE_INSIDE))</code> to rename
 the legend.</p>
-<pre class="r"><code>p4&lt;-p3+ guides(color=guide_legend(title=&#39;South&#39;))
+<pre class="r"><code>p4&lt;-p3+ COMPLETE
 p4</code></pre>
 </div>
 <div id="step-5-manually-select-the-colors-and-print" class="section level3">
 <h3>Step 5: Manually Select the Colors and Print</h3>
 <p>For the color aesthetic, we want to manually select the two different
 colors.</p>
-<pre class="r"><code>p5&lt;-p4+ scale_color_manual(values=c(&quot;red&quot;,&quot;blue&quot;))
+<pre class="r"><code>p5&lt;-p4+ scale_color_manual(values=c(&quot;COLOR 1&quot;,&quot;COLOR 2&quot;))
 p5</code></pre>
 </div>
 <div id="step-6-reference-line-and-print" class="section level3">
@@ -424,13 +424,13 @@ states began to exceed the former Confederacy on approval for the
 Democratic party. We want to create a vertical line through the x-axis
 at 1957 using <code>geom_vline</code>. Check <code>?geom_vline</code>
 for more information about this geometric object.</p>
-<pre class="r"><code>p6&lt;-p5+geom_vline(xintercept=1957,alpha=0.8,linetype=4)
+<pre class="r"><code>p6&lt;-p5+geom_vline(MISSING_OPTION,alpha=0.8,linetype=4)
 p6</code></pre>
 </div>
 <div id="step-7-modify-the-theme-and-print" class="section level3">
 <h3>Step 7: Modify the Theme and Print</h3>
 <p>Use <code>theme_minimal()</code> for the plot.</p>
-<pre class="r"><code>FINALPLOT1&lt;-p6+theme_minimal()
+<pre class="r"><code>FINALPLOT1&lt;-EDIT_INFORMATION
 FINALPLOT1</code></pre>
 </div>
 </div>
@@ -446,19 +446,15 @@ indicates observations from the year 1932.
 data for the year 1932.</p>
 <p>Create density plot with <code>geom_density</code> and fill of the
 density curves is controlled by <code>south</code>.</p>
-<pre class="r"><code>p1&lt;-ggplot(data=PE[PE$year==1932,]) +
-      geom_density(aes(x=demVote,fill=south))
+<pre class="r"><code>p1&lt;-ggplot(data=SUBSET) +
+      geom_density(COMPLETE)
 p1</code></pre>
 </div>
 <div id="step-2-modify-plot-and-print" class="section level3">
 <h3>Step 2: Modify Plot and Print</h3>
 <p>Modify graph to complete it. Also, add a vertical line at 50 which
 indicates the transition to a majority vote.</p>
-<pre class="r"><code>FINALPLOT2&lt;-p1 + xlab(&quot;&quot;) + ylab(&quot;&quot;) +ggtitle(&quot;&quot;)+
-  guides(fill=guide_legend(title=&#39;South&#39;)) + scale_fill_manual(values=c(&quot;red&quot;,&quot;blue&quot;)) +
-  geom_vline(xintercept=50,alpha=0.8,linetype=1) +
-  theme_minimal()
-  
+<pre class="r"><code>FINALPLOT2&lt;-p1 + COMPLETE
 FINALPLOT2</code></pre>
 </div>
 </div>
@@ -466,13 +462,7 @@ FINALPLOT2</code></pre>
 <h1>Plot 3: Overlapping Density Curves in 2016</h1>
 <p>Repeat the code that created <strong>FINALPLOT2</strong> for the year
 2016. I advise copy and paste.</p>
-<pre class="r"><code>FINALPLOT3&lt;- ggplot(data=PE[PE$year==2016,]) +
-      geom_density(aes(x=demVote,fill=south)) +
-  xlab(&quot;&quot;) + ylab(&quot;&quot;) +ggtitle(&quot;&quot;)+
-  guides(fill=guide_legend(title=&#39;South&#39;)) + scale_fill_manual(values=c(&quot;red&quot;,&quot;blue&quot;)) +
-  geom_vline(xintercept=50,alpha=0.8,linetype=1) +
-  theme_minimal()
-  
+<pre class="r"><code>FINALPLOT3&lt;- .......
 FINALPLOT3</code></pre>
 </div>
 <div id="arrange-all-plots-in-a-pleasant-layout" class="section level1">
@@ -491,7 +481,7 @@ grid.arrange(FINALPLOT1,FINALPLOT2,FINALPLOT3,ncol=2)
 
 #Now Check this Code Out: Try to Understand how the Matrix is Created and How the Layout is Controlled by the Matrix. Modify It to Get What I created
 matrix(c(1,1,2,3),ncol=2)
-LAYOUT=matrix(c(1,2,1,3),ncol=2)
+LAYOUT=matrix(c(1,1,2,3),ncol=2)
 grid.arrange(FINALPLOT1,FINALPLOT2,FINALPLOT3,layout_matrix=LAYOUT)</code></pre>
 </div>
 

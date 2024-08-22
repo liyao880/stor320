@@ -93,9 +93,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 | Date | Lecture | Slides | Tutorial|
 |------|---------|--------:|--------:|
 |Aug. 20| Welcome |[Slides](Lecture/Lecture 01_1 Welcome.pdf)| |
-|| Data Visualization|[Slides](Lecture/Lecture 01_2 Data_Visualization_LectureV2.pdf)| [Tutorial 01](Tutorial/Tutorial_01.html)([.rmd](Tutorial/Tutorial_01.rmd)) |
-|Aug. 22| RMarkdown I|[Slides](Lecture/Lecture 02 Workflow_Lecture.pdf) | |
-|Aug. 27| RMarkdown II|| |
+|Aug. 22| Data Visualization|[Slides](Lecture/Lecture 01_2 Data_Visualization_LectureV2.pdf)| [Tutorial 01](Tutorial/Tutorial_01.html)([.rmd](Tutorial/Tutorial_01.rmd)) |
+|Aug. 27| RMarkdown |[Slides](Lecture/Lecture 03 Workflow_Lecture.pdf) |[Tutorial 02](Tutorial/Tutorial_02.html)([.zip](Tutorial/Tutorial_02.zip)) |
 |Aug. 29| Data Transformation I| | |
 |Sep. 3| Well-Being Day| | |
 |Sep. 5| Data Transformation II| | |

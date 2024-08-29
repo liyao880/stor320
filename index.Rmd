@@ -97,26 +97,25 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 27| RMarkdown |[Slides](Lecture/Lecture 03 Workflow_Lecture.pdf) | [Lecture 03](Lecture/lecture03.zip)|
 || Tutorial | |[Tutorial 02](Tutorial/Tutorial_02.html)([.zip](Tutorial/Tutorial_02.zip)) |
 |Aug. 29| Data Transformation I|[Slides](Lecture/Lecture 04 Data_Transformation.pdf) |[Lecture 04](Lecture/lecture04.zip) |
-|Sep. 3| Well-Being Day| | |
-|Sep. 5| Data Transformation II| | |
-|Sep. 10| Final Project Instruction| | |
+|| | | [Tutorial 03](Tutorial/Tutorial_03.html)([.zip](Tutorial/Tutorial_03.zip))|
+|Sept. 3| Well-Being Day| | |
+|Sept. 5| Data Transformation II| | |
+|Sept. 10| Final Project Instruction| | |
 || Data Transformation III| | |
-|Sep. 12| Data Import| | |
-|Sep. 17| Project Proposal Discussion| | |
-|Sep. 19| Project Proposal Discussion| | |
-|Sep. 24| Exploratory Data Analysis| | |
-|Sep. 26| Tidy Data| ||
+|Sept. 12| Data Import| | |
+|Sept. 17| Project Proposal Discussion| | |
+|Sept. 19| Project Proposal Discussion| | |
+|Sept. 24| Exploratory Data Analysis| | |
+|Sept. 26| Tidy Data| ||
 |Oct. 1| Joins| ||
 |Oct. 3| Factors| | |
 |Oct. 8| Programming I |||
-|||||
 |Oct. 10| Programming II |||
 |Oct. 15| Programming III |||
 |Oct. 17| Fall Break |||
 |Oct. 22| Programming III |||
 |Oct. 24| Modeling I| | |
 |Oct. 29| Modeling II| | |
-|| | | |
 |Oct. 31| Modeling III| | |
 |Nov. 5| Modeling IV| | |
 |Nov. 7| Modeling V| | |

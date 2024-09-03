@@ -99,7 +99,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 29| Data Transformation I|[Slides](Lecture/Lecture 04 Data_Transformation.pdf) |[Lecture 04](Lecture/lecture04.zip) |
 || | | [Tutorial 03](Tutorial/Tutorial_03.html)([.zip](Tutorial/Tutorial_03.zip))|
 |Sept. 3| Well-Being Day| | |
-|Sept. 5| Data Transformation II| | |
+|Sept. 5| Data Transformation II| [Slides](Lecture/Lecture 05 Data_Transformation II.pdf)| |
+|| | |[Tutorial 04](Tutorial/Tutorial_04.html)([.zip](Tutorial/Tutorial_04.zip)) |
 |Sept. 10| Final Project Instruction| | |
 |Sept. 12| Data Import| | |
 |Sept. 17| Project Proposal Discussion| | |

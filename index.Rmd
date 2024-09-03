@@ -98,22 +98,22 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 || Tutorial | |[Tutorial 02](Tutorial/Tutorial_02.html)([.zip](Tutorial/Tutorial_02.zip)) |
 |Aug. 29| Data Transformation I|[Slides](Lecture/Lecture 04 Data_Transformation.pdf) |[Lecture 04](Lecture/lecture04.zip) |
 || | | [Tutorial 03](Tutorial/Tutorial_03.html)([.zip](Tutorial/Tutorial_03.zip))|
-|Sept. 3| Well-Being Day| | |
-|Sept. 5| Data Transformation II| [Slides](Lecture/Lecture 05 Data_Transformation II.pdf)| |
+|Sep. 3| Well-Being Day| | |
+|Sep. 5| Data Transformation II| [Slides](Lecture/Lecture 05 Data_Transformation II.pdf)| |
 || | |[Tutorial 04](Tutorial/Tutorial_04.html)([.zip](Tutorial/Tutorial_04.zip)) |
-|Sept. 10| Final Project Instruction| | |
-|Sept. 12| Data Import| | |
-|Sept. 17| Project Proposal Discussion| | |
-|Sept. 19| Project Proposal Discussion| | |
-|Sept. 24| Exploratory Data Analysis| | |
-|Sept. 26| Tidy Data| ||
+|Sep. 10| Final Project Instruction|[Slides](Lecture/Lecture 06 Final_Project.pdf) | |
+|Sep. 12| Data Import| | |
+|Sep. 17| Project Proposal Discussion| | |
+|Sep. 19| Project Proposal Discussion| | |
+|Sep. 24| Exploratory Data Analysis| | |
+|Sep. 26| Tidy Data| | |
 |Oct. 1| Joins| ||
-|Oct. 3| Factors| | |
-|Oct. 8| Programming I |||
+|Oct. 3| Factors| ||
+|Oct. 8| Programming I| | |
 |Oct. 10| Programming II |||
 |Oct. 15| Programming III |||
 |Oct. 17| Fall Break |||
-|Oct. 22| Programming III |||
+|Oct. 22| Programming IV |||
 |Oct. 24| Modeling I| | |
 |Oct. 29| Modeling II| | |
 |Oct. 31| Modeling III| | |
@@ -134,10 +134,10 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 | Date assigned | Instructions | Solutions| Due Date (Time) |
 |----------|:--------:|:-------------:|----------------:|
 | Aug 20  | [HW1](Homework/HW_1.html)([.rmd](Homework/HW_1.rmd)) |  |Aug 30 (11:55 PM) |
-| Aug 30  | [HW2](Homework/HW_2.html)([.rmd](Homework/HW_2.rmd)) | |Sept 8 (11:55 PM) |
-| Sept 8  | [A1](Homework/Analysis1/Analysis-1.html)([.zip](Homework/Analysis1/Analysis1.zip)) | |Sept 22 (11:55 PM) |
-| Sept 22  | [HW3](Homework/HW_3.html)([.rmd](Homework/HW_3.rmd)) |  |Sept 29 (11:55 PM) |
-| Sept 29  |  | |Oct 6 (11:55 PM) |
+| Aug 30  | [HW2](Homework/HW_2.html)([.rmd](Homework/HW_2.rmd)) | |Sep 8 (11:55 PM) |
+| Sep 8  | [A1](Homework/Analysis1/Analysis-1.html)([.zip](Homework/Analysis1/Analysis1.zip)) | |Sep 22 (11:55 PM) |
+| Sep 22  | [HW3](Homework/HW_3.html)([.rmd](Homework/HW_3.rmd)) |  |Sep 29 (11:55 PM) |
+| Sep 29  |  | |Oct 6 (11:55 PM) |
 | Oct 6  |  |  |Oct 20 (11:55 PM) |
 | Oct 20  |  | |Oct 27(11:55 PM) |
 | Oct 27  | ||Nov 10 (11:55 PM) |
@@ -184,7 +184,7 @@ This final project will be divided into four parts worth a total of 100 points. 
     
 * **[P3: Final Written Paper](Final Project/Final-Paper.html)** *(40 Points)*
     + [Template](Final Project/Final_Report_Template.html)([.Rmd](https://drive.google.com/file/d/1qmlJ3OJ78_pa04oXFz2DczSSQuINgFQM/view?usp=sharing))
-    + [Group Scoring](https://docs.google.com/forms/d/e/1FAIpQLSdVoyZNMlB11GSG97_4QTYcNCYyxdW_IkPN68Q_PBG8PYwJSw/viewform?usp=sf_link)
+    + [Group Scoring](https://forms.gle/xiCJh3UzGtvEHUk46)
     
 * **[P4: Final Presentation](Final Project/Final-Presentation.html)** *(30 Points)*
 
@@ -194,7 +194,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 | Part | Description |Method of Submission| Due Date (Time) |
 |------|-------------|-------------------|----------------:|
 | P1  | Project Proposal | Canvas | Sep 16 (11:55PM)|
-|   | Proposal Meeting | Class | Sep 17 / Sep 19 (8:00AM-9:15AM)|
+|   | Proposal Meeting | Class | Sep 17 / Sep 19 (8:00AM-10:00AM)|
 | P2  | Exploratory Data Analysis | Canvas | Oct 27 (11:55PM)|
 |   | EDA Meeting | Lab | Week of Oct 28 to Nov 1 |
 | P3  | Final Report|Canvas|Dec 6 (11:55PM)|

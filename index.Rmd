@@ -99,12 +99,11 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 27| RMarkdown |[Slides](Lecture/Lecture 03 Workflow_Lecture.pdf) | [Lecture 03](Lecture/lecture03.zip)|
 || Tutorial | |[Tutorial 02](Tutorial/Tutorial_02.html)([.zip](Tutorial/Tutorial_02.zip)) |
 |Aug. 29| Data Transformation I|[Slides](Lecture/Lecture 04 Data_Transformation.pdf) |[Lecture 04](Lecture/lecture04.zip) |
-|| | | [Tutorial 03](Tutorial/Tutorial_03.html)([.zip](Tutorial/Tutorial_03.zip))|
 |Sep. 3| Well-Being Day| | |
-|Sep. 5| Data Transformation II| [Slides](Lecture/Lecture 05 Data_Transformation II.pdf)| |
-|| | |[Tutorial 04](Tutorial/Tutorial_04.html)([.zip](Tutorial/Tutorial_04.zip)) |
-|Sep. 10| Final Project Instruction|[Slides](Lecture/Lecture 06 Final_Project.pdf) | |
-|Sep. 12| Data Import| | |
+|Sep. 5| Data Transformation I| | [Tutorial 03](Tutorial/Tutorial_03.html)([.zip](Tutorial/Tutorial_03.zip))|
+|Sep. 10| Data Transformation II| [Slides](Lecture/Lecture 05 Data_Transformation II.pdf)| [Tutorial 04](Tutorial/Tutorial_04.html)([.zip](Tutorial/Tutorial_04.zip))|
+|Sep. 12| Final Project Instruction|[Slides](Lecture/Lecture 06 Final_Project.pdf) | |
+|  | Data Import| | |
 |Sep. 17| Project Proposal Discussion| | |
 |Sep. 19| Project Proposal Discussion| | |
 |Sep. 24| Exploratory Data Analysis| | |

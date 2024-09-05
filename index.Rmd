@@ -75,7 +75,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
     - **[Yuhao Zhou](https://stor.unc.edu/people/graduate-students/)**
 
 - Grader:
-    - Jake Mareno: jmareno@unc.edu
+    - **Jake Mareno**: jmareno@unc.edu
 - Class:
     - Lectures: TTH 8:00AM-9:15AM, Hanes 120
     - Lab 320.400 by Morgan: W 3:30PM – 4:20PM, HN107
@@ -103,7 +103,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 5| Data Transformation I| | [Tutorial 03](Tutorial/Tutorial_03.html)([.zip](Tutorial/Tutorial_03.zip))|
 |Sep. 10| Data Transformation II| [Slides](Lecture/Lecture 05 Data_Transformation II.pdf)| [Tutorial 04](Tutorial/Tutorial_04.html)([.zip](Tutorial/Tutorial_04.zip))|
 |Sep. 12| Final Project Instruction|[Slides](Lecture/Lecture 06 Final_Project.pdf) | |
-|  | Data Import| | |
+|  | Data Import|[Slides](Lecture/Lecture 7 Data_Import.pdf)  | |
 |Sep. 17| Project Proposal Discussion| | |
 |Sep. 19| Project Proposal Discussion| | |
 |Sep. 24| Exploratory Data Analysis| | |

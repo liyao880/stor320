@@ -107,7 +107,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 17| Project Proposal Discussion| | |
 |Sep. 19| Project Proposal Discussion| | |
 |Sep. 24| Exploratory Data Analysis| [Slides](Lecture/Lecture 8 Exploratory_Data_Analysis.pdf)| [Tutorial 05](Tutorial/Tutorial_05.html)([.zip](Tutorial/Tutorial_05.zip))|
-|Sep. 26| Tidy Data| | |
+|Sep. 26| Tidy Data|[Slides](Lecture/Lecture9 Tidy Data.pdf) | [Tutorial 05](Tutorial/Tutorial_06.html)([.zip](Tutorial/Tutorial_06.zip))|
 |Oct. 1| Joins| ||
 |Oct. 3| Factors| ||
 |Oct. 8| Programming I| | |

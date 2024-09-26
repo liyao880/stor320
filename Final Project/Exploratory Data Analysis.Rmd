@@ -26,12 +26,11 @@ The purpose of the exploratory analysis is to utilize tabular and visual devices
 
 In the project proposal, each member of your group should have created 2 initial questions that the Creator should have proposed to the Instructor. For the exploratory data analysis, each member of the group will answer the questions he or she proposed with proper transformation and visualization tools. As a team, you will then come up with 4 follow-up questions that stem from what you learned from your initial investigation. These 4 follow-up questions should be more advanced and specific. For 2 of the 4 follow-up questions, you are required to explore the answers. Finally, your group will have to write a short 2 paragraph summary that summarizes what you discovered in your exploratory data analysis. The first paragraph should summarize what you discovered from your investigation of the initial questions and the second paragraph should summarize what you discovered from your investigation of the follow-up questions. 
 
-For this part, each member should be responsible for answering the 2 questions assigned to them. Meet as a team to discuss your discoveries and develop 4 additional more-interesting questions. As a group determine the proper ways and tools to explore 2 of the 4 follow-up questions. Figure out how you will delegate the responsibility for completing the report.
+Meet as a team to discuss your discoveries and develop 4 additional more-interesting questions. As a group determine the proper ways and tools to explore 2 of the 4 follow-up questions. Figure out how you will delegate the responsibility for completing the report.
 
 The Interpreter should schedule a 10 minute meeting with Instructional Assistant (IA) during the designated week (**Find it on the class website**), within the lab session time. To reserve your 10 minute time slot, email ahead of time. Time slots will be prioritized according to email and posted on a google spreadsheet linked on the website. If your Interpreter fails to schedule the meeting before the deadline, your group will not receive a grade for the EDA report. This penalty will affect the entire group.
 
-In the meeting, the Interpreter should effectively provide an overview of what the entire group discovered from investigating the initial questions and from investigating the follow-up questions. The Interpreter should explain to the IA the current status of the group project and provide the vision of the group on the finishing of the project. The four follow-up questions should be shared along with any future plans for investigating these follow up questions. 
-These analysis results should be ready on a laptop to show the IA.
+In the meeting, the Interpreter should effectively provide an overview of what the entire group discovered from investigating the initial questions and from investigating the follow-up questions. The Interpreter should explain to the IA the current status of the group project and provide the vision of the group on the finishing of the project. The four follow-up questions should be shared along with any future plans for investigating these follow up questions. These analysis results should be ready on a laptop to show the IA.
 
 The Deliverer is responsible for compiling all the information into the RMarkdown template provided on the course website. This document should be carefully proofread and submitted as an HTML file via Canvas by the due date. The group will not receive a grade if this document is submitted late. This penalty applies to the entire group. The analyses for the initial/follow-up questions should be generated using R code chunks. The R code and output should be displayed in the HTML file. The 2 paragraph summary should be written in complete sentences and free of grammatical/spelling errors.
 
@@ -41,7 +40,7 @@ The Deliverer is responsible for compiling all the information into the RMarkdow
 |-------|------:|
 |Answer the Initial Questions with Appropriate Tools|5 Points|
 |4 Good Follow-Up Questions Proposed |2 Points|
-|Answer the Follow-up Questions with Appropriate Tools|2 Points|
+|Answer Two Follow-up Questions with Appropriate Tools|2 Points|
 |Summary Paragraphs on Topic and Follow Instructions|1 Point|
 |Written Summary Free of Errors|1 Point|
 |Followed RMarkdown Template and HTML Submitted|1 Point|

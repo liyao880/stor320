@@ -109,7 +109,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 24| Exploratory Data Analysis| [Slides](Lecture/Lecture 8 Exploratory_Data_Analysis.pdf)| [Tutorial 05](Tutorial/Tutorial_05.html)([.zip](Tutorial/Tutorial_05.zip))|
 |Sep. 26| Tidy Data|[Slides](Lecture/Lecture 9 Tidy Data.pdf) | [Tutorial 06](Tutorial/Tutorial_06.html)([.zip](Tutorial/Tutorial_06.zip))|
 |Oct. 1| Joins|[Slides](Lecture/Lecture 10 Joins.pdf) |[Lecture 10](Lecture/lecture10.zip)|
-|Oct. 3| Factors| ||
+|Oct. 3| Factors|[Slides](Lecture/Lecture 11 Factors.pdf) ||
 |Oct. 8| Programming I| | |
 |Oct. 10| Programming II |||
 |Oct. 15| Programming III |||

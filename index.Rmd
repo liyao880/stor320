@@ -114,14 +114,14 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 10| Programming II |||
 |Oct. 15| Programming III |||
 |Oct. 17| Fall Break |||
-|Oct. 22| Programming IV |||
-|Oct. 24| Modeling I| | |
-|Oct. 29| Modeling II| | |
-|Oct. 31| Modeling III| | |
-|Nov. 5| Modeling IV| | |
-|Nov. 7| Modeling V| | |
-|Nov. 12| Modeling VI |||
-|Nov. 14| Modeling VII| ||
+|Oct. 22| Modeling I |||
+|Oct. 24| Modeling II| | |
+|Oct. 29| Modeling III| | |
+|Oct. 31| Modeling IV| | |
+|Nov. 5| Modeling V| | |
+|Nov. 7| Modeling VI| | |
+|Nov. 12| Modeling VII |||
+|Nov. 14| Modeling VIII| ||
 |Nov. 19| Intro to Deep Learning| | |
 |Nov. 21| Final Presentation| | |
 |Nov. 26| Final Presentation| | |

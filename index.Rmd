@@ -138,7 +138,7 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 | Aug 30  | [HW2](Homework/HW_2.html)([.rmd](Homework/HW_2.rmd)) | Sep 8 (11:55 PM) |
 | Sep 8   | [A1](Homework/Analysis1/Analysis-1.html)([.zip](Homework/Analysis1/Analysis1.zip)) | Sep 22 (11:55 PM) |
 | Sep 22  | [HW3](Homework/HW_3.html)([.rmd](Homework/HW_3.rmd)) | Oct 1 (11:55 PM) |
-| Sep 29  | [HW4](Homework/HW_4.html)([.rmd](Homework/HW_4.rmd)) |Oct 6 (11:55 PM) |
+| Sep 29  | [HW4](Homework/HW_4.html)([.rmd](Homework/HW_4.rmd)) |Oct 8 (11:55 PM) |
 | Oct 6   | [A2](Homework/Analysis2/Analysis_2.html)([.zip](Homework/Analysis2/Analysis2.zip)) |Oct 20 (11:55 PM) |
 | Oct 20  |  |Oct 27(11:55 PM) |
 | Oct 27  |  |Nov 10 (11:55 PM) |
@@ -146,6 +146,28 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 | Nov 17  |  |Nov 24 (11:55 PM) |
 | Nov 24  |  |Dec 4 (11:55 PM) |
 |          |        |           |
+
+# **Lab Tracker**
+Attendance to all labs is mandatory. Each week, your lab instructor will take attendance. During the lab session, students will be required to complete a lab assignment, which must be submitted no later than 30 minutes after the lab ends. All lab assignments are to be submitted via **[Canvas](https://edtech.unc.edu/service/canvas/)**.
+
+| Date | Lab | Materials|
+|------------|:------------:|------------:|
+|Aug. 21 or Aug. 23| Getting to Know Each Other |Lab 1  |
+|Aug. 28 or Aug. 30| Data Visualization | Lab 2 |
+|Sep. 04 or Sep. 06| No Lab (Well-Being Day)|  |
+|Sep. 11 or Sep. 13| Final Project Proposal|Lab 3 |
+|Sep. 18 or Sep. 20| Basic Data Transformation| Lab 4 |
+|Sep. 25 or Sep. 27| Exploratory Data Analysis|Lab 5 | 
+|Oct. 02 or Oct. 04| Tidy Data Case Study |Lab 6 |
+|Oct. 09 or Oct. 11| Relational Data |Lab 7|
+|Oct. 16 or Oct. 18| No Lab (Fall Break) | |
+|Oct. 23 or Oct. 25| Control Structures |Lab 8  |
+|Oct. 30 or Nov. 01| EDA Report |Lab 9 |
+|Nov. 06 or Nov. 08| EDA Report Discussion | |
+|Nov. 13 or Nov. 15| Modeling Basics II |Lab 10 |
+|Nov. 20 or Nov. 22| Categorical Variables |Lab 11 |
+|Nov. 27 or Nov. 29| No Lab (Thanksgiving) | |
+
 
 # **Final Project Details**
 
@@ -194,8 +216,8 @@ This final project will be divided into four parts worth a total of 100 points. 
 |------|-------------|-------------------|----------------:|
 | P1  | Project Proposal | Canvas | Sep 16 (11:55PM)|
 |   | Proposal Meeting | Class | Sep 17 / Sep 19 (8:00AM-10:00AM)|
-| P2  | Exploratory Data Analysis | Canvas | Oct 27 (11:55PM)|
-|   | EDA Meeting | Lab | Week of Oct 28 to Nov 1 |
+| P2  | Exploratory Data Analysis | Canvas | Nov 3 (11:55PM)|
+|   | EDA Meeting | Lab | Week of Nov 4 to Nov 8 |
 | P3  | Final Report|Canvas|Dec 6 (11:55PM)|
 | P4  | Presentation Slides |Canvas| Nov 20 /Nov 25 / Dec 2 (11:55PM)|
 |   | Final Presentation|Class| Nov 21 /Nov 26 / Dec 3 (8:00AM-9:15AM)|

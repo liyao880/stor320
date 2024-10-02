@@ -152,20 +152,20 @@ Attendance to all labs is mandatory. Each week, your lab instructor will take at
 
 | Date | Lab | Materials|
 |------------|:------------:|------------:|
-|Aug. 21 or Aug. 23| Getting to Know Each Other |Lab 1  |
-|Aug. 28 or Aug. 30| Data Visualization | Lab 2 |
+|Aug. 21 or Aug. 23| Getting to Know Each Other |[Lab 1](Labs/Lab_1.html)([.rmd](Labs/Lab_1.rmd)) |
+|Aug. 28 or Aug. 30| Data Visualization | [Lab 2](Labs/Lab_2.html)([.rmd](Labs/Lab_2.rmd)) |
 |Sep. 04 or Sep. 06| No Lab (Well-Being Day)|  |
 |Sep. 11 or Sep. 13| Final Project Proposal|Lab 3 |
-|Sep. 18 or Sep. 20| Basic Data Transformation| Lab 4 |
-|Sep. 25 or Sep. 27| Exploratory Data Analysis|Lab 5 | 
+|Sep. 18 or Sep. 20| Basic Data Transformation| [Lab 4](Labs/Lab_4.html)([.rmd](Labs/Lab_4.rmd)) |
+|Sep. 25 or Sep. 27| Exploratory Data Analysis|[Lab 5](Labs/Lab_5.html)([.rmd](Labs/Lab_5.rmd)) | 
 |Oct. 02 or Oct. 04| Tidy Data Case Study |Lab 6 |
 |Oct. 09 or Oct. 11| Relational Data |Lab 7|
 |Oct. 16 or Oct. 18| No Lab (Fall Break) | |
 |Oct. 23 or Oct. 25| Control Structures |Lab 8  |
 |Oct. 30 or Nov. 01| EDA Report |Lab 9 |
 |Nov. 06 or Nov. 08| EDA Report Discussion | |
-|Nov. 13 or Nov. 15| Modeling Basics II |Lab 10 |
-|Nov. 20 or Nov. 22| Categorical Variables |Lab 11 |
+|Nov. 13 or Nov. 15| Programming |Lab 10 |
+|Nov. 20 or Nov. 22| Modeling Basics |Lab 11 |
 |Nov. 27 or Nov. 29| No Lab (Thanksgiving) | |
 
 

@@ -1,0 +1,187 @@
+---
+title: "Lab 5: Exploratory Data Analysis"
+author: "FIRSTNAME LASTNAME"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# This is a good place to put libraries required for using the ggplot function
+knitr::opts_chunk$set(echo = TRUE)
+options(scipen=999)
+library(tidyverse)    #Loads the tidyverse suite of packages
+library(funModeling)  #Contains heart_disease data
+```
+
+# Introduction
+
+Consider the dataset `heart_disease` from the `funModeling` package.  
+```{r,echo=F}
+head(heart_disease,5)
+```
+
+There are variables related to patient clinic trial. `heart_disease` is a data frame with 303 rows and 16 variables. We'll  focus on the following variables in the analysis:
+
+- `age`: age in years (numerical)
+
+- `max_heart_rate`: max heart rate per minute (numerical)
+
+- `thal`: A blood disorder called thalassemia (categorical: 3 = normal; 6 = fixed defect; 7 = reversable defect)
+
+- `has_heart_disease`: Heart disease (categorical: no, yes)
+
+- `gender`: gender of patient (categorical: male, female)
+
+The purpose of this lab is to practice the creative process in exploratory data analysis of asking questions and then investigating those questions using visuals and statistical summaries. It is your job to apply your detective skills to  the information hidden in this data. For future use, utilize the modified dataset `heart` according to the R code below:
+
+```{r}
+heart=as_tibble(heart_disease) %>%
+  select(age, max_heart_rate, thal, has_heart_disease, gender)
+head(heart)
+```
+
+When you get the desired result for each step, change `Eval=F` to `Eval=T` and knit the document to HTML to make sure it works. After you complete the lab, you should submit your HTML file of what you have completed to Canvas before the deadline.
+
+# Part 1: Questions About Variation
+
+### Question 1: What is the most common  age found in the data?
+
+a. First, use `geom_histogram()` to investigate the distribution of `age` found in `heart`.
+```{r,eval=F}
+ggplot(DATA) +
+  geom_histogram(aes(x=VARIABLE))
+```
+
+b. Use `group_by(age)` along with the pipe `%>%` to output the most common age along with the number of patients of that age. The most common value for age is _____ and the number of patients of the age is _____.
+```{r}
+heart %>%
+  group_by(age) %>%
+  summarise(n=n(),.groups='drop') %>%
+  arrange(desc(n)) %>%
+  summarise(common.exp=first(age),common.n=first(n),.groups='drop')
+```
+
+### Question 2: What is the maximum value of max heart rate found in the data?
+
+c. First, use `geom_density()` to visualize the overall distribution of max heart rate.
+
+```{r,eval=F}
+ggplot(DATA) +
+  geom_TYPE(aes(x=VARIABLE))
+```
+
+d. Next, modify the code in Question 1 to display the maximum `max_heart_rate` and the number of patients in the data that had that max heart rate. The maximum `max_heart_rate` was ____ which occurred ____ times in our sample
+
+```{r, eval=F}
+DATA %>%
+  group_by(VARIABLE) %>%
+  summarise(n=n(),.groups='drop') %>%
+  arrange(desc(VARIABLE)) %>% 
+  summarise(max.max_heart_rate=first(VARIABLE),
+            max.n=first(n),.groups='drop')
+```
+
+
+# Part 2: Questions about Covariation
+
+### Question 3: Is there a relationship between age and max heart rate?
+
+e. Use `geom_point()` to display a scatter plot representing the relationship between these two numeric variables. Use `geom_smooth()` to display a linear regression line to show the relationship between them.  
+
+```{r, eval=F}
+ggplot(DATA) +
+  geom_point(aes(x=VARIABLE1,y=VARIABLE2),
+             alpha=ALPHA_VALUE,shape=16,size=2) +
+  geom_smooth(aes(x=VARIABLE1,y=VARIABLE2),method=METHOD)
+```
+
+f. The max heart rate seems to _____ (increase/decrease) as the age of patients increases. Is this what you expected to see? ____ (yes/no). 
+
+g. Practically, what reasons do you hypothesize for this observed relationship? 
+
+### Question 4: How does max heart rate differ between have heart disease and not have?
+
+h. Use `geom_boxplot()` to compare the distribution of max heart rate of patients who have heart disease to the distribution of max heart rate of patients who do not have heart disease.
+
+```{r, eval=F}
+ggplot(DATA)+
+  geom_TYPE(aes(x=VARIABLE1,y = VARIABLE2))
+```
+
+i. Use `group_by()` along with summarize to report the mean `max_heart_rate`, standard error of `max_heart_rate`, and 95% confidence interval for the unknown population mean of `max_heart_rate` for the various levels of `has_heart_disease`. The standard error is equal to the standard deviation divided by the square root of the sample size. The 95% confidence interval is approximated by obtaining the lower and upper bound of an interval within 2 standard errors of the sample mean. 
+
+```{r, eval=F}
+DATA %>% 
+  group_by(VARIABLE1) %>%
+  summarise(n=n(),mean=mean(VARIABLE2),se=sd(VARIABLE2)/sqrt(n),
+            lb=mean-2*se,ub=mean+2*se,.groups='drop')
+```
+
+j. Based on the confidence limits, do we have statistical evidence to say that the average `max_heart_rate` for patients who do not have heart disease was larger than the average `max_heart_rate` for patients who have heart disease? _____ (yes/no). 
+
+k. How would you explain your answer in terms of the confidence intervals that are constructed above?______________
+
+### Question 5: Does the relationship between age and max heart rate differ for patients who have and do not have heart disease?
+
+l. Use `geom_point()` along with the option `color=has_heart_disease` to overlay scatter plots. Does there seem to be a clear distinction between groups of have and do not have heart disease regarding this relationship? ____ (yes/no).
+```{r, eval=F}
+ggplot(data=DATA) +
+  geom_point(aes(x=VARIABLE1,y=VARIABLE2,color=VARIABLE3))
+```
+ 
+### Question 6: Does the relationship between age and max heart rate differ between genders?
+
+m. Repeat the graphic created in Question 4 replacing `color=has_heart_disease` with `color=gender`. Does there seem to be a clear distinction between female and male regarding this relationship? ____ (yes/no).
+```{r, eval=F}
+ggplot(data=DATA) +
+  geom_point(aes(x=VARIABLE1,y=VARIABLE2,color=VARIABLE3))
+```
+
+### Question 7: What is the relationship between max heart rate and the interaction between gender, thal and has_heart_disease?
+
+Generate heatmap to summarize the average max heart rate for the different combinations of gender and thal. Use `facet_grid(~has_heart_rate)` to compare the relationship of the three variables between the patients who have and do not have heart disease quite easy. 
+
+```{r, eval=F}
+na.omit(heart) %>%
+  group_by(VARIABLE1,VARIABLE2,VARIABLE3) %>%
+  summarise(n=n(),mean=mean(VARIABLE4),.groups='drop') %>%
+  ggplot() +
+    geom_tile(aes(x=VARIABLE1,y=VARIABLE2,fill=mean)) +
+  scale_fill_gradientn(colors=c("black","lightskyblue","white"))+
+    facet_grid(~VARIABLE3) + theme_dark()
+```
+
+n. What are some differences between the patients who have and do not have heart disease regarding this relationship that are apparent in this chart?
+
+ANSWER:__________________
+
+The next figure is similar to the previous one except that the tile color reflects the standard deviation of max heart rate rather than the mean. Interactions of gender and thal containing less than or equal to 10 instances are ignored in this image. 
+
+```{r, eval=F}
+na.omit(heart) %>%
+  group_by(VARIABLE1,VARIABLE2,VARIABLE3) %>%
+  summarise(n=n(),sd=sd(VARIABLE4),.groups='drop') %>%
+  filter(n>10) %>%
+  ggplot() +
+  geom_tile(aes(x=VARIABLE1,y=VARIABLE2,fill=FILL)) +
+  scale_fill_gradientn(colors=c("black","lightskyblue","white"))+
+  facet_grid(~VARIABLE3) + theme_dark()
+```
+
+o. Which plot is generally darker and what does that imply?
+
+ANSWER:__________________
+
+p. Specifically for the scenario where a male patient with normal thalassemia (thal=3), what does the extreme contrast between have and do not have heart disases imply for this figure?
+
+ANSWER:__________________
+
+
+
+
+
+
+
+
+
+

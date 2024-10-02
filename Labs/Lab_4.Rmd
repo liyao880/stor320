@@ -1,0 +1,96 @@
+---
+title: "Lab 4: Basic Data Transformation"
+author: "FIRSTNAME LASTNAME"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r , include=FALSE}
+# This is a good place to put libraries required for using the ggplot function
+knitr::opts_chunk$set(echo = TRUE)
+options(scipen=999)
+library(tidyverse) #Loads the dplyr package for data manipulation
+library(usmap)
+```
+
+# Introduction
+
+The task is to explore the US census population estimates by county for 2022 from the package `usmap`. The data frame (`countypop`) has `3222` rows and `4` variables: 
+
+- `fips` is the 5-digit FIPS code corresponding to the county; 
+
+- `abbr` is the 2-letter state abbreviation; `county` is the full county name;
+
+- `pop_2022` is the 2022 population estimate (in number of people) for the corresponding county. 
+
+Each row of the data frame represents a different county or a county equivalent. For the sake of simplicity, when we say a county, that also includes a county equivalent and when we say a state, that also includes the District of Columbia. Answer the following questions.
+
+You will need to modify the code chunks so that the code works within each of chunk (usually this means modifying anything in ALL CAPS). You will also need to modify the code outside the code chunk. When you get the desired result for each step, change `Eval=F` to `Eval=T` and knit the document to HTML to make sure it works. After you complete the lab, you should submit your HTML file of what you have completed to Canvas before the deadline. 
+
+# Excercises
+
+## Part 1: Length and Unique
+
+a. How many unique 2-letter state abbreviations are there (2 point)? Use `length` and `unique` functions.
+```{r, eval=F}
+FUNCTION1(FUNCTION2(VARIABLE))
+```
+
+b. What is the total number of counties in the US (2 point)? Use `length` and `unique` functions.
+```{r, eval=F}
+FUNCTION1(FUNCTION2(VARIABLE))
+```
+
+c. How many unique county names are there (2 point)? Use `length` and `unique` functions.
+```{r, eval=F}
+FUNCTION1(FUNCTION2(VARIABLE))
+```
+
+## Part 2: Count and Arrange
+
+d. What are the top 10 most common county names (2 points)? `count` number of different county names, `arrange` in descending order and show the first 10 observations.
+```{r, eval=F}
+DATANAME %>%
+  count(COUNTY_VARIABLE) %>%
+  arrange(ORDER_FUNCTION(n)) %>$
+  head(NUMBER_OF_OBS_TO_SHOW)
+```
+
+e. Which state has the smallest number of counties (2 points)? `count` number of observations in each state, `arrange` the data in ascending order and show the first observation.
+
+```{r, eval=F}
+countypop %>%
+  count(STATE_VARIABLE) %>%
+  arrange(n) %>%
+  head(NUMBER_OF_OBS_TO_SHOW)
+```
+
+f. Which state has the largest county in terms of population? How many people live in the largest county in terms of population (2 points)? `arrange` the data with `pop_2022` in descending order. The first observation contains the information.
+```{r, eval=F}
+pop_2022=countypop$pop_2022
+arrange(countypop,ORDER_FUNCTION(POP_VARIABLE))[1,]
+```
+
+## Part 3 Group_by and Summarize
+
+g. How many people live in each of the states (2 points)?  Group the observation by the variable that serves as state identifier then summarize the data to get total number of people in each state.
+```{r, eval=F}
+countypop %>%
+  group_by(STATE_VARIABLE) %>%
+  summarise(total_pop=SUM_FUNCTION(POP_VARIABLE))
+```
+
+h. What is the average population of a county in North Carolina (2 points)? `filter` the data to keep observations from 'NC', `summarise` the data to get average population.
+
+```{r, eval=F}
+countypop %>%
+  filter(STATE_VARIABLE==NORTH_CAROLINA) %>%
+  summarise(AVERAGE_FUNCTION(VARIABLE))
+```
+
+i. What is the largest county in terms of population of each of the states (4 points)?
+```{r, eval=F}
+countypop %>%
+  group_by(STATE_VARIABLE) %>%
+  summarise(county=COUNTY_VARIABLE[which.max(POP_VARIABLE)],MAX_FUNCTION(POP_VARIABLE))
+```

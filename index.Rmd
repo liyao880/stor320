@@ -159,7 +159,7 @@ Attendance to all labs is mandatory. Each week, your lab instructor will take at
 |Sep. 11 or Sep. 13| Final Project Proposal|Lab 3 |
 |Sep. 18 or Sep. 20| Basic Data Transformation| [Lab 4](Labs/Lab_4.html)([.rmd](Labs/Lab_4.rmd)) |
 |Sep. 25 or Sep. 27| Exploratory Data Analysis|[Lab 5](Labs/Lab_5.html)([.rmd](Labs/Lab_5.rmd)) | 
-|Oct. 02 or Oct. 04| Tidy Data Case Study |Lab 6 |
+|Oct. 02 or Oct. 04| Tidy Data Case Study |[Lab 6](Labs/Lab_6.html)([.rmd](Labs/Lab_6.rmd)) |
 |Oct. 09 or Oct. 11| Relational Data |Lab 7|
 |Oct. 16 or Oct. 18| No Lab (Fall Break) | |
 |Oct. 23 or Oct. 25| Control Structures |Lab 8  |

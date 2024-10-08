@@ -99,7 +99,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 27| RMarkdown |[Slides](Lecture/Lecture 03 Workflow_Lecture.pdf) | [Lecture 03](Lecture/lecture03.zip)|
 || Tutorial | |[Tutorial 02](Tutorial/Tutorial_02.html)([.zip](Tutorial/Tutorial_02.zip)) |
 |Aug. 29| Data Transformation I|[Slides](Lecture/Lecture 04 Data_Transformation.pdf) |[Lecture 04](Lecture/lecture04.zip) |
-|Sep. 3| Well-Being Day| | |
+|Sep. 3| Well-Being Day (No Class) | | |
 |Sep. 5| Data Transformation I| | [Tutorial 03](Tutorial/Tutorial_03.html)([.zip](Tutorial/Tutorial_03.zip))|
 |Sep. 10| Data Transformation II| [Slides](Lecture/Lecture 05 Data_Transformation II.pdf)| [Tutorial 04](Tutorial/Tutorial_04.html)([.zip](Tutorial/Tutorial_04.zip))|
 |Sep. 12| Final Project Instruction|[Slides](Lecture/Lecture 06 Final_Project.pdf) | |
@@ -113,16 +113,16 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 8| Programming I|[Slides](Lecture/Lecture 12 Programming I.pdf) | [Tutorial 09](Tutorial/Tutorial_09.html)([.zip](Tutorial/Tutorial_09.zip))|
 || |  | [Tutorial 10](Tutorial/Tutorial_10.html)([.zip](Tutorial/Tutorial_10.zip))|
 |Oct. 10| Programming II |[Slides](Lecture/Lecture 13 Programming II.pdf)|[Lecture 13](Lecture/lecture13.zip)|
-|Oct. 15| Programming III |||
-|Oct. 17| Fall Break |||
-|Oct. 22| Modeling I |||
-|Oct. 24| Modeling II| | |
-|Oct. 29| Modeling III| | |
-|Oct. 31| Modeling IV| | |
-|Nov. 5| Modeling V| | |
-|Nov. 7| Modeling VI| | |
-|Nov. 12| Modeling VII |||
-|Nov. 14| Modeling VIII| ||
+|Oct. 15| Fall Break (No Class) |||
+|Oct. 17| Fall Break (No Class) |||
+|Oct. 22| Programming III |||
+|Oct. 24| Modeling I| | |
+|Oct. 29| Modeling II| | |
+|Oct. 31| Modeling III| | |
+|Nov. 5| Modeling IV| | |
+|Nov. 7| Modeling V| | |
+|Nov. 12| Modeling VI |||
+|Nov. 14| Modeling VII| ||
 |Nov. 19| Intro to Deep Learning| | |
 |Nov. 21| Final Presentation| | |
 |Nov. 26| Final Presentation| | |
@@ -163,10 +163,10 @@ Attendance to all labs is mandatory. Each week, your lab instructor will take at
 |Oct. 09 or Oct. 11| Relational Data |Lab 7|
 |Oct. 16 or Oct. 18| No Lab (Fall Break) | |
 |Oct. 23 or Oct. 25| Control Structures |Lab 8  |
-|Oct. 30 or Nov. 01| EDA Report |Lab 9 |
+|Oct. 30 or Nov. 01| Programming |Lab 9 |
 |Nov. 06 or Nov. 08| EDA Report Discussion | |
-|Nov. 13 or Nov. 15| Programming |Lab 10 |
-|Nov. 20 or Nov. 22| Modeling Basics |Lab 11 |
+|Nov. 13 or Nov. 15| Modeling Basics I |Lab 10 |
+|Nov. 20 or Nov. 22| Modeling Basics II |Lab 11 |
 |Nov. 27 or Nov. 29| No Lab (Thanksgiving) | |
 
 

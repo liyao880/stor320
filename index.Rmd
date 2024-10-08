@@ -93,7 +93,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 # **Course Material**
 
 | Date | Lecture | Slides | Tutorial|
-|------|---------|--------:|--------:|
+|------|-----------|----:|-------:|
 |Aug. 20| Welcome |[Slides](Lecture/Lecture 01_1 Welcome.pdf)| |
 |Aug. 22| Data Visualization|[Slides](Lecture/Lecture 01_2 Data_Visualization_LectureV2.pdf)| [Tutorial 01](Tutorial/Tutorial_01.html)([.rmd](Tutorial/Tutorial_01.rmd)) |
 |Aug. 27| RMarkdown |[Slides](Lecture/Lecture 03 Workflow_Lecture.pdf) | [Lecture 03](Lecture/lecture03.zip)|
@@ -113,7 +113,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 8| Programming I|[Slides](Lecture/Lecture 12 Programming I.pdf) | [Tutorial 09](Tutorial/Tutorial_09.html)([.zip](Tutorial/Tutorial_09.zip))|
 || |  | [Tutorial 10](Tutorial/Tutorial_10.html)([.zip](Tutorial/Tutorial_10.zip))|
 |Oct. 10| Programming II |[Slides](Lecture/Lecture 13 Programming II.pdf)|[Lecture 13](Lecture/lecture13.zip)|
-|Oct. 15| Fall Break (No Class) |||
+|Oct. 15| Final Project Working Day (No Class) |||
 |Oct. 17| Fall Break (No Class) |||
 |Oct. 22| Programming III |||
 |Oct. 24| Modeling I| | |

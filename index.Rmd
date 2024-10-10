@@ -141,11 +141,11 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 | Sep 22  | [HW3](Homework/HW_3.html)([.rmd](Homework/HW_3.rmd)) | Oct 1 (11:55 PM) |
 | Sep 29  | [HW4](Homework/HW_4.html)([.rmd](Homework/HW_4.rmd)) |Oct 8 (11:55 PM) |
 | Oct 6   | [A2](Homework/Analysis2/Analysis_2.html)([.zip](Homework/Analysis2/Analysis2.zip)) |Oct 20 (11:55 PM) |
-| Oct 20  |  |Oct 27(11:55 PM) |
-| Oct 27  |  |Nov 10 (11:55 PM) |
-| Nov 10  |  |Nov 17 (11:55 PM) |
-| Nov 17  |  |Nov 24 (11:55 PM) |
-| Nov 24  |  |Dec 4 (11:55 PM) |
+| Oct 20  | [HW5](Homework/HW_5.html)([.rmd](Homework/HW_5.rmd)) |Oct 27(11:55 PM) |
+| Oct 27  | [A3](Homework/Analysis3/Analysis_3.html)([.zip](Homework/Analysis3/Analysis3.zip)) |Nov 10 (11:55 PM) |
+| Nov 10  | [HW6](Homework/HW_6.html)([.rmd](Homework/HW_6.rmd)) |Nov 17 (11:55 PM) |
+| Nov 17  | [HW7](Homework/HW_7.html)([.rmd](Homework/HW_7.rmd)) |Nov 24 (11:55 PM) |
+| Nov 24  | [A4](Homework/Analysis4/Analysis_4.html)([.zip](Homework/Analysis4/Analysis4.zip)) |Dec 4 (11:55 PM) |
 |          |        |           |
 
 # **Lab Tracker**

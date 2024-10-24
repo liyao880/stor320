@@ -117,7 +117,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 17| Fall Break (No Class) |||
 |Oct. 22| Programming III |[Slides](Lecture/Lecture 14 Programming III.pdf)||
 |Oct. 24| Modeling I| [Slides](Lecture/Lecture 15 Modeling I.pdf)| |
-|Oct. 29| Modeling II| | |
+|Oct. 29| Modeling II| [Slides](Lecture/Lecture 16 Modeling II.pdf)| [Tutorial 11](Tutorial/Tutorial_11.html)([.zip](Tutorial/Tutorial_11.zip))|
+|| Modeling II| | [Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip))|
 |Oct. 31| Modeling III| | |
 |Nov. 5| Modeling IV| | |
 |Nov. 7| Modeling V| | |

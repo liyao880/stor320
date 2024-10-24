@@ -119,7 +119,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 24| Modeling I| [Slides](Lecture/Lecture 15 Modeling I.pdf)| |
 |Oct. 29| Modeling II| [Slides](Lecture/Lecture 16 Modeling II.pdf)| [Tutorial 11](Tutorial/Tutorial_11.html)([.zip](Tutorial/Tutorial_11.zip))|
 || Modeling II| | [Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip))|
-|Oct. 31| Modeling III| | |
+|Oct. 31| Modeling III|[Slides](Lecture/Lecture 17 Modeling III.pdf) |[Tutorial 13](Tutorial/Tutorial_13.html)([.zip](Tutorial/Tutorial_13.zip)) |
 |Nov. 5| Modeling IV| | |
 |Nov. 7| Modeling V| | |
 |Nov. 12| Modeling VI |||

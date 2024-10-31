@@ -117,10 +117,10 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 17| Fall Break (No Class) |||
 |Oct. 22| Programming III |[Slides](Lecture/Lecture 14 Programming III.pdf)||
 |Oct. 24| Modeling I| [Slides](Lecture/Lecture 15 Modeling I.pdf)| [Guest Presentation](Lecture/STOR320 Presentation (Sanderson).pdf)|
-|Oct. 29| Modeling II| [Slides](Lecture/Lecture 16 Modeling II.pdf)| [Tutorial 11](Tutorial/Tutorial_11.html)([.zip](Tutorial/Tutorial_11.zip))|
+|Oct. 29| Modeling II| [Slides](Lecture/Lecture 16 Modeling II&III.pdf)| [Tutorial 11](Tutorial/Tutorial_11.html)([.zip](Tutorial/Tutorial_11.zip))|
 |Oct. 31| Modeling III| | [Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip))|
-|Nov. 5| Modeling IV|[Slides](Lecture/Lecture 17 Modeling III.pdf) |[Tutorial 13](Tutorial/Tutorial_13.html)([.zip](Tutorial/Tutorial_13.zip)) |
-|Nov. 7| Modeling V| | |
+|Nov. 5| Modeling IV|[Slides](Lecture/Lecture 17 Modeling IV.pdf) |[Tutorial 13](Tutorial/Tutorial_13.html)([.zip](Tutorial/Tutorial_13.zip)) |
+|Nov. 7| Modeling V|[Slides](Lecture/Lecture 18 Modeling V.pdf) | |
 |Nov. 12| Modeling VI |||
 |Nov. 14| Modeling VII| ||
 |Nov. 19| Intro to Deep Learning| | |

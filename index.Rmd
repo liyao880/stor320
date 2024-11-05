@@ -162,8 +162,8 @@ Attendance to all labs is mandatory. Each week, your lab instructor will take at
 |Oct. 02 or Oct. 04| Tidy Data Case Study |[Lab 6](Labs/Lab_6.html)([.rmd](Labs/Lab_6.rmd)) |
 |Oct. 09 or Oct. 11| Relational Data |[Lab 7](Labs/Lab_7.html)([.rmd](Labs/Lab_7.rmd))|
 |Oct. 16 or Oct. 18| No Lab (Fall Break) | |
-|Oct. 23 or Oct. 25| Control Structures |Lab 8  |
-|Oct. 30 or Nov. 01| Programming |Lab 9 |
+|Oct. 23 or Oct. 25| Control Structures |[Lab 8](Labs/Lab_8.html)([.rmd](Labs/Lab_8.rmd))  |
+|Oct. 30 or Nov. 01| Programming |[Lab 9](Labs/Lab_9.html)([.rmd](Labs/Lab_9.rmd)) |
 |Nov. 06 or Nov. 08| EDA Report Discussion | |
 |Nov. 13 or Nov. 15| Modeling Basics I |Lab 10 |
 |Nov. 20 or Nov. 22| Modeling Basics II |Lab 11 |

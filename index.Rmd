@@ -121,7 +121,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 31| Modeling III| | [Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip))|
 |Nov. 5| Modeling IV|[Slides](Lecture/Lecture 17 Modeling IV.pdf) |[Tutorial 13](Tutorial/Tutorial_13.html)([.zip](Tutorial/Tutorial_13.zip)) |
 |Nov. 7| Modeling V|[Slides](Lecture/Lecture 18 Modeling V.pdf) | |
-|Nov. 12| Modeling VI |||
+|Nov. 12| Modeling VI |[Slides](Lecture/Lecture 19 Modeling VI.pdf)||
 |Nov. 14| Modeling VII| ||
 |Nov. 19| Intro to Deep Learning| | |
 |Nov. 21| Final Presentation| | |

@@ -1,5 +1,5 @@
 ---
-title: "Exploratory Data Analysis"
+title: "Exploratory Data Analysis: (Name of the project)"
 author: 'STOR 320.01 Group PLACE_GROUP_NUMBER_HERE (Ex: STOR 320.01 Group 12)'
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:

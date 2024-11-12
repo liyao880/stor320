@@ -195,17 +195,17 @@ Although everyone is responsible for the entire project, each member of the grou
 This final project will be divided into four parts worth a total of 100 points. Each part will have a clear rubric as non-subjective as possible. The parts along with total point values are found below:
 
 * **[P1: Project Proposal](Final Project/Project-Proposal.html)** *(10 Points)*
-    + [Template](Final Project/Project_Proposal_Template.html)([.Rmd](https://drive.google.com/file/d/1xLhIyx7XWVtUeVjRCoTrCyjckSzuBFqO/view?usp=sharing))
+    + [Template](Final Project/Project_Proposal_Template.html)([.Rmd](Final Project/Project_Proposal_Template.rmd))
     + [Data World](https://data.world)
     + [US Government Data](https://www.data.gov/)
     + [Kaggle](https://www.kaggle.com/)
 
 
 * **[P2: Exploratory Data Analysis](Final Project/Exploratory-Data-Analysis.html)** *(20 Points)*
-    + [Template](Final Project/EDA_Template.html) ([.Rmd](https://drive.google.com/file/d/1kpZ1a_cULSd8ouW6CFAAyvsKcRxu274S/view?usp=sharing))
+    + [Template](Final Project/EDA_Template.html) ([.Rmd](Final Project/EDA_Template.rmd))
     
 * **[P3: Final Written Paper](Final Project/Final-Paper.html)** *(40 Points)*
-    + [Template](Final Project/Final_Report_Template.html)([.Rmd](https://drive.google.com/file/d/1qmlJ3OJ78_pa04oXFz2DczSSQuINgFQM/view?usp=sharing))
+    + [Template](Final Project/Final_Report_Template.html)([.Rmd](Final Project/Final_Report_Template.rmd))
     + [Group Scoring](https://forms.gle/xiCJh3UzGtvEHUk46)
     
 * **[P4: Final Presentation](Final Project/Final-Presentation.html)** *(30 Points)*
@@ -224,6 +224,11 @@ This final project will be divided into four parts worth a total of 100 points. 
 |   | Final Presentation|Class| Nov 21 /Nov 26 / Dec 3 (8:00AM-9:15AM)|
 ||||
 
+## Above Average Final Projects from Previous Courses
+
+- **[Car Crashes](Good Project/Car crashes.html)**
+- **[COVID-19](Good Project/COVID-19.html)**
+- **[Quality of Government](Good Project/Quality of Government.html)**
 
 # **Class Participation Record**
 

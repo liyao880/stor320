@@ -40,7 +40,7 @@ The final presentations will take place during the last three lectures. Time slo
 |Organization and Structure|5 Points|
 |Presentation Skills|5 Points|
 |Quality of Slides|5 Points|
-|Techinical Accuray|10 Points|
+|Technical Accuracy|10 Points|
 |Finish Within the Scheduled Time|2 Points|
 |Q&A|3 Points|
 |**Total**|**30 Points**|

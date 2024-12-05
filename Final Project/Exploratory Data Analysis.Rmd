@@ -20,7 +20,7 @@ output:
 
 # **Purpose**
 
-The purpose of the exploratory analysis is to utilize tabular and visual devices to investigate answers to proposed initial questions, to devise more complex follow-up questions, and then explore answers for the follow-up questions. Serious time and attention should be given to the exploratory data analysis since much of the information and results will directly lead to future modeling for statistical inference. This is your group's opportunity to creatively dive into your data to pick out parts that are relevant and interesting for sharing with the class in presentation and for communicating with the instructor in written paper.
+The purpose of the exploratory analysis is to utilize tabular and visual devices to investigate answers to proposed initial questions, to devise more complex follow-up questions, and then explore answers for the follow-up questions. Serious time and attention should be given to the exploratory data analysis since much of the information and results will directly lead to future modeling for statistical inference. 
 
 # **Requirements**
 

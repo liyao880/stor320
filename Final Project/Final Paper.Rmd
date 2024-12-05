@@ -20,7 +20,7 @@ output:
 
 # **Purpose**
 
-The purpose of the final paper is to summarize results for two interesting questions using a combination of figures, tables, and modeling techniques. Written communication is an integral part of data science. This is your opportunity to develop a high quality blog post/article that could potentially be published to the web and used in future job interviews.
+The purpose of the final paper is to summarize results for two interesting questions using a combination of figures, tables, and modeling techniques. Written communication is an integral part of data science. This is your opportunity to develop a high quality blog post/article that could potentially be published to the web and used in future job interviews. **The findings should not overlap with what you have done in the EDA report.**
 
 # **Requirements**
 

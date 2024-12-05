@@ -20,7 +20,7 @@ output:
 
 # **Purpose**
 
-The purpose of the final presentation is to verbally communicate your group's process to answer a question using data. A slideshow with appropriate visuals and text should be utilized. This is your group's opportunity to enthusiastically share your findings with your classmates.
+The purpose of the final presentation is to verbally communicate your group's process to answer a question using data. A slideshow with appropriate visuals and text should be utilized. This is your group's opportunity to enthusiastically share your findings with your classmates. **The findings should not overlap with what you have done in the EDA report.**
 
 # **Requirements**
 

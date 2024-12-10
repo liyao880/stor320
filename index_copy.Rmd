@@ -94,35 +94,36 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 
 | Date | Lecture | Slides | Tutorial|
 |------|-----------|----:|-------:|
-|Aug. 20| Welcome || |
-|Aug. 22| Data Visualization|| |
-|Aug. 27| RMarkdown || |
-|Aug. 29| Data Transformation I|| |
+|Aug. 20| Welcome |[Slides](Lecture/Lecture 01_1 Welcome.pdf)| |
+|Aug. 22| Data Visualization|[Slides](Lecture/Lecture 01_2 Data_Visualization_LectureV2.pdf)| [Tutorial 01](Tutorial/Tutorial_01.html)([.rmd](Tutorial/Tutorial_01.rmd)) |
+|Aug. 27| RMarkdown |[Slides](Lecture/Lecture 03 Workflow_Lecture.pdf) | [Lecture 03](Lecture/lecture03.zip)|
+|| Tutorial | |[Tutorial 02](Tutorial/Tutorial_02.html)([.zip](Tutorial/Tutorial_02.zip)) |
+|Aug. 29| Data Transformation I|[Slides](Lecture/Lecture 04 Data_Transformation.pdf) |[Lecture 04](Lecture/lecture04.zip) |
 |Sep. 3| Well-Being Day (No Class) | | |
-|Sep. 5| Data Transformation I|| |
-|Sep. 10| Data Transformation II|| |
-|Sep. 12| Final Project Instruction|| |
-|  | Data Import|| |
+|Sep. 5| Data Transformation I| | [Tutorial 03](Tutorial/Tutorial_03.html)([.zip](Tutorial/Tutorial_03.zip))|
+|Sep. 10| Data Transformation II| [Slides](Lecture/Lecture 05 Data_Transformation II.pdf)| [Tutorial 04](Tutorial/Tutorial_04.html)([.zip](Tutorial/Tutorial_04.zip))|
+|Sep. 12| Final Project Instruction|[Slides](Lecture/Lecture 06 Final_Project.pdf) | |
+|  | Data Import|[Slides](Lecture/Lecture 7 Data_Import.pdf)  | |
 |Sep. 17| Project Proposal Discussion| | |
 |Sep. 19| Project Proposal Discussion| | |
-|Sep. 24| Exploratory Data Analysis|| |
-|Sep. 26| Tidy Data|| |
-|Oct. 1| Joins || |
-|Oct. 3| Factors|| |
-|Oct. 8| Programming I|| |
-|| |  || |
-|Oct. 10| Programming II || |
+|Sep. 24| Exploratory Data Analysis| [Slides](Lecture/Lecture 8 Exploratory_Data_Analysis.pdf)| [Tutorial 05](Tutorial/Tutorial_05.html)([.zip](Tutorial/Tutorial_05.zip))|
+|Sep. 26| Tidy Data|[Slides](Lecture/Lecture 9 Tidy Data.pdf) | [Tutorial 06](Tutorial/Tutorial_06.html)([.zip](Tutorial/Tutorial_06.zip))|
+|Oct. 1| Joins|[Slides](Lecture/Lecture 10 Joins.pdf) |[Lecture 10](Lecture/lecture10.zip)|
+|Oct. 3| Factors|[Slides](Lecture/Lecture 11 Factors.pdf) ||
+|Oct. 8| Programming I|[Slides](Lecture/Lecture 12 Programming I.pdf) | [Tutorial 09](Tutorial/Tutorial_09.html)([.zip](Tutorial/Tutorial_09.zip))|
+|| |  | [Tutorial 10](Tutorial/Tutorial_10.html)([.zip](Tutorial/Tutorial_10.zip))|
+|Oct. 10| Programming II |[Slides](Lecture/Lecture 13 Programming II.pdf)|[Lecture 13](Lecture/lecture13.zip)|
 |Oct. 15| Final Project Working Day (No Class) |||
 |Oct. 17| Fall Break (No Class) |||
-|Oct. 22| Programming III || |
-|Oct. 24| Modeling I|| |
-|Oct. 29| Modeling II|| |
-|Oct. 31| Modeling III|| |
-|Nov. 5| Modeling IV|| |
-|Nov. 7| Modeling V|| |
-|Nov. 12| Modeling VI || |
-|Nov. 14| Modeling VII|| |
-|Nov. 19| Modeling VIII|| |
+|Oct. 22| Programming III |[Slides](Lecture/Lecture 14 Programming III.pdf)||
+|Oct. 24| Modeling I| [Slides](Lecture/Lecture 15 Modeling I.pdf)| [Guest Presentation](Lecture/STOR320 Presentation (Sanderson).pdf)|
+|Oct. 29| Modeling II| [Slides](Lecture/Lecture 16 Modeling II&III.pdf)| [Tutorial 11](Tutorial/Tutorial_11.html)([.zip](Tutorial/Tutorial_11.zip))|
+|Oct. 31| Modeling III| | [Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip))|
+|Nov. 5| Modeling IV|[Slides](Lecture/Lecture 17 Modeling IV.pdf) |[Tutorial 13](Tutorial/Tutorial_13.html)([.zip](Tutorial/Tutorial_13.zip)) |
+|Nov. 7| Modeling V|[Slides](Lecture/Lecture 18 Modeling V.pdf) | |
+|Nov. 12| Modeling VI |[Slides](Lecture/Lecture 19 Modeling VI.pdf)||
+|Nov. 14| Modeling VII|[Slides](Lecture/Lecture 20 Modeling VII.pdf) |[Tutorial 14](Tutorial/Tutorial_14.html)([.zip](Tutorial/Tutorial_14.zip)) |
+|Nov. 19| Modeling VIII|[Slides](Lecture/Lecture 21 Shrinkage Method.pdf) |[Tutorial 15](Tutorial/Tutorial_15.html)([.zip](Tutorial/Tutorial_15.zip)) |
 |Nov. 21| Final Presentation| | |
 |Nov. 26| Final Presentation| | |
 |Nov. 28| Thanksgiving| | |
@@ -134,17 +135,17 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 
 | Date assigned | Instructions | Due Date (Time) |
 |------------|:------------:|------------:|
-| Aug 20  | [HW1]()([.rmd]()) | Aug 30 (11:55 PM) |
-| Aug 30  | [HW2]()([.rmd]())| Sep 8 (11:55 PM) |
-| Sep 8   | [A1]()([.zip]()) | Sep 22 (11:55 PM) |
-| Sep 22  | [HW3]()([.rmd]()) | Oct 1 (11:55 PM) |
-| Sep 29  | [HW4]()([.rmd]()) |Oct 8 (11:55 PM) |
-| Oct 6   | [A2]()([.zip]())|Oct 20 (11:55 PM) |
-| Oct 20  | [HW5]()([.rmd]()) |Oct 27(11:55 PM) |
-| Oct 27  | [A3]()([.zip]())|Nov 10 (11:55 PM) |
-| Nov 10  | [HW6]()([.rmd]()) |Nov 17 (11:55 PM) |
-| Nov 17  | [HW7]()([.rmd]()) |Nov 24 (11:55 PM) |
-| Nov 24  | [A4]()([.zip]()) |Dec 4 (11:55 PM) |
+| Aug 20  | [HW1](Homework/HW_1.html)([.rmd](Homework/HW_1.rmd)) | Aug 30 (11:55 PM) |
+| Aug 30  | [HW2](Homework/HW_2.html)([.rmd](Homework/HW_2.rmd)) | Sep 8 (11:55 PM) |
+| Sep 8   | [A1](Homework/Analysis1/Analysis-1.html)([.zip](Homework/Analysis1/Analysis1.zip)) | Sep 22 (11:55 PM) |
+| Sep 22  | [HW3](Homework/HW_3.html)([.rmd](Homework/HW_3.rmd)) | Oct 1 (11:55 PM) |
+| Sep 29  | [HW4](Homework/HW_4.html)([.rmd](Homework/HW_4.rmd)) |Oct 8 (11:55 PM) |
+| Oct 6   | [A2](Homework/Analysis2/Analysis_2.html)([.zip](Homework/Analysis2/Analysis2.zip)) |Oct 20 (11:55 PM) |
+| Oct 20  | [HW5](Homework/HW_5.html)([.rmd](Homework/HW_5.rmd)) |Oct 27(11:55 PM) |
+| Oct 27  | [A3](Homework/Analysis3/Analysis_3.html)([.zip](Homework/Analysis3/Analysis3.zip)) |Nov 10 (11:55 PM) |
+| Nov 10  | [HW6](Homework/HW_6.html)([.rmd](Homework/HW_6.rmd)) |Nov 17 (11:55 PM) |
+| Nov 17  | [HW7](Homework/HW_7.html)([.rmd](Homework/HW_7.rmd)) |Nov 24 (11:55 PM) |
+| Nov 24  | [A4](Homework/Analysis4/Analysis_4.html)([.zip](Homework/Analysis4/Analysis4.zip)) |Dec 4 (11:55 PM) |
 |          |        |           |
 
 # **Lab Tracker**
@@ -152,20 +153,20 @@ Attendance to all labs is mandatory. Each week, your lab instructor will take at
 
 | Date | Lab | Materials|
 |------------|:------------:|------------:|
-|Aug. 21 or Aug. 23| Getting to Know Each Other |[Lab 1]()([.rmd]()) |
-|Aug. 28 or Aug. 30| Data Visualization | [Lab 2]()([.rmd]())|
+|Aug. 21 or Aug. 23| Getting to Know Each Other |[Lab 1](Labs/Lab_1.html)([.rmd](Labs/Lab_1.rmd)) |
+|Aug. 28 or Aug. 30| Data Visualization | [Lab 2](Labs/Lab_2.html)([.rmd](Labs/Lab_2.rmd)) |
 |Sep. 04 or Sep. 06| No Lab (Well-Being Day)|  |
 |Sep. 11 or Sep. 13| Final Project Proposal|Lab 3 |
-|Sep. 18 or Sep. 20| Basic Data Transformation| [Lab 4]()([.rmd]()) |
-|Sep. 25 or Sep. 27| Exploratory Data Analysis|[Lab 5]()([.rmd]()) | 
-|Oct. 02 or Oct. 04| Tidy Data Case Study |[Lab 6]()([.rmd]()) |
-|Oct. 09 or Oct. 11| Relational Data |[Lab 7]()([.rmd]())|
+|Sep. 18 or Sep. 20| Basic Data Transformation| [Lab 4](Labs/Lab_4.html)([.rmd](Labs/Lab_4.rmd)) |
+|Sep. 25 or Sep. 27| Exploratory Data Analysis|[Lab 5](Labs/Lab_5.html)([.rmd](Labs/Lab_5.rmd)) | 
+|Oct. 02 or Oct. 04| Tidy Data Case Study |[Lab 6](Labs/Lab_6.html)([.rmd](Labs/Lab_6.rmd)) |
+|Oct. 09 or Oct. 11| Relational Data |[Lab 7](Labs/Lab_7.html)([.rmd](Labs/Lab_7.rmd))|
 |Oct. 16 or Oct. 18| No Lab (Fall Break) | |
-|Oct. 23 or Oct. 25| Control Structures |[Lab 8]()([.rmd]())  |
-|Oct. 30 or Nov. 01| Programming |[Lab 9]()([.rmd]())|
+|Oct. 23 or Oct. 25| Control Structures |[Lab 8](Labs/Lab_8.html)([.rmd](Labs/Lab_8.rmd))  |
+|Oct. 30 or Nov. 01| Programming |[Lab 9](Labs/Lab_9.html)([.rmd](Labs/Lab_9.rmd)) |
 |Nov. 06 or Nov. 08| EDA Report Discussion | |
-|Nov. 13 or Nov. 15| Modeling Basics I |[Lab 10]()([.rmd]()) |
-|Nov. 20 or Nov. 22| Modeling Basics II |[Lab 11]()([.rmd]()) |
+|Nov. 13 or Nov. 15| Modeling Basics I |Lab 10 |
+|Nov. 20 or Nov. 22| Modeling Basics II |Lab 11 |
 |Nov. 27 or Nov. 29| No Lab (Thanksgiving) | |
 
 
@@ -175,7 +176,7 @@ For the final project, each section of STOR 320 will be divided (ideally) into r
 
 ## Research Group Assignments
 
-To find your research group, see the **[spreadsheet]()** sponsored by Google.
+To find your research group, see the **[spreadsheet](https://docs.google.com/spreadsheets/d/1dI0nJH077wTs5ZTBrhQeXYVOgXDIMDgaR8kKCI8sBTM/edit?usp=sharing)** sponsored by Google.
 
 ## Four Roles
 
@@ -231,7 +232,7 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 # **Class Participation Record**
 
-To find your class participation record, see the **[spreadsheet]()** sponsored by Google.
+To find your class participation record, see the **[spreadsheet](https://docs.google.com/spreadsheets/d/1AinZa9YYpwEczVmmvqcTYxTtnqypy22E0qDeJS5F8UI/edit?usp=sharing)** sponsored by Google.
 
 
 # **Acknowledgements**

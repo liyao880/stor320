@@ -1,5 +1,5 @@
 ---
-title: '**STOR 320.1: Intro to Data Science**'
+title: '**STOR 320.2: Intro to Data Science**'
 geometry: margin=2
 output:
   prettydoc::html_pretty:
@@ -62,7 +62,7 @@ background-color: #13294B;
 
 # **About the Course**
 
-See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divided into three rough parts,
+See the **[syllabus]()** for details. The course is divided into three rough parts,
 
 1. Core data science coding skills
 2. Modeling
@@ -71,62 +71,73 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 - Instructor: **[Yao Li](https://liyao880.github.io/yaoli/)**
 
 - Instructional Assistants: 
-    - **[Morgan Smith](https://stor.unc.edu/people/graduate-students/)**
-    - **[Yuhao Zhou](https://stor.unc.edu/people/graduate-students/)**
+    - **[Grant Schweikhardt](https://stor.unc.edu/people/graduate-students/)**
 
 - Grader:
-    - **Jake Mareno**: jmareno@unc.edu
+    - **TBA**: 
 - Class:
-    - Lectures: TTH 8:00AM-9:15AM, Hanes 120
-    - Lab 320.400 by Morgan: W 3:30PM – 4:20PM, HN107
-    - Lab 320.401 by Morgan: W 5:00PM – 5:50PM, CH104
-    - Lab 320.402 by Yuhao: F 10:10AM – 11:00AM, HN107
-    - Lab 320.403 by Yuhao: F 3:30PM – 4:20PM, DE203 
+    - Lectures: MWF 1:25PM-2:15PM, Hanes 120
+    - Lab 320.404: T  12:30PM – 1:20PM, HN107
+    - Lab 320.405: TH 12:30PM – 1:20PM, HN107
+    - Lab 320.406: T   2:00PM – 2:50PM, HN107
+    - Lab 320.407: TH  2:00PM – 2:50PM, HN107 
     
 - Office Hours:
-    - Instructor Office Hours: W 2:00PM-4:00PM, Office: Hanes 334
-    - Morgan Office Hours: T 10:00AM-11:00AM and TH 3:00PM-4:00PM Office: [Zoom](https://unc.zoom.us/j/97295425881?pwd=raFYJTlcsBR0KksYqw4RWjzH7Nchr1.1)
-    - Yuhao Office Hours: M 10:00AM-11:00AM and TH 2:00PM-3:00PM, Office: Hanes B50
-
+    - Instructor Office Hours: W 9:00AM-11:00AM, Office: Hanes 334
+    - TA Office Hours: TBD
 
 
 # **Course Material**
 
 | Date | Lecture | Slides | Tutorial|
-|------|-----------|----:|-------:|
-|Aug. 20| Welcome || |
-|Aug. 22| Data Visualization|| |
-|Aug. 27| RMarkdown || |
-|Aug. 29| Data Transformation I|| |
-|Sep. 3| Well-Being Day (No Class) | | |
-|Sep. 5| Data Transformation I|| |
-|Sep. 10| Data Transformation II|| |
-|Sep. 12| Final Project Instruction|| |
-|  | Data Import|| |
-|Sep. 17| Project Proposal Discussion| | |
-|Sep. 19| Project Proposal Discussion| | |
-|Sep. 24| Exploratory Data Analysis|| |
-|Sep. 26| Tidy Data|| |
-|Oct. 1| Joins || |
-|Oct. 3| Factors|| |
-|Oct. 8| Programming I|| |
-|| |  || |
-|Oct. 10| Programming II || |
-|Oct. 15| Final Project Working Day (No Class) |||
-|Oct. 17| Fall Break (No Class) |||
-|Oct. 22| Programming III || |
-|Oct. 24| Modeling I|| |
-|Oct. 29| Modeling II|| |
-|Oct. 31| Modeling III|| |
-|Nov. 5| Modeling IV|| |
-|Nov. 7| Modeling V|| |
-|Nov. 12| Modeling VI || |
-|Nov. 14| Modeling VII|| |
-|Nov. 19| Modeling VIII|| |
+|------|---------|--------:|--------:|
+|Aug. 18| Welcome || |
+|Aug. 20| Data Visualization| | |
+|Aug. 22| Data Visualization| | |
+|Aug. 25| RMarkdown| | |
+|Aug. 27| Data Transformation I| | |
+|Aug. 29| Data Transformation II| | |
+|Sep. 1| Labor Day (No Class) | | |
+|Sep. 3| Data Transformation III| | |
+|Sep. 5| Final Project Instruction | | |
+|Sep. 8| Project Proposal Discussion| | |
+|Sep. 10| Project Proposal Discussion | | |
+|Sep. 12| Project Proposal Discussion| | |
+|Sep. 15| Well-Being Day (No Class) | | |
+|Sep. 17| Data Import |||
+|Sep. 19| Exploratory Data Analysis |||
+|Sep. 22| Exploratory Data Analysis| | |
+|Sep. 24| Tidy Data |||
+|Sep. 26| Tidy Data |||
+|Sep. 29| Joins  | | |
+|Oct. 1| Joins | | |
+|Oct. 3| Factors | | |
+|Oct. 6| Factors | | |
+|Oct. 8| Programming I| | |
+|Oct. 10| Programming II| | |
+|Oct. 13| Programming III| | |
+|Oct. 15| Programming IV| | |
+|Oct. 17| Fall Break| | |
+|Oct. 20| Programming V| | |
+|Oct. 22| Modeling I| | |
+|Oct. 24| Modeling II| | |
+|Oct. 27| Modeling III| | |
+|Oct. 29| Modeling IV| | |
+|Oct. 31| Modeling V| | |
+|Nov. 3| Modeling VI| | |
+|Nov. 5| Modeling VII |||
+|Nov. 7| Modeling VIII| | |
+|Nov. 10| Modeling IX| | |
+|Nov. 12| Modeling X| | |
+|Nov. 14| Modeling XI| | |
+|Nov. 17| Modeling XII| | |
+|Nov. 19| R Shiny| | |
 |Nov. 21| Final Presentation| | |
-|Nov. 26| Final Presentation| | |
+|Nov. 24| Final Presentation| | |
+|Nov. 26| Thanksgiving |||
 |Nov. 28| Thanksgiving| | |
-|Dec. 3| Final Presentation| | |
+|Dec. 1| Final Presentation |||
+|Dec. 3|Final Presentation | | |
 
 # **Homework Tracker**
 
@@ -134,39 +145,18 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 
 | Date assigned | Instructions | Due Date (Time) |
 |------------|:------------:|------------:|
-| Aug 20  | [HW1]()([.rmd]()) | Aug 30 (11:55 PM) |
-| Aug 30  | [HW2]()([.rmd]())| Sep 8 (11:55 PM) |
-| Sep 8   | [A1]()([.zip]()) | Sep 22 (11:55 PM) |
-| Sep 22  | [HW3]()([.rmd]()) | Oct 1 (11:55 PM) |
-| Sep 29  | [HW4]()([.rmd]()) |Oct 8 (11:55 PM) |
-| Oct 6   | [A2]()([.zip]())|Oct 20 (11:55 PM) |
-| Oct 20  | [HW5]()([.rmd]()) |Oct 27(11:55 PM) |
-| Oct 27  | [A3]()([.zip]())|Nov 10 (11:55 PM) |
-| Nov 10  | [HW6]()([.rmd]()) |Nov 17 (11:55 PM) |
-| Nov 17  | [HW7]()([.rmd]()) |Nov 24 (11:55 PM) |
-| Nov 24  | [A4]()([.zip]()) |Dec 4 (11:55 PM) |
+| Aug 18  | [HW1]()([.rmd]()) | Aug 31 (11:55 PM) |
+| Aug 31  | [HW2]()([.rmd]()) | Sep 7 (11:55 PM) |
+| Sep 7   | [A1]()([.zip]()) | Sep 21 (11:55 PM) |
+| Sep 21  | [HW3]()([.rmd]()) | Sep 28 (11:55 PM) |
+| Sep 28  | [HW4]()([.rmd]()) | Oct 5 (11:55 PM) |
+| Oct 5   | [A2]()([.zip]()) | Oct 19 (11:55 PM) |
+| Oct 19  | [HW5]()([.rmd]()) | Oct 26 (11:55 PM) |
+| Oct 26  | [A3]()([.zip]()) | Nov 9 (11:55 PM) |
+| Nov 9  | [HW6]()([.rmd]()) | Nov 16 (11:55 PM) |
+| Nov 16  | [HW7]()([.rmd]()) | Nov 23 (11:55 PM) |
+| Nov 23  | [A4]()([.zip]()) |Dec 3 (11:55 PM) |
 |          |        |           |
-
-# **Lab Tracker**
-Attendance to all labs is mandatory. Each week, your lab instructor will take attendance. During the lab session, students will be required to complete a lab assignment, which must be submitted no later than 30 minutes after the lab ends. All lab assignments are to be submitted via **[Canvas](https://edtech.unc.edu/service/canvas/)**.
-
-| Date | Lab | Materials|
-|------------|:------------:|------------:|
-|Aug. 21 or Aug. 23| Getting to Know Each Other |[Lab 1]()([.rmd]()) |
-|Aug. 28 or Aug. 30| Data Visualization | [Lab 2]()([.rmd]())|
-|Sep. 04 or Sep. 06| No Lab (Well-Being Day)|  |
-|Sep. 11 or Sep. 13| Final Project Proposal|Lab 3 |
-|Sep. 18 or Sep. 20| Basic Data Transformation| [Lab 4]()([.rmd]()) |
-|Sep. 25 or Sep. 27| Exploratory Data Analysis|[Lab 5]()([.rmd]()) | 
-|Oct. 02 or Oct. 04| Tidy Data Case Study |[Lab 6]()([.rmd]()) |
-|Oct. 09 or Oct. 11| Relational Data |[Lab 7]()([.rmd]())|
-|Oct. 16 or Oct. 18| No Lab (Fall Break) | |
-|Oct. 23 or Oct. 25| Control Structures |[Lab 8]()([.rmd]())  |
-|Oct. 30 or Nov. 01| Programming |[Lab 9]()([.rmd]())|
-|Nov. 06 or Nov. 08| EDA Report Discussion | |
-|Nov. 13 or Nov. 15| Modeling Basics I |[Lab 10]()([.rmd]()) |
-|Nov. 20 or Nov. 22| Modeling Basics II |[Lab 11]()([.rmd]()) |
-|Nov. 27 or Nov. 29| No Lab (Thanksgiving) | |
 
 
 # **Final Project Details**
@@ -213,14 +203,14 @@ This final project will be divided into four parts worth a total of 100 points. 
 ## Due Dates of Individual Parts
 
 | Part | Description |Method of Submission| Due Date (Time) |
-|------|-------------|-------------------|----------------:|
-| P1  | Project Proposal | Canvas | Sep 16 (11:55PM)|
-|   | Proposal Meeting | Class | Sep 17 / Sep 19 (8:00AM-10:00AM)|
-| P2  | Exploratory Data Analysis | Canvas | Nov 3 (11:55PM)|
-|   | EDA Meeting | Lab | Week of Nov 4 to Nov 8 |
-| P3  | Final Report|Canvas|Dec 6 (11:55PM)|
-| P4  | Presentation Slides |Canvas| Nov 20 /Nov 25 / Dec 2 (11:55PM)|
-|   | Final Presentation|Class| Nov 21 /Nov 26 / Dec 3 (8:00AM-9:15AM)|
+|----|------------------|----------|--------------------------:|
+| P1  | Project Proposal | Canvas | Sep 7 (11:55PM)|
+|   | Proposal Meeting | Class | Sep 8 / Sep 10 / Sep 12 (Lecture time)|
+| P2  | Exploratory Data Analysis | Canvas | Nov 2 (11:55PM)|
+|   | EDA Meeting | Lab | Week of Nov 3 to Nov 7 |
+| P3  | Final Report|Canvas|Dec 5 (11:55PM)|
+| P4  | Presentation Slides |Canvas| Nov 20 /Nov 23 /Nov 30 /Dec 2 (11:55PM)|
+|   | Final Presentation|Class| Nov 21 /Nov 24 /Dec 1 /Dec 3 (Lecture time)|
 ||||
 
 ## Above Average Final Projects from Previous Courses

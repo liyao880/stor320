@@ -62,7 +62,7 @@ background-color: #13294B;
 
 # **About the Course**
 
-See the **[syllabus]()** for details. The course is divided into three rough parts,
+See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divided into three rough parts,
 
 1. Core data science coding skills
 2. Modeling
@@ -71,7 +71,8 @@ See the **[syllabus]()** for details. The course is divided into three rough par
 - Instructor: **[Yao Li](https://liyao880.github.io/yaoli/)**
 
 - Instructional Assistants: 
-    - **[Grant Schweikhardt](https://stor.unc.edu/people/graduate-students/)**
+    - **[Jack McPherson](https://stor.unc.edu/people/graduate-students/)**
+    - Email: jackrymc@unc.edu
 
 - Grader:
     - **TBA**: 
@@ -84,7 +85,7 @@ See the **[syllabus]()** for details. The course is divided into three rough par
     
 - Office Hours:
     - Instructor Office Hours: W 9:00AM-11:00AM, Office: Hanes 334
-    - TA Office Hours: TBD
+    - TA Office Hours: TTH 11:00AM-12:00PM, Office: Hanes B30
 
 
 # **Course Material**

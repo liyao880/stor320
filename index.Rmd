@@ -101,15 +101,15 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 1| Labor Day (No Class) | | |
 |Sep. 3| Data Transformation III| | |
 |Sep. 5| Final Project Instruction | | |
-|Sep. 8| Project Proposal Discussion| | |
-|Sep. 10| Project Proposal Discussion | | |
-|Sep. 12| Project Proposal Discussion| | |
+|Sep. 8| Data Import| | |
+|Sep. 10| Exploratory Data Analysis | | |
+|Sep. 12| Exploratory Data Analysis| | |
 |Sep. 15| Well-Being Day (No Class) | | |
-|Sep. 17| Data Import |||
-|Sep. 19| Exploratory Data Analysis |||
-|Sep. 22| Exploratory Data Analysis| | |
-|Sep. 24| Tidy Data |||
-|Sep. 26| Tidy Data |||
+|Sep. 17| Tidy Data |||
+|Sep. 19| Tidy Data |||
+|Sep. 22| Project Proposal Discussion| | |
+|Sep. 24| Project Proposal Discussion|||
+|Sep. 26| Project Proposal Discussion |||
 |Sep. 29| Joins  | | |
 |Oct. 1| Joins | | |
 |Oct. 3| Factors | | |
@@ -205,10 +205,10 @@ This final project will be divided into four parts worth a total of 100 points. 
 
 | Part | Description |Method of Submission| Due Date (Time) |
 |----|------------------|----------|--------------------------:|
-| P1  | Project Proposal | Canvas | Sep 7 (11:55PM)|
-|   | Proposal Meeting | Class | Sep 8 / Sep 10 / Sep 12 (Lecture time)|
-| P2  | Exploratory Data Analysis | Canvas | Nov 2 (11:55PM)|
-|   | EDA Meeting | Lab | Week of Nov 3 to Nov 7 |
+| P1  | Project Proposal | Canvas | Sep 21 (11:55PM)|
+|   | Proposal Meeting | Class | Sep 22 / Sep 24 / Sep 26 (Lecture time)|
+| P2  | Exploratory Data Analysis | Canvas | Oct 26 (11:55PM)|
+|   | EDA Meeting | Lab | Week of Oct 27 to 31 |
 | P3  | Final Report|Canvas|Dec 5 (11:55PM)|
 | P4  | Presentation Slides |Canvas| Nov 20 /Nov 23 /Nov 30 /Dec 2 (11:55PM)|
 |   | Final Presentation|Class| Nov 21 /Nov 24 /Dec 1 /Dec 3 (Lecture time)|

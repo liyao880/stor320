@@ -72,10 +72,10 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 
 - Instructional Assistants: 
     - **[Jack McPherson](https://stor.unc.edu/people/graduate-students/)**
-    - Email: jackrymc@unc.edu
+    - Email: jackrymc AT unc DOT edu
 
 - Grader:
-    - **TBA**: 
+    - **Riley Harper**: riley DOT harper AT unc DOT edu
 - Class:
     - Lectures: MWF 1:25PM-2:15PM, Hanes 120
     - Lab 320.404: T  12:30PM – 1:20PM, HN107

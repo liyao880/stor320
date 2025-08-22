@@ -148,7 +148,7 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 | Date assigned | Instructions | Due Date (Time) |
 |------------|:------------:|------------:|
 | Aug 18  | [HW1](Homework/HW_1.html)([.rmd](Homework/HW_1.rmd)) | Aug 31 (11:55 PM) |
-| Aug 31  | HW2 | Sep 7 (11:55 PM) |
+| Aug 31  | [HW2](Homework/HW_2.html)([.rmd](Homework/HW_2.rmd)) | Sep 7 (11:55 PM) |
 | Sep 7   | A1([.zip]) | Sep 21 (11:55 PM) |
 | Sep 21  | HW3 | Sep 28 (11:55 PM) |
 | Sep 28  | HW4 | Oct 5 (11:55 PM) |

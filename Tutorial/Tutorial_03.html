@@ -11,7 +11,7 @@
 
 <meta name="author" content />
 
-<meta name="date" content="2025-09-05" />
+<meta name="date" content="2025-09-08" />
 
 <title>STOR 320 Tutorial on Data Transformation 1</title>
 
@@ -353,7 +353,7 @@ display: none;
 <h1 class="title toc-ignore">STOR 320 Tutorial on Data Transformation
 1</h1>
 <h4 class="author"></h4>
-<h4 class="date">September 05, 2025</h4>
+<h4 class="date">September 08, 2025</h4>
 
 </div>
 
@@ -479,6 +479,32 @@ carrier? ________ (<em>Yes/No</em>)</p>
 <p>If we know the flight number, carrier, and origin, can we know for
 sure what the destination will be? ________ (<em>Yes/No</em>)</p>
 <p>Why or why not?</p>
+<p>If a counter example is not found from <code>f1e</code>, you can
+answer the question via the following data transformation steps:</p>
+<p>Let’s first get all the unique combinations of flight, carrier,
+origin and destination and save them to a data frame
+<code>f1</code>.</p>
+<pre class="r"><code># Get all combinations
+f1 &lt;- flights %&gt;%
+      select(flight, carrier, origin, dest) %&gt;%
+      group_by(flight, carrier, origin,dest) %&gt;%
+                  summarize() %&gt;%
+      arrange(flight, carrier, origin)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;flight&#39;, &#39;carrier&#39;, &#39;origin&#39;. You can
+## override using the `.groups` argument.</code></pre>
+<pre class="r"><code>f2 &lt;- f1 %&gt;%
+      group_by(flight, carrier, origin) %&gt;%
+                  summarize(
+                    n=n(),
+                  )</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;flight&#39;, &#39;carrier&#39;. You can override using
+## the `.groups` argument.</code></pre>
+<pre class="r"><code>My_answer = (sum(f2$n!=1)==0)
+# If f2$n is not 1 for any of the observation, the claim is False. Therefore, as long as the sum is not 0, the answer should be False.
+
+
+print(paste(&quot;If we know the flight number, carrier, and origin, we can know for sure what the destination will be. True or False? My answer is&quot;,My_answer))</code></pre>
+<pre><code>## [1] &quot;If we know the flight number, carrier, and origin, we can know for sure what the destination will be. True or False? My answer is FALSE&quot;</code></pre>
 </div>
 </div>
 <div id="part-2-time-to-get-on-the-pipe" class="section level1">

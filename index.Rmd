@@ -100,11 +100,11 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Aug. 29| Data Transformation I|[Slides](Lecture/Lecture 04 Data_Transformation.pdf) | [Lecture 04](Tutorial/Lecture_04.zip) |
 |Sep. 1| Labor Day (No Class) | | |
 |Sep. 3| Data Transformation II| |[Tutorial 3](Tutorial/Tutorial_03.html)([.zip](Tutorial/Tutorial_03.zip)) |
-|Sep. 5| Data Transformation III|[Slides](Lecture/Lecture 05 Data_Transformation II.pdf)  |[Tutorial 4](Tutorial/Tutorial_04.html)([.zip](Tutorial/Tutorial_04.zip)) |
-|Sep. 8| Final Project Instruction |[Slides](Lecture/Lecture 06 Final_Project.pdf) | |
+|Sep. 5| Data Transformation III|  | |
+|Sep. 8| Data Transformation IV|[Slides](Lecture/Lecture 05 Data_Transformation II.pdf) |[Tutorial 4](Tutorial/Tutorial_04.html)([.zip](Tutorial/Tutorial_04.zip)) |
+|Sep. 10| Final Project Instruction |[Slides](Lecture/Lecture 06 Final_Project.pdf) | |
 || Data Import|[Slides](Lecture/Lecture 7 Data_Import.pdf) | |
-|Sep. 10| Exploratory Data Analysis |[Slides](Lecture/Lecture 8 Exploratory_Data_Analysis.pdf) | |
-|Sep. 12| Exploratory Data Analysis| |[Tutorial 5](Tutorial/Tutorial_05.html)([.zip](Tutorial/Tutorial_05.zip)) |
+|Sep. 12| Exploratory Data Analysis |[Slides](Lecture/Lecture 8 Exploratory_Data_Analysis.pdf) |[Tutorial 5](Tutorial/Tutorial_05.html)([.zip](Tutorial/Tutorial_05.zip)) |
 |Sep. 15| Well-Being Day (No Class) | | |
 |Sep. 17| Tidy Data |||
 |Sep. 19| Tidy Data |||

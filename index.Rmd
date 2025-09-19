@@ -106,21 +106,21 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 12| Final Project Instruction |[Slides](Lecture/Lecture 06 Final_Project.pdf) | |
 || Data Import|[Slides](Lecture/Lecture 7 Data_Import.pdf) | |
 |Sep. 15| Well-Being Day (No Class) | | |
-|Sep. 17| Exploratory Data Analysis |[Slides](Lecture/Lecture 8 Exploratory_Data_Analysis.pdf) |[Tutorial 5](Tutorial/Tutorial_05.html)([.zip](Tutorial/Tutorial_05.zip)) |
-|Sep. 19| Tidy Data |[Slides](Lecture/Lecture 09 Tidy Data.pdf)|[Tutorial 6](Tutorial/Tutorial_06.html)([.zip](Tutorial/Tutorial_06.zip))|
+|Sep. 17| Exploratory Data Analysis |[Slides](Lecture/Lecture 8 Exploratory_Data_Analysis.pdf) | |
+|Sep. 19| Exploratory Data Analysis | |[Tutorial 5](Tutorial/Tutorial_05.html)([.zip](Tutorial/Tutorial_05.zip)) |
 |Sep. 22| Project Proposal Discussion| | |
 |Sep. 24| Project Proposal Discussion|||
 |Sep. 26| Project Proposal Discussion |||
-|Sep. 29| Joins  | | |
-|Oct. 1| Joins | | |
-|Oct. 3| Factors | | |
+|Sep. 29| Tidy Data |[Slides](Lecture/Lecture 09 Tidy Data.pdf)|[Tutorial 6](Tutorial/Tutorial_06.html)([.zip](Tutorial/Tutorial_06.zip))|
+|Oct. 1| Joins  | | |
+|Oct. 3| Joins | | |
 |Oct. 6| Factors | | |
-|Oct. 8| Programming I| | |
-|Oct. 10| Programming II| | |
-|Oct. 13| Programming III| | |
-|Oct. 15| Programming IV| | |
+|Oct. 8| Factors | | |
+|Oct. 10| Programming I| | |
+|Oct. 13| Programming II| | |
+|Oct. 15| Programming III| | |
 |Oct. 17| Fall Break| | |
-|Oct. 20| Programming V| | |
+|Oct. 20| Programming IV| | |
 |Oct. 22| Modeling I| | |
 |Oct. 24| Modeling II| | |
 |Oct. 27| Modeling III| | |

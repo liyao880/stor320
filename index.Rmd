@@ -111,9 +111,9 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 22| Project Proposal Discussion| | |
 |Sep. 24| Project Proposal Discussion|||
 |Sep. 26| Project Proposal Discussion |||
-|Sep. 29| Tidy Data |[Slides](Lecture/Lecture 09 Tidy Data.pdf)|[Tutorial 6](Tutorial/Tutorial_06.html)([.zip](Tutorial/Tutorial_06.zip))|
-|Oct. 1| Joins  | | |
-|Oct. 3| Joins | | |
+|Sep. 29| Tidy Data I |[Slides](Lecture/Lecture 09 Tidy Data.pdf)||
+|Oct. 1| Tidy Data II | |[Tutorial 6](Tutorial/Tutorial_06.html)([.zip](Tutorial/Tutorial_06.zip)) |
+|Oct. 3| Joins | [Slides](Lecture/Lecture 10 Joins.pdf)|[Lecture 10](Tutorial/Lecture_10.zip) |
 |Oct. 6| Factors | | |
 |Oct. 8| Factors | | |
 |Oct. 10| Programming I| | |

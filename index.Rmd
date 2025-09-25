@@ -151,7 +151,7 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 | Aug 31  | [HW2](Homework/HW_2.html)([.rmd](Homework/HW_2.rmd)) | Sep 7 (11:55 PM) |
 | Sep 7   | [A1](Homework/Analysis1/Analysis-1.html)([.zip](Homework/Analysis1/Analysis1.zip)) | Sep 21 (11:55 PM) |
 | Sep 21  | [HW3](Homework/HW_3.html)([.rmd](Homework/HW_3.rmd)) | Sep 28 (11:55 PM) |
-| Sep 28  | HW4 | Oct 5 (11:55 PM) |
+| Sep 28  | [HW4](Homework/HW_4.html)([.rmd](Homework/HW_4.rmd)) | Oct 5 (11:55 PM) |
 | Oct 5   | A2([.zip]) | Oct 19 (11:55 PM) |
 | Oct 19  | HW5 | Oct 26 (11:55 PM) |
 | Oct 26  | A13([.zip]) | Nov 9 (11:55 PM) |

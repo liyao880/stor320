@@ -104,9 +104,9 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 8| Data Transformation IV|[Slides](Lecture/Lecture 05 Data_Transformation II.pdf) | |
 |Sep. 10| Data Transformation V| |[Tutorial 4](Tutorial/Tutorial_04.html)([.zip](Tutorial/Tutorial_04.zip)) |
 |Sep. 12| Final Project Instruction |[Slides](Lecture/Lecture 06 Final_Project.pdf) | |
-|| Data Import|[Slides](Lecture/Lecture 7 Data_Import.pdf) | |
+|| Data Import|[Slides](Lecture/Lecture 07 Data_Import.pdf) | |
 |Sep. 15| Well-Being Day (No Class) | | |
-|Sep. 17| Exploratory Data Analysis |[Slides](Lecture/Lecture 8 Exploratory_Data_Analysis.pdf) | |
+|Sep. 17| Exploratory Data Analysis |[Slides](Lecture/Lecture 08 Exploratory_Data_Analysis.pdf) | |
 |Sep. 19| Exploratory Data Analysis | |[Tutorial 5](Tutorial/Tutorial_05.html)([.zip](Tutorial/Tutorial_05.zip)) |
 |Sep. 22| Project Proposal Discussion| | |
 |Sep. 24| Project Proposal Discussion|||
@@ -151,7 +151,7 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 | Aug 31  | [HW2](Homework/HW_2.html)([.rmd](Homework/HW_2.rmd)) | Sep 7 (11:55 PM) |
 | Sep 7   | [A1](Homework/Analysis1/Analysis-1.html)([.zip](Homework/Analysis1/Analysis1.zip)) | Sep 21 (11:55 PM) |
 | Sep 21  | [HW3](Homework/HW_3.html)([.rmd](Homework/HW_3.rmd)) | Sep 28 (11:55 PM) |
-| Sep 28  | [HW4](Homework/HW_4.html)([.rmd](Homework/HW_4.rmd)) | Oct 5 (11:55 PM) |
+| Sep 28  | [HW4](Homework/HW_4.html)([.rmd](Homework/HW_4.rmd)) | Oct 8 (11:55 PM) |
 | Oct 5   | A2([.zip]) | Oct 19 (11:55 PM) |
 | Oct 19  | HW5 | Oct 26 (11:55 PM) |
 | Oct 26  | A13([.zip]) | Nov 9 (11:55 PM) |

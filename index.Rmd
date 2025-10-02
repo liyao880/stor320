@@ -115,8 +115,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 1| Tidy Data II | |[Tutorial 6](Tutorial/Tutorial_06.html)([.zip](Tutorial/Tutorial_06.zip)) |
 |Oct. 3| Joins | [Slides](Lecture/Lecture 10 Joins.pdf)|[Lecture 10](Tutorial/Lecture_10.zip) |
 |Oct. 6| Factors |[Slides](Lecture/Lecture 11 Factors.pdf) | |
-|Oct. 8| Programming I | | |
-|Oct. 10| Programming II| | |
+|Oct. 8| Programming I |[Slides](Lecture/Lecture 12 Programming I.pdf) |[Tutorial 7](Tutorial/Tutorial_07.html)([.zip](Tutorial/Tutorial_07.zip)) |
+|Oct. 10| Programming II| |[Tutorial 8](Tutorial/Tutorial_08.html)([.zip](Tutorial/Tutorial_08.zip)) |
 |Oct. 13| Programming III| | |
 |Oct. 15| Programming IV| | |
 |Oct. 17| Fall Break| | |

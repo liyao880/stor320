@@ -114,25 +114,25 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Sep. 29| Tidy Data I |[Slides](Lecture/Lecture 09 Tidy Data.pdf)||
 |Oct. 1| Tidy Data II | |[Tutorial 6](Tutorial/Tutorial_06.html)([.zip](Tutorial/Tutorial_06.zip)) |
 |Oct. 3| Joins | [Slides](Lecture/Lecture 10 Joins.pdf)|[Lecture 10](Tutorial/Lecture_10.zip) |
-|Oct. 6| Factors | | |
-|Oct. 8| Factors | | |
-|Oct. 10| Programming I| | |
-|Oct. 13| Programming II| | |
-|Oct. 15| Programming III| | |
+|Oct. 6| Factors |[Slides](Lecture/Lecture 11 Factors.pdf) | |
+|Oct. 8| Programming I | | |
+|Oct. 10| Programming II| | |
+|Oct. 13| Programming III| | |
+|Oct. 15| Programming IV| | |
 |Oct. 17| Fall Break| | |
-|Oct. 20| Programming IV| | |
-|Oct. 22| Modeling I| | |
-|Oct. 24| Modeling II| | |
-|Oct. 27| Modeling III| | |
-|Oct. 29| Modeling IV| | |
-|Oct. 31| Modeling V| | |
-|Nov. 3| Modeling VI| | |
-|Nov. 5| Modeling VII |||
-|Nov. 7| Modeling VIII| | |
-|Nov. 10| Modeling IX| | |
-|Nov. 12| Modeling X| | |
-|Nov. 14| Modeling XI| | |
-|Nov. 17| Modeling XII| | |
+|Oct. 20| Modeling I| | |
+|Oct. 22| Modeling II| | |
+|Oct. 24| Modeling III| | |
+|Oct. 27| Modeling IV| | |
+|Oct. 29| Modeling V| | |
+|Oct. 31| Modeling VI| | |
+|Nov. 3| Modeling VII| | |
+|Nov. 5| Modeling VIII |||
+|Nov. 7| Modeling IX| | |
+|Nov. 10| Modeling X| | |
+|Nov. 12| Modeling XI| | |
+|Nov. 14| Modeling XII| | |
+|Nov. 17| Modeling XIII| | |
 |Nov. 19| R Shiny| | |
 |Nov. 21| Final Presentation| | |
 |Nov. 24| Final Presentation| | |
@@ -152,9 +152,9 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 | Sep 7   | [A1](Homework/Analysis1/Analysis-1.html)([.zip](Homework/Analysis1/Analysis1.zip)) | Sep 21 (11:55 PM) |
 | Sep 21  | [HW3](Homework/HW_3.html)([.rmd](Homework/HW_3.rmd)) | Sep 28 (11:55 PM) |
 | Sep 28  | [HW4](Homework/HW_4.html)([.rmd](Homework/HW_4.rmd)) | Oct 8 (11:55 PM) |
-| Oct 5   | A2([.zip]) | Oct 19 (11:55 PM) |
+| Oct 5   | [A2](Homework/Analysis2/Analysis_2.html)([.zip](Homework/Analysis2/Analysis2.zip)) | Oct 19 (11:55 PM) |
 | Oct 19  | HW5 | Oct 26 (11:55 PM) |
-| Oct 26  | A13([.zip]) | Nov 9 (11:55 PM) |
+| Oct 26  | A3([.zip]) | Nov 9 (11:55 PM) |
 | Nov 9  | HW6 | Nov 16 (11:55 PM) |
 | Nov 16  | HW7 | Nov 23 (11:55 PM) |
 | Nov 23  | A4([.zip]) |Dec 3 (11:55 PM) |

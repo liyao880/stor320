@@ -117,8 +117,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 6| Factors |[Slides](Lecture/Lecture 11 Factors.pdf) | |
 |Oct. 8| Programming I |[Slides](Lecture/Lecture 12 Programming I.pdf) |[Tutorial 7](Tutorial/Tutorial_07.html)([.zip](Tutorial/Tutorial_07.zip)) |
 |Oct. 10| Programming II| |[Tutorial 8](Tutorial/Tutorial_08.html)([.zip](Tutorial/Tutorial_08.zip)) |
-|Oct. 13| Programming III| | |
-|Oct. 15| Programming IV| | |
+|Oct. 13| Programming III|[Slides](Lecture/Lecture 13 Programming II.pdf) | |
+|Oct. 15| Programming IV|[Slides](Lecture/Lecture 14 Programming III.pdf) | |
 |Oct. 17| Fall Break| | |
 |Oct. 20| Modeling I| | |
 |Oct. 22| Modeling II| | |

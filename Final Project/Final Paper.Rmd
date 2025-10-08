@@ -20,11 +20,11 @@ output:
 
 # **Purpose**
 
-The purpose of the final paper is to summarize results for two interesting questions using a combination of figures, tables, and modeling techniques. Written communication is an integral part of data science. This is your opportunity to develop a high quality blog post/article that could potentially be published to the web and used in future job interviews. **The findings should not overlap with what you have done in the EDA report.**
+The purpose of the final paper is to summarize results for two interesting questions using a combination of figures, tables, and **modeling techniques**. Written communication is an integral part of data science. This is your opportunity to develop a high quality blog post/article that could potentially be published to the web and used in future job interviews. **The findings should not overlap with what you have done in the EDA report.**
 
 # **Requirements**
 
-After the exploratory data analysis, your group should have two questions that are interesting, relevant, and worth sharing to the world. These questions should involve multiple variables and should be answerable by predictive modeling techniques. Be innovative and creative. Do not try to answer questions that have obvious solutions or have been extensively studied. Pick questions that would spark a reader or fellow researcher to ask more questions or engage in discussion.
+After the exploratory data analysis, your group should have two questions that are interesting, relevant, and worth sharing to the world. These questions should involve multiple variables and should be answerable by **predictive modeling techniques**. Be innovative and creative. Do not try to answer questions that have obvious solutions. Pick questions that would spark a reader or fellow researcher to ask more questions or engage in discussion.
 
 The final paper consists of four sections: Introduction, Data, Results, and Conclusion. Provided on the course website is a simple Rmarkdown template with predefined headings. The template also contains requirements and suggestions for each of the four sections.
 
@@ -40,19 +40,16 @@ Ten points of the final project is based on an average score measuring overall c
 
 |Requirement|Points|
 |-------|------:|
-|Introduction: 2 Questions Clearly Defined|1 Point|
-|Introduction: Am I Interested?|3 Points|
+|Problem Definition & Novelty|3 Points|
 |Data: Adequately Describes Data|1 Point|
 |Results: Appropriate Methods Using Multiple Models|5 Points|
 |Results: Adequately Explains Results| 3 Points|
 |Results: Techinical Accuracy| 6 Points|
-|Conclusion: Summarize Questions with Results |1 Point|
-|Conclusion: Do I Want to Learn More? |1 Point|
+|Code Reproducibility|10 Points|
 |Overall: No R Code in the HTML Document|1 Point|
 |Overall: Followed RMarkdown Template|1 Point|
-|Overall: Free of Spelling and Grammatical Errors|3 Points|
-|Code: Reproducible|4 Points|
 |Individual Score|10 Points|
 |**Total**|**40 Points**|
 |||
 
+<br> ⚠️ *If the submitted code cannot reproduce the reported results, all 24 technical points (6 for accuracy + 10 for reproducibility + 5 for methodology + 3 for result explanation) will be forfeited.*

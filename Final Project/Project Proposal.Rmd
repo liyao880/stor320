@@ -23,7 +23,7 @@ output:
 The purpose of the project proposal is to demonstrate your ability to find relevant and interesting data and to propose many thoughtful and creative questions about that data. This is the first stage in your final project, and the data you select will be heavily explored for the remainder of the project. Work as a team to find data that intrigues the entire team and develop questions that are valuable for exploration.
 
 # **Requirements**
-All members of the group should be involved in the selection of the data. The data should have at least 5 variables that are not identifiers and will be studied in depth. Out of all the variables, at least 2 should be categorical. If your data only contains numeric variables, your group should decide on how to treat at least two of the variables as categorical. You are able to use multiple datasets in your project, but these will need to be merged at some point. To ensure future parts of the final project go smoothly, I recommend finding a dataset that contains more than 10 variables. To ensure your group is free of plagiarism, I recommend selecting datasets that are not attached to many online analyses. **Please don't use datasets from R packages.**
+All members of the group should be involved in the selection of the data. The data should have at least 5 variables that are not identifiers and will be studied in depth. Out of all the variables, at least 2 should be categorical. If your data only contains numeric variables, your group should decide on how to treat at least two of the variables as categorical. You are able to use multiple datasets in your project, but these will need to be merged at some point. To ensure future parts of the final project go smoothly, I recommend finding a dataset that contains more than 10 variables. To ensure your group is free of plagiarism, I recommend selecting datasets that are not attached to many online analyses. **Please do not use datasets that come from R packages or any synthetic/generated datasets.**
 
 Each member of the group is required to design at least two initial questions. These questions can be very general but should not be trivial. I recommend discussing the data as a group, design questions together, and then delegate the questions for future use. In later project parts, your group will be required to investigate these questions and then devise new follow-up questions for future analysis. Think generally about these initial questions so there is room for growth. Choose questions that have not been analyzed online for the data you have selected.
 
@@ -34,7 +34,7 @@ A template for the project proposal is provided on the course website. In this t
 - Hyperlink to the online source of the data
 - Ten/Eight questions typed out in the form of a question
 
-The Deliverer is responsible for compiling all the information into the RMarkdown template provided on the course website. This document should be carefully proofread and submitted as an HTML file via Canvas by the due date. If the proposal is submitted late, your group will not receive a grade for it. This penalty will affect the entire group.
+The Deliverer is responsible for compiling all the information into the **RMarkdown template** provided on the course website. This document should be carefully proofread and submitted as an HTML file via Canvas by the due date. If the proposal is submitted late, your group will not receive a grade for it. This penalty will affect the entire group.
 
 The Creator should schedule a 10 minute meeting with the instructor on designated dates (**Find it on the class website**) during lecture time. To reserve your 10 minute time slot, email your instructor with a specific 10 minute interval. Time slots will be prioritized according to email and posted on a google spreadsheet linked on the course website.
 
@@ -47,7 +47,7 @@ In this meeting, the Creator should come prepared with the dataset downloaded an
 |Source of Data Given|1 Point|
 |Data has 5 Variables with 2 Categorical|2 Points|
 |At Least 2 Questions Per Group Member|2 Points|
-|Followed RMarkdown Template|1 Point|
-|Prepared for the meeting| 4 Point|
+|Used RMarkdown Template|1 Point|
+|Creator Preparation| 4 Point|
 |**Total**|**10 Points**|
 |||

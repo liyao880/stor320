@@ -115,25 +115,25 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 1| Tidy Data II | |[Tutorial 6](Tutorial/Tutorial_06.html)([.zip](Tutorial/Tutorial_06.zip)) |
 |Oct. 3| Joins | [Slides](Lecture/Lecture 10 Joins.pdf)|[Lecture 10](Tutorial/Lecture_10.zip) |
 |Oct. 6| Factors |[Slides](Lecture/Lecture 11 Factors.pdf) | |
-|Oct. 8| Programming I |[Slides](Lecture/Lecture 12 Programming I.pdf) |[Tutorial 7](Tutorial/Tutorial_07.html)([.zip](Tutorial/Tutorial_07.zip)) |
-|Oct. 10| Programming II| |[Tutorial 8](Tutorial/Tutorial_08.html)([.zip](Tutorial/Tutorial_08.zip)) |
-|Oct. 13| Programming III|[Slides](Lecture/Lecture 13 Programming II.pdf) | |
-|Oct. 15| Programming IV|[Slides](Lecture/Lecture 14 Programming III.pdf) | |
+|Oct. 8| Programming I |[Slides](Lecture/Lecture 12 Programming I.pdf) | |
+|Oct. 10| Programming II| |[Tutorial 7](Tutorial/Tutorial_07.html)([.zip](Tutorial/Tutorial_07.zip)) |
+|Oct. 13| Programming III| |[Tutorial 8](Tutorial/Tutorial_08.html)([.zip](Tutorial/Tutorial_08.zip)) |
+|Oct. 15| Programming IV|[Slides](Lecture/Lecture 13 Programming II.pdf) | |
 |Oct. 17| Fall Break| | |
-|Oct. 20| Modeling I| | |
-|Oct. 22| Modeling II| | |
-|Oct. 24| Modeling III| | |
-|Oct. 27| Modeling IV| | |
-|Oct. 29| Modeling V| | |
-|Oct. 31| Modeling VI| | |
-|Nov. 3| Modeling VII| | |
-|Nov. 5| Modeling VIII |||
-|Nov. 7| Modeling IX| | |
-|Nov. 10| Modeling X| | |
-|Nov. 12| Modeling XI| | |
-|Nov. 14| Modeling XII| | |
-|Nov. 17| Modeling XIII| | |
-|Nov. 19| R Shiny| | |
+|Oct. 20| Programming V|[Slides](Lecture/Lecture 14 Programming III.pdf) | |
+|Oct. 22| Modeling I| | |
+|Oct. 24| Modeling II| | |
+|Oct. 27| Modeling III| | |
+|Oct. 29| Modeling IV| | |
+|Oct. 31| Modeling V| | |
+|Nov. 3| Modeling VI| | |
+|Nov. 5| Modeling VII| | |
+|Nov. 7| Modeling VIII |||
+|Nov. 10| Modeling IX| | |
+|Nov. 12| Modeling X| | |
+|Nov. 14| Modeling XI| | |
+|Nov. 17| Modeling XII| | |
+|Nov. 19| Modeling XIII| | |
 |Nov. 21| Final Presentation| | |
 |Nov. 24| Final Presentation| | |
 |Nov. 26| Thanksgiving |||

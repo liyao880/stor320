@@ -11,7 +11,7 @@
 
 <meta name="author" content />
 
-<meta name="date" content="2025-10-02" />
+<meta name="date" content="2025-10-13" />
 
 <title>STOR 320 Tutorial on Programming 2</title>
 
@@ -352,7 +352,7 @@ display: none;
 
 <h1 class="title toc-ignore">STOR 320 Tutorial on Programming 2</h1>
 <h4 class="author"></h4>
-<h4 class="date">October 02, 2025</h4>
+<h4 class="date">October 13, 2025</h4>
 
 </div>
 
@@ -446,6 +446,24 @@ colnames(FiveSum.HI2) = c(&quot;Min&quot;,&quot;Q1&quot;,&quot;Q2&quot;,&quot;Q3
 print(FiveSum.HI2)</code></pre>
 <div id="excercise-1" class="section level3">
 <h3>Excercise 1</h3>
+<p>The following code creates a new data frame <code>HI_Num</code> that
+only contains numeric columns in <code>HealthInsurance</code>.</p>
+<pre class="r"><code>HI_Num = HealthInsurance %&gt;%
+  select(c(1,8,9,10,11,13))</code></pre>
+<p>Using a Double Loop to Create a Correlation Matrix for numeric
+variables in <code>HealthInsurance</code>.</p>
+<pre class="r"><code>Data = HI_Num
+d = dim(Data)[2]
+CORR = matrix(NA,d,d) #Empty Matrix Initialized
+rownames(CORR)=names(Data)
+colnames(CORR)=names(Data)
+
+YOUR DOUBLE FOR LOOP HERE
+
+print(round(CORR,3))</code></pre>
+</div>
+<div id="excercise-2" class="section level3">
+<h3>Excercise 2</h3>
 <p>Write a loop that loops over the columns of data <code>Wages</code>
 and reports the mean of the column if it is numeric and the total number
 of unique values if it’s a character vector. (Hint:

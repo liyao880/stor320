@@ -94,7 +94,7 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |------|-------------|------:|------:|
 |Aug. 18| Welcome |[Slides](Lecture/Lecture 01_1 Welcome.pdf)| |
 |Aug. 20| Data Visualization|[Slides](Lecture/Lecture 01_2 Data_Visualization_LectureV2.pdf) | |
-|Aug. 22| Data Visualization| | [Tutorial 1](Tutorial/Tutorial_01.html)([.rmd](Tutorial/Tutorial_01.rmd))|
+|Aug. 22| Data Visualization| | [Tutorial 1](Tutorial/Tutorial_01.html)([.zip](Tutorial/Tutorial_01.zip))|
 |Aug. 25| RMarkdown I| [Slides](Lecture/Lecture 03 Workflow_Lecture.pdf)| [Lecture 03](Tutorial/Lecture_03.zip)|
 |Aug. 27| RMarkdown II| | [Tutorial 2](Tutorial/Tutorial_02.html)([.zip](Tutorial/Tutorial_02.zip))|
 |Aug. 29| Data Transformation I|[Slides](Lecture/Lecture 04 Data_Transformation.pdf) | [Lecture 04](Tutorial/Lecture_04.zip) |
@@ -121,8 +121,8 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 15| Programming IV|[Slides](Lecture/Lecture 13 Programming II.pdf) | |
 |Oct. 17| Fall Break| | |
 |Oct. 20| Programming V|[Slides](Lecture/Lecture 14 Programming III.pdf) | |
-|Oct. 22| Modeling I| | |
-|Oct. 24| Modeling II| | |
+|Oct. 22| Modeling I|[Slides](Lecture/Lecture 15 Modeling I.pdf) | |
+|Oct. 24| Modeling II|[Slides](Lecture/Lecture 16 Modeling II&III.pdf) |[Tutorial 9](Tutorial/Tutorial_09.html)([.zip](Tutorial/Tutorial_09.zip))|
 |Oct. 27| Modeling III| | |
 |Oct. 29| Modeling IV| | |
 |Oct. 31| Modeling V| | |

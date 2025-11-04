@@ -125,11 +125,11 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Oct. 24| Modeling II|[Slides](Lecture/Lecture 16 Modeling II&III.pdf) ||
 |Oct. 27| Modeling III| | [Tutorial 9](Tutorial/Tutorial_09.html)([.zip](Tutorial/Tutorial_09.zip))|
 |Oct. 29| Modeling IV| |[Tutorial 10](Tutorial/Tutorial_10.html)([.zip](Tutorial/Tutorial_10.zip)) |
-|Oct. 31| Modeling V|[Slides](Lecture/Lecture 17 Modeling IV.pdf) | [Tutorial 11](Tutorial/Tutorial_11.html)([.zip](Tutorial/Tutorial_11.zip))|
-|Nov. 3| Modeling VI| [Slides](Lecture/Lecture 18 Modeling V.pdf)| |
-|Nov. 5| Modeling VII| [Slides](Lecture/Lecture 19 Modeling VI.pdf)| |
-|Nov. 7| Modeling VIII |[Slides](Lecture/Lecture 20 Modeling VII.pdf)|[Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip))|
-|Nov. 10| Modeling IX| | |
+|Oct. 31| Modeling V|[Slides](Lecture/Lecture 17 Modeling IV.pdf) | |
+|Nov. 3| Modeling VI| |[Tutorial 11](Tutorial/Tutorial_11.html)([.zip](Tutorial/Tutorial_11.zip)) |
+|Nov. 5| Modeling VII| [Slides](Lecture/Lecture 18 Modeling V.pdf)| |
+|Nov. 7| Modeling VIII |[Slides](Lecture/Lecture 19 Modeling VI.pdf)||
+|Nov. 10| Modeling IX|[Slides](Lecture/Lecture 20 Modeling VII.pdf) |[Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip)) |
 |Nov. 12| Modeling X| | |
 |Nov. 14| Modeling XI| | |
 |Nov. 17| Modeling XII| | |

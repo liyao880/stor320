@@ -129,10 +129,10 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Nov. 3| Modeling VI| |[Tutorial 11](Tutorial/Tutorial_11.html)([.zip](Tutorial/Tutorial_11.zip)) |
 |Nov. 5| Modeling VII| [Slides](Lecture/Lecture 18 Modeling V.pdf)| |
 |Nov. 7| Modeling VIII |[Slides](Lecture/Lecture 19 Modeling VI.pdf)||
-|Nov. 10| Modeling IX|[Slides](Lecture/Lecture 20 Modeling VII.pdf) |[Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip)) |
-|Nov. 12| Modeling X| | |
-|Nov. 14| Modeling XI| | |
-|Nov. 17| Modeling XII| | |
+|Nov. 10| Modeling IX|[Slides](Lecture/Lecture 20 Modeling VII.pdf) | |
+|Nov. 12| Modeling X| | [Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip))|
+|Nov. 14| Modeling XI|[Slides](Lecture/Lecture 21 Shrinkage Method.pdf) | |
+|Nov. 17| Modeling XII| | [Tutorial 13](Tutorial/Tutorial_13.html)([.zip](Tutorial/Tutorial_13.zip))|
 |Nov. 19| Modeling XIII| | |
 |Nov. 21| Final Presentation| | |
 |Nov. 24| Final Presentation| | |
@@ -156,8 +156,8 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 | Oct 19  | [HW5](Homework/HW_5.html)([.rmd](Homework/HW_5.rmd)) | Oct 26 (11:55 PM) |
 | Oct 26  | [A3](Homework/Analysis3/Analysis_3.html)([.zip](Homework/Analysis3/Analysis3.zip)) | Nov 9 (11:55 PM) |
 | Nov 9  | [HW6](Homework/HW_6.html)([.rmd](Homework/HW_6.rmd)) | Nov 16 (11:55 PM) |
-| Nov 16  | HW7 | Nov 23 (11:55 PM) |
-| Nov 23  | A4([.zip]) |Dec 3 (11:55 PM) |
+| Nov 16  | [HW7](Homework/HW_7.html)([.rmd](Homework/HW_7.rmd)) | Nov 23 (11:55 PM) |
+| Nov 23  | [A4](Homework/Analysis4/Analysis_4.html)([.zip](Homework/Analysis4/Analysis4.zip)) |Dec 3 (11:55 PM) |
 |          |        |           |
 
 

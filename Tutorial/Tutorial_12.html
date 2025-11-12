@@ -11,7 +11,7 @@
 
 <meta name="author" content />
 
-<meta name="date" content="2025-10-28" />
+<meta name="date" content="2025-11-12" />
 
 <title>STOR 320 Tutorial on K-Nearest Neighbors</title>
 
@@ -353,7 +353,7 @@ display: none;
 <h1 class="title toc-ignore">STOR 320 Tutorial on K-Nearest
 Neighbors</h1>
 <h4 class="author"></h4>
-<h4 class="date">October 28, 2025</h4>
+<h4 class="date">November 12, 2025</h4>
 
 </div>
 
@@ -407,13 +407,12 @@ head(T1)</code></pre>
 <ul>
 <li><p><span class="math inline">\(k\)</span>-NN identifies the <span class="math inline">\(k\)</span> points in the training data that are
 closest to <span class="math inline">\(x_0\)</span>, represented by
-<span class="math inline">\(\mathcal N_0\)</span>.</p></li>
+<span class="math inline">\(N_0\)</span>.</p></li>
 <li><p>Usually, the distance is measured using the Euclidean
 distance.</p></li>
-<li><p>It then estimates the conditional probability for class <span class="math inline">\(j\)</span> as the fraction of points in <span class="math inline">\(\mathcal N_0\)</span> whose response values equal
-<span class="math inline">\(j\)</span>: <span class="math display">\[
+<li><p>It then estimates the conditional probability for class <span class="math inline">\(j\)</span> as the fraction of points in <span class="math inline">\(N_0\)</span> whose response values equal <span class="math inline">\(j\)</span>: <span class="math display">\[
   \Pr(Y=j\mid X=x_0)
-  =\frac1k\sum_{i\in\mathcal N_0}I(y_i=j).
+  =\frac1k\sum_{i\in N_0}I(y_i=j).
 \]</span></p></li>
 <li><p>The <span class="math inline">\(k\)</span>-NN classifier assigns
 the test observation <span class="math inline">\(x_0\)</span> to the

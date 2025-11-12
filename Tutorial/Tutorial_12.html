@@ -573,7 +573,7 @@ ggplot(ST5) +
 
 KNN.PREDICT=table(ST5$Survived)
 print(KNN.PREDICT)</code></pre>
-<pre class="r"><code>ST5 %&gt;% mutate(Family=sd.Family*Family+mean.Family,
+<pre class="r"><code>ST5 %&gt;% mutate(Family=round(sd.Family*Family+mean.Family),
                Fare=sd.Fare*Fare+mean.Fare) %&gt;%
   arrange(desc(d)) %&gt;%
   head(10)</code></pre>
@@ -597,11 +597,13 @@ ggplot(data=tibble(possible.k,accuracy.k)) +
   xlab(&quot;Choice of k&quot;) +
   ylab(&quot;Percentage of Accurate Predictions&quot;) +
   theme(text=element_text(size=20))</code></pre>
+<pre class="r"><code>best.k=which.max(accuracy.k)
+print(best.k)</code></pre>
 </div>
 <div id="chunk-3-using-optimal-k-nn-for-prediction" class="section level2">
 <h2>Chunk 3: Using Optimal <span class="math inline">\(k\)</span>-NN for
 Prediction</h2>
-<pre class="r"><code>best.k=which.max(accuracy.k)
+<pre class="r"><code>#best.k=which.max(accuracy.k)
 TEST = titanic_test[,c(&quot;SibSp&quot;,&quot;Parch&quot;,&quot;Fare&quot;)] %&gt;%
         mutate(Family=SibSp+Parch) %&gt;%
         select(-SibSp,-Parch) %&gt;%

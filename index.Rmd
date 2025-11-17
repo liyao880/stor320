@@ -130,9 +130,9 @@ See the **[syllabus](Syllabi/320_Syllabus.pdf)** for details. The course is divi
 |Nov. 5| Modeling VII| [Slides](Lecture/Lecture 18 Modeling V.pdf)| |
 |Nov. 7| Modeling VIII |[Slides](Lecture/Lecture 19 Modeling VI.pdf)||
 |Nov. 10| Modeling IX| | |
-|Nov. 12| Modeling X|[Slides](Lecture/Lecture 20 Modeling VII.pdf) | [Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip))|
-|Nov. 14| Modeling XI|[Slides](Lecture/Lecture 21 Shrinkage Method.pdf) | |
-|Nov. 17| Modeling XII| | [Tutorial 13](Tutorial/Tutorial_13.html)([.zip](Tutorial/Tutorial_13.zip))|
+|Nov. 12| Modeling X|[Slides](Lecture/Lecture 20 Modeling VII.pdf) | |
+|Nov. 14| Modeling XI| |[Tutorial 12](Tutorial/Tutorial_12.html)([.zip](Tutorial/Tutorial_12.zip)) |
+|Nov. 17| Modeling XII| [Slides](Lecture/Lecture 21 Shrinkage Method.pdf)| [Tutorial 13](Tutorial/Tutorial_13.html)([.zip](Tutorial/Tutorial_13.zip))|
 |Nov. 19| Modeling XIII| | |
 |Nov. 21| Final Presentation| | |
 |Nov. 24| Final Presentation| | |

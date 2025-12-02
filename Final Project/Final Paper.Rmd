@@ -22,34 +22,53 @@ output:
 
 The purpose of the final paper is to summarize results for two interesting questions using a combination of figures, tables, and **modeling techniques**. Written communication is an integral part of data science. This is your opportunity to develop a high quality blog post/article that could potentially be published to the web and used in future job interviews. **The findings should not overlap with what you have done in the EDA report.**
 
+
 # **Requirements**
 
-After the exploratory data analysis, your group should have two questions that are interesting, relevant, and worth sharing to the world. These questions should involve multiple variables and should be answerable by **predictive modeling techniques**. Be innovative and creative. Do not try to answer questions that have obvious solutions. Pick questions that would spark a reader or fellow researcher to ask more questions or engage in discussion.
+After the exploratory data analysis, your group should identify two questions that are interesting, relevant, and worth sharing with a broader audience. These questions should involve multiple variables and should be answerable using **predictive modeling techniques**. Be creative—avoid questions with trivial or obvious answers.
 
-The final paper consists of four sections: Introduction, Data, Results, and Conclusion. Provided on the course website is a simple Rmarkdown template with predefined headings. The template also contains requirements and suggestions for each of the four sections.
+The final report consists of four sections: Introduction, Data, Results, and Conclusion. Provided on the course website is a simple Rmarkdown template with predefined headings. The template also contains requirements and suggestions for each of the four sections.
 
-The Deliverer is responsible for compiling all the information into the RMarkdown template provided on the course website. **The compiled HTML document, along with a separate RMarkdown file containing the project's code, must be carefully proofread and submitted via Canvas by the due date**. If the document and code are submitted late, your group will not receive a grade for the final report. This penalty will affect the entire group.
+The Deliverer is responsible for compiling the group’s work into the RMarkdown template.  
+**The final report (HTML), the complete code used to generate all results, and the dataset (or a link to the dataset if it is large) must be submitted via Canvas by the due date.**
 
-In the final HTML document, there should be absolutely no R code. The writing and proofreading of the document should be shared by all members of the group. All figures should have appropriate legends, titles, and colors. You are encouraged to use Markdown syntax for subsections, bold, italic, hyperlink, tables, etc. 
+- If your dataset is **small**, include it directly in your submission package.  
+- If your dataset is **large**, provide a **link** (Google Drive, Kaggle, GitHub, etc.) so that it can be downloaded.  
+- All results must be **fully reproducible** using the submitted code and data.
 
-A separate RMarkdown file containing all the code for reproducing the project's results should be submitted along with the HTML document. The R code will be evaluated based on its ability to successfully reproduce the results presented in the project.
+If any required files (code or data) are missing, or if the submitted materials prevent reproduction of your results, **points may be deducted under reproducibility**, and major technical points may be forfeited.
+
+In the final HTML document, there should be absolutely no R code. The writing and proofreading of the document should be shared by all members of the group. All figures should have appropriate legends, titles, and colors. You are encouraged to use Markdown syntax for subsections, bold, italic, hyperlink, tables, etc.
 
 Ten points of the final project is based on an average score measuring overall contribution as seen by you and the other members of your group. Each group member should score every person in their group on a continuous scale from 0 (Bad) to 10 (Good). Before the due date of the final paper, every member is required to submit the group scoring through the google survey link on course website. Your name and this information will remain private between me and you. If you fail to submit this group scoring before deadline, 2 points penalty will be applied and I will give the other members a score of **10**.
 
+# **Submission Checklist**
+
+Your Canvas submission (.zip folder) must include:
+
+1. **Final Report (HTML)**
+2. **Rmarkdown code** used to generate all figures, tables, and results
+3. **Dataset**  
+   - Upload the dataset if small  
+   - Provide a download link if large
+
 # **Rubric**
 
-|Requirement|Points|
-|-------|------:|
-|Problem Definition & Novelty|3 Points|
-|Data: Adequately Describes Data|1 Point|
-|Results: Appropriate Methods Using Multiple Models|5 Points|
-|Results: Adequately Explains Results| 3 Points|
-|Results: Techinical Accuracy| 6 Points|
-|Code Reproducibility|10 Points|
-|Overall: No R Code in the HTML Document|1 Point|
-|Overall: Followed RMarkdown Template|1 Point|
-|Individual Score|10 Points|
-|**Total**|**40 Points**|
+| Requirement | Points |
+|------------|-------:|
+| Problem Definition & Novelty | 3 Points |
+| Data: Adequately Describes Data | 1 Point |
+| Results: Appropriate Methods Using Multiple Models | 5 Points |
+| Results: Adequately Explains Results | 3 Points |
+| Results: Technical Accuracy | 6 Points |
+| Code Reproducibility | 10 Points |
+| Overall: No R Code in the HTML Document | 1 Point |
+| Overall: Followed RMarkdown Template | 1 Point |
+| Individual Score | 10 Points |
+| **Total** | **40 Points** |
 |||
 
-<br> ⚠️ *If the submitted code cannot reproduce the reported results, all 24 technical points (6 for accuracy + 10 for reproducibility + 5 for methodology + 3 for result explanation) will be forfeited.*
+<br>
+
+⚠️ *If the submitted code and data cannot reproduce the reported results, all 24 technical points (6 for accuracy + 10 for reproducibility + 5 for methodology + 3 for explanation) may be forfeited.*
+
